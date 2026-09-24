@@ -84,8 +84,8 @@ describe('monthRuns', () => {
     expect(monthRuns(f('111111111111'))).toEqual([[0, 11]]);
     expect(monthRuns(f('000000000000'))).toEqual([]);
   });
-  it('finds several runs, in scan order from the first gap', () => {
-    expect(monthRuns(f('100100000110'))).toEqual([[3, 3], [8, 9], [0, 0]]);
+  it('finds several runs, ordered by their first month', () => {
+    expect(monthRuns(f('100100000110'))).toEqual([[0, 0], [3, 3], [9, 10]]);
   });
 });
 

@@ -155,7 +155,7 @@ export function monthRuns(flags: boolean[]): Array<[number, number]> {
     }
   }
   if (runStart >= 0) runs.push([runStart, start === 0 ? n - 1 : (start - 1 + n) % n]);
-  return runs;
+  return runs.sort((a, b) => a[0] - b[0]);
 }
 
 export interface YearSummary {
