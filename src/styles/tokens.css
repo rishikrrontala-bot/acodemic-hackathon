@@ -1,0 +1,46 @@
+/* Zeer design tokens. The world: a seasonal crop almanac printed for a market wall.
+   Light only, chosen from the use scene: a phone read outdoors in a sunny market. */
+:root {
+  color-scheme: light;
+
+  /* ground and ink */
+  --lime: #f3f4ee;          /* limewash ground */
+  --lime-2: #e8eadf;        /* second neutral layer: panels, table headers */
+  --ink: #12162b;           /* indigo-black text */
+  --ink-2: #3c4160;         /* secondary text, 9.6:1 on lime */
+  --rule: rgb(18 22 43 / 0.18);
+  --rule-strong: #12162b;
+
+  /* roles */
+  --indigo: #2a3a8f;        /* cooling, water, primary action (text + fields) */
+  --indigo-mark: #3b4fb8;   /* chart marks: inside-the-pot series (validated with tomato) */
+  --indigo-wash: rgb(42 58 143 / 0.1);
+  --tomato: #c8252c;        /* heat, the outside air */
+  --tomato-wash: rgb(200 37 44 / 0.1);
+  --millet: #e6b02e;        /* marginal months */
+  --millet-ink: #7a5500;    /* millet-coloured text, 5.9:1 on lime */
+  --leaf: #2f7d4f;          /* crops that suit the pot */
+  --sand: #d9c9a3;          /* dry sand in the drawing */
+
+  /* type */
+  --display: 'Anybody Variable', 'Anybody', 'Arial Narrow', sans-serif;
+  --text: 'Atkinson Hyperlegible Next Variable', 'Atkinson Hyperlegible Next', system-ui, sans-serif;
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.35rem;
+  --fs-xl: 1.62rem;
+  --fs-2xl: 2.25rem;
+
+  /* space: 4 px base */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px;
+
+  /* motion (emil animate tokens) */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --t-fast: 160ms;
+  --t-move: 220ms;
+
+  --focus: 0 0 0 2px var(--lime), 0 0 0 5px var(--indigo);
+  --radius: 4px;
+}
