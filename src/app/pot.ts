@@ -57,10 +57,10 @@ export function createPot(): PotView {
     beads.append(s('circle', { cx: x, cy: y, r: 2.6, class: 'pot-bead', style: `--dx:${dir * 14}px;--i:${i}` }));
   });
 
-  const airValue = s('text', { x: 58, y: 34, class: 'pot-tag-value pot-tag-air-value', 'text-anchor': 'middle' });
-  const airLabel = s('text', { x: 10, y: 58, class: 'pot-tag-label' });
-  const inValue = s('text', { x: 180, y: 128, class: 'pot-tag-value pot-tag-in-value', 'text-anchor': 'middle' });
-  const inLabel = s('text', { x: 180, y: 150, class: 'pot-tag-label pot-tag-label-in', 'text-anchor': 'middle' });
+  const airValue = s('text', { x: 58, y: -2, class: 'pot-tag-value pot-tag-air-value', 'text-anchor': 'middle' });
+  const airLabel = s('text', { x: 10, y: 24, class: 'pot-tag-label' });
+  const inValue = s('text', { x: 180, y: 104, class: 'pot-tag-value pot-tag-in-value', 'text-anchor': 'middle' });
+  const inLabel = s('text', { x: 180, y: 130, class: 'pot-tag-label pot-tag-label-in', 'text-anchor': 'middle' });
 
   const leader = (x1: number, y1: number, x2: number, y2: number, tx: number, ty: number) => {
     const t = s('text', { x: tx, y: ty, class: 'pot-leader-text' });
@@ -75,7 +75,7 @@ export function createPot(): PotView {
   const lSand = leader(300, 170, 340, 170, 346, 174);
   const lOuter = leader(300, 236, 340, 236, 346, 240);
 
-  const root = s('svg', { viewBox: '0 0 470 300', class: 'pot', role: 'img', 'aria-labelledby': 'pot-title' },
+  const root = s('svg', { viewBox: '0 -34 470 334', class: 'pot', role: 'img', 'aria-labelledby': 'pot-title' },
     title,
     s('defs', {}, hatch, stipple, ground),
     // ground
@@ -101,9 +101,9 @@ export function createPot(): PotView {
     s('path', { d: CLOTH, class: 'pot-cloth' }),
     beads,
     // readings
-    s('rect', { x: 10, y: 8, width: 96, height: 36, rx: 4, class: 'pot-tag pot-tag-air' }),
+    s('rect', { x: 10, y: -28, width: 96, height: 36, rx: 4, class: 'pot-tag pot-tag-air' }),
     airValue, airLabel,
-    s('rect', { x: 140, y: 102, width: 80, height: 34, rx: 4, class: 'pot-tag pot-tag-in' }),
+    s('rect', { x: 140, y: 78, width: 80, height: 34, rx: 4, class: 'pot-tag pot-tag-in' }),
     inValue, inLabel,
     s('g', { class: 'pot-leaders' }, lCloth.g, lInner.g, lSand.g, lOuter.g),
   );
@@ -121,8 +121,8 @@ export function createPot(): PotView {
       setText(lSand.t, p.labels.sand);
       setText(lOuter.t, p.labels.outer);
       const k = Math.max(0, Math.min(1, p.strength));
-      root.style.setProperty('--wet', String(0.12 + 0.55 * k));
-      root.style.setProperty('--cool', String(0.06 + 0.3 * k));
+      root.style.setProperty('--wet', String(0.08 + 0.3 * k));
+      root.style.setProperty('--cool', String(0.04 + 0.18 * k));
       // beads: how many rise, and how fast
       const n = Math.round(k * BEADS.length);
       beads.querySelectorAll('circle').forEach((c, i) => c.classList.toggle('on', i < n));

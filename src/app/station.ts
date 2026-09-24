@@ -46,10 +46,12 @@ export function createStation(store: Store, towns: TownRecord[]): HTMLElement {
     headline,
     h('section', { class: 'month-now', 'aria-labelledby': 'month-name' },
       h('div', { class: 'month-head' }, Object.assign(monthName, { id: 'month-name' }), chip),
-      h('p', { class: 'big' }, bigNum, h('span', { class: 'big-text' }, bigLabel, bigRange)),
-      heat,
-      why,
-      h('figure', { class: 'pot-figure' }, pot.root)),
+      h('div', { class: 'month-body' },
+        h('div', { class: 'month-nums' },
+          h('p', { class: 'big' }, bigNum, h('span', { class: 'big-text' }, bigLabel, bigRange)),
+          heat),
+        h('figure', { class: 'pot-figure' }, pot.root)),
+      why),
   );
 
   // ---- combobox behaviour

@@ -1,0 +1,16 @@
+{
+  "name": "Zeer: a clay-pot fridge planned for your town",
+  "short_name": "Zeer",
+  "description": "Will a clay-pot cooler keep your vegetables cool, where you live, this month? Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4ee",
+  "theme_color": "#2a3a8f",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

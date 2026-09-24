@@ -135,7 +135,7 @@ export function createYear(store: Store): HTMLElement {
     axis.replaceChildren();
     for (let v = lo; v <= hi; v += step) {
       grid.append(s('line', { x1: 0, x2: 100, y1: yu(v), y2: yu(v), class: 'grid-line' }));
-      axis.append(h('span', { class: 'tick', style: `--y:${(yu(v) / H) * 100}%` }, `${v}°`));
+      axis.append(h('span', { class: 'tick', style: `--y:${(yu(v) / H).toFixed(4)}` }, `${v}°`));
     }
 
     const today = new Date().getMonth();
@@ -155,7 +155,7 @@ export function createYear(store: Store): HTMLElement {
       c.btn.setAttribute('aria-checked', String(sel));
       c.btn.tabIndex = sel ? 0 : -1;
       c.btn.setAttribute('aria-label', d.monthButton(namesLong[i]!, d.verdict[m.verdict], temp(m.outsideMean, st.unit, st.lang), temp(m.insideMean.mid, st.unit, st.lang)));
-      c.now.hidden = i !== today;
+      c.now.toggleAttribute('data-off', i !== today);
       setText(c.now, d.now);
     });
 

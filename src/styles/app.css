@@ -24,6 +24,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 p { margin: 0; text-wrap: pretty; }
 ul, ol { margin: 0; padding: 0; }
 
+[hidden] { display: none !important; }
 .visually-hidden {
   position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
@@ -124,8 +125,8 @@ main { flex: 1; }
 .locate[aria-busy='true'] { cursor: progress; }
 
 .headline {
-  font-family: var(--display); font-weight: 680; font-stretch: 96%;
-  font-size: clamp(1.45rem, 2.3vw, 2rem); line-height: 1.16; letter-spacing: -0.01em; max-width: 26ch;
+  font-family: var(--display); font-weight: 650; font-stretch: 94%;
+  font-size: clamp(1.4rem, 1.9vw, 1.7rem); line-height: 1.18; letter-spacing: -0.01em; max-width: 30ch;
 }
 
 .month-now { display: grid; gap: var(--s3); padding-top: var(--s4); border-top: 2px solid var(--rule-strong); }
@@ -167,7 +168,7 @@ main { flex: 1; }
 .pot-ground-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
 .pot-ground-top { stroke: var(--ink); stroke-width: 2; }
 .pot-sand { fill: var(--sand); }
-.pot-sand-wet { fill: var(--indigo); opacity: var(--wet, 0.3); transition: opacity var(--t-move) var(--ease-out); }
+.pot-sand-wet { fill: var(--indigo); opacity: var(--wet, 0.2); transition: opacity var(--t-move) var(--ease-out); }
 .pot-sand-stipple { pointer-events: none; }
 .pot-outline { fill: none; stroke: var(--ink); stroke-width: 2.2; stroke-linejoin: round; }
 .pot-outline-thin { stroke-width: 1.1; }
@@ -213,7 +214,7 @@ main { flex: 1; }
 @media (max-width: 600px) { .strip { --dbh: 140px; grid-template-columns: 28px minmax(0, 1fr); } }
 .axis { position: relative; height: calc(var(--nowh) + var(--dbh)); }
 .tick {
-  position: absolute; right: 6px; top: calc(var(--nowh) + var(--y) * var(--dbh) / 100);
+  position: absolute; right: 6px; top: calc(var(--nowh) + var(--y) * var(--dbh));
   transform: translateY(-50%); font-size: 11px; color: var(--ink-2); font-variant-numeric: tabular-nums;
 }
 .months-wrap { position: relative; min-width: 0; }
@@ -228,6 +229,7 @@ main { flex: 1; }
 .month[aria-checked='true'] { background: var(--lime-2); }
 @media (hover: hover) and (pointer: fine) { .month:hover { background: rgb(18 22 43 / 0.05); } .month[aria-checked='true']:hover { background: var(--lime-2); } }
 .month:focus-visible { box-shadow: inset 0 0 0 3px var(--indigo); }
+.now[data-off] { visibility: hidden; }
 .now { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2); align-self: end; text-align: center; }
 .db { width: 100%; height: var(--dbh); display: block; overflow: visible; }
 .db-line { stroke: var(--ink); stroke-opacity: 0.35; stroke-width: 2; vector-effect: non-scaling-stroke; }
@@ -386,3 +388,8 @@ tr.is-crop td.is-sel { background: rgb(42 58 143 / 0.18); }
   .build-card { border: 2px solid #000; }
   .steps li::before { background: #000; color: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/* month body: numbers beside the pot where there is room */
+.month-body { display: grid; gap: var(--s4); align-items: start; }
+.month-nums { display: grid; gap: var(--s3); align-content: start; }
+@media (min-width: 560px) and (max-width: 1099px) { .month-body { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); } }
