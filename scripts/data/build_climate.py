@@ -12,9 +12,10 @@ import json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
 KEYS = {  # app key: POWER parameter
-    'T': 'T2M', 'Tx': 'T2M_MAX', 'Tn': 'T2M_MIN', 'Td': 'T2MDEW', 'RH': 'RH2M',
-    'Q': 'QV2M', 'P': 'PS', 'R': 'PRECTOTCORR',
+    'T': 'T2M', 'Td': 'T2MDEW', 'RH': 'RH2M', 'Q': 'QV2M', 'P': 'PS', 'R': 'PRECTOTCORR',
 }
+# Typical afternoon / night: T2M ± T2M_RANGE/2 (T2M_RANGE is the mean daily range). The
+# climatology's T2M_MAX / T2M_MIN are monthly extremes and are deliberately not used.
 
 def main():
     towns = json.loads((ROOT / 'data' / 'towns.json').read_text())
@@ -27,7 +28,7 @@ def main():
         d = json.loads(f.read_text())
         par = d['properties']['parameter']
         hdr = d.get('header', {})
-        periods.add(f"{hdr.get('start', '?')}-{hdr.get('end', '?')}")
+        periods.add(hdr.get('range', f"{hdr.get('start', '?')}-{hdr.get('end', '?')}"))
         fill = hdr.get('fill_value', -999)
         m = {}
         ok = True
@@ -37,6 +38,18 @@ def main():
                 ok = False
                 break
             m[k] = [round(float(v), 1) for v in vals]
+        rf = ROOT / 'data' / 'raw' / 'power_range' / f"{t['id']}.json"
+        if ok and rf.exists():
+            rng = json.loads(rf.read_text())['properties']['parameter']['T2M_RANGE']
+            r = [float(rng[mm]) for mm in MONTHS]
+            if any(v == fill for v in r):
+                ok = False
+            else:
+                m['Tx'] = [round(a + b / 2, 1) for a, b in zip(m['T'], r)]
+                m['Tn'] = [round(a - b / 2, 1) for a, b in zip(m['T'], r)]
+        elif ok:
+            skipped.append(t['name'] + ' (no T2M_RANGE yet)')
+            continue
         if not ok:
             skipped.append(t['name'] + ' (fill values)')
             continue
@@ -45,6 +58,7 @@ def main():
     meta = {
         'source': 'NASA POWER climatology API, community AG (https://power.larc.nasa.gov/)',
         'period': sorted(periods),
+        'afternoon': 'Tx = T2M + T2M_RANGE/2 (mean daily range); Tn = T2M - T2M_RANGE/2',
         'units': {'T': '°C', 'Tx': '°C', 'Tn': '°C', 'Td': '°C', 'RH': '%', 'Q': 'g/kg', 'P': 'kPa', 'R': 'mm/day'},
         'towns': len(out),
     }

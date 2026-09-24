@@ -8,7 +8,8 @@ name: Data snapshot
 on:
   push:
     paths:
-      - 'scripts/data/**'
+      - 'scripts/data/fetch_power.py'
+      - 'scripts/data/fetch_sources.sh'
       - 'data/towns.json'
       - 'data/sources.txt'
       - '.github/workflows/data.yml'
