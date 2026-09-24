@@ -149,7 +149,7 @@ export const es: Dict = {
   checkInside: 'Dentro de la olla interior',
   checkButton: 'Revisar mi olla',
   checkUsesHumidity: (month: string, rh: string) => `Usa la humedad típica de una tarde de ${month} (${rh}).`,
-  checkExpect: (lo: string, hi: string) => `Una olla que funciona marcaría unos ${lo}–${hi} dentro.`,
+  checkExpect: (lo: string, hi: string) => `Una olla que funciona marcaría unos ${lo} a ${hi} dentro.`,
   checkFloor: (t: string) => `Ningún enfriador por evaporación puede bajar de ${t} con este aire.`,
   checkScore: (pct: string) => `Tu olla aprovecha el ${pct} del enfriamiento que el aire permite.`,
   diagnosis: {

@@ -147,7 +147,7 @@ export const en = {
   checkInside: 'Inside the inner pot',
   checkButton: 'Check my pot',
   checkUsesHumidity: (month: string, rh: string) => `Uses ${month}’s typical afternoon humidity (${rh}).`,
-  checkExpect: (lo: string, hi: string) => `A working pot would read about ${lo}–${hi} inside.`,
+  checkExpect: (lo: string, hi: string) => `A working pot would read about ${lo} to ${hi} inside.`,
   checkFloor: (t: string) => `No evaporative cooler can get below ${t} in this air.`,
   checkScore: (pct: string) => `Your pot uses ${pct} of the cooling the air allows.`,
   diagnosis: {

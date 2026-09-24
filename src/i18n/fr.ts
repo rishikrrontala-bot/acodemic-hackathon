@@ -149,7 +149,7 @@ export const fr: Dict = {
   checkInside: 'Dans la jarre intérieure',
   checkButton: 'Vérifier ma jarre',
   checkUsesHumidity: (month: string, rh: string) => `Utilise l’humidité habituelle d’un après-midi de ${month} (${rh}).`,
-  checkExpect: (lo: string, hi: string) => `Une jarre qui marche afficherait environ ${lo}–${hi} dedans.`,
+  checkExpect: (lo: string, hi: string) => `Une jarre qui marche afficherait environ ${lo} à ${hi} dedans.`,
   checkFloor: (t: string) => `Aucun refroidisseur à évaporation ne peut descendre sous ${t} avec cet air.`,
   checkScore: (pct: string) => `Votre jarre utilise ${pct} de la fraîcheur que l’air permet.`,
   diagnosis: {
