@@ -1,0 +1,7629 @@
+[
+{
+"id": 1138958,
+"name": "Kabul",
+"alt": [
+"KBL",
+"kabl",
+"Kabol",
+"Kobul"
+],
+"cc": "AF",
+"country": "Afghanistan",
+"lat": 34.528,
+"lon": 69.172,
+"pop": 4434550,
+"tz": "Asia/Kabul"
+},
+{
+"id": 1140026,
+"name": "Herāt",
+"alt": [
+"HEA",
+"hrat",
+"Gerot",
+"Gerat"
+],
+"cc": "AF",
+"country": "Afghanistan",
+"lat": 34.348,
+"lon": 62.2,
+"pop": 574300,
+"tz": "Asia/Kabul"
+},
+{
+"id": 1133616,
+"name": "Mazār-e Sharīf",
+"alt": [
+"MZR",
+"mzar shryf",
+"Mazare Srif",
+"Mazār-e Šarīf"
+],
+"cc": "AF",
+"country": "Afghanistan",
+"lat": 36.709,
+"lon": 67.111,
+"pop": 523300,
+"tz": "Asia/Kabul"
+},
+{
+"id": 1138336,
+"name": "Kandahār",
+"alt": [
+"KDH",
+"kndhar",
+"qndhar",
+"kadhara"
+],
+"cc": "AF",
+"country": "Afghanistan",
+"lat": 31.613,
+"lon": 65.71,
+"pop": 523300,
+"tz": "Asia/Kabul"
+},
+{
+"id": 1139715,
+"name": "Jalālābād",
+"alt": [
+"JAA",
+"Jalakot",
+"Jalalkot",
+"Jalālkot"
+],
+"cc": "AF",
+"country": "Afghanistan",
+"lat": 34.426,
+"lon": 70.452,
+"pop": 271900,
+"tz": "Asia/Kabul"
+},
+{
+"id": 1135689,
+"name": "Kunduz",
+"alt": [
+"UND",
+"qndz",
+"kndz",
+"qndwz"
+],
+"cc": "AF",
+"country": "Afghanistan",
+"lat": 36.729,
+"lon": 68.857,
+"pop": 161902,
+"tz": "Asia/Kabul"
+},
+{
+"id": 2240449,
+"name": "Luanda",
+"alt": [
+"LAD",
+"Luand",
+"Lwanda",
+"lwanda"
+],
+"cc": "AO",
+"country": "Angola",
+"lat": -8.837,
+"lon": 13.234,
+"pop": 2776168,
+"tz": "Africa/Luanda"
+},
+{
+"id": 8307074,
+"name": "Mulenvos",
+"alt": [],
+"cc": "AO",
+"country": "Angola",
+"lat": -8.867,
+"lon": 13.334,
+"pop": 882014,
+"tz": "Africa/Luanda"
+},
+{
+"id": 2236500,
+"name": "Viana",
+"alt": [],
+"cc": "AO",
+"country": "Angola",
+"lat": -8.906,
+"lon": 13.375,
+"pop": 865863,
+"tz": "Africa/Luanda"
+},
+{
+"id": 7758790,
+"name": "Kikolo",
+"alt": [
+"Quicolo"
+],
+"cc": "AO",
+"country": "Angola",
+"lat": -8.781,
+"lon": 13.334,
+"pop": 728205,
+"tz": "Africa/Luanda"
+},
+{
+"id": 2239888,
+"name": "Maianga",
+"alt": [],
+"cc": "AO",
+"country": "Angola",
+"lat": -8.847,
+"lon": 13.237,
+"pop": 727681,
+"tz": "Africa/Luanda"
+},
+{
+"id": 2591957,
+"name": "Camama",
+"alt": [],
+"cc": "AO",
+"country": "Angola",
+"lat": -8.936,
+"lon": 13.265,
+"pop": 667094,
+"tz": "Africa/Luanda"
+},
+{
+"id": 3435910,
+"name": "Buenos Aires",
+"alt": [
+"BUE",
+"Baires",
+"Bonaero",
+"Bwenoze"
+],
+"cc": "AR",
+"country": "Argentina",
+"lat": -34.613,
+"lon": -58.377,
+"pop": 2891082,
+"tz": "America/Argentina/Buenos_Aires"
+},
+{
+"id": 3860259,
+"name": "Córdoba",
+"alt": [
+"COR",
+"Kordov",
+"kordoba",
+"Kordava"
+],
+"cc": "AR",
+"country": "Argentina",
+"lat": -31.406,
+"lon": -64.189,
+"pop": 2106734,
+"tz": "America/Argentina/Cordoba"
+},
+{
+"id": 3838583,
+"name": "Rosario",
+"alt": [
+"ROS",
+"rwsaryw",
+"Rasarya",
+"losalio"
+],
+"cc": "AR",
+"country": "Argentina",
+"lat": -32.947,
+"lon": -60.639,
+"pop": 948312,
+"tz": "America/Argentina/Cordoba"
+},
+{
+"id": 3430863,
+"name": "Mar del Plata",
+"alt": [
+"MDQ",
+"Mar de Plata",
+"mar dl plata",
+"Mar Del Plat"
+],
+"cc": "AR",
+"country": "Argentina",
+"lat": -38.0,
+"lon": -57.556,
+"pop": 593337,
+"tz": "America/Argentina/Buenos_Aires"
+},
+{
+"id": 1185241,
+"name": "Dhaka",
+"alt": [
+"DAC",
+"dka",
+"daka",
+"Dako"
+],
+"cc": "BD",
+"country": "Bangladesh",
+"lat": 23.71,
+"lon": 90.407,
+"pop": 10356500,
+"tz": "Asia/Dhaka"
+},
+{
+"id": 1205733,
+"name": "Chattogram",
+"alt": [
+"CGP",
+"zytgwng",
+"Cetagons",
+"Citagong"
+],
+"cc": "BD",
+"country": "Bangladesh",
+"lat": 22.338,
+"lon": 91.832,
+"pop": 3920222,
+"tz": "Asia/Dhaka"
+},
+{
+"id": 1200109,
+"name": "Gazipur",
+"alt": [
+"gazipura",
+"gajipura",
+"gajipuru",
+"ghazybwr"
+],
+"cc": "BD",
+"country": "Bangladesh",
+"lat": 23.998,
+"lon": 90.422,
+"pop": 2674697,
+"tz": "Asia/Dhaka"
+},
+{
+"id": 1336135,
+"name": "Khulna",
+"alt": [
+"Kulno",
+"Xulna",
+"Hulna",
+"kulna"
+],
+"cc": "BD",
+"country": "Bangladesh",
+"lat": 22.81,
+"lon": 89.564,
+"pop": 1500689,
+"tz": "Asia/Dhaka"
+},
+{
+"id": 1185188,
+"name": "Rangpur",
+"alt": [
+"RAU",
+"rngpwr",
+"Kotwali",
+"Kotwāli"
+],
+"cc": "BD",
+"country": "Bangladesh",
+"lat": 25.747,
+"lon": 89.252,
+"pop": 1031388,
+"tz": "Asia/Dhaka"
+},
+{
+"id": 2357048,
+"name": "Ouagadougou",
+"alt": [
+"OUA",
+"Waaduu",
+"vagadugu",
+"uagadugu"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 12.366,
+"lon": -1.534,
+"pop": 2415266,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2362344,
+"name": "Bobo-Dioulasso",
+"alt": [
+"BOY",
+"Bobodjulaso",
+"bwbwdywlasw",
+"bwbw dywlasw"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 11.181,
+"lon": -4.295,
+"pop": 904920,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2358946,
+"name": "Koudougou",
+"alt": [
+"kwdwgw",
+"kudugu",
+"Kudugu",
+"kudougu"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 12.252,
+"lon": -2.367,
+"pop": 160239,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2356157,
+"name": "Saaba",
+"alt": [
+"Saba"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 12.371,
+"lon": -1.415,
+"pop": 136011,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2357043,
+"name": "Ouahigouya",
+"alt": [
+"OUG",
+"Waiguya",
+"waiguya",
+"Uahiguja"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 13.577,
+"lon": -2.418,
+"pop": 124587,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2359608,
+"name": "Kaya",
+"alt": [
+"XKY",
+"Kaja",
+"ka ya",
+"kaya  brkyna fasw"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 13.088,
+"lon": -1.084,
+"pop": 121970,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2362909,
+"name": "Banfora",
+"alt": [
+"BNR",
+"banfwra",
+"Banforu",
+"bangpola"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 10.641,
+"lon": -4.753,
+"pop": 117452,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 2356300,
+"name": "Pouytenga",
+"alt": [
+"Pouitenga",
+"Pouytenga Tanlili",
+"Pouitenga-Tanlili"
+],
+"cc": "BF",
+"country": "Burkina Faso",
+"lat": 12.252,
+"lon": -0.426,
+"pop": 96469,
+"tz": "Africa/Ouagadougou"
+},
+{
+"id": 425378,
+"name": "Bujumbura",
+"alt": [
+"BJM",
+"bujubura",
+"bwjwmbra",
+"bwjmbwra"
+],
+"cc": "BI",
+"country": "Burundi",
+"lat": -3.382,
+"lon": 29.361,
+"pop": 769317,
+"tz": "Africa/Bujumbura"
+},
+{
+"id": 426272,
+"name": "Gitega",
+"alt": [
+"GID",
+"Gitege",
+"Kitega"
+],
+"cc": "BI",
+"country": "Burundi",
+"lat": -3.427,
+"lon": 29.925,
+"pop": 64904,
+"tz": "Africa/Bujumbura"
+},
+{
+"id": 2394819,
+"name": "Cotonou",
+"alt": [
+"COO",
+"Appi",
+"Kutonu",
+"kwtwnw"
+],
+"cc": "BJ",
+"country": "Benin",
+"lat": 6.365,
+"lon": 2.418,
+"pop": 679012,
+"tz": "Africa/Porto-Novo"
+},
+{
+"id": 2395914,
+"name": "Abomey-Calavi",
+"alt": [
+"Kalavi",
+"Abome Calavi",
+"Abomej-Kalavi",
+"Abomei Kalavi"
+],
+"cc": "BJ",
+"country": "Benin",
+"lat": 6.449,
+"lon": 2.356,
+"pop": 385755,
+"tz": "Africa/Porto-Novo"
+},
+{
+"id": 2392087,
+"name": "Porto-Novo",
+"alt": [
+"xin gang",
+"Portonovo",
+"Pòto-Novo",
+"Poto-Novo"
+],
+"cc": "BJ",
+"country": "Benin",
+"lat": 6.496,
+"lon": 2.604,
+"pop": 264320,
+"tz": "Africa/Porto-Novo"
+},
+{
+"id": 2392204,
+"name": "Parakou",
+"alt": [
+"PKO",
+"barakw",
+"parakw",
+"palaku"
+],
+"cc": "BJ",
+"country": "Benin",
+"lat": 9.337,
+"lon": 2.63,
+"pop": 255478,
+"tz": "Africa/Porto-Novo"
+},
+{
+"id": 3911925,
+"name": "La Paz",
+"alt": [
+"Pax",
+"LPB",
+"A Paz",
+"labaz"
+],
+"cc": "BO",
+"country": "Bolivia",
+"lat": -16.5,
+"lon": -68.15,
+"pop": 2004652,
+"tz": "America/La_Paz"
+},
+{
+"id": 3904906,
+"name": "Santa Cruz de la Sierra",
+"alt": [
+"SRZ",
+"Santa Cruz",
+"Santa-Kruzo",
+"santakurusu"
+],
+"cc": "BO",
+"country": "Bolivia",
+"lat": -17.786,
+"lon": -63.181,
+"pop": 1831434,
+"tz": "America/La_Paz"
+},
+{
+"id": 3919968,
+"name": "Cochabamba",
+"alt": [
+"CBB",
+"qwzbmbh",
+"Kocabamb",
+"Kočabamb"
+],
+"cc": "BO",
+"country": "Bolivia",
+"lat": -17.382,
+"lon": -66.16,
+"pop": 841276,
+"tz": "America/La_Paz"
+},
+{
+"id": 3903987,
+"name": "Sucre",
+"alt": [
+"Sik",
+"SRE",
+"Súkre",
+"Sukrė"
+],
+"cc": "BO",
+"country": "Bolivia",
+"lat": -19.033,
+"lon": -65.263,
+"pop": 224838,
+"tz": "America/La_Paz"
+},
+{
+"id": 3448439,
+"name": "São Paulo",
+"alt": [
+"SAO",
+"Sampa",
+"saw palw",
+"saw pwlw"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -23.547,
+"lon": -46.636,
+"pop": 12400232,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3451190,
+"name": "Rio de Janeiro",
+"alt": [
+"Rio",
+"RIO",
+"riodejaneiro",
+"Riodezaneiro"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -22.906,
+"lon": -43.182,
+"pop": 6747815,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3470127,
+"name": "Belo Horizonte",
+"alt": [
+"BH",
+"BHZ",
+"B.H.",
+"Bhte"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -19.921,
+"lon": -43.938,
+"pop": 2721564,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3450554,
+"name": "Salvador",
+"alt": [
+"SSA",
+"Baía",
+"Baia",
+"Bahia"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -12.976,
+"lon": -38.491,
+"pop": 2711840,
+"tz": "America/Bahia"
+},
+{
+"id": 3399415,
+"name": "Fortaleza",
+"alt": [
+"FOR",
+"Ceará",
+"Ceara",
+"pwrtlzh"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -3.717,
+"lon": -38.543,
+"pop": 2400000,
+"tz": "America/Fortaleza"
+},
+{
+"id": 3663517,
+"name": "Manaus",
+"alt": [
+"MAO",
+"mnaws",
+"Manos",
+"Manáos"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -3.102,
+"lon": -60.025,
+"pop": 2219580,
+"tz": "America/Manaus"
+},
+{
+"id": 3469058,
+"name": "Brasília",
+"alt": [
+"BSB",
+"brzylyh",
+"brasylya",
+"Brazilia"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -15.78,
+"lon": -47.93,
+"pop": 2207718,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3464975,
+"name": "Curitiba",
+"alt": [
+"CWB",
+"Kuritib",
+"Kuritiwa",
+"kuritipe"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -25.428,
+"lon": -49.273,
+"pop": 1948626,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3390760,
+"name": "Recife",
+"alt": [
+"REC",
+"rsyph",
+"rysyf",
+"risifi"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -8.054,
+"lon": -34.881,
+"pop": 1653461,
+"tz": "America/Recife"
+},
+{
+"id": 3462377,
+"name": "Goiânia",
+"alt": [
+"GYN",
+"Gojas",
+"Goiana",
+"Goianá"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -16.679,
+"lon": -49.254,
+"pop": 1536097,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3405870,
+"name": "Belém",
+"alt": [
+"BEL",
+"blm",
+"Velẽ",
+"Para"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -1.456,
+"lon": -48.504,
+"pop": 1499641,
+"tz": "America/Belem"
+},
+{
+"id": 3452925,
+"name": "Porto Alegre",
+"alt": [
+"POA",
+"Portualegri",
+"pwrtw algrh",
+"Porto Alegri"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -30.033,
+"lon": -51.23,
+"pop": 1488252,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3461786,
+"name": "Guarulhos",
+"alt": [
+"QCV",
+"GRU",
+"Guarul'jus"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -23.463,
+"lon": -46.533,
+"pop": 1169577,
+"tz": "America/Sao_Paulo"
+},
+{
+"id": 3395981,
+"name": "Maceió",
+"alt": [
+"MCZ",
+"msyw",
+"masyw",
+"Macayo"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -9.666,
+"lon": -35.735,
+"pop": 1031597,
+"tz": "America/Maceio"
+},
+{
+"id": 3392242,
+"name": "Petrolina",
+"alt": [
+"PNZ",
+"bi de luo li na"
+],
+"cc": "BR",
+"country": "Brazil",
+"lat": -9.399,
+"lon": -40.501,
+"pop": 386791,
+"tz": "America/Recife"
+},
+{
+"id": 933773,
+"name": "Gaborone",
+"alt": [
+"GBE",
+"gbrwn",
+"goborni",
+"Gaboròn"
+],
+"cc": "BW",
+"country": "Botswana",
+"lat": -24.655,
+"lon": 25.909,
+"pop": 246325,
+"tz": "Africa/Gaborone"
+},
+{
+"id": 933778,
+"name": "Francistown",
+"alt": [
+"FRW",
+"fransstawn",
+"Fransistaun",
+"Frensistaun"
+],
+"cc": "BW",
+"country": "Botswana",
+"lat": -21.17,
+"lon": 27.508,
+"pop": 103417,
+"tz": "Africa/Gaborone"
+},
+{
+"id": 933331,
+"name": "Mogoditshane",
+"alt": [
+"Mogoditsane",
+"Mogoditšane",
+"mohoditsuane",
+"Monkontitsane"
+],
+"cc": "BW",
+"country": "Botswana",
+"lat": -24.627,
+"lon": 25.866,
+"pop": 88004,
+"tz": "Africa/Gaborone"
+},
+{
+"id": 2389853,
+"name": "Bangui",
+"alt": [
+"BGF",
+"bangi",
+"Bangi",
+"Bangis"
+],
+"cc": "CF",
+"country": "Central African Republic",
+"lat": 4.361,
+"lon": 18.555,
+"pop": 812407,
+"tz": "Africa/Bangui"
+},
+{
+"id": 2388873,
+"name": "Bimbo",
+"alt": [
+"bmbw",
+"Bimo",
+"binbo",
+"bymbw"
+],
+"cc": "CF",
+"country": "Central African Republic",
+"lat": 4.257,
+"lon": 18.416,
+"pop": 348802,
+"tz": "Africa/Bangui"
+},
+{
+"id": 2293538,
+"name": "Abidjan",
+"alt": [
+"ABJ",
+"Abijan",
+"Abican",
+"Abiyan"
+],
+"cc": "CI",
+"country": "Ivory Coast",
+"lat": 5.354,
+"lon": -4.002,
+"pop": 6321017,
+"tz": "Africa/Abidjan"
+},
+{
+"id": 2293521,
+"name": "Abobo",
+"alt": [
+"Abobo-Gare"
+],
+"cc": "CI",
+"country": "Ivory Coast",
+"lat": 5.416,
+"lon": -4.016,
+"pop": 1340083,
+"tz": "Africa/Abidjan"
+},
+{
+"id": 2290956,
+"name": "Bouaké",
+"alt": [
+"BYK",
+"Bwake",
+"buake",
+"Buake"
+],
+"cc": "CI",
+"country": "Ivory Coast",
+"lat": 7.694,
+"lon": -5.03,
+"pop": 832371,
+"tz": "Africa/Abidjan"
+},
+{
+"id": 2286304,
+"name": "Korhogo",
+"alt": [
+"HGO",
+"Korogo",
+"korogo",
+"kwrwgw"
+],
+"cc": "CI",
+"country": "Ivory Coast",
+"lat": 9.458,
+"lon": -5.63,
+"pop": 440926,
+"tz": "Africa/Abidjan"
+},
+{
+"id": 2290486,
+"name": "Daloa",
+"alt": [
+"DJO",
+"daroa",
+"dalwa",
+"dalowe"
+],
+"cc": "CI",
+"country": "Ivory Coast",
+"lat": 6.877,
+"lon": -6.45,
+"pop": 421871,
+"tz": "Africa/Abidjan"
+},
+{
+"id": 3871336,
+"name": "Santiago",
+"alt": [
+"SCL",
+"Stgo.",
+"Santjago",
+"santyagw"
+],
+"cc": "CL",
+"country": "Chile",
+"lat": -33.457,
+"lon": -70.648,
+"pop": 4837295,
+"tz": "America/Santiago"
+},
+{
+"id": 3875024,
+"name": "Puente Alto",
+"alt": [
+"Puehnte-Al'to",
+"shang pu en te"
+],
+"cc": "CL",
+"country": "Chile",
+"lat": -33.612,
+"lon": -70.576,
+"pop": 568106,
+"tz": "America/Santiago"
+},
+{
+"id": 2232593,
+"name": "Douala",
+"alt": [
+"DLA",
+"Dual",
+"Doula",
+"Duala"
+],
+"cc": "CM",
+"country": "Cameroon",
+"lat": 4.048,
+"lon": 9.704,
+"pop": 1338082,
+"tz": "Africa/Douala"
+},
+{
+"id": 2220957,
+"name": "Yaoundé",
+"alt": [
+"YAO",
+"Jande",
+"Jánde",
+"Jaundė"
+],
+"cc": "CM",
+"country": "Cameroon",
+"lat": 3.867,
+"lon": 11.517,
+"pop": 1299369,
+"tz": "Africa/Douala"
+},
+{
+"id": 2234974,
+"name": "Bamenda",
+"alt": [
+"BPC",
+"bamnda",
+"Bamendy",
+"bamynda"
+],
+"cc": "CM",
+"country": "Cameroon",
+"lat": 5.96,
+"lon": 10.146,
+"pop": 420445,
+"tz": "Africa/Douala"
+},
+{
+"id": 2235189,
+"name": "Bafoussam",
+"alt": [
+"BFX",
+"bafwsam",
+"Bafusam",
+"bapusam"
+],
+"cc": "CM",
+"country": "Cameroon",
+"lat": 5.478,
+"lon": 10.418,
+"pop": 373268,
+"tz": "Africa/Douala"
+},
+{
+"id": 2228373,
+"name": "Maroua",
+"alt": [
+"MVR",
+"malua",
+"marua",
+"Marva"
+],
+"cc": "CM",
+"country": "Cameroon",
+"lat": 10.591,
+"lon": 14.316,
+"pop": 314122,
+"tz": "Africa/Douala"
+},
+{
+"id": 2224827,
+"name": "Ngaoundéré",
+"alt": [
+"NGE",
+"nqawndry",
+"ngawndrh",
+"Ngaunderė"
+],
+"cc": "CM",
+"country": "Cameroon",
+"lat": 7.328,
+"lon": 13.585,
+"pop": 238196,
+"tz": "Africa/Douala"
+},
+{
+"id": 3688689,
+"name": "Bogotá",
+"alt": [
+"BOG",
+"Bogot",
+"Bagata",
+"Boqota"
+],
+"cc": "CO",
+"country": "Colombia",
+"lat": 4.61,
+"lon": -74.082,
+"pop": 7674366,
+"tz": "America/Bogota"
+},
+{
+"id": 3687925,
+"name": "Cali",
+"alt": [
+"CLO",
+"kaly",
+"kali",
+"Kali"
+],
+"cc": "CO",
+"country": "Colombia",
+"lat": 3.431,
+"lon": -76.52,
+"pop": 2392877,
+"tz": "America/Bogota"
+},
+{
+"id": 3674962,
+"name": "Medellín",
+"alt": [
+"MDE",
+"mdyyn",
+"mdlyn",
+"medein"
+],
+"cc": "CO",
+"country": "Colombia",
+"lat": 6.245,
+"lon": -75.572,
+"pop": 1999979,
+"tz": "America/Bogota"
+},
+{
+"id": 3689147,
+"name": "Barranquilla",
+"alt": [
+"BAQ",
+"Killa",
+"Quilla",
+"brnqyyh"
+],
+"cc": "CO",
+"country": "Colombia",
+"lat": 10.969,
+"lon": -74.781,
+"pop": 1206319,
+"tz": "America/Bogota"
+},
+{
+"id": 7033318,
+"name": "Kennedy",
+"alt": [],
+"cc": "CO",
+"country": "Colombia",
+"lat": 4.617,
+"lon": -74.146,
+"pop": 979914,
+"tz": "America/Bogota"
+},
+{
+"id": 223817,
+"name": "Djibouti",
+"alt": [
+"JIB",
+"jbwty",
+"jybwty",
+"Ĝibuto"
+],
+"cc": "DJ",
+"country": "Djibouti",
+"lat": 11.589,
+"lon": 43.145,
+"pop": 626512,
+"tz": "Africa/Djibouti"
+},
+{
+"id": 2507480,
+"name": "Algiers",
+"alt": [
+"ALG",
+"Alse",
+"Alge",
+"Algê"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 36.732,
+"lon": 3.087,
+"pop": 2364230,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2485926,
+"name": "Oran",
+"alt": [
+"Orà",
+"Orã",
+"Ora",
+"ORN"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 35.699,
+"lon": -0.636,
+"pop": 803329,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2501152,
+"name": "Constantine",
+"alt": [
+"CZL",
+"Cirta",
+"qsntynh",
+"qsntynt"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 36.365,
+"lon": 6.615,
+"pop": 448028,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2506999,
+"name": "Annaba",
+"alt": [
+"AAE",
+"Bona",
+"Bone",
+"Bône"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 36.9,
+"lon": 7.767,
+"pop": 342703,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2503769,
+"name": "Blida",
+"alt": [
+"QLD",
+"Bilda",
+"Dilida",
+"burida"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 36.47,
+"lon": 2.828,
+"pop": 331779,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2505572,
+"name": "Batna",
+"alt": [
+"BLJ",
+"batnt",
+"Batina",
+"Batnah"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 35.556,
+"lon": 6.174,
+"pop": 289504,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2505854,
+"name": "Bab Ezzouar",
+"alt": [
+"bab alzwar",
+"Le Retour de la Chasse"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 36.726,
+"lon": 3.183,
+"pop": 275630,
+"tz": "Africa/Algiers"
+},
+{
+"id": 2500017,
+"name": "Djelfa",
+"alt": [
+"QDJ",
+"jlfh",
+"Jelfa",
+"aljlft"
+],
+"cc": "DZ",
+"country": "Algeria",
+"lat": 34.673,
+"lon": 3.263,
+"pop": 265833,
+"tz": "Africa/Algiers"
+},
+{
+"id": 3652462,
+"name": "Quito",
+"alt": [
+"UIO",
+"Kita",
+"Kito",
+"kytw"
+],
+"cc": "EC",
+"country": "Ecuador",
+"lat": -0.23,
+"lon": -78.525,
+"pop": 2781641,
+"tz": "America/Guayaquil"
+},
+{
+"id": 3657509,
+"name": "Guayaquil",
+"alt": [
+"GYE",
+"Wayakil",
+"gwayakl",
+"Guajakil"
+],
+"cc": "EC",
+"country": "Ecuador",
+"lat": -2.196,
+"lon": -79.886,
+"pop": 2723665,
+"tz": "America/Guayaquil"
+},
+{
+"id": 3658666,
+"name": "Cuenca",
+"alt": [
+"CUE",
+"kun ka",
+"kwanka",
+"kwynka"
+],
+"cc": "EC",
+"country": "Ecuador",
+"lat": -2.895,
+"lon": -78.996,
+"pop": 636996,
+"tz": "America/Guayaquil"
+},
+{
+"id": 360630,
+"name": "Cairo",
+"alt": [
+"CAI",
+"Masr",
+"Kair",
+"qhyr"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 30.063,
+"lon": 31.25,
+"pop": 9606916,
+"tz": "Africa/Cairo"
+},
+{
+"id": 361058,
+"name": "Alexandria",
+"alt": [
+"ALY",
+"Iskandri",
+"askndryh",
+"Alejandría"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 31.202,
+"lon": 29.916,
+"pop": 5263542,
+"tz": "Africa/Cairo"
+},
+{
+"id": 360995,
+"name": "Giza",
+"alt": [
+"SPX",
+"Gize",
+"Gizé",
+"jyzh"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 30.009,
+"lon": 31.209,
+"pop": 4367343,
+"tz": "Africa/Cairo"
+},
+{
+"id": 349076,
+"name": "Shubrā al Khaymah",
+"alt": [
+"shbra alkhymt",
+"Shubra al-Khayma",
+"Shubra el-Kheima"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 30.125,
+"lon": 31.251,
+"pop": 1240289,
+"tz": "Africa/Cairo"
+},
+{
+"id": 358619,
+"name": "Port Said",
+"alt": [
+"PSD",
+"Bursaid",
+"Port-Said",
+"PORTSAINT"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 31.265,
+"lon": 32.302,
+"pop": 780515,
+"tz": "Africa/Cairo"
+},
+{
+"id": 359796,
+"name": "Suez",
+"alt": [
+"Suës",
+"Sues",
+"Suec",
+"swyz"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 29.974,
+"lon": 32.526,
+"pop": 699541,
+"tz": "Africa/Cairo"
+},
+{
+"id": 353225,
+"name": "Madīnat an Naşr",
+"alt": [
+"Nasr City",
+"Nasser City",
+"El Nasr City",
+"Madinet el-Nasr"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 30.067,
+"lon": 31.3,
+"pop": 668413,
+"tz": "Africa/Cairo"
+},
+{
+"id": 360761,
+"name": "Al Mansurah",
+"alt": [
+"mnswrt",
+"mnswrh",
+"Mansura",
+"Manoura"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 31.036,
+"lon": 31.381,
+"pop": 621953,
+"tz": "Africa/Cairo"
+},
+{
+"id": 360829,
+"name": "Al Maḩallah al Kubrá",
+"alt": [
+"El Mahalla",
+"almhlt alkbry",
+"Mahalla el Kubra",
+"Mehalla el Kobra"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 30.971,
+"lon": 31.167,
+"pop": 592573,
+"tz": "Africa/Cairo"
+},
+{
+"id": 347497,
+"name": "Tanta",
+"alt": [
+"tnth",
+"tnta",
+"Tanda"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 30.788,
+"lon": 31.002,
+"pop": 576648,
+"tz": "Africa/Cairo"
+},
+{
+"id": 359783,
+"name": "Assiut",
+"alt": [
+"ATZ",
+"Siut",
+"Asyut",
+"Asyūţ"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 27.181,
+"lon": 31.184,
+"pop": 528669,
+"tz": "Africa/Cairo"
+},
+{
+"id": 361320,
+"name": "Al Fayyum",
+"alt": [
+"Fayun",
+"Fayum",
+"Faium",
+"Fajum"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 29.31,
+"lon": 30.842,
+"pop": 519047,
+"tz": "Africa/Cairo"
+},
+{
+"id": 360502,
+"name": "Luxor",
+"alt": [
+"LXR",
+"aqsr",
+"lksr",
+"Loxor"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 25.699,
+"lon": 32.642,
+"pop": 422407,
+"tz": "Africa/Cairo"
+},
+{
+"id": 359792,
+"name": "Aswān",
+"alt": [
+"ASW",
+"Asvan",
+"Eswan",
+"Syeue"
+],
+"cc": "EG",
+"country": "Egypt",
+"lat": 24.091,
+"lon": 32.899,
+"pop": 379774,
+"tz": "Africa/Cairo"
+},
+{
+"id": 343300,
+"name": "Asmara",
+"alt": [
+"ASM",
+"asmrt",
+"Asmar",
+"asmrh"
+],
+"cc": "ER",
+"country": "Eritrea",
+"lat": 15.338,
+"lon": 38.932,
+"pop": 563930,
+"tz": "Africa/Asmara"
+},
+{
+"id": 333287,
+"name": "Keren",
+"alt": [
+"qrn",
+"krn",
+"kelen",
+"karan"
+],
+"cc": "ER",
+"country": "Eritrea",
+"lat": 15.778,
+"lon": 38.451,
+"pop": 74800,
+"tz": "Africa/Asmara"
+},
+{
+"id": 334717,
+"name": "Himora",
+"alt": [],
+"cc": "ER",
+"country": "Eritrea",
+"lat": 14.304,
+"lon": 36.606,
+"pop": 46100,
+"tz": "Africa/Asmara"
+},
+{
+"id": 344979,
+"name": "Addis Ababa",
+"alt": [
+"ADD",
+"Tungga",
+"Finfinne",
+"Addisaaba"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 9.025,
+"lon": 38.747,
+"pop": 3860000,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 333795,
+"name": "Jijiga",
+"alt": [
+"JIJ",
+"gygygh",
+"Gigiga",
+"jyjyga"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 9.35,
+"lon": 42.8,
+"pop": 483000,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 336014,
+"name": "Gonder",
+"alt": [
+"GDQ",
+"gwndr",
+"Gondar",
+"Gondehr"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 12.6,
+"lon": 37.467,
+"pop": 466000,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 331180,
+"name": "Mek'ele",
+"alt": [
+"MQX",
+"mqlh",
+"Maqalē",
+"Makale"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 13.497,
+"lon": 39.475,
+"pop": 457900,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 330186,
+"name": "Nazrēt",
+"alt": [
+"Adama",
+"Hadama",
+"Nazreth",
+"Nazareth"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 8.55,
+"lon": 39.267,
+"pop": 456900,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 326282,
+"name": "Warder",
+"alt": [
+"WRA",
+"Uorder",
+"Werder",
+"Werdēr"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 6.974,
+"lon": 45.341,
+"pop": 450400,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 343137,
+"name": "Awasa",
+"alt": [
+"AWA",
+"Avase",
+"hawasa",
+"Awassa"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 7.062,
+"lon": 38.476,
+"pop": 422200,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 342884,
+"name": "Bahir Dar",
+"alt": [
+"BJR",
+"Bahar",
+"bhr dr",
+"bhr dar"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 11.594,
+"lon": 37.391,
+"pop": 350000,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 338832,
+"name": "Dire Dawa",
+"alt": [
+"DIR",
+"Dirdabo",
+"Dirdabò",
+"Diredavy"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 9.593,
+"lon": 41.866,
+"pop": 343000,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 339219,
+"name": "Dessie",
+"alt": [
+"dsh",
+"Dase",
+"Dasē",
+"dysy"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 11.133,
+"lon": 39.633,
+"pop": 270400,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 333772,
+"name": "Jimma",
+"alt": [
+"JIM",
+"jima",
+"Jima",
+"jyma"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 7.673,
+"lon": 36.834,
+"pop": 250900,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 328689,
+"name": "Shashamane",
+"alt": [
+"Shāshamani",
+"Shashemene",
+"Shashamani",
+"Shashemenē"
+],
+"cc": "ET",
+"country": "Ethiopia",
+"lat": 7.2,
+"lon": 38.6,
+"pop": 208400,
+"tz": "Africa/Addis_Ababa"
+},
+{
+"id": 2298890,
+"name": "Kumasi",
+"alt": [
+"KMS",
+"Kumase",
+"Kumasy",
+"kwmasy"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 6.688,
+"lon": -1.624,
+"pop": 2544530,
+"tz": "Africa/Accra"
+},
+{
+"id": 2306104,
+"name": "Accra",
+"alt": [
+"ACC",
+"Akra",
+"Acra",
+"akra"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 5.556,
+"lon": -0.197,
+"pop": 1963264,
+"tz": "Africa/Accra"
+},
+{
+"id": 2294877,
+"name": "Tamale",
+"alt": [
+"TML"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 9.401,
+"lon": -0.839,
+"pop": 464316,
+"tz": "Africa/Accra"
+},
+{
+"id": 2294915,
+"name": "Takoradi",
+"alt": [
+"TKD",
+"Takoradze"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 4.898,
+"lon": -1.76,
+"pop": 389114,
+"tz": "Africa/Accra"
+},
+{
+"id": 11808941,
+"name": "Sekondi",
+"alt": [],
+"cc": "GH",
+"country": "Ghana",
+"lat": 4.934,
+"lon": -1.715,
+"pop": 285506,
+"tz": "Africa/Accra"
+},
+{
+"id": 2302357,
+"name": "Cape Coast",
+"alt": [
+"Ogwa",
+"kyp kwst",
+"Igua Ogwa",
+"Kejp-Kost"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 5.105,
+"lon": -1.247,
+"pop": 212426,
+"tz": "Africa/Accra"
+},
+{
+"id": 2306079,
+"name": "Atsiaman",
+"alt": [
+"Ashaiman",
+"Achiaman"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 5.698,
+"lon": -0.328,
+"pop": 202932,
+"tz": "Africa/Accra"
+},
+{
+"id": 2304121,
+"name": "Ashaiman",
+"alt": [
+"asiaman",
+"ashaman",
+"asimana",
+"asiyaman"
+],
+"cc": "GH",
+"country": "Ghana",
+"lat": 5.7,
+"lon": -0.035,
+"pop": 190972,
+"tz": "Africa/Accra"
+},
+{
+"id": 2411989,
+"name": "Serekunda",
+"alt": [
+"Jeswang",
+"syrykwnda",
+"Serrekunda",
+"Sere Kunda"
+],
+"cc": "GM",
+"country": "Gambia",
+"lat": 13.438,
+"lon": -16.678,
+"pop": 340000,
+"tz": "Africa/Banjul"
+},
+{
+"id": 2413753,
+"name": "Brikama",
+"alt": [
+"Brikame",
+"brykama",
+"burikama",
+"beulikama"
+],
+"cc": "GM",
+"country": "Gambia",
+"lat": 13.271,
+"lon": -16.649,
+"pop": 97233,
+"tz": "Africa/Banjul"
+},
+{
+"id": 2422465,
+"name": "Conakry",
+"alt": [
+"CKY",
+"Konakri",
+"Conacri",
+"Konakry"
+],
+"cc": "GN",
+"country": "Guinea",
+"lat": 9.538,
+"lon": -13.677,
+"pop": 1928389,
+"tz": "Africa/Conakry"
+},
+{
+"id": 2422488,
+"name": "Camayenne",
+"alt": [
+"Camayen"
+],
+"cc": "GN",
+"country": "Guinea",
+"lat": 9.535,
+"lon": -13.688,
+"pop": 1871242,
+"tz": "Africa/Conakry"
+},
+{
+"id": 2416969,
+"name": "Nzérékoré",
+"alt": [
+"NZE",
+"eunjelekole"
+],
+"cc": "GN",
+"country": "Guinea",
+"lat": 7.756,
+"lon": -8.818,
+"pop": 226426,
+"tz": "Africa/Conakry"
+},
+{
+"id": 2419992,
+"name": "Kankan",
+"alt": [
+"KNN",
+"kangkan",
+"Kankanas"
+],
+"cc": "GN",
+"country": "Guinea",
+"lat": 10.385,
+"lon": -9.306,
+"pop": 221428,
+"tz": "Africa/Conakry"
+},
+{
+"id": 3598132,
+"name": "Guatemala City",
+"alt": [
+"GUA",
+"Guate",
+"Gvatemala",
+"Gwatemala"
+],
+"cc": "GT",
+"country": "Guatemala",
+"lat": 14.641,
+"lon": -90.513,
+"pop": 994938,
+"tz": "America/Guatemala"
+},
+{
+"id": 3587902,
+"name": "Villa Nueva",
+"alt": [
+"Viljanueva",
+"Vilja Nueva",
+"Vil'ja-Nuehva",
+"bi ya nu ai wa"
+],
+"cc": "GT",
+"country": "Guatemala",
+"lat": 14.525,
+"lon": -90.585,
+"pop": 618397,
+"tz": "America/Guatemala"
+},
+{
+"id": 3592519,
+"name": "Mixco",
+"alt": [
+"Mishko"
+],
+"cc": "GT",
+"country": "Guatemala",
+"lat": 14.631,
+"lon": -90.607,
+"pop": 465773,
+"tz": "America/Guatemala"
+},
+{
+"id": 3600949,
+"name": "Tegucigalpa",
+"alt": [
+"TGU",
+"tgwsyglph",
+"Tegusigalp",
+"tgwsygalpa"
+],
+"cc": "HN",
+"country": "Honduras",
+"lat": 14.082,
+"lon": -87.207,
+"pop": 850848,
+"tz": "America/Tegucigalpa"
+},
+{
+"id": 3601782,
+"name": "San Pedro Sula",
+"alt": [
+"SAP",
+"San Pedro",
+"san bydrw swla",
+"San-Pedra-Sula"
+],
+"cc": "HN",
+"country": "Honduras",
+"lat": 15.506,
+"lon": -88.026,
+"pop": 801259,
+"tz": "America/Tegucigalpa"
+},
+{
+"id": 3612907,
+"name": "Danlí",
+"alt": [],
+"cc": "HN",
+"country": "Honduras",
+"lat": 14.033,
+"lon": -86.583,
+"pop": 233789,
+"tz": "America/Tegucigalpa"
+},
+{
+"id": 3718426,
+"name": "Port-au-Prince",
+"alt": [
+"PAP",
+"Pòtoprens",
+"pwrtwprns",
+"Potoprens"
+],
+"cc": "HT",
+"country": "Haiti",
+"lat": 18.543,
+"lon": -72.339,
+"pop": 1234742,
+"tz": "America/Port-au-Prince"
+},
+{
+"id": 6201369,
+"name": "Carrefour",
+"alt": [
+"Kafou"
+],
+"cc": "HT",
+"country": "Haiti",
+"lat": 18.533,
+"lon": -72.4,
+"pop": 511345,
+"tz": "America/Port-au-Prince"
+},
+{
+"id": 3726786,
+"name": "Delmas",
+"alt": [
+"Delma",
+"Dèlma"
+],
+"cc": "HT",
+"country": "Haiti",
+"lat": 18.545,
+"lon": -72.3,
+"pop": 395260,
+"tz": "America/Port-au-Prince"
+},
+{
+"id": 1642911,
+"name": "Jakarta",
+"alt": [
+"JKT",
+"jkarta",
+"g'qrth",
+"Sakata"
+],
+"cc": "ID",
+"country": "Indonesia",
+"lat": -6.215,
+"lon": 106.845,
+"pop": 8540121,
+"tz": "Asia/Jakarta"
+},
+{
+"id": 1625822,
+"name": "Surabaya",
+"alt": [
+"SUB",
+"swrbyh",
+"si shui",
+"Surabaia"
+],
+"cc": "ID",
+"country": "Indonesia",
+"lat": -7.249,
+"lon": 112.751,
+"pop": 3018022,
+"tz": "Asia/Jakarta"
+},
+{
+"id": 1649378,
+"name": "Bekasi",
+"alt": [
+"bkasy",
+"Bekaso",
+"bykasy",
+"beukasi"
+],
+"cc": "ID",
+"country": "Indonesia",
+"lat": -6.235,
+"lon": 106.99,
+"pop": 2648272,
+"tz": "Asia/Jakarta"
+},
+{
+"id": 1650357,
+"name": "Bandung",
+"alt": [
+"BDO",
+"pantun",
+"bandon",
+"bndwng"
+],
+"cc": "ID",
+"country": "Indonesia",
+"lat": -6.922,
+"lon": 107.607,
+"pop": 2528163,
+"tz": "Asia/Jakarta"
+},
+{
+"id": 1275339,
+"name": "Mumbai",
+"alt": [
+"BOM",
+"bmbyy",
+"mmbay",
+"mmbyy"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.073,
+"lon": 72.883,
+"pop": 12691836,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1273294,
+"name": "Delhi",
+"alt": [
+"DEL",
+"dly",
+"deli",
+"dlhy"
+],
+"cc": "IN",
+"country": "India",
+"lat": 28.652,
+"lon": 77.231,
+"pop": 11034555,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1277333,
+"name": "Bengaluru",
+"alt": [
+"BLR",
+"bnglwr",
+"bynglwr",
+"Bangalur"
+],
+"cc": "IN",
+"country": "India",
+"lat": 12.972,
+"lon": 77.594,
+"pop": 8495492,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1269843,
+"name": "Hyderabad",
+"alt": [
+"HYD",
+"hydrabad",
+"hydr abad",
+"Hajdarabad"
+],
+"cc": "IN",
+"country": "India",
+"lat": 17.384,
+"lon": 78.456,
+"pop": 6993262,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1279233,
+"name": "Ahmedabad",
+"alt": [
+"AMD",
+"a wa",
+"Amdavada",
+"Amdāvāda"
+],
+"cc": "IN",
+"country": "India",
+"lat": 23.026,
+"lon": 72.587,
+"pop": 6357693,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1264527,
+"name": "Chennai",
+"alt": [
+"MAA",
+"chnay",
+"Çenay",
+"Cenaj"
+],
+"cc": "IN",
+"country": "India",
+"lat": 13.088,
+"lon": 80.278,
+"pop": 4681087,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1275004,
+"name": "Kolkata",
+"alt": [
+"CCU",
+"klkth",
+"klkta",
+"qwlqth"
+],
+"cc": "IN",
+"country": "India",
+"lat": 22.563,
+"lon": 88.363,
+"pop": 4631392,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1255364,
+"name": "Surat",
+"alt": [
+"STV",
+"curat",
+"Surate",
+"surato"
+],
+"cc": "IN",
+"country": "India",
+"lat": 21.196,
+"lon": 72.83,
+"pop": 4591246,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1259229,
+"name": "Pune",
+"alt": [
+"Pun",
+"PNQ",
+"pwna",
+"Puni"
+],
+"cc": "IN",
+"country": "India",
+"lat": 18.52,
+"lon": 73.855,
+"pop": 3124458,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1269515,
+"name": "Jaipur",
+"alt": [
+"JAI",
+"jypwr",
+"jaypwr",
+"Jaypur"
+],
+"cc": "IN",
+"country": "India",
+"lat": 26.92,
+"lon": 75.788,
+"pop": 3046163,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1267995,
+"name": "Kanpur",
+"alt": [
+"KNU",
+"Kanpwr",
+"Kānpwr",
+"kanpuru"
+],
+"cc": "IN",
+"country": "India",
+"lat": 26.465,
+"lon": 80.35,
+"pop": 2823249,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 6619347,
+"name": "Navi Mumbai",
+"alt": [
+"bmbyy nw",
+"nwy mmbyy",
+"nabimumbai",
+"Novmumbajo"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.037,
+"lon": 73.016,
+"pop": 2600000,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1264733,
+"name": "Lucknow",
+"alt": [
+"LKO",
+"lkhnw",
+"lakno",
+"lknaw"
+],
+"cc": "IN",
+"country": "India",
+"lat": 26.839,
+"lon": 80.923,
+"pop": 2472011,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1262180,
+"name": "Nagpur",
+"alt": [
+"NAG",
+"Ajni",
+"nagpwr",
+"nakpur"
+],
+"cc": "IN",
+"country": "India",
+"lat": 21.146,
+"lon": 79.085,
+"pop": 2405665,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1273865,
+"name": "Coimbatore",
+"alt": [
+"CJB",
+"kovai",
+"Kovai",
+"kwymbtwr"
+],
+"cc": "IN",
+"country": "India",
+"lat": 11.006,
+"lon": 76.966,
+"pop": 2136916,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1269743,
+"name": "Indore",
+"alt": [
+"IDR",
+"intor",
+"indor",
+"Indor"
+],
+"cc": "IN",
+"country": "India",
+"lat": 22.718,
+"lon": 75.833,
+"pop": 1994397,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1254661,
+"name": "Thāne",
+"alt": [
+"Tane",
+"tany",
+"thyn",
+"tanh"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.197,
+"lon": 72.964,
+"pop": 1841488,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1253573,
+"name": "Vadodara",
+"alt": [
+"BDQ",
+"wdwdrh",
+"Baroda",
+"fadwdara"
+],
+"cc": "IN",
+"country": "India",
+"lat": 22.299,
+"lon": 73.208,
+"pop": 1822221,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1275841,
+"name": "Bhopal",
+"alt": [
+"BHO",
+"Bópal",
+"bwbal",
+"popal"
+],
+"cc": "IN",
+"country": "India",
+"lat": 23.255,
+"lon": 77.403,
+"pop": 1798218,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1258393,
+"name": "Rasapūdipalem",
+"alt": [
+"Visakhapatnam",
+"Raspari Palao"
+],
+"cc": "IN",
+"country": "India",
+"lat": 17.733,
+"lon": 83.316,
+"pop": 1728128,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 7626690,
+"name": "Pimpri-Chinchwad",
+"alt": [
+"Pimpri-Činčvad",
+"Pimprí-Čiňčvad",
+"Pimpri-Cincvad",
+"Pimpri-Ĉinĉvad"
+],
+"cc": "IN",
+"country": "India",
+"lat": 18.619,
+"lon": 73.804,
+"pop": 1727692,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1260086,
+"name": "Patna",
+"alt": [
+"PAT",
+"ptnh",
+"batna",
+"pat na"
+],
+"cc": "IN",
+"country": "India",
+"lat": 25.594,
+"lon": 85.136,
+"pop": 1684297,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 12165956,
+"name": "Kallakurichi",
+"alt": [],
+"cc": "IN",
+"country": "India",
+"lat": 11.734,
+"lon": 78.959,
+"pop": 1682687,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1264728,
+"name": "Ludhiana",
+"alt": [
+"LUH",
+"rudiana",
+"rudiyana",
+"Ludijana"
+],
+"cc": "IN",
+"country": "India",
+"lat": 30.912,
+"lon": 75.854,
+"pop": 1618879,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1261731,
+"name": "Nashik",
+"alt": [
+"ISK",
+"nask",
+"nasyk",
+"nasik"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.997,
+"lon": 73.791,
+"pop": 1486053,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1264521,
+"name": "Madurai",
+"alt": [
+"IXM",
+"mdwray",
+"Madura",
+"Maduráj"
+],
+"cc": "IN",
+"country": "India",
+"lat": 9.919,
+"lon": 78.12,
+"pop": 1465625,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1254361,
+"name": "Tirunelveli",
+"alt": [
+"Nellai",
+"trwnlwyly",
+"tyrwnlfly",
+"tyrwnlwly"
+],
+"cc": "IN",
+"country": "India",
+"lat": 8.727,
+"lon": 77.684,
+"pop": 1435844,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1279259,
+"name": "Agra",
+"alt": [
+"AGR",
+"Agro",
+"akra",
+"Aqra"
+],
+"cc": "IN",
+"country": "India",
+"lat": 27.183,
+"lon": 78.017,
+"pop": 1430055,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1271951,
+"name": "Faridabad",
+"alt": [
+"QNF",
+"frydabad",
+"Farydabad",
+"faridabado"
+],
+"cc": "IN",
+"country": "India",
+"lat": 28.411,
+"lon": 77.313,
+"pop": 1414050,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1258847,
+"name": "Rājkot",
+"alt": [
+"RAJ",
+"Radźkot",
+"Radzkot",
+"Radzhkot"
+],
+"cc": "IN",
+"country": "India",
+"lat": 22.292,
+"lon": 70.793,
+"pop": 1390640,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1262111,
+"name": "Najafgarh",
+"alt": [
+"najapkar",
+"najafugaru",
+"Najafgarli",
+"najaphagara"
+],
+"cc": "IN",
+"country": "India",
+"lat": 28.609,
+"lon": 76.98,
+"pop": 1365000,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1269300,
+"name": "Jamshedpur",
+"alt": [
+"IXW",
+"jmshdpwr",
+"Cemsidpur",
+"Cemşidpur"
+],
+"cc": "IN",
+"country": "India",
+"lat": 22.803,
+"lon": 86.185,
+"pop": 1339438,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1270926,
+"name": "Gorakhpur",
+"alt": [
+"Gorakpura"
+],
+"cc": "IN",
+"country": "India",
+"lat": 29.448,
+"lon": 75.672,
+"pop": 1324570,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1259652,
+"name": "Pimpri",
+"alt": [
+"pmpry",
+"pimpari",
+"pimpiri"
+],
+"cc": "IN",
+"country": "India",
+"lat": 18.623,
+"lon": 73.807,
+"pop": 1284606,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1268295,
+"name": "Kalyān",
+"alt": [
+"Kal'jan"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.244,
+"lon": 73.136,
+"pop": 1262255,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1272423,
+"name": "Dombivali",
+"alt": [
+"dwmbywly",
+"Dombivli",
+"dombibali",
+"tompivali"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.217,
+"lon": 73.083,
+"pop": 1247327,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1263214,
+"name": "Meerut",
+"alt": [
+"mirat",
+"Mirát",
+"Mirut",
+"Mirat"
+],
+"cc": "IN",
+"country": "India",
+"lat": 28.98,
+"lon": 77.706,
+"pop": 1223184,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1253133,
+"name": "Virār",
+"alt": [
+"Vasai-Virar City"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.456,
+"lon": 72.811,
+"pop": 1222390,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1261162,
+"name": "Nowrangapur",
+"alt": [
+"Nowrangpur",
+"Nabarangpur",
+"Nabarangapur"
+],
+"cc": "IN",
+"country": "India",
+"lat": 19.231,
+"lon": 82.548,
+"pop": 1220946,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1255634,
+"name": "Srinagar",
+"alt": [
+"SXR",
+"sryngr",
+"sry ngr",
+"srinkhr"
+],
+"cc": "IN",
+"country": "India",
+"lat": 34.086,
+"lon": 74.806,
+"pop": 1206419,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1271308,
+"name": "Ghāziābād",
+"alt": [
+"HDO",
+"ghazy",
+"Ghazibad",
+"Gaziabad"
+],
+"cc": "IN",
+"country": "India",
+"lat": 28.665,
+"lon": 77.439,
+"pop": 1199191,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1272979,
+"name": "Dhanbad",
+"alt": [
+"DBD",
+"dnbad",
+"danbad",
+"danbado"
+],
+"cc": "IN",
+"country": "India",
+"lat": 23.798,
+"lon": 86.43,
+"pop": 1196214,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1268865,
+"name": "Jodhpur",
+"alt": [
+"JDH",
+"jwdpwr",
+"gwdpwr",
+"cotpur"
+],
+"cc": "IN",
+"country": "India",
+"lat": 26.268,
+"lon": 73.006,
+"pop": 1056191,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1275665,
+"name": "Bikaner",
+"alt": [
+"BKB",
+"bikanera"
+],
+"cc": "IN",
+"country": "India",
+"lat": 28.018,
+"lon": 73.315,
+"pop": 644406,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1276901,
+"name": "Bārmer",
+"alt": [],
+"cc": "IN",
+"country": "India",
+"lat": 25.746,
+"lon": 71.392,
+"pop": 96225,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 1269507,
+"name": "Jaisalmer",
+"alt": [
+"JSA",
+"jyslmyr",
+"jeycalmer",
+"Jailsamer"
+],
+"cc": "IN",
+"country": "India",
+"lat": 26.918,
+"lon": 70.904,
+"pop": 67604,
+"tz": "Asia/Kolkata"
+},
+{
+"id": 98182,
+"name": "Baghdad",
+"alt": [
+"BGW",
+"Bexda",
+"Bagdá",
+"Bagda"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 33.341,
+"lon": 44.401,
+"pop": 7216000,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 99071,
+"name": "Al Mawşil al Jadīdah",
+"alt": [
+"almwsl aljdydt"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 36.333,
+"lon": 43.106,
+"pop": 2065597,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 388349,
+"name": "Al Başrah al Qadīmah",
+"alt": [
+"albsrt alqdymt",
+"Al Başrat al Qadīmah",
+"Al Basrat al Qadimah"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 30.503,
+"lon": 47.815,
+"pop": 2015483,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 99072,
+"name": "Mosul",
+"alt": [
+"OSM",
+"mwsl",
+"Musıl",
+"Musul"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 36.335,
+"lon": 43.119,
+"pop": 1683000,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 95446,
+"name": "Erbil",
+"alt": [
+"EBL",
+"arbyl",
+"Arbīl",
+"Arbil"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 36.191,
+"lon": 44.009,
+"pop": 1612700,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 99532,
+"name": "Basrah",
+"alt": [
+"BSR",
+"bsrh",
+"bsrt",
+"bzrh"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 30.509,
+"lon": 47.78,
+"pop": 1326564,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 94824,
+"name": "Karbala",
+"alt": [
+"krbla",
+"Kerbala",
+"Karbila",
+"ktrbala"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 32.616,
+"lon": 44.025,
+"pop": 1218732,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 7802746,
+"name": "Sadr City",
+"alt": [
+"Sadr",
+"mdynt alsdr"
+],
+"cc": "IQ",
+"country": "Iraq",
+"lat": 33.389,
+"lon": 44.458,
+"pop": 1211849,
+"tz": "Asia/Baghdad"
+},
+{
+"id": 112931,
+"name": "Tehran",
+"alt": [
+"THR",
+"thrn",
+"thrwn",
+"Teerã"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 35.694,
+"lon": 51.422,
+"pop": 7153309,
+"tz": "Asia/Tehran"
+},
+{
+"id": 124665,
+"name": "Mashhad",
+"alt": [
+"MHD",
+"mshd",
+"Mexed",
+"Maşat"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 36.298,
+"lon": 59.606,
+"pop": 2307177,
+"tz": "Asia/Tehran"
+},
+{
+"id": 418863,
+"name": "Isfahan",
+"alt": [
+"IFN",
+"Spahan",
+"asfhan",
+"Eşfehān"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 32.652,
+"lon": 51.675,
+"pop": 1547164,
+"tz": "Asia/Tehran"
+},
+{
+"id": 128747,
+"name": "Karaj",
+"alt": [
+"QKC",
+"PYK",
+"krj",
+"Karej"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 35.833,
+"lon": 50.992,
+"pop": 1448075,
+"tz": "Asia/Tehran"
+},
+{
+"id": 113646,
+"name": "Tabriz",
+"alt": [
+"TBZ",
+"tbryz",
+"Tewrêz",
+"Tabris"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 38.08,
+"lon": 46.292,
+"pop": 1424641,
+"tz": "Asia/Tehran"
+},
+{
+"id": 115019,
+"name": "Shiraz",
+"alt": [
+"SYZ",
+"Širaz",
+"Xiraz",
+"Şiraz"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 29.61,
+"lon": 52.531,
+"pop": 1249942,
+"tz": "Asia/Tehran"
+},
+{
+"id": 119208,
+"name": "Qom",
+"alt": [
+"qm",
+"Qûm",
+"Kom",
+"qwm"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 34.64,
+"lon": 50.876,
+"pop": 900000,
+"tz": "Asia/Tehran"
+},
+{
+"id": 144448,
+"name": "Ahvaz",
+"alt": [
+"AWZ",
+"Ahwas",
+"Ahwāz",
+"ahwaz"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 31.319,
+"lon": 48.684,
+"pop": 841145,
+"tz": "Asia/Tehran"
+},
+{
+"id": 128226,
+"name": "Kermanshah",
+"alt": [
+"KSH",
+"Kirmasan",
+"Bahtaran",
+"Kirmaşan"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 34.314,
+"lon": 47.065,
+"pop": 621100,
+"tz": "Asia/Tehran"
+},
+{
+"id": 118743,
+"name": "Rasht",
+"alt": [
+"RAS",
+"Rast",
+"Rest",
+"Rašt"
+],
+"cc": "IR",
+"country": "Iran",
+"lat": 37.276,
+"lon": 49.589,
+"pop": 594590,
+"tz": "Asia/Tehran"
+},
+{
+"id": 250441,
+"name": "Amman",
+"alt": [
+"AMM",
+"Amã",
+"Ama",
+"Amàn"
+],
+"cc": "JO",
+"country": "Jordan",
+"lat": 31.955,
+"lon": 35.945,
+"pop": 1275857,
+"tz": "Asia/Amman"
+},
+{
+"id": 250090,
+"name": "Zarqa",
+"alt": [
+"QZA",
+"Zerka",
+"Zarka",
+"zaruka"
+],
+"cc": "JO",
+"country": "Jordan",
+"lat": 32.073,
+"lon": 36.088,
+"pop": 792665,
+"tz": "Asia/Amman"
+},
+{
+"id": 248946,
+"name": "Irbid",
+"alt": [
+"QIR",
+"arbd",
+"Arbela",
+"Irbido"
+],
+"cc": "JO",
+"country": "Jordan",
+"lat": 32.556,
+"lon": 35.85,
+"pop": 569068,
+"tz": "Asia/Amman"
+},
+{
+"id": 184745,
+"name": "Nairobi",
+"alt": [
+"NBO",
+"nirobi",
+"nyrwby",
+"Nayrubi"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -1.283,
+"lon": 36.817,
+"pop": 4397073,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 195272,
+"name": "Kakamega",
+"alt": [
+"GGM",
+"Kakamege",
+"kakamga  knya",
+"ka ka mei jia"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": 0.284,
+"lon": 34.752,
+"pop": 1867579,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 186301,
+"name": "Mombasa",
+"alt": [
+"MBA",
+"Mvita",
+"mmbasa",
+"mwmbsh"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -4.055,
+"lon": 39.664,
+"pop": 1208333,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 184622,
+"name": "Nakuru",
+"alt": [
+"NUU",
+"nakulu",
+"nakwrw",
+"na ku lu"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -0.307,
+"lon": 36.072,
+"pop": 570674,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 181032,
+"name": "Ruiru",
+"alt": [
+"rwyrw",
+"lu yi lu",
+"rwyrw  knya"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -1.147,
+"lon": 36.961,
+"pop": 490120,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 198629,
+"name": "Eldoret",
+"alt": [
+"EDL",
+"aldwrt",
+"Olteret",
+"Olderet"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": 0.52,
+"lon": 35.27,
+"pop": 475716,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 191245,
+"name": "Kisumu",
+"alt": [
+"KIS",
+"Winam",
+"Kisumo",
+"kyzymw"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -0.102,
+"lon": 34.762,
+"pop": 397957,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 192126,
+"name": "Kikuyu",
+"alt": [
+"Kikuju",
+"Gikuyu",
+"kykwyw  kynya"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -1.246,
+"lon": 36.663,
+"pop": 323881,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 179330,
+"name": "Thika",
+"alt": [
+"Tik",
+"Dhika"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -1.033,
+"lon": 37.069,
+"pop": 251407,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 184707,
+"name": "Naivasha",
+"alt": [
+"Najvaŝo",
+"Najvaso",
+"Naivasa",
+"Naivaša"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -0.714,
+"lon": 36.433,
+"pop": 198444,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 193624,
+"name": "Karuri",
+"alt": [],
+"cc": "KE",
+"country": "Kenya",
+"lat": -1.176,
+"lon": 36.756,
+"pop": 194342,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 193627,
+"name": "Karuri",
+"alt": [],
+"cc": "KE",
+"country": "Kenya",
+"lat": -0.7,
+"lon": 37.183,
+"pop": 194342,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 197745,
+"name": "Garissa",
+"alt": [
+"GAS",
+"Garisa",
+"galisa",
+"garisa"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": -0.453,
+"lon": 39.646,
+"pop": 163399,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 189280,
+"name": "Lodwar",
+"alt": [
+"LOK",
+"Lodvar",
+"lwdwar",
+"lodvari"
+],
+"cc": "KE",
+"country": "Kenya",
+"lat": 3.12,
+"lon": 35.596,
+"pop": 82970,
+"tz": "Africa/Nairobi"
+},
+{
+"id": 1821306,
+"name": "Phnom Penh",
+"alt": [
+"PNH",
+"phnmpey",
+"fnwm pn",
+"pnwm pn"
+],
+"cc": "KH",
+"country": "Cambodia",
+"lat": 11.562,
+"lon": 104.916,
+"pop": 1573544,
+"tz": "Asia/Phnom_Penh"
+},
+{
+"id": 1821940,
+"name": "Takeo",
+"alt": [
+"takyw",
+"Takêv",
+"Takev",
+"Pràsàt"
+],
+"cc": "KH",
+"country": "Cambodia",
+"lat": 10.991,
+"lon": 104.785,
+"pop": 843931,
+"tz": "Asia/Phnom_Penh"
+},
+{
+"id": 1248991,
+"name": "Colombo",
+"alt": [
+"CMB",
+"klmbw",
+"kwlmbw",
+"kolabo"
+],
+"cc": "LK",
+"country": "Sri Lanka",
+"lat": 6.935,
+"lon": 79.849,
+"pop": 648034,
+"tz": "Asia/Colombo"
+},
+{
+"id": 1234569,
+"name": "Dehiwala-Mount Lavinia",
+"alt": [
+"Mount Lavina",
+"Mount Lavinia",
+"Mount Lavania",
+"Mount Laviniya"
+],
+"cc": "LK",
+"country": "Sri Lanka",
+"lat": 6.84,
+"lon": 79.871,
+"pop": 219827,
+"tz": "Asia/Colombo"
+},
+{
+"id": 1236854,
+"name": "Maharagama",
+"alt": [
+"makarakama",
+"Makharagama",
+"ma ha la gu ma"
+],
+"cc": "LK",
+"country": "Sri Lanka",
+"lat": 6.848,
+"lon": 79.927,
+"pop": 195355,
+"tz": "Asia/Colombo"
+},
+{
+"id": 2274895,
+"name": "Monrovia",
+"alt": [
+"MLW",
+"Monrovi",
+"Monrofia",
+"mwnrwbyh"
+],
+"cc": "LR",
+"country": "Liberia",
+"lat": 6.301,
+"lon": -10.797,
+"pop": 1542549,
+"tz": "Africa/Monrovia"
+},
+{
+"id": 2210247,
+"name": "Tripoli",
+"alt": [
+"Ea",
+"TIP",
+"Oea",
+"Aea"
+],
+"cc": "LY",
+"country": "Libya",
+"lat": 32.887,
+"lon": 13.187,
+"pop": 1302947,
+"tz": "Africa/Tripoli"
+},
+{
+"id": 88319,
+"name": "Benghazi",
+"alt": [
+"BEN",
+"Bengazy",
+"Bängasi",
+"Bengázi"
+],
+"cc": "LY",
+"country": "Libya",
+"lat": 32.115,
+"lon": 20.069,
+"pop": 757490,
+"tz": "Africa/Tripoli"
+},
+{
+"id": 2214846,
+"name": "Misratah",
+"alt": [
+"MRA",
+"msratt",
+"msrath",
+"Misrata"
+],
+"cc": "LY",
+"country": "Libya",
+"lat": 32.375,
+"lon": 15.093,
+"pop": 355657,
+"tz": "Africa/Tripoli"
+},
+{
+"id": 2208485,
+"name": "Zliten",
+"alt": [
+"QZL",
+"zlytn",
+"Zlītan",
+"Zlitan"
+],
+"cc": "LY",
+"country": "Libya",
+"lat": 32.467,
+"lon": 14.569,
+"pop": 203790,
+"tz": "Africa/Tripoli"
+},
+{
+"id": 2553604,
+"name": "Casablanca",
+"alt": [
+"CMN",
+"anfa",
+"Anfa",
+"Anafi"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 33.588,
+"lon": -7.611,
+"pop": 3665954,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2538475,
+"name": "Rabat",
+"alt": [
+"RBA",
+"Raba",
+"Rbat",
+"rbat"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 34.013,
+"lon": -6.833,
+"pop": 1655753,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2548885,
+"name": "Fes",
+"alt": [
+"Fez",
+"FEZ",
+"fas",
+"fezu"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 34.033,
+"lon": -5.0,
+"pop": 1191905,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2530335,
+"name": "Tangier",
+"alt": [
+"TNG",
+"tnjh",
+"tnjt",
+"tanje"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 35.767,
+"lon": -5.8,
+"pop": 1035141,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2542997,
+"name": "Marrakesh",
+"alt": [
+"RAK",
+"mraksh",
+"Marakeş",
+"Marakes"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 31.634,
+"lon": -8.0,
+"pop": 995871,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2537763,
+"name": "Salé",
+"alt": [
+"Slà",
+"Sla",
+"sla",
+"Sala"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 34.053,
+"lon": -6.798,
+"pop": 972299,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2561668,
+"name": "Agadir",
+"alt": [
+"AGA",
+"Irhir",
+"agadyr",
+"akadyr"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 30.42,
+"lon": -9.598,
+"pop": 698310,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 2542715,
+"name": "Meknes",
+"alt": [
+"MEK",
+"mqns",
+"mknas",
+"Mekinez"
+],
+"cc": "MA",
+"country": "Morocco",
+"lat": 33.894,
+"lon": -5.547,
+"pop": 568295,
+"tz": "Africa/Casablanca"
+},
+{
+"id": 1070940,
+"name": "Antananarivo",
+"alt": [
+"TNR",
+"Tana",
+"Tananarive",
+"Tananaribe"
+],
+"cc": "MG",
+"country": "Madagascar",
+"lat": -18.914,
+"lon": 47.536,
+"pop": 1349501,
+"tz": "Indian/Antananarivo"
+},
+{
+"id": 1053384,
+"name": "Toamasina",
+"alt": [
+"TMM",
+"Tamatave",
+"twmasyna",
+"twamsyna"
+],
+"cc": "MG",
+"country": "Madagascar",
+"lat": -18.149,
+"lon": 49.402,
+"pop": 345107,
+"tz": "Indian/Antananarivo"
+},
+{
+"id": 1069166,
+"name": "Antsirabe",
+"alt": [
+"ATJ",
+"Sirabe",
+"Ancirabė",
+"Ancirabe"
+],
+"cc": "MG",
+"country": "Madagascar",
+"lat": -19.866,
+"lon": 47.033,
+"pop": 260907,
+"tz": "Indian/Antananarivo"
+},
+{
+"id": 1062663,
+"name": "Mahajanga",
+"alt": [
+"MJN",
+"majnka",
+"Majunga",
+"mahajaga"
+],
+"cc": "MG",
+"country": "Madagascar",
+"lat": -15.717,
+"lon": 46.317,
+"pop": 260556,
+"tz": "Indian/Antananarivo"
+},
+{
+"id": 1064890,
+"name": "Fianarantsoa",
+"alt": [
+"WFI",
+"Fianarancua",
+"fyanaratswa",
+"fyanarantswa"
+],
+"cc": "MG",
+"country": "Madagascar",
+"lat": -21.453,
+"lon": 47.086,
+"pop": 203105,
+"tz": "Indian/Antananarivo"
+},
+{
+"id": 2460596,
+"name": "Bamako",
+"alt": [
+"BKO",
+"bmqw",
+"Bamaku",
+"bamakw"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 12.609,
+"lon": -7.975,
+"pop": 4227569,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2451185,
+"name": "Sikasso",
+"alt": [
+"KSS",
+"sykasw",
+"Sikaso",
+"sikaso"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 11.318,
+"lon": -5.667,
+"pop": 349324,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2454268,
+"name": "Koutiala",
+"alt": [
+"KTX",
+"Kucala",
+"Kutiala",
+"ku jia la"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 12.387,
+"lon": -5.465,
+"pop": 218031,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2451478,
+"name": "Ségou",
+"alt": [
+"SZU",
+"sgw",
+"Segi",
+"sygw"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 13.44,
+"lon": -6.259,
+"pop": 205787,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2455518,
+"name": "Kayes",
+"alt": [
+"KYS",
+"kyz",
+"kai",
+"kay"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 14.448,
+"lon": -11.444,
+"pop": 194716,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2453348,
+"name": "Mopti",
+"alt": [
+"MZI",
+"Moti",
+"mbty",
+"mwpty"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 14.484,
+"lon": -4.183,
+"pop": 186187,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2455914,
+"name": "Kalaban Koro",
+"alt": [
+"Kalaba",
+"Kalabancoro"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 12.573,
+"lon": -8.029,
+"pop": 148247,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2457163,
+"name": "Gao",
+"alt": [
+"jaw",
+"gaw",
+"GAQ",
+"Gawo"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 16.272,
+"lon": -0.045,
+"pop": 133110,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2455558,
+"name": "Kati",
+"alt": [
+"katy",
+"Katis",
+"ka di",
+"Kati Ville"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 12.744,
+"lon": -8.073,
+"pop": 130254,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2451778,
+"name": "San",
+"alt": [],
+"cc": "ML",
+"country": "Mali",
+"lat": 13.297,
+"lon": -4.896,
+"pop": 103227,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2459775,
+"name": "Bougouni",
+"alt": [
+"Buguni",
+"Bougoum",
+"Bugunin"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 11.418,
+"lon": -7.483,
+"pop": 90234,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2449067,
+"name": "Timbuktu",
+"alt": [
+"TOM",
+"Tumutu",
+"tmbktw",
+"Tombutu"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 16.773,
+"lon": -3.007,
+"pop": 84208,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2455216,
+"name": "Kita",
+"alt": [],
+"cc": "ML",
+"country": "Mali",
+"lat": 13.039,
+"lon": -9.488,
+"pop": 75598,
+"tz": "Africa/Bamako"
+},
+{
+"id": 2594078,
+"name": "Dialakorodji",
+"alt": [
+"Dialakoroji"
+],
+"cc": "ML",
+"country": "Mali",
+"lat": 12.704,
+"lon": -7.965,
+"pop": 70619,
+"tz": "Africa/Bamako"
+},
+{
+"id": 1298824,
+"name": "Yangon",
+"alt": [
+"RGN",
+"Dagon",
+"rngwn",
+"Yanqon"
+],
+"cc": "MM",
+"country": "Myanmar",
+"lat": 16.805,
+"lon": 96.156,
+"pop": 4477638,
+"tz": "Asia/Yangon"
+},
+{
+"id": 1311874,
+"name": "Mandalay",
+"alt": [
+"MDL",
+"madale",
+"mandale",
+"mandaly"
+],
+"cc": "MM",
+"country": "Myanmar",
+"lat": 21.975,
+"lon": 96.084,
+"pop": 1208099,
+"tz": "Asia/Yangon"
+},
+{
+"id": 6611854,
+"name": "Nay Pyi Taw",
+"alt": [
+"NYT",
+"nepido",
+"Nepjido",
+"naepido"
+],
+"cc": "MM",
+"country": "Myanmar",
+"lat": 19.745,
+"lon": 96.13,
+"pop": 925000,
+"tz": "Asia/Yangon"
+},
+{
+"id": 8740157,
+"name": "Hlaingthaya",
+"alt": [
+"Hlaing Tharyar",
+"Hlaing Thar Yar"
+],
+"cc": "MM",
+"country": "Myanmar",
+"lat": 16.85,
+"lon": 96.067,
+"pop": 687867,
+"tz": "Asia/Yangon"
+},
+{
+"id": 2377450,
+"name": "Nouakchott",
+"alt": [
+"NKC",
+"Nwaqcuṭ",
+"huo suo",
+"Nuakxot"
+],
+"cc": "MR",
+"country": "Mauritania",
+"lat": 18.086,
+"lon": -15.979,
+"pop": 1184530,
+"tz": "Africa/Nouakchott"
+},
+{
+"id": 2377457,
+"name": "Nouadhibou",
+"alt": [
+"NDB",
+"Nuadibu",
+"nuadibu",
+"nwadybw"
+],
+"cc": "MR",
+"country": "Mauritania",
+"lat": 20.942,
+"lon": -17.038,
+"pop": 146048,
+"tz": "Africa/Nouakchott"
+},
+{
+"id": 2378538,
+"name": "Kiffa",
+"alt": [
+"KFA",
+"Kīfa",
+"kifa",
+"kipa"
+],
+"cc": "MR",
+"country": "Mauritania",
+"lat": 16.621,
+"lon": -11.402,
+"pop": 62051,
+"tz": "Africa/Nouakchott"
+},
+{
+"id": 11496397,
+"name": "Dar Naim",
+"alt": [
+"Dar-Naim",
+"dara naima",
+"dara na'ima",
+"dara nayema"
+],
+"cc": "MR",
+"country": "Mauritania",
+"lat": 18.108,
+"lon": -15.927,
+"pop": 61089,
+"tz": "Africa/Nouakchott"
+},
+{
+"id": 2377539,
+"name": "Néma",
+"alt": [
+"EMN",
+"nyma"
+],
+"cc": "MR",
+"country": "Mauritania",
+"lat": 16.617,
+"lon": -7.256,
+"pop": 60000,
+"tz": "Africa/Nouakchott"
+},
+{
+"id": 12718654,
+"name": "Mbera",
+"alt": [],
+"cc": "MR",
+"country": "Mauritania",
+"lat": 15.856,
+"lon": -5.791,
+"pop": 58985,
+"tz": "Africa/Nouakchott"
+},
+{
+"id": 927967,
+"name": "Lilongwe",
+"alt": [
+"LLW",
+"lilonve",
+"Lílongve",
+"Lilongvė"
+],
+"cc": "MW",
+"country": "Malawi",
+"lat": -13.967,
+"lon": 33.787,
+"pop": 1115815,
+"tz": "Africa/Blantyre"
+},
+{
+"id": 931755,
+"name": "Blantyre",
+"alt": [
+"BLZ",
+"Kapeni",
+"blntyyr",
+"blantayr"
+],
+"cc": "MW",
+"country": "Malawi",
+"lat": -15.785,
+"lon": 35.009,
+"pop": 902588,
+"tz": "Africa/Blantyre"
+},
+{
+"id": 925475,
+"name": "Mzuzu",
+"alt": [
+"ZZU",
+"Mzuzo",
+"mjuju",
+"mzwzw"
+],
+"cc": "MW",
+"country": "Malawi",
+"lat": -11.466,
+"lon": 34.021,
+"pop": 249564,
+"tz": "Africa/Blantyre"
+},
+{
+"id": 923295,
+"name": "Zomba",
+"alt": [
+"jomba",
+"zonba",
+"song ba",
+"zwmba  malawy"
+],
+"cc": "MW",
+"country": "Malawi",
+"lat": -15.386,
+"lon": 35.319,
+"pop": 118440,
+"tz": "Africa/Blantyre"
+},
+{
+"id": 3530597,
+"name": "Mexico City",
+"alt": [
+"MEX",
+"Cdmx",
+"Nkoyo",
+"Meksyk"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 19.428,
+"lon": -99.128,
+"pop": 12294193,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3981609,
+"name": "Tijuana",
+"alt": [
+"TIJ",
+"Tihuana",
+"Tijuano",
+"tifuana"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 32.503,
+"lon": -117.004,
+"pop": 1922523,
+"tz": "America/Tijuana"
+},
+{
+"id": 3526683,
+"name": "Iztapalapa",
+"alt": [
+"Iztaoalaoa",
+"Istapalapa",
+"Ixtapalapa",
+"Iztapalapan"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 19.355,
+"lon": -99.062,
+"pop": 1835486,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3521081,
+"name": "Puebla",
+"alt": [
+"PBC",
+"Puebl",
+"Pueblo",
+"bwybla"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 19.048,
+"lon": -98.207,
+"pop": 1692181,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3529612,
+"name": "Ecatepec de Morelos",
+"alt": [
+"Morelos",
+"Ecatepec",
+"Ekatepeko",
+"San Cristóbal"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 19.605,
+"lon": -99.061,
+"pop": 1645352,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3991164,
+"name": "Santiago de Querétaro",
+"alt": [
+"QRO",
+"qrtrw",
+"keretaro",
+"keletalo"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 20.588,
+"lon": -100.388,
+"pop": 1594212,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3998655,
+"name": "León de los Aldama",
+"alt": [
+"BJX",
+"León",
+"reon",
+"Leon"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 21.122,
+"lon": -101.683,
+"pop": 1579803,
+"tz": "America/Mexico_City"
+},
+{
+"id": 4013708,
+"name": "Ciudad Juárez",
+"alt": [
+"CJS",
+"Juarez",
+"Juárez",
+"Juarezo"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 31.72,
+"lon": -106.461,
+"pop": 1512450,
+"tz": "America/Ciudad_Juarez"
+},
+{
+"id": 3979770,
+"name": "Zapopan",
+"alt": [
+"sapopan",
+"Sapapan",
+"Sapopan",
+"Sapopano"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 20.721,
+"lon": -103.387,
+"pop": 1476491,
+"tz": "America/Mexico_City"
+},
+{
+"id": 4005539,
+"name": "Guadalajara",
+"alt": [
+"GDL",
+"Atemaxac",
+"gwwdlhrh",
+"Ātemaxac"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 20.677,
+"lon": -103.347,
+"pop": 1385629,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3523349,
+"name": "Mérida",
+"alt": [
+"MID",
+"mardt",
+"melida",
+"Meryda"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 20.967,
+"lon": -89.623,
+"pop": 1201000,
+"tz": "America/Merida"
+},
+{
+"id": 3514674,
+"name": "Gustavo Adolfo Madero",
+"alt": [
+"Guadalupe",
+"Villa Madero",
+"Guadalupe Hidalgo",
+"Gustavo A. Madero"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 19.494,
+"lon": -99.111,
+"pop": 1185772,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3995465,
+"name": "Monterrey",
+"alt": [
+"MTY",
+"mwntry",
+"mwntyry",
+"monteri"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 25.684,
+"lon": -100.317,
+"pop": 1135512,
+"tz": "America/Monterrey"
+},
+{
+"id": 3530589,
+"name": "Ciudad Nezahualcoyotl",
+"alt": [
+"Neza",
+"Cd. Neza",
+"Ciudad Neza",
+"Nezahualcóyotl"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 19.401,
+"lon": -99.015,
+"pop": 1077208,
+"tz": "America/Mexico_City"
+},
+{
+"id": 3996069,
+"name": "Mexicali",
+"alt": [
+"MXL",
+"mqsyqly",
+"mehikari",
+"mksykaly"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 32.628,
+"lon": -115.454,
+"pop": 1032686,
+"tz": "America/Tijuana"
+},
+{
+"id": 4014338,
+"name": "Chihuahua",
+"alt": [
+"CUU",
+"ciwawa",
+"Çivava",
+"Ciuaua"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 28.635,
+"lon": -106.089,
+"pop": 925762,
+"tz": "America/Chihuahua"
+},
+{
+"id": 4004898,
+"name": "Hermosillo",
+"alt": [
+"HMO",
+"Pitic",
+"armwsyw",
+"Ermosijo"
+],
+"cc": "MX",
+"country": "Mexico",
+"lat": 29.089,
+"lon": -110.967,
+"pop": 812229,
+"tz": "America/Hermosillo"
+},
+{
+"id": 1040652,
+"name": "Maputo",
+"alt": [
+"MPM",
+"mpwtw",
+"mabwtw",
+"maputu"
+],
+"cc": "MZ",
+"country": "Mozambique",
+"lat": -25.966,
+"lon": 32.583,
+"pop": 1254837,
+"tz": "Africa/Maputo"
+},
+{
+"id": 1039854,
+"name": "Matola",
+"alt": [
+"matwla",
+"matora",
+"Vila Salazar",
+"Cidade da Matola"
+],
+"cc": "MZ",
+"country": "Mozambique",
+"lat": -25.962,
+"lon": 32.459,
+"pop": 1198988,
+"tz": "Africa/Maputo"
+},
+{
+"id": 1033356,
+"name": "Nampula",
+"alt": [
+"APL",
+"nanpura",
+"nambwla",
+"nampwla"
+],
+"cc": "MZ",
+"country": "Mozambique",
+"lat": -15.116,
+"lon": 39.267,
+"pop": 770379,
+"tz": "Africa/Maputo"
+},
+{
+"id": 1052373,
+"name": "Beira",
+"alt": [
+"BEW",
+"bera",
+"byra",
+"Beyra"
+],
+"cc": "MZ",
+"country": "Mozambique",
+"lat": -19.844,
+"lon": 34.839,
+"pop": 687764,
+"tz": "Africa/Maputo"
+},
+{
+"id": 1049261,
+"name": "Chimoio",
+"alt": [
+"VPY",
+"simoiu",
+"cimoyo",
+"Šimojas"
+],
+"cc": "MZ",
+"country": "Mozambique",
+"lat": -19.116,
+"lon": 33.483,
+"pop": 422046,
+"tz": "Africa/Maputo"
+},
+{
+"id": 1026014,
+"name": "Tete",
+"alt": [
+"tth",
+"TET",
+"tyth",
+"tyty"
+],
+"cc": "MZ",
+"country": "Mozambique",
+"lat": -16.156,
+"lon": 33.587,
+"pop": 357000,
+"tz": "Africa/Maputo"
+},
+{
+"id": 3352136,
+"name": "Windhoek",
+"alt": [
+"WDH",
+"vintok",
+"Windoèk",
+"wyndhwq"
+],
+"cc": "NA",
+"country": "Namibia",
+"lat": -22.559,
+"lon": 17.083,
+"pop": 386219,
+"tz": "Africa/Windhoek"
+},
+{
+"id": 3353383,
+"name": "Rundu",
+"alt": [
+"NDU",
+"rndw",
+"rudu",
+"lundu"
+],
+"cc": "NA",
+"country": "Namibia",
+"lat": -17.918,
+"lon": 19.773,
+"pop": 75180,
+"tz": "Africa/Windhoek"
+},
+{
+"id": 3359638,
+"name": "Walvis Bay",
+"alt": [
+"WVB",
+"wlfs by",
+"Volfis-Bej",
+"Valvis Bej"
+],
+"cc": "NA",
+"country": "Namibia",
+"lat": -22.957,
+"lon": 14.505,
+"pop": 73598,
+"tz": "Africa/Windhoek"
+},
+{
+"id": 2440485,
+"name": "Niamey",
+"alt": [
+"NIM",
+"niame",
+"Niamè",
+"Niame"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 13.514,
+"lon": 2.11,
+"pop": 1323691,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2441291,
+"name": "Maradi",
+"alt": [
+"MFQ",
+"mrady",
+"maladi",
+"Maradis"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 13.5,
+"lon": 7.102,
+"pop": 361702,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2437798,
+"name": "Zinder",
+"alt": [
+"ZND",
+"zndr",
+"zyndr",
+"zidara"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 13.807,
+"lon": 8.988,
+"pop": 318874,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2439376,
+"name": "Tahoua",
+"alt": [
+"THZ",
+"taua",
+"Tahua",
+"tahwa"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 14.889,
+"lon": 5.269,
+"pop": 159468,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2448085,
+"name": "Agadez",
+"alt": [
+"AJY",
+"agadz",
+"Agades",
+"agadyz"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 16.973,
+"lon": 7.991,
+"pop": 149549,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2447513,
+"name": "Arlit",
+"alt": [
+"RLT",
+"Arli",
+"Arhli",
+"arlyt"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 18.737,
+"lon": 7.385,
+"pop": 106448,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2447938,
+"name": "Alaghsas",
+"alt": [
+"Alarsas"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 17.019,
+"lon": 8.017,
+"pop": 88561,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2437732,
+"name": "Birni N Konni",
+"alt": [
+"Konni",
+"Birni-Koni",
+"Birnin Koni",
+"Birnin Konni"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 13.796,
+"lon": 5.25,
+"pop": 85494,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2445488,
+"name": "Dosso",
+"alt": [
+"dwsw",
+"daso",
+"doso",
+"Dosco"
+],
+"cc": "NE",
+"country": "Niger",
+"lat": 13.049,
+"lon": 3.194,
+"pop": 79406,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2444489,
+"name": "Gaya",
+"alt": [],
+"cc": "NE",
+"country": "Niger",
+"lat": 11.884,
+"lon": 3.449,
+"pop": 61533,
+"tz": "Africa/Niamey"
+},
+{
+"id": 2332459,
+"name": "Lagos",
+"alt": [
+"LOS",
+"Eko",
+"Èkó",
+"lagws"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 6.454,
+"lon": 3.395,
+"pop": 15388000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2335204,
+"name": "Kano",
+"alt": [
+"qnw",
+"KAN",
+"kanw",
+"Cano"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 12.0,
+"lon": 8.517,
+"pop": 4910000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2339354,
+"name": "Ibadan",
+"alt": [
+"IBA",
+"abadan",
+"ibadana",
+"aybadan"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 7.378,
+"lon": 3.906,
+"pop": 3649000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2352778,
+"name": "Abuja",
+"alt": [
+"ABV",
+"apuja",
+"Abuya",
+"Abuĝo"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 9.058,
+"lon": 7.495,
+"pop": 2690000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2324774,
+"name": "Port Harcourt",
+"alt": [
+"PHC",
+"Ugwu Ọcha",
+"Ugwu Ocha",
+"potohakoto"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 4.777,
+"lon": 7.013,
+"pop": 2120000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2335727,
+"name": "Kaduna",
+"alt": [
+"KAD",
+"Kadun",
+"qdwnh",
+"Kaduno"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 10.526,
+"lon": 7.439,
+"pop": 1850000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2347283,
+"name": "Benin City",
+"alt": [
+"BNI",
+"bnyn",
+"Benim",
+"Bénin"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 6.338,
+"lon": 5.626,
+"pop": 1782000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2326016,
+"name": "Onitsha",
+"alt": [
+"QNI",
+"Onicjo",
+"Onịchạ",
+"onicha"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 6.15,
+"lon": 6.786,
+"pop": 1553000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2353151,
+"name": "Aba",
+"alt": [
+"QAX",
+"a ba",
+"aba  abya",
+"Aba i Nigeria"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 5.107,
+"lon": 7.367,
+"pop": 1160000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2331447,
+"name": "Maiduguri",
+"alt": [
+"MIU",
+"mydghry",
+"mydwgwry",
+"mayydwgry"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 11.847,
+"lon": 13.157,
+"pop": 1110000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2337639,
+"name": "Ilorin",
+"alt": [
+"ILR",
+"alwrn",
+"Iloryn",
+"alwryn"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 8.497,
+"lon": 4.542,
+"pop": 1080000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2322911,
+"name": "Sokoto",
+"alt": [
+"SKO",
+"Socoto",
+"swkwtw",
+"Sokotas"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 13.063,
+"lon": 5.243,
+"pop": 1040000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2335953,
+"name": "Jos",
+"alt": [
+"jas",
+"jws",
+"Cos",
+"josu"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 9.928,
+"lon": 8.892,
+"pop": 1040000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2317765,
+"name": "Zaria",
+"alt": [
+"ZAR",
+"jalia",
+"Zarja",
+"zarya"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 11.111,
+"lon": 7.723,
+"pop": 980000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2343279,
+"name": "Enugu",
+"alt": [
+"ENU",
+"anwgw",
+"Enuga",
+"anwghw"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 6.441,
+"lon": 7.499,
+"pop": 950000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2319133,
+"name": "Warri",
+"alt": [
+"QRW",
+"wary",
+"wali",
+"wari"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 5.517,
+"lon": 5.75,
+"pop": 910000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2325200,
+"name": "Oyo",
+"alt": [
+"Oio",
+"Ojo",
+"Oió"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 7.854,
+"lon": 3.932,
+"pop": 736072,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2352947,
+"name": "Abeokuta",
+"alt": [
+"QAT",
+"abwkata",
+"abywkwta",
+"abe'okuta"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 7.156,
+"lon": 3.345,
+"pop": 735000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2350841,
+"name": "Akure",
+"alt": [
+"AKR",
+"akule",
+"akwry",
+"akwrh"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 7.253,
+"lon": 5.193,
+"pop": 730000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2347470,
+"name": "Bauchi",
+"alt": [
+"BCU",
+"ba'uci",
+"Yakubu",
+"Baushi"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 10.31,
+"lon": 9.844,
+"pop": 693700,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2351943,
+"name": "Agege",
+"alt": [],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 6.616,
+"lon": 3.333,
+"pop": 683600,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2334802,
+"name": "Katsina",
+"alt": [
+"DKA",
+"ktsyna",
+"Kacina",
+"katsyna"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 12.991,
+"lon": 7.602,
+"pop": 670000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2325590,
+"name": "Osogbo",
+"alt": [
+"aswgbw",
+"awswjbw",
+"awswgbw",
+"osogubo"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 7.771,
+"lon": 4.557,
+"pop": 645000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2338900,
+"name": "Ile-Ife",
+"alt": [
+"Ife"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 7.482,
+"lon": 4.56,
+"pop": 560000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2340451,
+"name": "Gombe",
+"alt": [
+"GMO",
+"jwmby",
+"gwmbh",
+"gonbe"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 10.29,
+"lon": 11.167,
+"pop": 560000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2566636,
+"name": "Ajegunle",
+"alt": [],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 6.452,
+"lon": 3.331,
+"pop": 550000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2325330,
+"name": "Owerri",
+"alt": [
+"QOW",
+"awry",
+"overi",
+"awyry"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 5.484,
+"lon": 7.033,
+"pop": 545000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2346229,
+"name": "Calabar",
+"alt": [
+"CBQ",
+"Kalabar",
+"kalabar",
+"kalabara"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 4.959,
+"lon": 8.327,
+"pop": 540000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 2318044,
+"name": "Yola",
+"alt": [
+"YOL",
+"Jola",
+"yora",
+"ywla"
+],
+"cc": "NG",
+"country": "Nigeria",
+"lat": 9.208,
+"lon": 12.481,
+"pop": 460000,
+"tz": "Africa/Lagos"
+},
+{
+"id": 3617763,
+"name": "Managua",
+"alt": [
+"MGA",
+"Manawa",
+"manakaw",
+"Manaqua"
+],
+"cc": "NI",
+"country": "Nicaragua",
+"lat": 12.133,
+"lon": -86.25,
+"pop": 973087,
+"tz": "America/Managua"
+},
+{
+"id": 3618030,
+"name": "León",
+"alt": [
+"lywn",
+"reon",
+"le-on",
+"leoni"
+],
+"cc": "NI",
+"country": "Nicaragua",
+"lat": 12.435,
+"lon": -86.879,
+"pop": 144538,
+"tz": "America/Managua"
+},
+{
+"id": 1283240,
+"name": "Kathmandu",
+"alt": [
+"KTM",
+"qtmndw",
+"Catmandu",
+"Katmandū"
+],
+"cc": "NP",
+"country": "Nepal",
+"lat": 27.702,
+"lon": 85.321,
+"pop": 1442271,
+"tz": "Asia/Kathmandu"
+},
+{
+"id": 1282898,
+"name": "Pokhara",
+"alt": [
+"PKR",
+"Pokhra",
+"Pakhra",
+"Pokara"
+],
+"cc": "NP",
+"country": "Nepal",
+"lat": 28.267,
+"lon": 83.969,
+"pop": 600051,
+"tz": "Asia/Kathmandu"
+},
+{
+"id": 1283613,
+"name": "Bharatpur",
+"alt": [
+"BHR",
+"bhrtpwr",
+"paretpur",
+"Baratpura"
+],
+"cc": "NP",
+"country": "Nepal",
+"lat": 27.68,
+"lon": 84.436,
+"pop": 369377,
+"tz": "Asia/Kathmandu"
+},
+{
+"id": 287286,
+"name": "Muscat",
+"alt": [
+"MCT",
+"msqt",
+"Múskat",
+"Masqaṭ"
+],
+"cc": "OM",
+"country": "Oman",
+"lat": 23.584,
+"lon": 58.408,
+"pop": 797000,
+"tz": "Asia/Muscat"
+},
+{
+"id": 288967,
+"name": "Seeb",
+"alt": [
+"Síb",
+"Sib",
+"Szíb",
+"Szib"
+],
+"cc": "OM",
+"country": "Oman",
+"lat": 23.67,
+"lon": 58.189,
+"pop": 470878,
+"tz": "Asia/Muscat"
+},
+{
+"id": 288764,
+"name": "Bawshar",
+"alt": [
+"bwshr",
+"Baushar"
+],
+"cc": "OM",
+"country": "Oman",
+"lat": 23.578,
+"lon": 58.4,
+"pop": 383257,
+"tz": "Asia/Muscat"
+},
+{
+"id": 3936456,
+"name": "Lima",
+"alt": [
+"LIM",
+"Lim",
+"lyma",
+"lymh"
+],
+"cc": "PE",
+"country": "Peru",
+"lat": -12.043,
+"lon": -77.028,
+"pop": 7737002,
+"tz": "America/Lima"
+},
+{
+"id": 3946083,
+"name": "Callao",
+"alt": [
+"klaw",
+"kalaw",
+"Kajao",
+"kayaw"
+],
+"cc": "PE",
+"country": "Peru",
+"lat": -12.052,
+"lon": -77.135,
+"pop": 1226200,
+"tz": "America/Lima"
+},
+{
+"id": 3947322,
+"name": "Arequipa",
+"alt": [
+"AQP",
+"arkypa",
+"Arekip",
+"Arekipo"
+],
+"cc": "PE",
+"country": "Peru",
+"lat": -16.399,
+"lon": -71.537,
+"pop": 1195700,
+"tz": "America/Lima"
+},
+{
+"id": 3691175,
+"name": "Trujillo",
+"alt": [
+"TRU",
+"trwhyw",
+"trwkhyw",
+"trujilo"
+],
+"cc": "PE",
+"country": "Peru",
+"lat": -8.116,
+"lon": -79.03,
+"pop": 1067700,
+"tz": "America/Lima"
+},
+{
+"id": 3693528,
+"name": "Piura",
+"alt": [
+"PIU",
+"pywra",
+"pywrh",
+"bywra"
+],
+"cc": "PE",
+"country": "Peru",
+"lat": -5.182,
+"lon": -80.657,
+"pop": 630000,
+"tz": "America/Lima"
+},
+{
+"id": 3698350,
+"name": "Chiclayo",
+"alt": [
+"CIX",
+"chklayw",
+"ciklayo",
+"Ciklajus"
+],
+"cc": "PE",
+"country": "Peru",
+"lat": -6.77,
+"lon": -79.855,
+"pop": 609400,
+"tz": "America/Lima"
+},
+{
+"id": 1692192,
+"name": "Quezon City",
+"alt": [
+"Q.C",
+"Quezon",
+"Kezonurbo",
+"Kezon Siti"
+],
+"cc": "PH",
+"country": "Philippines",
+"lat": 14.649,
+"lon": 121.051,
+"pop": 3084270,
+"tz": "Asia/Manila"
+},
+{
+"id": 1715348,
+"name": "Davao",
+"alt": [
+"DVO",
+"dabao",
+"Davaa",
+"dafaw"
+],
+"cc": "PH",
+"country": "Philippines",
+"lat": 7.073,
+"lon": 125.613,
+"pop": 1848947,
+"tz": "Asia/Manila"
+},
+{
+"id": 1720151,
+"name": "Caloocan",
+"alt": [
+"karokan",
+"Kalukan",
+"kallokan",
+"Kalookan"
+],
+"cc": "PH",
+"country": "Philippines",
+"lat": 14.65,
+"lon": 120.968,
+"pop": 1712945,
+"tz": "Asia/Manila"
+},
+{
+"id": 1701668,
+"name": "Manila",
+"alt": [
+"MNL",
+"mnila",
+"mnylh",
+"Manyl"
+],
+"cc": "PH",
+"country": "Philippines",
+"lat": 14.604,
+"lon": 120.982,
+"pop": 1600000,
+"tz": "Asia/Manila"
+},
+{
+"id": 1172451,
+"name": "Lahore",
+"alt": [
+"LHE",
+"Lahor",
+"lakur",
+"Lohur"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 31.558,
+"lon": 74.351,
+"pop": 13004135,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1174872,
+"name": "Karachi",
+"alt": [
+"KHI",
+"pechs",
+"Karasi",
+"Keraçî"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 24.861,
+"lon": 67.01,
+"pop": 11624219,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1168197,
+"name": "Peshawar",
+"alt": [
+"PEW",
+"pshawr",
+"byshawr",
+"Pesavar"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 34.008,
+"lon": 71.578,
+"pop": 4758762,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1179400,
+"name": "Faisalabad",
+"alt": [
+"LYP",
+"Lyallpur",
+"fysl abad",
+"Fejsalabad"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 31.416,
+"lon": 73.09,
+"pop": 3800193,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1166993,
+"name": "Rawalpindi",
+"alt": [
+"RWP",
+"rawlbndy",
+"rawlpndy",
+"Ravalpinti"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 33.597,
+"lon": 73.048,
+"pop": 3357612,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1177662,
+"name": "Gujranwala",
+"alt": [
+"Gujranvala",
+"Qucranvala",
+"Gajranvala",
+"gujaranvala"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 32.156,
+"lon": 74.187,
+"pop": 2511118,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1169825,
+"name": "Multan",
+"alt": [
+"MUX",
+"Moultan",
+"murutan",
+"multana"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 30.197,
+"lon": 71.478,
+"pop": 2169915,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1176734,
+"name": "Hyderabad",
+"alt": [
+"HDD",
+"hydrabad",
+"Hiderábád",
+"hydr abad"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 25.397,
+"lon": 68.377,
+"pop": 1921275,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1167528,
+"name": "Quetta",
+"alt": [
+"UET",
+"Shal",
+"Shāl",
+"Kveto"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 30.184,
+"lon": 67.001,
+"pop": 1565546,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1183460,
+"name": "Bannu",
+"alt": [
+"BNP",
+"Banu",
+"ban'nu"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 32.985,
+"lon": 70.604,
+"pop": 1357890,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1166000,
+"name": "Sargodha",
+"alt": [
+"SGI",
+"srgwdha",
+"Sargoda",
+"sa ge da"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 32.086,
+"lon": 72.674,
+"pop": 975886,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1164909,
+"name": "Sialkot",
+"alt": [
+"SKT",
+"Sijalkot",
+"Sialkote",
+"ciyalkot"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 32.493,
+"lon": 74.531,
+"pop": 911817,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1183880,
+"name": "Bahawalpur",
+"alt": [
+"BHV",
+"Bakhavalpura"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 29.398,
+"lon": 71.675,
+"pop": 903795,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1184370,
+"name": "Arifwala",
+"alt": [],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 30.291,
+"lon": 73.066,
+"pop": 854462,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1180281,
+"name": "Dera Ismail Khan",
+"alt": [
+"DSK"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 31.831,
+"lon": 70.902,
+"pop": 763195,
+"tz": "Asia/Karachi"
+},
+{
+"id": 1169607,
+"name": "Muzaffarābād",
+"alt": [
+"MFG",
+"mzfrabad",
+"mzfr abad",
+"Muzafarabad"
+],
+"cc": "PK",
+"country": "Pakistan",
+"lat": 34.37,
+"lon": 73.471,
+"pop": 725000,
+"tz": "Asia/Karachi"
+},
+{
+"id": 3439389,
+"name": "Asunción",
+"alt": [
+"ASU",
+"asnshn",
+"Asunson",
+"Asuns'on"
+],
+"cc": "PY",
+"country": "Paraguay",
+"lat": -25.286,
+"lon": -57.647,
+"pop": 1482200,
+"tz": "America/Asuncion"
+},
+{
+"id": 3439101,
+"name": "Ciudad del Este",
+"alt": [
+"AGT",
+"dong fang shi",
+"Kota del Este",
+"sywdad dl asth"
+],
+"cc": "PY",
+"country": "Paraguay",
+"lat": -25.504,
+"lon": -54.651,
+"pop": 301815,
+"tz": "America/Asuncion"
+},
+{
+"id": 202061,
+"name": "Kigali",
+"alt": [
+"KGL",
+"kigari",
+"Kigale",
+"Kigalo"
+],
+"cc": "RW",
+"country": "Rwanda",
+"lat": -1.95,
+"lon": 30.059,
+"pop": 1132686,
+"tz": "Africa/Kigali"
+},
+{
+"id": 202905,
+"name": "Gisenyi",
+"alt": [
+"giseni",
+"jysayny",
+"Nkiseni",
+"Gosenyi"
+],
+"cc": "RW",
+"country": "Rwanda",
+"lat": -1.703,
+"lon": 29.256,
+"pop": 172357,
+"tz": "Africa/Kigali"
+},
+{
+"id": 105343,
+"name": "Jeddah",
+"alt": [
+"JED",
+"jdt",
+"gdh",
+"jdh"
+],
+"cc": "SA",
+"country": "Saudi Arabia",
+"lat": 21.49,
+"lon": 39.186,
+"pop": 4697000,
+"tz": "Asia/Riyadh"
+},
+{
+"id": 108410,
+"name": "Riyadh",
+"alt": [
+"RUH",
+"Riad",
+"ryad",
+"Ríad"
+],
+"cc": "SA",
+"country": "Saudi Arabia",
+"lat": 24.688,
+"lon": 46.722,
+"pop": 4205961,
+"tz": "Asia/Riyadh"
+},
+{
+"id": 104515,
+"name": "Makkah",
+"alt": [
+"mkt",
+"mkh",
+"Meca",
+"Meka"
+],
+"cc": "SA",
+"country": "Saudi Arabia",
+"lat": 21.427,
+"lon": 39.826,
+"pop": 1578722,
+"tz": "Asia/Riyadh"
+},
+{
+"id": 109223,
+"name": "Madinah",
+"alt": [
+"MED",
+"Medin",
+"mdynh",
+"Medîne"
+],
+"cc": "SA",
+"country": "Saudi Arabia",
+"lat": 24.469,
+"lon": 39.614,
+"pop": 1300000,
+"tz": "Asia/Riyadh"
+},
+{
+"id": 110336,
+"name": "Dammam",
+"alt": [
+"DMM",
+"dmam",
+"Damam",
+"damam"
+],
+"cc": "SA",
+"country": "Saudi Arabia",
+"lat": 26.434,
+"lon": 50.103,
+"pop": 1252523,
+"tz": "Asia/Riyadh"
+},
+{
+"id": 101760,
+"name": "Sulţānah",
+"alt": [],
+"cc": "SA",
+"country": "Saudi Arabia",
+"lat": 24.493,
+"lon": 39.586,
+"pop": 946697,
+"tz": "Asia/Riyadh"
+},
+{
+"id": 379252,
+"name": "Khartoum",
+"alt": [
+"KRT",
+"hrtwm",
+"Hartum",
+"khrtwm"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 15.552,
+"lon": 32.532,
+"pop": 1974647,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 365137,
+"name": "Omdurman",
+"alt": [
+"am drman",
+"Omdoerman",
+"Omdurmana",
+"en tu man"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 15.645,
+"lon": 32.478,
+"pop": 1849659,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 379251,
+"name": "Khartoum North",
+"alt": [
+"bhry",
+"Bahrí",
+"Bahri",
+"Barkhi"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 15.649,
+"lon": 32.535,
+"pop": 1012211,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 369004,
+"name": "Nyala",
+"alt": [
+"UYL",
+"Njalo",
+"nyara",
+"Njala"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 12.049,
+"lon": 24.881,
+"pop": 565734,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 377039,
+"name": "Port Sudan",
+"alt": [
+"PZU",
+"Bar'uut",
+"Bur Sudan",
+"potosudan"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 19.617,
+"lon": 37.216,
+"pop": 489725,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 372753,
+"name": "Kassala",
+"alt": [
+"KSL",
+"ksl",
+"ksla",
+"kesela"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 15.451,
+"lon": 36.4,
+"pop": 401477,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 379003,
+"name": "El Obeid",
+"alt": [
+"EBD",
+"alaby",
+"alabyd",
+"Al Ubayd"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 13.184,
+"lon": 30.217,
+"pop": 393311,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 379062,
+"name": "Al Qadarif",
+"alt": [
+"GSU",
+"Gadarif",
+"alqdarf",
+"Gadaref"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 14.035,
+"lon": 35.383,
+"pop": 363945,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 371760,
+"name": "Kosti",
+"alt": [
+"KST",
+"rbk",
+"Costi",
+"Kūstī"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 13.163,
+"lon": 32.663,
+"pop": 345068,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 364103,
+"name": "Wad Medani",
+"alt": [
+"DNI",
+"Medani",
+"wd mdny",
+"wadmdny"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 14.401,
+"lon": 33.52,
+"pop": 332714,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 380148,
+"name": "El Daein",
+"alt": [
+"ADV",
+"erudain",
+"Ad-Duajn",
+"Ad Duajn"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 11.462,
+"lon": 26.126,
+"pop": 264734,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 379555,
+"name": "El Fasher",
+"alt": [
+"ELF",
+"alfashr",
+"Al-Fasir",
+"erufasha"
+],
+"cc": "SD",
+"country": "Sudan",
+"lat": 13.628,
+"lon": 25.349,
+"pop": 252609,
+"tz": "Africa/Khartoum"
+},
+{
+"id": 2409306,
+"name": "Freetown",
+"alt": [
+"FNA",
+"frytwn",
+"Fritaun",
+"frytawn"
+],
+"cc": "SL",
+"country": "Sierra Leone",
+"lat": 8.487,
+"lon": -13.236,
+"pop": 802639,
+"tz": "Africa/Freetown"
+},
+{
+"id": 2407790,
+"name": "Kenema",
+"alt": [
+"KEN",
+"knma",
+"Keneme",
+"kynyma"
+],
+"cc": "SL",
+"country": "Sierra Leone",
+"lat": 7.877,
+"lon": -11.19,
+"pop": 255110,
+"tz": "Africa/Freetown"
+},
+{
+"id": 2253354,
+"name": "Dakar",
+"alt": [
+"dqr",
+"DKR",
+"Dacar",
+"Dacár"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.694,
+"lon": -17.444,
+"pop": 2646503,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2246678,
+"name": "Pikine",
+"alt": [
+"pikin",
+"Pikin",
+"pi jin"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.765,
+"lon": -17.391,
+"pop": 1170791,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2244322,
+"name": "Touba",
+"alt": [
+"Tub",
+"tuba",
+"Tuba",
+"tu ba"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.862,
+"lon": -15.875,
+"pop": 1120824,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2595778,
+"name": "Guédiawaye",
+"alt": [],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.774,
+"lon": -17.402,
+"pop": 329659,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2244802,
+"name": "Thiès",
+"alt": [
+"DSS"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.789,
+"lon": -16.926,
+"pop": 317763,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2250805,
+"name": "Kaolack",
+"alt": [
+"KLC",
+"Kaolak",
+"kawlak",
+"Kaolac"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.152,
+"lon": -16.073,
+"pop": 298904,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2246512,
+"name": "Rufisque",
+"alt": [
+"rwfsk",
+"Rifisk",
+"Roufisk",
+"Rufisko"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.715,
+"lon": -17.273,
+"pop": 295459,
+"tz": "Africa/Dakar"
+},
+{
+"id": 2248477,
+"name": "Mbour",
+"alt": [
+"Mbur",
+"M'bour"
+],
+"cc": "SN",
+"country": "Senegal",
+"lat": 14.422,
+"lon": -16.964,
+"pop": 284189,
+"tz": "Africa/Dakar"
+},
+{
+"id": 53654,
+"name": "Mogadishu",
+"alt": [
+"MGQ",
+"Xamar",
+"mqdyshw",
+"mwgdysw"
+],
+"cc": "SO",
+"country": "Somalia",
+"lat": 2.037,
+"lon": 45.344,
+"pop": 2587183,
+"tz": "Africa/Mogadishu"
+},
+{
+"id": 64021,
+"name": "Borama",
+"alt": [
+"BXX",
+"bwrmt",
+"Boramo",
+"Borime"
+],
+"cc": "SO",
+"country": "Somalia",
+"lat": 9.936,
+"lon": 43.183,
+"pop": 597842,
+"tz": "Africa/Mogadishu"
+},
+{
+"id": 57289,
+"name": "Hargeysa",
+"alt": [
+"HGA",
+"hrjyst",
+"hrjysh",
+"Hargesa"
+],
+"cc": "SO",
+"country": "Somalia",
+"lat": 9.56,
+"lon": 44.065,
+"pop": 477876,
+"tz": "Africa/Mogadishu"
+},
+{
+"id": 64435,
+"name": "Berbera",
+"alt": [
+"BBO",
+"brbrh",
+"brbrt",
+"Berbere"
+],
+"cc": "SO",
+"country": "Somalia",
+"lat": 10.44,
+"lon": 45.014,
+"pop": 242344,
+"tz": "Africa/Mogadishu"
+},
+{
+"id": 55671,
+"name": "Kismayo",
+"alt": [
+"KMU",
+"ksmayw",
+"Kismayu",
+"Kismajo"
+],
+"cc": "SO",
+"country": "Somalia",
+"lat": -0.358,
+"lon": 42.545,
+"pop": 234852,
+"tz": "Africa/Mogadishu"
+},
+{
+"id": 54225,
+"name": "Marka",
+"alt": [
+"mrkh",
+"Merka",
+"Marca",
+"Merca"
+],
+"cc": "SO",
+"country": "Somalia",
+"lat": 1.716,
+"lon": 44.772,
+"pop": 230100,
+"tz": "Africa/Mogadishu"
+},
+{
+"id": 373303,
+"name": "Juba",
+"alt": [
+"JUB",
+"Goba",
+"Uula",
+"jwba"
+],
+"cc": "SS",
+"country": "South Sudan",
+"lat": 4.852,
+"lon": 31.582,
+"pop": 450000,
+"tz": "Africa/Juba"
+},
+{
+"id": 363807,
+"name": "Winejok",
+"alt": [
+"Wanyjok"
+],
+"cc": "SS",
+"country": "South Sudan",
+"lat": 9.012,
+"lon": 27.571,
+"pop": 300000,
+"tz": "Africa/Juba"
+},
+{
+"id": 363619,
+"name": "Yei",
+"alt": [
+"Ej",
+"iei",
+"Yey",
+"yay"
+],
+"cc": "SS",
+"country": "South Sudan",
+"lat": 4.094,
+"lon": 30.676,
+"pop": 260720,
+"tz": "Africa/Juba"
+},
+{
+"id": 370737,
+"name": "Malakal",
+"alt": [
+"MAK",
+"mlkal",
+"mlakal",
+"mallakal"
+],
+"cc": "SS",
+"country": "South Sudan",
+"lat": 9.533,
+"lon": 31.66,
+"pop": 160765,
+"tz": "Africa/Juba"
+},
+{
+"id": 3583361,
+"name": "San Salvador",
+"alt": [
+"SAL",
+"Salvador",
+"sn slwwdwr",
+"sansalwadxr"
+],
+"cc": "SV",
+"country": "El Salvador",
+"lat": 13.689,
+"lon": -89.187,
+"pop": 525990,
+"tz": "America/El_Salvador"
+},
+{
+"id": 3583096,
+"name": "Soyapango",
+"alt": [
+"swyapangw",
+"Zoyapanco",
+"Sojapango",
+"Soyopango"
+],
+"cc": "SV",
+"country": "El Salvador",
+"lat": 13.71,
+"lon": -89.14,
+"pop": 329708,
+"tz": "America/El_Salvador"
+},
+{
+"id": 170063,
+"name": "Aleppo",
+"alt": [
+"hlb",
+"ALP",
+"Alep",
+"Alèp"
+],
+"cc": "SY",
+"country": "Syria",
+"lat": 36.201,
+"lon": 37.161,
+"pop": 2098210,
+"tz": "Asia/Damascus"
+},
+{
+"id": 170654,
+"name": "Damascus",
+"alt": [
+"Şam",
+"DAM",
+"Sam",
+"dmsq"
+],
+"cc": "SY",
+"country": "Syria",
+"lat": 33.51,
+"lon": 36.291,
+"pop": 1569394,
+"tz": "Asia/Damascus"
+},
+{
+"id": 169577,
+"name": "Homs",
+"alt": [
+"hms",
+"QHS",
+"Hims",
+"Hüms"
+],
+"cc": "SY",
+"country": "Syria",
+"lat": 34.724,
+"lon": 36.726,
+"pop": 775404,
+"tz": "Asia/Damascus"
+},
+{
+"id": 173576,
+"name": "Latakia",
+"alt": [
+"LTK",
+"ltqyh",
+"ladhqyt",
+"Latakio"
+],
+"cc": "SY",
+"country": "Syria",
+"lat": 35.531,
+"lon": 35.791,
+"pop": 709000,
+"tz": "Asia/Damascus"
+},
+{
+"id": 172955,
+"name": "Ar Raqqah",
+"alt": [
+"rqh",
+"Raka",
+"Reqa",
+"Rakka"
+],
+"cc": "SY",
+"country": "Syria",
+"lat": 35.953,
+"lon": 39.008,
+"pop": 531952,
+"tz": "Asia/Damascus"
+},
+{
+"id": 2427123,
+"name": "N'Djamena",
+"alt": [
+"NDJ",
+"Lamy",
+"njmyna",
+"Yamena"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 12.107,
+"lon": 15.044,
+"pop": 1359526,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 2427455,
+"name": "Moundou",
+"alt": [
+"MQQ",
+"mndw",
+"mundu",
+"Mondu"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 8.574,
+"lon": 16.077,
+"pop": 196124,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 245785,
+"name": "Abéché",
+"alt": [
+"AEH",
+"Abese",
+"abshy",
+"abese"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 13.829,
+"lon": 20.832,
+"pop": 139983,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 2425791,
+"name": "Sarh",
+"alt": [
+"SRH",
+"sar",
+"sart",
+"sara"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 9.146,
+"lon": 18.383,
+"pop": 138928,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 2430506,
+"name": "Kelo",
+"alt": [
+"Kel"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 9.309,
+"lon": 15.807,
+"pop": 82677,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 245338,
+"name": "Am Timan",
+"alt": [
+"AMC",
+"am tyman",
+"Am-Timan",
+"Am Timane"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 11.043,
+"lon": 20.283,
+"pop": 74691,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 2433437,
+"name": "Doba",
+"alt": [
+"dwba"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 8.664,
+"lon": 16.853,
+"pop": 70942,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 2426240,
+"name": "Pala",
+"alt": [
+"PLF",
+"para",
+"bala",
+"Palla"
+],
+"cc": "TD",
+"country": "Chad",
+"lat": 9.365,
+"lon": 14.907,
+"pop": 70677,
+"tz": "Africa/Ndjamena"
+},
+{
+"id": 2365267,
+"name": "Lomé",
+"alt": [
+"lwm",
+"LFW",
+"rome",
+"lwmy"
+],
+"cc": "TG",
+"country": "Togo",
+"lat": 6.129,
+"lon": 1.222,
+"pop": 2188376,
+"tz": "Africa/Lome"
+},
+{
+"id": 2364104,
+"name": "Sokodé",
+"alt": [
+"swkwdh",
+"Sokonte",
+"swkwdyh",
+"sokwede"
+],
+"cc": "TG",
+"country": "Togo",
+"lat": 8.983,
+"lon": 1.133,
+"pop": 117811,
+"tz": "Africa/Lome"
+},
+{
+"id": 2366152,
+"name": "Kara",
+"alt": [
+"Qora",
+"Lama",
+"Lama-Kara"
+],
+"cc": "TG",
+"country": "Togo",
+"lat": 9.551,
+"lon": 1.186,
+"pop": 104207,
+"tz": "Africa/Lome"
+},
+{
+"id": 1609350,
+"name": "Bangkok",
+"alt": [
+"BKK",
+"bnkak",
+"Bankok",
+"man gu"
+],
+"cc": "TH",
+"country": "Thailand",
+"lat": 13.754,
+"lon": 100.501,
+"pop": 5104476,
+"tz": "Asia/Bangkok"
+},
+{
+"id": 1606590,
+"name": "Samut Prakan",
+"alt": [
+"Samut",
+"Pakham",
+"Paknam",
+"Paakunamu"
+],
+"cc": "TH",
+"country": "Thailand",
+"lat": 13.598,
+"lon": 100.597,
+"pop": 388920,
+"tz": "Asia/Bangkok"
+},
+{
+"id": 1608133,
+"name": "Mueang Nonthaburi",
+"alt": [
+"Non Buri",
+"Nondaburi",
+"Nonthaburi",
+"Nondha Buri"
+],
+"cc": "TH",
+"country": "Thailand",
+"lat": 13.861,
+"lon": 100.515,
+"pop": 254375,
+"tz": "Asia/Bangkok"
+},
+{
+"id": 2464470,
+"name": "Tunis",
+"alt": [
+"TUN",
+"twns",
+"Tunes",
+"Tinis"
+],
+"cc": "TN",
+"country": "Tunisia",
+"lat": 36.819,
+"lon": 10.166,
+"pop": 693210,
+"tz": "Africa/Tunis"
+},
+{
+"id": 2467454,
+"name": "Sfax",
+"alt": [
+"SFA",
+"spqs",
+"Sfvks",
+"sfaqs"
+],
+"cc": "TN",
+"country": "Tunisia",
+"lat": 34.741,
+"lon": 10.76,
+"pop": 280566,
+"tz": "Africa/Tunis"
+},
+{
+"id": 2464915,
+"name": "Sousse",
+"alt": [
+"QSO",
+"Sus",
+"Suss",
+"susu"
+],
+"cc": "TN",
+"country": "Tunisia",
+"lat": 35.825,
+"lon": 10.637,
+"pop": 221715,
+"tz": "Africa/Tunis"
+},
+{
+"id": 2464960,
+"name": "Sukrah",
+"alt": [
+"skrt",
+"Soukra",
+"La Soukra"
+],
+"cc": "TN",
+"country": "Tunisia",
+"lat": 36.877,
+"lon": 10.247,
+"pop": 159862,
+"tz": "Africa/Tunis"
+},
+{
+"id": 160263,
+"name": "Dar es Salaam",
+"alt": [
+"DAR",
+"Ntontoma",
+"Darasalam",
+"Dárasalám"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -6.823,
+"lon": 39.27,
+"pop": 5383728,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 152224,
+"name": "Mwanza",
+"alt": [
+"MWZ",
+"mvanza",
+"Mwansa",
+"Muanza"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -2.517,
+"lon": 32.9,
+"pop": 1104521,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 160196,
+"name": "Dodoma",
+"alt": [
+"DOD",
+"Dodom",
+"Dadoma",
+"dwdwma"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -6.172,
+"lon": 35.739,
+"pop": 765179,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 148730,
+"name": "Zanzibar",
+"alt": [
+"ZNZ",
+"Unguja",
+"znjbar",
+"zngbar"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -6.164,
+"lon": 39.198,
+"pop": 709809,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 161325,
+"name": "Arusha",
+"alt": [
+"ARK",
+"Aruŝo",
+"Aruşa",
+"Arusa"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -3.367,
+"lon": 36.683,
+"pop": 617631,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 154380,
+"name": "Mbeya",
+"alt": [
+"MBI",
+"mlya",
+"Mbee",
+"mbya"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -8.9,
+"lon": 33.45,
+"pop": 541603,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 153220,
+"name": "Morogoro",
+"alt": [
+"Mrogoro",
+"Murogoro",
+"mologolo",
+"mwrwgwrw"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -6.821,
+"lon": 37.661,
+"pop": 471409,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 158597,
+"name": "Kahama",
+"alt": [
+"KBH",
+"Kakhama",
+"ka ha ma"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -3.833,
+"lon": 32.6,
+"pop": 453654,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 149606,
+"name": "Tanga",
+"alt": [
+"TGT",
+"tnja",
+"Longa",
+"taniga"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -5.069,
+"lon": 39.099,
+"pop": 393429,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 159908,
+"name": "Geita",
+"alt": [
+"GIT",
+"gyta",
+"jyta",
+"Gejta"
+],
+"cc": "TZ",
+"country": "Tanzania",
+"lat": -2.873,
+"lon": 32.233,
+"pop": 318006,
+"tz": "Africa/Dar_es_Salaam"
+},
+{
+"id": 232422,
+"name": "Kampala",
+"alt": [
+"KLA",
+"qmplh",
+"kmpala",
+"kmbala"
+],
+"cc": "UG",
+"country": "Uganda",
+"lat": 0.316,
+"lon": 32.582,
+"pop": 1680600,
+"tz": "Africa/Kampala"
+},
+{
+"id": 10943053,
+"name": "Nansana",
+"alt": [],
+"cc": "UG",
+"country": "Uganda",
+"lat": 0.364,
+"lon": 32.529,
+"pop": 532800,
+"tz": "Africa/Kampala"
+},
+{
+"id": 231165,
+"name": "Kira",
+"alt": [],
+"cc": "UG",
+"country": "Uganda",
+"lat": 0.4,
+"lon": 32.633,
+"pop": 462900,
+"tz": "Africa/Kampala"
+},
+{
+"id": 234179,
+"name": "Bunamwaya",
+"alt": [],
+"cc": "UG",
+"country": "Uganda",
+"lat": 0.253,
+"lon": 32.557,
+"pop": 413400,
+"tz": "Africa/Kampala"
+},
+{
+"id": 10858926,
+"name": "Kyengera",
+"alt": [],
+"cc": "UG",
+"country": "Uganda",
+"lat": 0.295,
+"lon": 32.502,
+"pop": 285400,
+"tz": "Africa/Kampala"
+},
+{
+"id": 229268,
+"name": "Mbarara",
+"alt": [
+"MBQ",
+"Barara",
+"mabarara",
+"mubarara"
+],
+"cc": "UG",
+"country": "Uganda",
+"lat": -0.605,
+"lon": 30.649,
+"pop": 221300,
+"tz": "Africa/Kampala"
+},
+{
+"id": 3646738,
+"name": "Caracas",
+"alt": [
+"CCS",
+"kraks",
+"Caracae",
+"Karakas"
+],
+"cc": "VE",
+"country": "Venezuela",
+"lat": 10.488,
+"lon": -66.879,
+"pop": 3000000,
+"tz": "America/Caracas"
+},
+{
+"id": 3633009,
+"name": "Maracaibo",
+"alt": [
+"MAR",
+"Marakaaya",
+"Marakaibo",
+"Marakajba"
+],
+"cc": "VE",
+"country": "Venezuela",
+"lat": 10.642,
+"lon": -71.611,
+"pop": 1752602,
+"tz": "America/Caracas"
+},
+{
+"id": 3625549,
+"name": "Valencia",
+"alt": [
+"VLN",
+"blnsyt",
+"Valens",
+"wlnsyh"
+],
+"cc": "VE",
+"country": "Venezuela",
+"lat": 10.162,
+"lon": -68.0,
+"pop": 1619470,
+"tz": "America/Caracas"
+},
+{
+"id": 3648522,
+"name": "Barquisimeto",
+"alt": [
+"BRM",
+"brqysymtw",
+"barkysymtw",
+"barkisimeto"
+],
+"cc": "VE",
+"country": "Venezuela",
+"lat": 10.065,
+"lon": -69.357,
+"pop": 1240714,
+"tz": "America/Caracas"
+},
+{
+"id": 1566083,
+"name": "Ho Chi Minh City",
+"alt": [
+"Hcm",
+"SGN",
+"HCMC",
+"HCMV"
+],
+"cc": "VN",
+"country": "Vietnam",
+"lat": 10.823,
+"lon": 106.63,
+"pop": 14002598,
+"tz": "Asia/Ho_Chi_Minh"
+},
+{
+"id": 1581130,
+"name": "Hanoi",
+"alt": [
+"HAN",
+"Anoy",
+"Anoi",
+"Anòy"
+],
+"cc": "VN",
+"country": "Vietnam",
+"lat": 21.024,
+"lon": 105.841,
+"pop": 8053663,
+"tz": "Asia/Bangkok"
+},
+{
+"id": 1581298,
+"name": "Haiphong",
+"alt": [
+"HPH",
+"Hayfon",
+"haifon",
+"Khajfon"
+],
+"cc": "VN",
+"country": "Vietnam",
+"lat": 20.865,
+"lon": 106.683,
+"pop": 2625200,
+"tz": "Asia/Bangkok"
+},
+{
+"id": 71137,
+"name": "Sanaa",
+"alt": [
+"SAH",
+"sana",
+"Sano",
+"Sana"
+],
+"cc": "YE",
+"country": "Yemen",
+"lat": 15.355,
+"lon": 44.206,
+"pop": 1937451,
+"tz": "Asia/Aden"
+},
+{
+"id": 415189,
+"name": "Aden",
+"alt": [
+"ADE",
+"Adem",
+"Adan",
+"Adeno"
+],
+"cc": "YE",
+"country": "Yemen",
+"lat": 12.78,
+"lon": 45.039,
+"pop": 1079670,
+"tz": "Asia/Aden"
+},
+{
+"id": 70225,
+"name": "Taiz",
+"alt": [
+"TAI",
+"Taez",
+"Taëz",
+"taizu"
+],
+"cc": "YE",
+"country": "Yemen",
+"lat": 13.58,
+"lon": 44.021,
+"pop": 940600,
+"tz": "Asia/Aden"
+},
+{
+"id": 74477,
+"name": "Ibb",
+"alt": [
+"ab",
+"iba",
+"ibeu",
+"Ibas"
+],
+"cc": "YE",
+"country": "Yemen",
+"lat": 13.967,
+"lon": 44.183,
+"pop": 771514,
+"tz": "Asia/Aden"
+},
+{
+"id": 79415,
+"name": "Al Ḩudaydah",
+"alt": [
+"HOD",
+"hdydh",
+"Hodeida",
+"Hudaida"
+],
+"cc": "YE",
+"country": "Yemen",
+"lat": 14.798,
+"lon": 42.955,
+"pop": 734699,
+"tz": "Asia/Aden"
+},
+{
+"id": 78754,
+"name": "Mukalla",
+"alt": [
+"MKX",
+"RIY",
+"mkla",
+"mukala"
+],
+"cc": "YE",
+"country": "Yemen",
+"lat": 14.542,
+"lon": 49.124,
+"pop": 594951,
+"tz": "Asia/Aden"
+},
+{
+"id": 993800,
+"name": "Johannesburg",
+"alt": [
+"JNB",
+"IGoli",
+"EGoli",
+"Joburg"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -26.202,
+"lon": 28.044,
+"pop": 9418183,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 3369157,
+"name": "Cape Town",
+"alt": [
+"CPT",
+"iKapa",
+"IKapa",
+"Lo Cap"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -33.926,
+"lon": 18.423,
+"pop": 4772846,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 1007311,
+"name": "Durban",
+"alt": [
+"DUR",
+"drbn",
+"daban",
+"ITheku"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -29.858,
+"lon": 31.029,
+"pop": 3338026,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 964137,
+"name": "Pretoria",
+"alt": [
+"PRY",
+"Pta",
+"Pitori",
+"prtwrya"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -25.745,
+"lon": 28.188,
+"pop": 2112693,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 953781,
+"name": "Soweto",
+"alt": [
+"swwtw",
+"swytw",
+"Soueto",
+"soueto"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -26.268,
+"lon": 27.858,
+"pop": 1695047,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 964420,
+"name": "Gqeberha",
+"alt": [
+"PLZ",
+"Ibhayi",
+"IBhayi",
+"die Baai"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -33.961,
+"lon": 25.615,
+"pop": 1050078,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 954013,
+"name": "Soshanguve",
+"alt": [],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -25.473,
+"lon": 28.099,
+"pop": 872309,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 965301,
+"name": "Pietermaritzburg",
+"alt": [
+"PZB",
+"Maritzburg",
+"Mokokotlofo",
+"pytrmartsbrg"
+],
+"cc": "ZA",
+"country": "South Africa",
+"lat": -29.617,
+"lon": 30.393,
+"pop": 839327,
+"tz": "Africa/Johannesburg"
+},
+{
+"id": 909137,
+"name": "Lusaka",
+"alt": [
+"LUN",
+"lwsqh",
+"Lusak",
+"lwsaka"
+],
+"cc": "ZM",
+"country": "Zambia",
+"lat": -15.407,
+"lon": 28.287,
+"pop": 2212301,
+"tz": "Africa/Lusaka"
+},
+{
+"id": 911148,
+"name": "Kitwe",
+"alt": [
+"KIW",
+"Kitve",
+"kytwy",
+"Kitvė"
+],
+"cc": "ZM",
+"country": "Zambia",
+"lat": -12.802,
+"lon": 28.213,
+"pop": 665961,
+"tz": "Africa/Lusaka"
+},
+{
+"id": 901344,
+"name": "Ndola",
+"alt": [
+"NLA",
+"ndora",
+"ndwla",
+"Ntola"
+],
+"cc": "ZM",
+"country": "Zambia",
+"lat": -12.959,
+"lon": 28.637,
+"pop": 627503,
+"tz": "Africa/Lusaka"
+},
+{
+"id": 918702,
+"name": "Chipata",
+"alt": [
+"CIP",
+"Čipata",
+"chpata",
+"cipata"
+],
+"cc": "ZM",
+"country": "Zambia",
+"lat": -13.633,
+"lon": 32.65,
+"pop": 327059,
+"tz": "Africa/Lusaka"
+},
+{
+"id": 897045,
+"name": "Solwezi",
+"alt": [
+"SLI",
+"swlwzy",
+"Solwesi",
+"swlwyzy"
+],
+"cc": "ZM",
+"country": "Zambia",
+"lat": -12.169,
+"lon": 26.389,
+"pop": 301370,
+"tz": "Africa/Lusaka"
+},
+{
+"id": 916095,
+"name": "Kabwe",
+"alt": [
+"QKE",
+"kabwh",
+"kabwy",
+"Kabve"
+],
+"cc": "ZM",
+"country": "Zambia",
+"lat": -14.447,
+"lon": 28.446,
+"pop": 288598,
+"tz": "Africa/Lusaka"
+},
+{
+"id": 890299,
+"name": "Harare",
+"alt": [
+"HRE",
+"hrary",
+"hrarh",
+"Arare"
+],
+"cc": "ZW",
+"country": "Zimbabwe",
+"lat": -17.828,
+"lon": 31.053,
+"pop": 1542813,
+"tz": "Africa/Harare"
+},
+{
+"id": 894701,
+"name": "Bulawayo",
+"alt": [
+"BUQ",
+"blawyw",
+"bwlawyw",
+"burawayo"
+],
+"cc": "ZW",
+"country": "Zimbabwe",
+"lat": -20.15,
+"lon": 28.583,
+"pop": 665952,
+"tz": "Africa/Harare"
+},
+{
+"id": 1106542,
+"name": "Chitungwiza",
+"alt": [
+"Citungviza",
+"Čitungviza",
+"chytwngwyza",
+"Chitungviza"
+],
+"cc": "ZW",
+"country": "Zimbabwe",
+"lat": -18.013,
+"lon": 31.076,
+"pop": 371246,
+"tz": "Africa/Harare"
+},
+{
+"id": 884979,
+"name": "Mutare",
+"alt": [
+"UTA",
+"mutale",
+"mwtarh",
+"Umtali"
+],
+"cc": "ZW",
+"country": "Zimbabwe",
+"lat": -18.971,
+"lon": 32.671,
+"pop": 224802,
+"tz": "Africa/Harare"
+},
+{
+"id": 1085510,
+"name": "Epworth",
+"alt": [],
+"cc": "ZW",
+"country": "Zimbabwe",
+"lat": -17.89,
+"lon": 31.148,
+"pop": 206365,
+"tz": "Africa/Harare"
+},
+{
+"id": 890422,
+"name": "Gweru",
+"alt": [
+"GWE",
+"Gvru",
+"gwyrw",
+"jwyrw"
+],
+"cc": "ZW",
+"country": "Zimbabwe",
+"lat": -19.45,
+"lon": 29.817,
+"pop": 158200,
+"tz": "Africa/Harare"
+}
+]

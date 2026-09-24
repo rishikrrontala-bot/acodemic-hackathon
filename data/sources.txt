@@ -1,0 +1,20 @@
+# local-file-name  url   (fetched by scripts/data/fetch_sources.sh in the data job)
+usaid-ddl-mali-rows.csv https://data.usaid.gov/api/views/7i5b-eeqg/rows.csv?accessType=DOWNLOAD
+usaid-ddl-mali-meta.json https://data.usaid.gov/api/views/7i5b-eeqg.json
+datagov-mali-package.json https://catalog.data.gov/api/3/action/package_show?id=vegetable-cooling-and-storage-evaluation-in-mali
+datagov-sandbox-mali.html https://catalog-next.sandbox.datagov.us/dataset/vegetable-cooling-and-storage-evaluation-in-mali
+dspace-116211.html https://dspace.mit.edu/handle/1721.1/116211
+dspace-114205.html https://dspace.mit.edu/handle/1721.1/114205
+worldveg-73619.html https://worldveg.tind.io/record/73619
+dlab-claypot-report-2016-2021.pdf https://d-lab.mit.edu/sites/default/files/inline-files/MIT%20D-Lab%20Clay%20Pot%20Cooler%20Report%202016-2021%2020230113.pdf
+dlab-mali-exec-summary.pdf https://d-lab.mit.edu/sites/default/files/inline-files/Evaporative%20Cooling%20Technologies%20for%20Improved%20Vegetable%20Storage%20in%20Mali%20-%20Executive%20Summary.pdf
+dlab-claypot-page.html https://d-lab.mit.edu/research/evaporative-cooling-vegetable-preservation/clay-pot-coolers
+dlab-mali-training-impact.pdf https://d-lab.mit.edu/sites/default/files/inline-files/Clay%20Pot%20Cooler%20Training%20in%20Mali%20-%20Outcomes%20and%20Impact%20Study%2011-22-2022.pdf
+usda-hb66.pdf https://www.ars.usda.gov/ARSUserFiles/oc/np/CommercialStorage/CommercialStorage.pdf
+kader-ch4-ufl.pdf https://irrec.ifas.ufl.edu/postharvest/HOS_5085C/Reading%20Assignments/Kader%20Chapter%204.pdf
+fao-sofa-2019-key.html https://www.fao.org/interactive/state-of-food-agriculture/2019/en/
+unep-fwi-2024-key-messages.pdf https://wedocs.unep.org/rest/api/core/bitstreams/5a45a93c-93b9-4606-a9db-ed69d7158931/content
+power-api-docs.html https://power.larc.nasa.gov/docs/services/api/temporal/climatology/
+wikipedia-pot-in-pot.html https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator
+rolex-bah-abba.html https://www.rolex.org/rolex-awards/applied-technology/mohammed-bah-abba
+e4c-zeer.html https://www.engineeringforchange.org/solutions/product/zeer-pot/
