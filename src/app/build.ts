@@ -70,6 +70,7 @@ export function createBuild(store: Store): HTMLElement {
     // Principle 1: tell her when it won't work, before telling her how to build it.
     const works = model.summary.worksMonths;
     card.dataset.verdict = m.verdict;
+    intro.hidden = m.verdict !== 'works';
     if (m.verdict === 'works') {
       advice.hidden = true;
       stepsWrap.open = true;

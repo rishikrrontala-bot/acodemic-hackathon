@@ -52,12 +52,10 @@ export function createStation(store: Store, towns: TownRecord[]): HTMLElement {
     nowLine,
     h('section', { class: 'month-now', 'aria-labelledby': 'month-name' },
       h('div', { class: 'month-head' }, Object.assign(monthName, { id: 'month-name' }), chip),
+      h('p', { class: 'big' }, bigNum, h('span', { class: 'big-text' }, bigLabel, bigRange)),
+      h('figure', { class: 'pot-figure' }, pot.root, potKeyTitle, potKey),
       why,
-      h('div', { class: 'month-body' },
-        h('figure', { class: 'pot-figure' }, pot.root, potKeyTitle, potKey),
-        h('div', { class: 'month-nums' },
-          h('p', { class: 'big' }, bigNum, h('span', { class: 'big-text' }, bigLabel, bigRange)),
-          avgLine))),
+      avgLine),
   );
   nowBtn.addEventListener('click', () => store.set({ month: new Date().getMonth() }));
 

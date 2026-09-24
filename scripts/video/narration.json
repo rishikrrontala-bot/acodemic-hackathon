@@ -1,0 +1,13 @@
+[
+  { "id": "wow", "text": "This is two clay pots and some wet sand. In Mopti, Mali, in March, it keeps vegetables about ten degrees cooler than the afternoon air, with no electricity." },
+  { "id": "august", "text": "Drag to August. The rains come, and the same pot barely cools. Zeer tells you that too." },
+  { "id": "problem", "text": "About thirteen percent of the world's food is lost between harvest and the market, and fruit and vegetables lose the most. In sub-Saharan Africa, five hundred and sixty-five million people have no electricity, so a fridge isn't an option. And many of the people selling vegetables in the heat are women." },
+  { "id": "what", "text": "The clay-pot cooler already exists. What nobody tells the seller is whether it will work in her town, this month. Zeer does, for four hundred and ninety-two towns, in three languages, offline." },
+  { "id": "kano", "text": "Here's Kano, in Nigeria. It works from February to April." },
+  { "id": "crops", "text": "In March, tomatoes last about one and a half times as long. If they last three days on the table, that's four or five in the pot. Onions, milk and medicines never go in, and Zeer says so every time." },
+  { "id": "build", "text": "It sizes the pot from how much you store, and tells you how much water to add each day, following MIT D-Lab's build guide." },
+  { "id": "check", "text": "Already built one? Read two thermometers. Zeer compares your pot with the ones D-Lab measured in Mali, and tells you what to fix." },
+  { "id": "how", "text": "Under the hood it's physics, not AI: twenty years of NASA climate data, the wet-bulb temperature from engineering equations, and a pot efficiency calibrated on D-Lab's field measurements. Checked against measurements it wasn't tuned on: on humid days, Zeer predicts one point six degrees of cooling. D-Lab measured one point eight." },
+  { "id": "map", "text": "Here's every town, month by month. Only a hundred and sixty-six of the four hundred and ninety-two get even one month where the pot works well. That's the point: it's great in dry heat and useless in humid heat, and Zeer tells you which one you have." },
+  { "id": "close", "text": "No account, no key, and it works on a cheap phone. It hasn't been tested with real sellers yet; that's next. Zeer, for SDG targets twelve point three and two point three. Built by Rishik Rontala." }
+]

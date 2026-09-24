@@ -8,7 +8,7 @@ export const es: Dict = {
   loading: 'Cargando 20 años de clima para 492 ciudades…',
   loadFailed: 'Los datos del clima no cargaron. Revisa tu conexión y vuelve a cargar la página.',
   tagline: 'Para quienes venden en el mercado sin electricidad: un refrigerador hecho de dos ollas de barro y arena mojada, calculado para tu ciudad, tu mes y tus cultivos.',
-  nav: { year: 'El año', build: 'Constrúyela', check: 'Revisar mi olla', why: 'Por qué importa · ODS 12.3, 2.3' },
+  nav: { year: 'Año', build: 'Construir', check: 'Revisar', why: 'Por qué importa · ODS 12.3, 2.3' },
   navLabel: 'Secciones',
   settings: 'Ajustes',
   language: 'Idioma',

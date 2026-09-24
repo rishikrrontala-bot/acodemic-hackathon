@@ -6,7 +6,7 @@ export const en = {
   loading: 'Loading 20 years of climate for 492 towns…',
   loadFailed: 'The climate data did not load. Check your connection and reload the page.',
   tagline: 'For market sellers with no electricity: a fridge made of two clay pots and wet sand, planned for your town, your month and your crop.',
-  nav: { year: 'The year', build: 'Build it', check: 'Check my pot', why: 'Why it matters · SDG 12.3, 2.3' },
+  nav: { year: 'Year', build: 'Build', check: 'Check', why: 'Why it matters · SDG 12.3, 2.3' },
   navLabel: 'Sections',
   settings: 'Settings',
   language: 'Language',

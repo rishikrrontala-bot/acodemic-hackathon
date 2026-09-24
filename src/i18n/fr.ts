@@ -8,7 +8,7 @@ export const fr: Dict = {
   loading: 'Chargement de 20 ans de climat pour 492 villes…',
   loadFailed: 'Les données climatiques ne se sont pas chargées. Vérifiez votre connexion et rechargez la page.',
   tagline: 'Pour les vendeuses et vendeurs sans électricité : le canari-frigo, un frigo fait de deux jarres en terre cuite et de sable mouillé, calculé pour votre ville, votre mois et vos légumes.',
-  nav: { year: 'L’année', build: 'La fabriquer', check: 'Vérifier ma jarre', why: 'Pourquoi c’est important · ODD 12.3, 2.3' },
+  nav: { year: 'Année', build: 'Fabriquer', check: 'Vérifier', why: 'Pourquoi · ODD 12.3, 2.3' },
   navLabel: 'Sections',
   settings: 'Réglages',
   language: 'Langue',

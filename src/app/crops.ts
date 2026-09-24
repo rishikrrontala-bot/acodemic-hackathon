@@ -112,12 +112,11 @@ export function createCrops(store: Store): HTMLElement {
     // phone: the selected month as a list, one tap per crop
     mobileList.replaceChildren(...SUITED.map((c) => {
       const rr = model.shelf.get(c.id)![st.month]!;
-      const dd = daysInPot(st.baselineDays, rr);
-      const a = Math.max(st.baselineDays, Math.round(dd.low));
-      const b = Math.max(a, Math.round(dd.high));
+      const lo = mult(rr.low, st.lang);
+      const hi = mult(rr.high, st.lang);
       return h('li', {}, h('button', { type: 'button', class: 'crop-row', 'data-crop': c.id, 'aria-pressed': c.id === st.crop ? 'true' : 'false' },
         h('span', { class: 'crop-row-name' }, d.crop[c.id]!),
-        h('span', { class: 'crop-row-val' }, d.cropDays(a === b ? num(a, st.lang) : `${num(a, st.lang)}–${num(b, st.lang)}`))));
+        h('span', { class: 'crop-row-val' }, lo === hi ? d.times(lo) : d.timesRange(lo, hi))));
     }));
 
     setText(keepTitle, d.keepOutTitle);
