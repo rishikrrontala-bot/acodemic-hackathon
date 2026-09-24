@@ -1,0 +1,336 @@
+CLAY POT COOLERS
+Preserving Fruits & Vegetables in Mali
+              Report 2016-2021:
+      Suitability evaluation, lab testing,
+         training, and dissemination
+
+
+
+
+      MIT D-Lab Evaporative Cooling
+             Research Group
+                  October 2021
+Clay Pot Coolers: Project Overview
+Food, water, and electricity are considered basic needs by                   with wet sand. When the water from the outer surface
+many, but these are still luxuries to many people around                     evaporates, the inside of the container—where the vege-
+the world. Imagine spending up to an hour walking to                         tables are stored—is cooled.
+purchase vegetables every day because you don’t have           While clay pot coolers and other evaporative cooling
+a way to store vegetables                                                                   technologies have been
+that keeps them fresh and                                                                   shown to effectively in-
+pest-free. This is exact-                                                                   crease the shelf life of
+ly what happens to many                                                                     many fruits and vegeta-
+people in communities                                                                       bles, these technologies
+where access to electrici-                                                                  have not gained wide-
+ty or affordable vegetable                                                                  spread adoption. This is
+preservation methods are                                                                    due to the lack of prod-
+limited. In Sub-Saharan                                                                     uct evaluations based
+Africa alone, 30% to 50%                                                                    on real-world scenarios
+of fruits and vegetables                                                                    and user behavior to in-
+harvested are lost before                                                                   form the design of dis-
+reaching the consumer.                                                                      semination programs.
+One way this problem can                                                                    MIT D-Lab’s Evaporative
+be addressed is through                                                                     Cooling research group
+the promotion and use of Clay pot cooler schematic based on work by Peter Rinker, Movement aims to bridge this gap
+clay pot coolers for storing e.V. and redesigned by Melissa Mangino.                        and increase the dissem-
+and preserving fruits and                                                                   ination of clay pot cool-
+vegetables. They are an affordable and accessible solu- ers in appropriate contexts. The D-Lab clay pot cooler
+tion that use evaporation for cooling and do not require project started in 2016 and has consisted of multiple
+electricity to run. The most common clay pot coolers, phases (see graphic below), each focusing on a different
+or “Zeer pots,” are made of a double-wall earthenware technical and social aspect of this technology.
+container with the space between the two clay walls filled
+
+                            Phase I                                                                    Phase II
+
+     2016                2017                  2018               2019           2020                 2021             2022               2023
+
+
+              Evaluating suitability of clay
+              pot coolers
+
+
+
+                                  Evaluating performance of clay               Evaluating performance of clay
+                                  pot coolers (in-context setting)             pot coolers (laboratory setting)
+
+
+
+                                                                               Piloting clay
+                                                                                                            Scaling the dissemination of clay
+                                                                               pot coolers
+                                                                                                            pot coolers
+                                                                               dissemination
+
+
+
+                                  Improving the design of clay pot coolers & dissemination programs
+
+
+1 | MIT D-Lab | Clay Pot Coolers: Preserving Fruits & Vegetables in Mali
+Evaluating Suitability and User Needs
+
+
+
+
+Clay pot-in-pot cooler in Bankass, Mali. Photo: Ousmane Sanogo   Clay pot-in-plastic dish cooler in Samanko, Mali. Photo: Ba
+                                                                 Germain Diarra
+
+Although clay pot coolers and other evaporative cooling          in their environment. In 2017, with funding from the
+technologies have the potential to address challenges re-        United States Agency for International Development
+lated to post-harvest food loss in rural communities, it         (USAID), MIT D-Lab worked with the World Vegetable
+is important to determine the appropriateness of these           Center (WVC) and Institut d'Economie Rurale (IER)
+solutions by having the target users test the product            to explore the potential for clay pot coolers to address
+                                                                 post-harvest loss challenges faced by communities in
+                                                                 Mali, a landlocked country in West Africa. The initial
+                                                                 study focused on evaluating the performance and suit-
+                                                                 ability of this technology by providing study participants
+                                                                 with a clay pot cooler for use in their homes.
+                                                                 Through conversations with clay pot sellers during initial
+                                                                 scoping for the project, the team learned about a design
+                                                                 variation with a clay pot inside a plastic or metal dish.
+                                                                 This design was included as part of the study, in addi-
+                                                                 tion to the more common clay pot-in-pot or “Zeer pot”
+                                                                 design.
+                                                                 After a brief introduction to clay pot coolers and the ob-
+                                                                 jectives of the study, the participants were asked to use a
+                                                                 clay pot cooler provided to them for a minimum of three
+                                                                 months, after which they were interviewed to collect
+                                                                 qualitative data on their needs for post-harvest storage
+                                                                 and preservation. Quantitative data on the performance
+                                                                 of the clay pot cooler was obtained through electronic
+                                                                 sensors attached to each clay pot cooler, which measured
+Ousmane Sanogo (left) training a man on pot watering in
+                                                                 the ambient and interior temperature and humidity of
+Bankass, Mali. Photo: Ousmane Sanogo                             the clay pot cooler at five-minute intervals.
+                                                                     Clay Pot Coolers: Preserving Fruits & Vegetables in Mali | MIT D-Lab | 2
+                                                                      CONTEXT
+
+                                                                           arid
+                                                                           climate
+         WITHOUT CLAY POT COOLERS                                                                       WITH CLAY POT COOLERS
+                                                                           vegetables with
+                                                                           short shelf life
+        decreased shelf life for vegetables                                                        improved shelf life for vegetables
+                                                                           long distances
+                                                                           to the market
+     lost money due to increased spoilage                                                         saved money due to reduced spoilage
+                                                                           lack of access
+              lack of access to nutritious food                            to electricity       increased access to nutritious food
+
+                       more trips to market needed                                            fewer trips to market needed
+
+
+
+Storing vegetables with a short shelf life in places like   temperature and maintained a relative humidity above
+Mali, with an arid climate and scarce access to electricity,80%. The cooling effect is most pronounced during the
+is challenging. However, the study revealed that clay pot   middle of the day, with reduction between 7 °C to 10 °C,
+coolers increased the shelf life of vegetables by providing when the temperature is the highest, the relative humid-
+a stable storage environment with low temperature and       ity is the lowest, and vegetables are most susceptible to
+high humidity.                                              spoilage. Furthermore, the participants revealed benefits
+The most commonly stored vegetables were eggplant, to- that came with using the clay pot cooler such as financial
+mato, hot pepper, cucumber, cabbage, and sweet potato savings due to reduced food loss, less time and money
+leaves, and 97% of participants reported improved shelf spent traveling to the market, increased availability of
+life for one or more of these vegetables when they were nutritious vegetables for their families, improved hygiene
+stored in a clay pot cooler. During the dry season, the av- of the vegetables, and protection from animals and in-
+erage temperature in the interior of the clay pot coolers sects.
+was 5 °C to 7 °C lower than the ambient temperature and The combination of results from the performance study
+maintained a relative humidity above 80%. During the and user feedback indicated that both the clay pot-in-pot
+dry season, the average temperature in the interior of the and the clay pot-in-plastic dish coolers are a suitable and
+clay pot coolers was 5 °C to 7 °C lower than the ambient effective solution for many households in Mali.
+
+
+
+
+Typical daily temperature and relative
+humidity for ambient conditions and a
+clay pot cooler (pot-in-pot configuration).
+The vertical blue lines indicate when
+water was added to the clay pot cooler.
+3 | MIT D-Lab | Clay Pot Coolers: Preserving Fruits & Vegetables in Mali
+Lab Testing and Shelf Life Measurements
+In order to rigorously quantify the shelf life improvements
+that clay pot coolers provide for various vegetables, the
+research team conducted laboratory experiments with 14
+configurations of clay pot coolers and other evaporative
+cooling devices at two locations. The vegetables selected
+for the study were spinach, amaranth, cowpea leaves, to-
+matoes, and eggplants. The analysis techniques used in-
+cluded weight loss measurements, visual assessment by
+10-person panels, and sensors measuring the tempera-
+ture and humidity of the clay pot cooler interior and am-
+bient conditions.                                                           Miriam Sogoba of World Vegetable Center conducting shelf-life mea-
+                                                                            surements for spinach in Samanko, Mali. Photo: Eric Verploegen
+
+
+                                                   AMBIENT                     CLAY POT-IN-PLASTIC                     CLAY POT-IN-CLAY
+                                                  CONDITIONS                          DISH                                   POT
+
+           Average temperature                        26.9 ºC                             22.7 ºC                               22.2 ºC
+
+  Maximum daily temperature                           34.6 ºC                             26.2 ºC                               25.8 ºC
+
+                Average humidity                        45%                                 96%                                   94%
+
+               Amaranth shelf life                     1 day                               6 days                                6 days
+
+                 Spinach shelf life                    2 days                              6 days                                6 days
+
+           Cowpea leaf shelf life                      1 day                               4 days                                4 days
+
+                  Tomato shelf life                    6 days                              9 days                                9 days
+
+                  Eggplant shelf life                  3 days                             15 days                              >15 days
+
+Table 1. Shelf life determined from the visual quality assessment data. For leafy greens, data was collected at 1, 2, 4, and 6 days after
+the start of the experiment. For tomatoes and eggplants, data was collected 3, 6, 9, 12, and 15 days after the start of the experiment. A
+vegetable was determined to have a shelf life of the number of days listed in the table if more than 50% of the panel members assessing
+its overall visual quality scored it as > 5 using the 1–9 rating scale developed by Kader and Cantwell (2005), where 1 = extremely poor
+quality (not usable), 3 = poor quality (serious deterioration, limit of usability), 5 = fair quality (deterioration evident, but not serious, limit of
+saleability), 7 = very good quality (minor symptoms of deterioration, not objectionable), and 9 = excellent quality (essentially no symptoms
+of deterioration). The temperature and humidity data shown was collected during the leafy green shelf life experiments.
+
+
+As shown in the table above, clay pot coolers extended tecting the vegetables from the most damaging ambient
+the shelf life of vegetable by 50% to 600% compared to conditions of the day.
+storage in ambient conditions.                           The research team also tested devices consisting of a met-
+This improvement is possible because the clay pot cool- al or plastic bucket in a clay dish and a plastic vegetable
+ers reduced the average temperature by over 4 °C and crate covered with a wet sack. While vegetables stored in
+provided an environment with greater than 90% humid- these devices were kept fresh longer than those stored in
+ity, while the average ambient humidity is 40%. Further- ambient conditions, the shelf life was several days short-
+more, the clay pot coolers reduced the maximum daily er than the clay pot-in-pot and clay pot-in-dish devices,
+temperature of the vegetables by more than 8 °C, pro- which have a clay pot as the interior vessel.
+                                                                                 Clay Pot Coolers: Preserving Fruits & Vegetables in Mali | MIT D-Lab | 4
+Dissemination
+
+
+
+
+Clay pot cooler training at the Anya-Lobo Cooperative Society in Mopti, Mali. Photo: Djiguiba Boureima
+
+
+
+Dissemination Approach & Training                                          munity members through streamlined training sessions.
+The dissemination phase of the project includes design-                    The first ToT was conducted in January 2020 with Djigui-
+ing and implementing training programs to increase                         ba Boureima, Extension Officer, Regional Directorate of
+awareness and usage of clay pot coolers. In order to pro-                  Agriculture, Mopti; and Kadidia Nienta, a pot maker and
+mote the adoption of this technology, it is important that                 seller in Mopti, Mali.
+users feel confident about buying or constructing clay                     In March 2020, Boureima and Kadidia then trained 37
+pot coolers themselves and using them. Entrepreneurs                       people at the Nyleni and Anya-Lobo cooperative societ-
+looking to sell clay pot coolers need to feel confident in                 ies near Mopti.
+their marketing strategies.
+Based on the learnings from the earlier phases of the                      Training Outcomes & Feedback
+project and the experiences of others in the sector, the                   Follow-up surveys were conducted in January 2021 with
+team (MIT D-Lab, WVC, and IER) developed a curric-                         the participants of the first set of trainings to assess the ef-
+ulum covering:                                                             fectiveness of the training and discover areas of improve-
+  »   How evaporative cooling works                                        ment for future trainings. These interviews confirmed
+                                                                           that the training program was effective in increasing the
+  »   Importance of proper fruit and vegetable storage
+                                                                           awareness and knowledge of clay pot coolers among the
+  »   Types of clay pot coolers and how to assemble them                   participants. Eighty-five percent of the respondents were
+  »   Best practices for using clay pot coolers                            introduced to the concept of evaporative cooling tech-
+The dissemination approach starts by sharing this curric-                  nology for the first time at the training. Prior to the train-
+ulum with agricultural extension agents and clay potters                   ing, 88% of respondents had been storing their vegeta-
+through in-depth Training of Trainers (ToT) sessions.                      bles in a basket or other basin, and half of those had been
+These folks then deliver the curriculum to larger groups                   covering their storage container with a wet cloth.
+of vegetable sellers, pot makers, farmers, and other com-                  Seventy-three percent of participants (which includes
+5 | MIT D-Lab | Clay Pot Coolers: Preserving Fruits & Vegetables in Mali
+50% of the farmers, 100% of the clay pot makers and
+sellers, and 92% of extension agents, vegetable sellers,
+farmers, and consumers that participated in the study)
+had assembled or purchased a clay pot cooler after the
+training, were still using them nine months later, and re-
+ported improved fruit and vegetable shelf life. All five par-
+ticipants that used a pot-in-pot configuration were either
+clay pot makers or clay pot sellers, with the remaining
+19 participants (extension agents, vegetable sellers, and
+consumers) using the pot-in-plastic dish configuration.
+This illustrates the attractiveness of the clay pot-in-dish
+option, which can be assembled by users who may not
+have access to custom clay pots.
+Furthermore, all 33 respondents to the survey, includ-
+ing the participants who did not decide to construct or
+buy clay pot coolers themselves, reported telling others
+in their community about the technology, who then be-
+gan using clay pot coolers themselves. The main reason
+reported for not adopting the technology was a lack of
+materials or means (18% of respondents). The most
+common feedback with regards to the design reported
+                                                                    Djiguiba Boureima (left) and Kadidia Nienta (right) placing carrots,
+by the participants was to increase the size of the clay pot        leafy greens, and sweet peppers into a clay pot cooler at the Nye-
+                                                                    leni Cooperative Society in Mopti, Mali. Photo: Djiguiba Boureima
+
+
+
+                                                                    to increase the storage capacity and accommodate more
+                                                                    fruits and vegetables. Additionally, all five of the clay pot-
+                                                                    ters who attended a training began selling clay pots spe-
+                                                                    cifically as clay pot coolers after the training and reported
+                                                                    sales ranging from 10 to over 50 clay pot coolers in the
+                                                                    time since the training.
+                                                                    Based on participant feedback, the program was im-
+                                                                    proved by streamlining the training to a single half-day
+                                                                    session, and a graphical Guide to Assembling, Using, and
+                                                                    Maintaining Clay Pot Coolers was developed, which is
+                                                                    available in English, French, Swahili, Spanish, Bambara,
+                                                                    and Hindi, and was distributed to all new training par-
+                                                                    ticipants. The second ToT took place in February 2021
+                                                                    with eight agricultural extension agents and a clay potter,
+                                                                    followed by trainings of 289 people at 11 locations across
+                                                                    Mopti in April 2021. The team is conducting additional
+                                                                    monitoring and evaluation activities with the partici-
+                                                                    pants in the most recent trainings, and will resume con-
+                                                                    ducting trainings in October 2021 after the rainy season
+Training participants assembling a clay pot cooler at the Nyeleni   ends in Mopti.
+Cooperative Society in Mopti, Mali.
+                                                                        Clay Pot Coolers: Preserving Fruits & Vegetables in Mali | MIT D-Lab | 6
+Conclusions & Next Steps
+Because initial results indicate that using clay pot coolers
+can result in reduced food loss, time savings for women,
+and improved nutrition, and given the positive feedback
+on the dissemination program, we are looking to expand
+this program throughout Mali and beyond.
+In addition to expanding the training program, the next
+phases of the project will have increased focus on quanti-
+fying the outcomes and impacts of the training program
+and clay pot cooler usage.
+To further expand the geographical reach of the Guide to
+Assembling, Using, and Maintaining Clay Pot Coolers, it
+will be translated into Arabic and Gujarati, bringing the
+total to eight languages in which the guide is available.
+Interested collaborators and supporters are welcome
+to contact MIT D-Lab’s project lead, Eric Verploegen                       Kadidia Nienta conducting a clay pot cooler training at the Anya-Lobo
+(ericv@mit.edu), for further information.                                  Cooperative Society in Mopti, Mali. Photo: Djiguiba Boureima
+
+
+
+
+Authors                                                                    Contacts
+MIT D-Lab Research Engineer Eric Verploegen and                            MIT D-Lab
+Nethra Shankar                                                             Contact: Eric Verploegen, Research Engineer
+                                                                           ericv@mit.edu
+                                                                           https://d-lab.mit.edu/clay-pot-coolers
+
+                                                                           Institut d’Economie Rurale (IER)
+                                                                           Contact: Dr. Fatimata Cisse
+                                                                           Tel: (+223) 76 37 57 27
+                                                                           diallofati@gmail.com
+
+                                                                           World Vegetable Center–West & Central Africa
+                                                                           Contact: Kukom Edoh Ognakossan
+                                                                           Tel/Fax : (+223) 20 70 92 00/ 20 22 86 83
+                                                                           kukom.edoh@worldveg.org
+                                                                           www.avrdc.org
+
+
+                                                                           Suggested Citation
+                                                                           Shankar, N., Cissé, F., Ognakossan, K. E., Verploegen, E.
+Amaranth stored in a clay pot-in-pot cooler at a training session          (2021). Clay Pot Coolers - Preserving Fruits and Vegeta-
+that took place in 2021 at the Institut d’Economie Rurale research         bles in Mali: Report 2016-2021. Copyright © Massachu-
+facility in Bamako, Mali. Photo: Alkassim Dicko.
+                                                                           setts Institute of Technology (Accessed on [insert date]).
+Cover image: Djiguiba Boureima (left) and Kadidia Nienta (right) assem-
+                                                                                                       This work is licensed under the Creative Com-
+bling a clay pot cooler in Samanko, Mali. Photo: Ba Germain Diarra.                                    mons Attribution 4.0 International License.
+Document design: Nancy Adams                                                                           To view a copy of this license visit: https://cre-
+                                                                                                       ativecommons.org/licenses/by/4.0/
+7 | MIT D-Lab | Clay Pot Coolers: Preserving Fruits & Vegetables in Mali
+

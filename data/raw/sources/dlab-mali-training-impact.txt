@@ -1,0 +1,992 @@
+Clay Pot Cooler Training in Mali:
+Outcomes & Impacts
+   Laura Mogannam - MIT D-Lab, Tufts University
+   Fatimata Cissé and Kola Sidiki Cissé - Institut d’Economie Rurale
+   Kukom Edoh Ognakossan - World Vegetable Center
+   Eric Verploegen - MIT D-Lab
+
+
+                                                        October 2022
+
+
+
+
+                                                                       1
+Table of Contents
+Introduction ............................................................................................................................3
+   Interview Approach ......................................................................................................................... 4
+Results and Discussion ............................................................................................................5
+   Respondent Demographics .............................................................................................................. 5
+   Previous Storage Methods and Challenges ...................................................................................... 6
+   Clay Pot Cooler Adoption and Usage................................................................................................ 8
+   Training Participants’ Influence on other Community Members .....................................................12
+   Impact ............................................................................................................................................15
+   Training Feedback ..........................................................................................................................17
+Conclusion ............................................................................................................................ 19
+   Recommendations and Next Steps .................................................................................................19
+Authors & Acknowledgments ................................................................................................ 22
+   About the Authors ..........................................................................................................................22
+   Acknowledgments ..........................................................................................................................24
+Appendix............................................................................................................................... 25
+References ............................................................................................................................ 28
+
+
+
+
+                                                                                                                                                      2
+Introduction
+In Mali and other parts of Sub-Saharan Africa where access to food preservation methods is
+limited, 30-50% of produce is lost during transport or at markets before it ever reaches
+households.1 In addition, many households are unable to preserve fresh produce and extend its
+shelf life before it spoils. Improving storage options for fruit and vegetables is a simple way to
+increase access to fresh produce while reducing expenditures on agricultural inputs. Clay pot
+coolers are a simple technology that can improve the shelf life of many fruits and vegetables in
+arid regions.2,3,4,5 They are inexpensive and can be made with locally available materials.
+Functioning through the principle of evaporative cooling, clay pot coolers provide a cool and
+humid environment to store fruits and vegetables, increasing their shelf life. Clay pot coolers can
+be made using a clay pot placed in another pot or dish that is filled with wet sand. As the water
+evaporates, heat is drawn from the inside of the container, which can be cooled by up to 10°C.6
+A schematic of the cooler can be seen in Figure 1 below.
+
+
+
+
+Figure 1. Schematic showing the evaporative cooling principle of clay pot coolers. Water evaporates
+creating a cool and humid environment inside the inner pot where vegetables are stored. Clay pot cooler
+schematic based on work by Peter Rinker, Movement e.V. and redesigned by Melissa Mangino.
+
+
+In order to increase awareness and adoption of clay pot coolers, MIT D-Lab, the World Vegetable
+Center (WVC), and Institut d'Economie Rurale (IER) developed a training curriculum covering the
+importance of proper vegetable storage, principles of evaporative cooling, best practices for
+constructing and using clay pot coolers, and user identification and marketing.6 The
+dissemination approach starts by conducting in-depth Training of Trainers (ToT) workshops with
+agricultural extension agents and clay potters. The trainers then deliver the curriculum to groups
+
+                                                                                                     3
+of fruit and vegetable vendors, clay pot makers and sellers, farmers, and other community
+members through streamlined half-day training sessions. The first ToT was conducted in January
+2020. In March 2020, the first pilot training sessions were held near Mopti with a total of 37
+people.6 In-depth information regarding MIT D-Lab’s work in Mali from 2016 to 2021, including
+interviews with 33 of the people trained in March 2020 can be found in the following document:
+Clay Pot Coolers: Preserving Fruits & Vegetables in Mali.
+
+Following the successful completion of the first pilot training sessions in 2020, WVC and IER
+conducted a second larger ToT workshop in February 2021. From April through June of 2021, 11
+half-day training sessions were conducted in the Mopti region of Mali with a total of 289
+participants. The objective of the training sessions is to encourage the adoption of clay pot
+coolers to improve fruit and vegetable storage, reduce postharvest losses at the household level,
+and create both supply and demand for clay pot coolers. The training sessions aim to give
+participants an understanding of how to assemble and use clay pot coolers and increase their use
+throughout the communities. Training participants included clay pot makers and sellers, fruit and
+vegetable vendors, and producers and consumers of fruits and vegetables.
+
+
+Interview Approach
+Roughly 10 months after the 11 training sessions conducted in 2021, interviews were conducted
+with training participants to understand:
+   ● Clay pot cooler adoption rates
+   ● How the clay pot coolers were being used
+   ● The impacts of clay pot coolers on food loss, fruit and vegetable consumption, and travel
+     time purchasing produce
+   ● How information about the clay pot coolers was shared beyond the training participants
+   ● Participant’s impressions of the training sessions
+Participants were contacted via phone and interviewed at their homes. The interviewers were
+monitoring and evaluation trainees from the National Directorate of Agriculture who had not
+participated in the training program. Responses from the structured interviews were recorded
+via KoboCollect on Android devices. Three different sets of questions were given based on the
+profile of the respondent. The three different groups were:
+   1) Clay pot makers and sellers
+   2) Producers and consumers
+   3) Fruit and vegetable vendors
+A majority of the questions were the same for all groups, with specific additional questions asked
+of clay pot makers and sellers, and fruit and vegetable vendors.
+
+
+                                                                                                4
+Results and Discussion
+Respondent Demographics
+Participants were interviewed 10 months after the training sessions, and the questionnaires used
+were tailored to the profile of the respondent. The three groups were producers and consumers
+of fruits and vegetables, fruit and vegetable vendors, and clay pot makers and sellers. Producers
+and consumers grow and/or consume fruits and vegetables and have storage needs for personal
+use. Fruit and vegetable vendors sell fruits and vegetables at markets and may use the clay pot
+coolers for both personal and business use. Clay pot makers and sellers have businesses selling
+clay pots and were interviewed about their personal use of the coolers as well as their experience
+selling clay pot coolers to others. A summary of the groups of those interviewed, as well as the
+gender breakdown, is shown in Table 1. A total of 289 people were trained, and 264 of these
+training participants were reached for the follow-up interview. Overall, 91% of respondents
+identified as female, and 9% of respondents identified as male.
+
+Table 1. Respondent group by number and percentage of people and gender percentage. All participants
+in the training sessions were categorized as either clay pot makers and sellers, producers and consumers,
+or fruit and vegetable vendors.
+
+  Group                    Number             Percentage                        Gender
+
+                                                                     Female                 96%
+  Clay Pot Makers
+                              54                  20%
+  and Sellers
+                                                                       Male                  4%
+
+                                                                     Female                 89%
+  Producers and
+                             194                  74%
+  Consumers
+                                                                       Male                 11%
+
+  Fruit and                                                          Female                 94%
+  Vegetable                   16                   6%
+  Vendors                                                              Male                  6%
+
+
+Eleven training sessions were held in 10 communes within the Mopti Cercle within the Mopti
+region of Mali. Two training sessions were held in the commune of Mopti. Because clay potters
+were recruited from a cooperative located in the commune of Mopti, a majority (93%) of the clay
+pot makers and sellers are from this commune. A full summary of the ages of participants and
+the number of respondents per commune can be found in Tables A1 and A2 in the appendix.
+
+
+
+                                                                                                       5
+Previous Storage Methods and Challenges
+In order to understand the previous fruit and vegetable storage habits, participants were asked
+about the methods of storage they used prior to the training and the issues they had with these
+methods. A summary of the responses can be found in Tables 2 and 3. Vendors were specifically
+asked how they previously stored fruits and vegetables at their businesses and home.
+Before the training, most respondents in all three groups stored their fruits and vegetables in an
+uncovered basket, basin, or jar. It is notable that many respondents were using a storage method
+prior to the training that relies on the principle of evaporative cooling, such as on moistened
+sand, under a damp cloth, or near a water container. This indicates that participants may have
+already been directly or indirectly familiar with the principles of evaporative cooling.
+
+Table 2. Locations of where fruits and vegetables were stored by the various respondent groups before
+training. Vendors were asked separate questions about where they previously stored fruits and vegetables
+in the home as well as at their place of business. The total number of respondents is listed in brackets.
+Most respondents gave more than one response to this question.
+
+                                                         Producers
+                                          Clay pot                         Vendors        Vendors at
+                                                            and
+  Storage Method                         makers and                        at home         business
+                                                         Consumers
+                                         sellers [54]                        [16]            [16]
+                                                           [194]
+
+  Basket, basin, or jar - uncovered         93%              59%             75%              88%
+  Basket, basin, or jar - covered with
+                                            41%              12%             25%              38%
+  a damp cloth
+  Near water container                      24%              25%             19%               0%
+
+  On the floor                              30%              23%              0%               0%
+
+  On wet sand                               22%              21%             38%               0%
+
+  In a bag                                  35%              11%             13%              38%
+
+  On top of a bag                           33%               0%              0%               0%
+
+  Refrigerator                               2%               4%             13%              13%
+
+  Other                                      2%               4%             25%              19%
+
+
+In an arid region like Mopti, exposure of fruits and vegetables to hot and dry conditions can make
+them spoil faster. In order to gain insight into the current challenges facing the community in
+Mopti, interviewers posed questions regarding the specific issues they face with food loss.
+Response rates regarding issues participants experienced with food storage are shown in Table
+
+
+                                                                                                       6
+3. Rot was the issue experienced by the most respondents when storing fruits and vegetables
+prior to the training sessions. Dehydration, pests, yellowing, mold, and wilting were additional
+responses that were recorded. Of those who selected “other,” issues explained in the narrative
+responses included theft.
+
+Table 3. Percentage of respondents across all groups who experienced various issues when storing food.
+Vendors were asked separate questions about food storage issues at home as well as at their place of
+business. The total number of respondents is listed in brackets. Most respondents gave more than one
+response to this question.
+
+                   Clay pot makers      Producers and          Vendors at           Vendors at
+ Issues
+                   and sellers [54]    Consumers [194]         home [16]           business [16]
+
+ Rot                    94%                   87%                  88%                 100%
+
+ Dehydration            56%                   64%                  88%                  75%
+
+ Pests                  72%                   54%                  56%                  50%
+
+ Yellowing              81%                   49%                  31%                  6%
+
+ Mold                   69%                   42%                  25%                  44%
+
+ Wilting                67%                   32%                  25%                  25%
+
+ Other                   0%                   5%                   19%                  19%
+
+
+
+
+Participants assembling clay pot coolers at a training of trainers (ToT) workshop in Bamako, Mali in
+February 2021. Photo credit: World Vegetable Center.
+
+
+                                                                                                    7
+Clay Pot Cooler Adoption and Usage
+To gain insight on how clay pot coolers were adopted into the community, we asked whether or
+not participants used the devices and if so, how they used them. Seventy-three percent (73%) of
+the respondents reported adopting the technology within 10 months after their participation in
+a clay pot cooler training. The clay pot cooler adoption rates for each of the three groups before
+and after the training is shown in Table 4 below. Thirteen percent (13%) of the producers and
+consumers reported having used a clay pot cooler before, while no vendors or clay pot makers
+and sellers reported personal use of clay pot coolers prior to attending the training session. Prior
+to the training sessions. 39% of clay pot makers and sellers had made or sold clay pot coolers.
+Since the training sessions, all clay pot makers and sellers reported selling clay pot coolers.
+
+Table 4. Usage rates of clay pot coolers before and after the training for all three groups. The number of
+respondents for each group is listed in brackets.
+
+                                         Clay pot makers        Producers and       Fruit and vegetable
+                                            and sellers          Consumers                vendors
+                                               [54]                 [194]                   [16]
+
+  Percent that used clay pot coolers
+                                                0%                   13%                    0%
+  before the training
+
+  Percent that have used clay pot
+                                                94%                  70%                    50%
+  coolers since the training
+
+
+The majority (70%) of clay pot makers and sellers made their clay pot coolers themselves either
+from materials that they owned or materials they purchased. Eighty-seven percent (87%) of
+producers and consumers reported buying a complete evaporative cooling pot from a seller, and
+the others reported making it using materials that they owned or had purchased. Vendors were
+not asked about where they got their clay pot coolers in their interviews. Table A3 in the appendix
+provides details on where users acquired their clay pot cooler. Clay pot makers and sellers and
+fruit and vegetable vendors were also asked where they got the materials to make their clay pot
+cooler. Most pot makers used their own materials or obtained materials from their neighbors.
+Vendors mostly acquired materials from the local market. Producers and consumers were not
+asked about where they got the materials to make their clay pot cooler; however, only 4% of
+them made it themselves. Table A4 in the appendix provides details on where users acquired
+materials to make their clay pot cooler.
+
+
+
+
+                                                                                                          8
+Three types of clay pot coolers are described in the training curriculum: clay pot-in-clay pot, clay
+pot-in-plastic-dish, and clay pot-in-clay dish. A schematic of the three designs can be seen in
+Figure 2 below. All types contain an outer vessel such as a larger pot, plastic dish, or clay dish that
+is filled with sand. An inner pot, where the fruits and vegetables are stored, is placed inside the
+outer vessel. The sand is then wet, and the device is covered with a damp cloth.
+
+
+
+
+Figure 2. Schematic of three clay pot cooler devices: clay pot-in-clay pot, clay pot-in-plastic-dish, and
+clay pot-in-clay dish7.
+
+
+To gain insight into potential preferences for the types of clay pot coolers, we asked users which
+types they used. A summary of responses is shown in Figure 3. Clay pot makers and sellers were
+the most likely to use a clay pot-in-pot cooler design. This may be due to their ability to access
+clay pots with a range of dimensions, allowing them to identify inner and outer pot pairs that are
+well suited to use for a clay pot cooler. The clay pot-in-plastic dish design was the most commonly
+used by producers and consumers, as they may not have access to appropriately sized outer clay
+pots or clay dishes, whereas plastic dishes are commonly found in a range of sizes throughout
+the Mopti. Vendors used clay pot-in-clay pot coolers the most, and clay pot-in-plastic dish coolers
+the least.
+
+
+
+
+                                                                                                            9
+Figure 3: Percentage of users across each group who used each type of clay pot cooler. Fifty-one (51) clay
+pot makers and sellers, 194 producers and consumers, and 8 vendors who used clay pot coolers were
+asked this question. Many respondents gave more than one response to this question.
+
+
+Of the 27 % of respondents who did not use a clay pot cooler after the training, the most common
+reasons for not using the technology were that they did not have significant storage needs, the
+capacity of the clay pot cooler was not large enough for their storage needs, they did not have
+enough money to buy a clay pot cooler, or their current preservation method was good enough,
+as seen in Table 5 below. For training participants that responded that they did not have
+significant storage needs, they are unlikely to adopt the clay pot cooler or any food storage
+device. However, for those who did not have enough money, could not find the materials, or
+needed a larger storage capacity, changes could be made to the designs discussed in future
+training sessions to try and increase the adoption rate. These recommendations will be discussed
+in Section 4.2. When asked about their storage needs, respondents replied that the average fruit
+and vegetable storage capacity needed at one time was 6 kg for pot makers, 46 kg for producers
+and consumers, and 196 kg for fruit and vegetable vendors. It is notable that the groups with the
+greater storage needs reported the relatively small capacity of clay pot coolers as a factor
+inhibiting their adoption of clay pot coolers as shown in Table 5.
+
+
+
+
+                                                                                                       10
+Table 5. A list of the reasons why respondents did not use a clay pot cooler for each user group. The
+number of non-user respondents is listed in the brackets. The total number of clay pot cooler non-users
+is listed in brackets. Some respondents gave more than one response to this question.
+
+                                             Clay Pot                        Fruit and
+                                                           Producers and                     Total
+  Reason                                    Makers and                       vegetable
+                                                          consumers [59]                     [70]
+                                            Sellers [3]                     vendors [8]
+  Not enough money to buy a clay
+                                                0%              17%              0%           14%
+  evaporative cooling pot
+
+  Couldn't find the materials to make
+                                                0%              3%              13%           4%
+  the clay evaporative cooling pots
+
+  My storage needs (volume) are more
+  than one clay pot cooler can                  0%              12%             75%           19%
+  accommodate
+  I don't have significant storage needs       67%              39%              0%           36%
+
+  My current preservation method is
+                                                0%              22%              0%           19%
+  good enough / better
+  Other                                        33%              49%             50%           49%
+
+
+The location of a clay pot cooler can have an impact on the device’s performance, as the
+evaporation of water requires a well-ventilated area to prevent an increase in ambient humidity.
+Additionally, if the clay pot cooler is exposed to direct sunlight, heat will be absorbed by the
+device and the temperature of the interior storage environment will increase. These points were
+addressed in the training and guidance provided in the printed training guide.7 When asked about
+the location of their clay pot coolers, most (93%) respondents said that they kept their clay pot
+coolers in a compound outside the house either under a tree or under another shade structure.
+Only 11% reported locating their clay pot coolers indoors and none reported keeping the clay pot
+coolers in the sun. These results indicate that the guidance given during the training is being
+followed by a large majority of the users. Table A5 in the appendix provides more detail on these
+responses.
+
+Participants were specifically asked the rate the performance of their clay pot coolers, and 98%
+of all clay pot cooler users rated the performance as good or very good. Two respondents in the
+producers and consumers group answered that the performance was average. This result is a
+good indicator that the clay pot coolers worked well within these communities and climate.
+Participants were asked to explain what their most important considerations were for storing
+fruits and vegetables in their homes. Common responses included increasing shelf life, reducing
+
+
+
+                                                                                                     11
+the frequency of going to the market, having a large storage capacity, having higher humidity,
+and the increased availability of fruits and vegetables.
+
+Thirty-four percent (34%) of respondents said that there are changes they would like to make the
+clay pot cooler. Among the 65 respondents that suggested changes, the most common response
+(35% of respondents) was a desire for increasing the capacity of the cooler. Other changes
+desired included adding feet to the device, modernizing the pot, and reducing the cost of the
+device. Addressing these issues in future training sessions may help increase the adoption rate
+going forward. Vendors were asked if there were any different considerations for storing fruits
+and vegetables in their home versus at their place of business. The most common responses were
+related to the different types and volumes of crops that needed to be stored at home and at their
+businesses.
+
+Clay pot makers and sellers were specifically asked about their experience making and selling the
+pots. All clay pot makers and sellers ranked their customers' perception of the pot as very good
+or good. However, twelve percent (12%) of clay pot makers and sellers had some difficulties
+making the necessary pots for the clay pot coolers. Some of these difficulties were low-quality
+clay, pot breakage, and the expense of wood needed to fire the clay pots. Nine percent (9%) of
+pot makers and sellers reported that they had some difficulties marketing and selling the pots
+due to not having enough customers or slow sales. The clay pot makers and sellers suggested
+that their difficulties in making clay pot coolers could be fixed by increasing awareness of the clay
+pot coolers to attract more customers, receiving financial assistance, having better access to
+transportation to move the product, and gaining better access to raw materials.
+
+
+Training Participants’ Influence on other Community Members
+Other members of the community, beyond those who participated in the training, can benefit
+from the introduction of clay pot coolers to the community. Clay pot makers and sellers may
+advertise clay pot coolers to their customers and all participants of the training may talk with
+other members of the community about attending the training and how the clay pot coolers
+function. The people who gained awareness of the technology without participating in the
+training are indirect beneficiaries of the training program. The 54 clay pot makers and sellers
+report selling a total of 1,999 clay pot coolers since attending a training session, with an average
+of 37 clay pot coolers sold. Clay pot coolers were sold in a variety of different sizes with a range
+of costs. The number of clay pot coolers sold is over eight times higher than the number of
+producers and consumers and vendors trained. This indicates that other members of the
+community saw the benefit of clay pot coolers and thought they were worth purchasing without
+attending a training session.
+
+
+
+                                                                                                  12
+Most (59%) clay pot makers and sellers sold more than one clay pot cooler design. Figure 4 shows
+the types of clay pot coolers sold. The clay pot-in-clay pot design was the most commonly sold
+with 94% of respondents selling this design. The clay pot-in-plastic dish and clay pot-in-clay dish
+were also sold by 54% and 41% of respondents, respectively.
+
+The majority (93%) of clay pot makers and sellers also sold clay pot coolers to many different
+members of the community including producers, fruit and vegetable vendors, pot sellers, and
+households. Figure 5 below shows which groups within the community bought clay pot makers
+from sellers. When clay pot makers were asked about how they identified potential customers,
+they answered by saying they communicated with the customers, knew the customer
+participated in the training, or followed customer requests. Ensuring the clay pot makers have a
+market beyond those who participated in the training makes the project more sustainable, as
+sales and adoption of the technology can continue to grow beyond the initial training sessions.
+
+
+
+
+Figure 4. Percentage of clay pot sellers who sold each type of clay pot cooler — clay pot-in-clay pot, clay
+pot-in-plastic dish, and clay pot-in-clay dish. All 54 clay pot makers and sellers sold at least one type of
+clay pot cooler. Many respondents gave more than one response to this question.
+
+
+
+
+                                                                                                         13
+Figure 5. Percentage of clay pot sellers who sold clay pot coolers to different community members —
+producers, fruit and vegetable vendors, pot sellers, and households. A total of 54 clay pot sellers sold
+clay pot coolers. Most respondents gave more than one response to this question.
+
+
+Participants were asked about their confidence in communicating about clay pot coolers, and
+97% of respondents reported feeling confident in sharing information with others about the clay
+pot coolers. This confidence in communicating allowed 94% of respondents to share information
+about the clay pot coolers with others in their community. This means that an additional 21% of
+participants who did not adopt the technology themselves, still shared information about it with
+others. These respondents shared information about the clay pot coolers with a total of 4,396
+people, an average of 17 people being told per training participant. Among those who shared
+information about clay pot coolers, 95% reported that the people with whom they shared the
+information found it useful, i.e., they reported using and liking the technology. Table 6 details the
+profile of the community members with whom training participants shared information about
+clay pot coolers. Respondents shared information primarily with family members, neighbors, fruit
+and vegetable vendors, and clay pot coolers who also shared information with their customers.
+
+The large number of people who were told about the clay pot coolers and the large number of
+clay pot coolers sold beyond those who participated in the training are great indicators of the
+success of the technology in the region. If information about the utility of clay pot coolers in
+storing fruits and vegetables can be spread via word of mouth, more people can benefit from the
+technology. The impact of using clay pot coolers on those who participated in the interview is
+discussed in the next section.
+
+
+
+                                                                                                           14
+Table 6. Percentage of respondents across all three groups who shared information about clay pot coolers
+with various members of the community — customers, neighbors, family members, and
+group/cooperative members. The total number of respondents is listed in brackets. Most respondents
+gave more than one response to this question.
+
+  Group information was               Clay pot makers        Producers and        Fruit and vegetable
+  shared with                         and sellers [54]      consumers [194]          vendors [16]
+  Customers                                 87%                    21%                    81%
+  Neighbors                                 98%                    63%                    69%
+  Family members                            94%                    82%                    69%
+  Group/cooperative members                 35%                    39%                    50%
+  Other (comment)                           0%                     2%                     0%
+
+
+
+
+Impact
+To understand the impact of clay pot coolers on the lives of participants, questions were asked
+about changes in lifestyle, food storage challenges, and food storage habits. In addition to the
+73% of respondents who used a clay pot cooler, an additional 8% of respondents (22 people)
+did not use clay pot coolers, but reported other changes in the way they store fruits and
+vegetables. The changes these non-users reported include separating their produce based on
+ethylene compatibility guidelines provided in the training and covering a basket with a damp
+cloth. One-hundred percent (100%) of clay pot cooler users said the performance of the clay
+pot cooler is better than their previous method of fruit and vegetable storage at home.
+Additionally, 41% of non-users perceived the clay pot cooler as better than their previous
+method of storage before the training. These responses indicate that clay pot coolers are
+favorably viewed as a food storage solution among those who participate in the interview.
+
+Increasing the shelf life of fruits and vegetables for people can have further impacts, including
+reductions in food spoilage, saving time and money, and improved nutrition. Figure 6 shows
+impacts reported by clay pot cooler users. Over 3.6 million people in Mali struggle with food
+insecurity yearly on average — with the Mopti region being particularly affected.8 Fruits and
+vegetables contain essential micronutrients, which are especially important for vulnerable
+populations such as children under five years of age and pregnant and lactating women. With
+88% of clay pot cooler users eating more fruits and vegetables compared to before the training,
+a positive impact on their nutrition is being made. The majority of users (95%) also reported
+spending less time traveling to buy fruits and vegetables. The task of buying produce often falls
+to women, who can spend hours traveling to and from the market multiple times per week.
+
+
+
+                                                                                                     15
+Longer shelf life allows for more fruits and vegetables to be bought at once, reducing the
+number of times needed to go to the market. This reduces the time burden on women and
+girls, who can then spend more time on other activities such as attending school, working, and
+engaging with family and the community. Ninety-eight percent (98%) of users also report less
+food waste, directly supporting two UN Sustainable Development Goals (SDGs): Zero Hunger
+(SDG 2) and Responsible Production and Consumption (SDG 12). If fruits and vegetables spoil, it
+wastes the money, time, and energy spent to get that food to the consumer. Less waste will
+also make more food available for the consumer, so clay pot coolers are a tool that can help
+reduce food insecurity in the region.
+
+With increasing global temperatures, food waste is likely to grow in the hot and dry climate of
+Mali. Clay pot coolers can improve resilience to the negative impacts of climate change through
+better food storage. Additionally, global food loss and waste generate 4.4 Gt CO2 equivalent
+annually, accounting for about 8% of total anthropogenic greenhouse gas emissions,9 which is
+comparable (87%) to global road transport emissions.10 Less food waste reduces carbon
+emissions from decomposing fruits and vegetables. Furthermore, by reducing the amount of
+fruit and vegetable production needed by having more food reach consumers before spoiling,
+greenhouse gas emissions and other environmental impacts of the agricultural sector can be
+reduced. Therefore, in arid areas where clay pot coolers work best, and where people are
+struggling with food loss, this simple technology that can increase fruit and vegetable shelf life
+can also have a positive impact on not only the lives of users, but the greater community and
+the environment.
+
+
+
+
+Figure 6. Impacts on fruit and vegetable consumption, waste, and time spent traveling to buy fruits and
+vegetables were reported by 194 clay pot cooler users.
+
+
+
+
+                                                                                                    16
+Training Feedback
+During the half-day training sessions, the following topics are covered during the training include:
+           ● How evaporative cooling works
+           ● Importance of proper fruit and vegetable storage
+           ● Types of clay pot coolers and how to assemble them
+           ● Fruit and vegetable compatibility
+           ● Best practices for using clay pot coolers
+
+To gather feedback on the training, they were asked about which topics they retained
+information about, which topics they appreciated the most, and which topics they thought could
+be improved. A full summary of responses can be seen in Table 7 below. Across all three groups
+interviewed, the topics retained by respondents the most were the importance of fruit and
+vegetable storage (90%), followed by the principles of evaporative cooling (78%). The topic
+retained the least by all three groups were the rules of fruit and vegetable ethylene compatibility.
+
+Most respondents (81%) said they appreciated the aspects of the training regarding the
+importance of fruit and vegetable cooling and preservation, followed by the principles of
+evaporative cooling and types of evaporative cooling devices (78%). While the importance of fruit
+and vegetable cooling and preservation was the aspect appreciated the most by producers,
+consumers, pot makers, and pot sellers; no vendors selected this topic as one they appreciated.
+When asked to explain the most beneficial aspects of the training, common responses were that
+the technology was easy to understand, it provided the benefit of improving fruit and vegetable
+shelf life, and the information provided in the training was clear. Some commented that the least
+beneficial aspects of the training were that they had greater storage needs than the clay pot
+coolers could provide and some wished that the training provided them with a clay pot cooler.
+The team conducting the training has chosen not to provide clay pot coolers to participants to
+encourage the independent adoption of the technology in the area.
+
+When asked about what could be improved in the training, 43% of fruit and vegetable vendors,
+producers, and consumers reported that they had no suggestions for improvements. The areas
+of the training participants that participants thought could be improved were: principles of
+evaporative cooling (41%), types of evaporative cooling devices (31%), and manufacture and
+assembly of evaporative cooling devices (29%). Sixty-three percent (63%) of vendors answered
+that the good user practices aspect of the training is in most need of improvement. Other
+suggestions for improvements to the training sessions include a longer training session duration,
+a follow-up training session, and more training sessions. This feedback has been taken into
+consideration as revisions to the training program have been made.
+
+
+
+                                                                                                 17
+Table 7. Number and percentage of respondents who retained, appreciated, and wanted improvements
+on the various topics taught during the training. The total number of respondents was 264 and the number
+of responses for each topic is listed in brackets. Among the fruit and vegetable vendors, producers and
+consumers, 43% [113 participants] reported that they had no suggestions for improvements. Most
+respondents gave more than one response to this question.
+
+                                                                                     Percentage
+                                              Percentage          Percentage
+                                                                                    [Number] of
+                                             [Number] of         [Number] of
+   Topics                                                                         respondents who
+                                          respondents who      respondents who
+                                                                                 thought topic could
+                                            retained topic     appreciated topic
+                                                                                    be improved
+
+   Importance of cooling vegetables              90%                  81%                  18%
+
+   Good user practices                           62%                  63%                  29%
+   Manufacture and assembly of
+                                                 67%                  58%                  31%
+   evaporative cooling devices
+   Principles of evaporative cooling             78%                  78%                  41%
+   Rules of ethylene                             43%                  41%                  5%
+   User identification and marketing            24%*                  34%                  11%
+   Other                                         1%                   6%                   38%
+
+*Only clay pot makers and sellers were asked whether they retained the topic of user identification and
+marketing. The percentage is out of 54 clay pot makers and sellers.
+
+
+
+
+                                                                                                     18
+Conclusion
+The results from the interviews indicate that the training sessions were successful in stimulating
+the adoption of clay pot coolers within the communities. Not only did 73% of participants adopt
+the use of clay pot coolers, nearly 2,000 clay pot coolers were sold by training participants. This
+indicates that a food storage need in the community is being addressed by the use of clay pot
+coolers. In addition, clay pot makers and sellers were able to expand their businesses to sell clay
+pot coolers and meet the demand of this new market. Additionally, participants shared
+information about clay pot coolers with over 4,000 people, indicating that participants like using
+the clay pot coolers enough to tell others in the community about the technology. Participants
+report experiencing less food loss, eating more fruits and vegetables, and spending less time
+traveling to purchase produce. These results indicate that the increased shelf life of fruits and
+vegetables enabled by using a clay pot cooler can lead to better nutrition for populations
+vulnerable to deficiencies. Clay pot coolers also help reduce the time burden for women to
+purchase produce at the market, allowing them to engage in other activities. The reductions in
+food loss experienced by clay pot cooler users can increase fruit and vegetable availability in local
+communities and lower greenhouse gas emissions associated with food production and waste.
+How to best improve and scale up the program to expand the positive impacts of clay pot coolers
+will be discussed in the next section.
+
+
+Recommendations and Next Steps
+MIT D-Lab is looking to continue working with organizations in Mali and other suitable regions
+that are well positioned to implement a clay pot cooler training program and scale up the
+dissemination of clay pot coolers.
+
+Adaptations to the existing training plan and curriculum are planned based on the participants'
+feedback given during the interviews described in this paper. The most important and
+consequential feedback was the need for devices with larger storage capacity expressed by many
+participants. This feedback came both as a reason that people did not decide to adopt the
+technology, and as the most common suggestion from clay pot cooler users when asked how the
+technology could be improved.
+
+While clay pot cooler capacity is limited by the size of the largest clay pot currently available
+locally, efforts can be made to increase the supply of materials for larger pots and to provide
+users with guidance to construct or purchase larger clay pot coolers. Before undertaking these
+efforts, MIT D-Lab conducted heat transfer modeling and laboratory testing to confirm that larger
+clay pot coolers would be able to provide a storage environment similar to the clay pot cooler
+
+
+                                                                                                  19
+designs already being promoted. This testing indicates similar results, with larger devices taking
+longer for initial cooling, but providing a more stable temperature across multiple days. If users
+have storage needs greater than 100 kg of fruits and vegetables, multiple clay pot coolers or
+other devices such as brick evaporative cooling chambers should be considered.
+
+For future training programs, we will make modifications to the curriculum to provide more detail
+on the various sizes of clay pot coolers that can be assembled, and will use larger pots in
+demonstrations and/or specifically inform participants that they can use pots that are larger than
+the ones being used in the demonstration. Furthermore, we will provide clay pot makers and
+sellers with information about the demand for larger clay pot coolers to encourage them to make
+devices that can meet this demand.
+
+The cost of clay pot cooler materials was a concern for participants, for both those that did and
+those that did not adopt the technology after the training. Because the training program does
+not engage directly with the sourcing of materials, there are limitations on how much an
+implementer can influence the cost of clay pot coolers. Given the high rate of adoption with the
+current program structure, subsidies for the cost of materials for participants would not be
+recommended as this could disincentivize other community members from adopting the
+technology without a subsidy. Our recommendation is for program implementers to dedicate
+time to identifying the most cost-effective local suppliers of materials that are suitable for clay
+pot coolers. This will allow implementers to direct participants to these lower-cost suppliers.
+
+Some participants requested that they be provided with funds to cover their cost of
+transportation to attend a training, and depending on the specific context where a training
+program is being implemented, providing a transportation stipend to participants for attending
+the training could be feasible and beneficial.
+
+Additionally, there were requests for a refresher to the training at a later date to reinforce the
+content. The first step is providing participants with information on clay pot coolers after the
+training to make sure that participants have access to the printed training guide. This guide is
+currently available in English, French, Bambara, Spanish, Swahili, and Hindi. For programs that
+conduct follow-up interviews with participants, these points of contact could be an opportunity
+to reinforce key pieces of content from the training. MIT D-Lab, World Vegetable Center, and
+Institut d'Economie Rurale are exploring options for disseminating and reinforcing content about
+clay pot coolers through rural radio, SMS communications, and low-bandwidth videos that will
+increase the reach of information about clay pot coolers.
+
+Lastly, more evidence is needed to encourage governments, aid agencies, and implementers of
+development programs to invest in replicating this clay pot cooler training program in new
+regions and at larger scales. Additional impact evaluations need to be conducted to gain a better
+understanding of how clay pot coolers can help provide better fruit and vegetable storage for
+
+
+                                                                                                20
+more communities. The team is looking to replicate this program at larger scales coupled with
+more rigorous impact assessments in order to probe more deeply into the impact of the program
+on fruit and vegetable consumption, time savings, and food loss for users. Furthermore, given
+the large number of indirect beneficiaries (1,999 clay pot coolers sold and 4,396 people that
+learned about the technology from the 289 participants), there may be a need for a quasi-
+experimental or randomized impact evaluation to capture the impact of this training program on
+communities.
+
+
+
+
+Participants and facilitators at the completion of a clay pot cooler training of trainers (ToT) workshop in
+Bamako, Mali in February 2021. Photo credit: World Vegetable Center.
+
+
+
+
+                                                                                                         21
+Authors & Acknowledgments
+About the Authors
+Laura Mogannam, Tufts University
+Ms. Mogannam is a senior studying Environmental Engineering at Tufts University. She worked
+as a Monitoring and Evaluation Intern at MIT D-Lab in the summer of 2022. Her strong interest
+in user-centered design and international development led her to join the clay pot cooler project.
+She has previously worked on projects with Engineers Without Borders in Nicaragua and the
+Resource Efficiency in Architecture and Planning Department at the HafenCity University in
+Hamburg, Germany.
+
+
+
+Fatimata CISSE, Laboratoire de Technologie Alimentaire, Institut d’Economie Rurale (IER)
+Dr. Cissé has a Ph.D. degree in Food Science (area Food for Health) from Purdue University. She
+is currently the head of the Food Technology Laboratory (LTA) at the Regional Agricultural
+Research Centre (CRRA) of Sotuba of Institut d’Economie Rurale (IER). After more than 20 years
+of work at IER, she has a strong academic background and experience on food product
+development, food product characterization and food loss reduction, training, and mentoring.
+Dr. Cissé is involved in a number of regional and sub-regional R&D and R4D projects within the
+area of product development, shelf-life studies, value addition techniques, and food product
+analysis.
+
+Contact: diallofati@gmail.com
+
+
+
+Kola Sidiki CISSE, Laboratoire de Technologie Alimentaire, Institut d’Economie Rurale (IER)
+Mr. Cissé, is a research associate at the Laboratory of Food Technology (LTA) of the Institute of
+Rural Economy (IER). He obtained a Master's degree in Microbiology at the University of Mascara
+in Algeria before going to the University Joseph Fourier of Grenoble for a Master's degree in
+Molecular Biology. He then continued his studies at the Claude Bernard University in Lyon where
+he obtained a Master's degree in Public Health. He worked for a long time in the health field
+before joining the teaching research corps from where he was assigned to the LTA. His research
+interests include, in addition to health, the food system, the improvement of traditional
+techniques of processing and conservation of food products, moral and Islamic law. He is very
+attached to family and societal values.
+
+
+
+
+                                                                                               22
+Kukom Edoh Ognakossan, World Vegetable Center (WVC)
+Mr. Kukom, a national of Togo, is working as a postharvest loss (PHL) reduction expert with the
+World Food Programme to support its corporate PHL agenda. Kukom is a postharvest specialist
+with 11 years of experience in agricultural research and development working on postharvest
+management of staple crops and vegetables. He has worked with the World Vegetable Center in
+Mali as a Production & Postharvest specialist and Research Assistant. Prior to joining the World
+Vegetable Center, he was a research fellow under the RELOAD (Reduction of Postharvest Losses
+and Value Addition in East African Food Value Chains) project at icipe (International Center of
+Insect Physiology and ecology Kenya). He previously worked as a Research Assistant in the
+Postharvest Management and Food Safety Department of the International Institute of Tropical
+Agriculture (IITA) in Benin. Mr. Kukom holds an M.Sc degree in Food Science and Technology from
+Jomo Kenyatta University of Agriculture and Technology (JKUAT), Kenya, and an Agricultural
+Engineer degree (“Ingénieur Agronome”), with major in Crop Production/Crop protection from
+the University of Lomé, Togo.
+
+
+
+Eric Verploegen, MIT D-Lab, Massachusetts Institute of Technology
+Dr. Verploegen has a Ph.D. from the Massachusetts Institute of Technology in Polymer Science in
+Technology. He is currently a Research Engineer at MIT D-Lab, where his work focuses on helping
+organizations based in low-income regions identify technologies, products, and distribution
+strategies to increase, energy access, agricultural productivity, and food security in their
+communities. Prior to D-Lab, Eric worked on developing materials for solar cells and waste
+remediation systems for the oil and gas industry. Eric has been working on researching,
+developing, and deploying clay pot coolers and other evaporative cooling technologies in Mali
+since 2016. He has conducted work in Niger, Burkina Faso, Uganda, Rwanda, Kenya, and Gujarat,
+India related to evaporative cooling technologies for improving fruit and vegetable preservation.
+
+Contact: ericv@mit.edu
+https://d-lab.mit.edu/clay-pot-coolers
+
+
+
+
+                                                                                              23
+Acknowledgments
+This program was funded in part with the generous support of the American people through the
+United States Agency for International Development (USAID) under cooperative agreement
+number AID-OAA-A-12-00095. The contents are the responsibility of MIT D-Lab and do not
+necessarily reflect the views of USAID or the United States government. The program also
+received generous funding from the Islamic Development Bank (IsDB), and the Tufts University
+Career Center.
+
+The clay pot cooler training of trainers (ToT) workshop in Bamako and the clay pot cooler trainings
+in Mopti were organized and conducted by the Kukom Edoh Ognakossan, Alkassim Dicko, and
+Mariame Sogoba from the World Vegetable Center (WVC); Fatimata Cissé, Kola Sidiki Cissé, and
+Aly Ahamadou from Institut d'Economie Rurale (IER); and Djiguiba Boureima from the Direction
+Régionale de l'Agriculture du Mopti (DRA Mopti).
+
+Umang Bansal provided support on the preparation of the questionnaires used in this study.
+
+Cover design and editing: Nancy Adams
+
+Cover photo: Kadidia Nienta conducting a clay pot cooler training at the Anya-Lobo Cooperative
+Society in Mopti, Mali. Photo credit: Djiguiba Boureima
+
+Suggested citation:
+Mogannam, L., Cissé, F., Cissé, K, S., Ognakossan, K. E., Verploegen, E. (2022). Clay Pot Cooler
+Training in Mali: Outcomes and Impacts. Copyright © Massachusetts Institute of Technology
+(Accessed on [insert date]).
+
+
+
+
+                                                                                                24
+Appendix
+Table A1. Average, minimum and maximum age of respondents. The total number of respondents is listed
+in brackets.
+
+                             Clay pot makers           Producers and          Fruit and vegetable
+                             and sellers [54]         consumers [194]            vendors [16]
+
+ Average age                        35                       39                       34
+
+ Minimum age                        18                       17                       25
+
+ Maximum age                        57                       82                       50
+
+
+
+Table A2. Summary of which commune respondents were from. Eleven training sessions were held in ten
+communes in the Mopti region. Two training sessions were held in the commune of Mopti. The total
+number of respondents is listed in brackets.
+
+                     Clay pot makers       Producers and      Fruit and vegetable          Total
+ Commune name
+                     and sellers [54]     consumers [194]        vendors [16]              [264]
+
+ Doundou                     0                   30                     0                   30
+
+ Fatoma                      0                   21                     4                   25
+
+ Konna                       1                   19                     6                   26
+
+ Korientze                   1                   24                     0                   25
+
+ Mopti                      50                   9                      2                   61
+
+ Ouro Modi                   0                   25                     0                   25
+
+ Sendegue                    0                   19                     0                   19
+
+ Sevare                      2                   14                     1                   17
+
+ Soufroulaye                 0                   17                     3                   20
+
+ Soyed                       0                   16                     0                   16
+
+
+
+
+                                                                                                    25
+Table A3. How respondents acquired a clay pot cooler. This question was only asked to clay pot makers
+and sellers and producers and consumers. The total number of users is listed in brackets. Some
+respondents gave more than one response to this question.
+
+                                      Clay pot makers        Producers and
+                                                                                      Total [186]
+                                      and sellers [51]      consumers [135]
+ I made it myself from materials
+                                            51%                    3%                    16%
+ I already had
+ I made it myself from materials
+                                            71%                    7%                    24%
+ I purchased
+ I bought a complete clay pot
+                                            29%                    87%                   72%
+ cooler from a seller
+ Other                                       0%                    4%                     3%
+
+
+
+Table A4. Where respondents acquired materials to make a clay pot cooler. This question was only asked
+to pot makers and sellers and fruit and vegetable vendors. The total number of respondents is listed in
+brackets. Some respondents gave more than one response to this question.
+
+                                      Clay pot makers      Fruit and vegetable
+                                                                                      Total [143]
+                                      and sellers [135]        vendors [8]
+
+ Used own materials                         21%                    13%                   20%
+
+ From local market                           7%                    63%                   10%
+
+ From clay pot sellers in the city          13%                    25%                   13%
+
+ Other (comment)                             1%                    13%                    1%
+
+ From the neighbor(s)                       21%                    0%                    20%
+
+
+
+
+                                                                                                    26
+Table A5. Locations where respondents across all groups kept their clay pot cooler. The total number of
+users is listed in brackets. Some respondents gave more than one response to this question.
+
+                                            Clay pot                       Fruit and
+                                                      Producers and
+                                           makers and                      vegetable        Total
+                                                        consumers
+                                             sellers                        vendors         [194]
+                                                          [135]
+                                              [51]                            [8]
+ In the room/ bedroom                          10%            11%             13%            11%
+ In the compound of the house (outside
+                                               61%            70%             88%            68%
+ a room/ bedroom) under a shed
+ In the compound of the house (outside
+                                               92%            26%             38%            44%
+ a room/ bedroom) under a tree
+ Under a shed in the market                    N/A            N/A             50%            2%
+ Within the confines of the house
+ (outside a room) left out in the sun           0%             0%             0%             0%
+ (no protection to create shade)
+
+
+
+
+                                                                                                    27
+References
+1. Makule, E., Dimoso, N. & Tassou, S. (2022). Precooling and Cold Storage Methods for Fruits and
+   Vegetables in Sub-Saharan Africa—A Review. Horticulturae. 8. 776. 10.3390/horticulturae8090776.
+2. Verploegen, E., Sanogo, O. & Chagomoka, T. (2018). Evaluation of Low-Cost Vegetable Cooling and
+   Storage Technologies in Mali. Copyright © Massachusetts Institute of Technology.
+   https://d-lab.mit.edu/resources/publications/evaporative-cooling-technologies-improved-
+   vegetable-storage-mali
+3. lal Basediya, A., Samuel, D. V., & Beera, V. (2011). Evaporative cooling system for storage of fruits
+   and vegetables - a review. Journal of Food Science and Technology, 50(3), 429–442.
+   https://doi.org/10.1007/s13197-011-0311-6
+4. Oluwasola, O. (2011). Pot-in-pot Enterprise: Fridge for the Poor. UNDP: Growing Inclusive Markets.
+   https://www.yumpu.com/en/document/view/40867517/pot-in-pot-enterprise-fridge-for-the-poor-
+   growing-inclusive-markets
+5. Best Innovations of 2001: Food Cooling System. Time.
+   http://content.time.com/time/specials/packages/article/0,28804,1936165_1936254_1936632,00.h
+   tml
+6. Verploegen, E., & Shankar, N. (2021). Clay pot Coolers: Preserving Fruits and Vegetables in Mali:
+   Report 2016-2021. Massachusetts Institute of Technology.
+   https://d-lab.mit.edu/resources/publications/clay-pot-coolers-preserving-fruits-and-vegetables-
+   mali-report-2016-2021
+7. Verploegen, E., Mangino, M., Ognakossa, K. E., Ahamadou, A. & Cisse Diallo, F. (2021). Evaporative
+   Cooling for Fruit & Vegetable Storage: A Guide to Assembling, Using, and Maintaining Clay Pot
+   Coolers. Massachusetts Institute of Technology.
+   https://d-lab.mit.edu/resources/publications/guide-assembling-using-and-maintaining-clay-pot-
+   coolers
+8. Mali. World Food Programme. https://www.wfp.org/countries/mali
+9. EC, JRC/PBL, 2012 Emission Database for Global Atmospheric Research, version 4.2.
+   https://edgar.jrc.ec.europa.eu/
+10. Sims R., R. Schaeffer, F. Creutzig, X. Cruz-Núñez, M. D’Agosto, D. Dimitriu, M.J. Figueroa Meza, L.
+    Fulton, S. Kobayashi, O. Lah, A. McKinnon, P. Newman, M. Ouyang, J.J. Schauer, D. Sperling, and G.
+    Tiwari, (2014). Transport. In: Climate Change 2014: Mitigation of Climate Change. Contribution of
+    Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+    [Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I. Baum, S.
+    Brunner, P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel and J.C.
+    Minx (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.
+    https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_chapter8.pdf
+
+
+                                                                                                       28
+
