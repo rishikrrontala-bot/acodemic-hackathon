@@ -12,9 +12,15 @@ Run:  python3 scripts/data/fetch_power.py
 import json, pathlib, time, urllib.request, urllib.error, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-RAW = ROOT / 'data' / 'raw' / 'power'
-PARAMS = ['T2M', 'T2M_MAX', 'T2M_MIN', 'T2MDEW', 'T2MWET', 'RH2M', 'QV2M',
-          'PRECTOTCORR', 'WS2M', 'PS', 'ALLSKY_SFC_SW_DWN']
+# Each set is fetched into its own folder so adding a parameter later doesn't refetch the rest.
+# NOTE: in the climatology endpoint T2M_MAX / T2M_MIN are the month's *extremes* (e.g. Mopti,
+# March: T2M 29.98, T2M_MAX 43.24), not the mean daily maximum. Zeer uses T2M_RANGE, the mean
+# daily temperature range, to get the typical afternoon: T2M + T2M_RANGE / 2.
+SETS = [
+    ('power', ['T2M', 'T2M_MAX', 'T2M_MIN', 'T2MDEW', 'T2MWET', 'RH2M', 'QV2M',
+               'PRECTOTCORR', 'WS2M', 'PS', 'ALLSKY_SFC_SW_DWN']),
+    ('power_range', ['T2M_RANGE']),
+]
 URL = ('https://power.larc.nasa.gov/api/temporal/climatology/point'
        '?parameters={p}&community=AG&longitude={lon}&latitude={lat}&format=JSON')
 
@@ -30,21 +36,23 @@ def fetch(url, tries=5):
     raise RuntimeError(f'failed: {url}')
 
 def main():
-    RAW.mkdir(parents=True, exist_ok=True)
     towns = json.loads((ROOT / 'data' / 'towns.json').read_text())
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else len(towns)
-    done = 0
-    for t in towns[:limit]:
-        out = RAW / f"{t['id']}.json"
-        if out.exists():
-            continue
-        url = URL.format(p=','.join(PARAMS), lon=t['lon'], lat=t['lat'])
-        data = fetch(url)
-        out.write_text(json.dumps(data, separators=(',', ':')))
-        done += 1
-        print(f"{done:4d} {t['cc']} {t['name']}", flush=True)
-        time.sleep(0.4)
-    print(f'fetched {done} new; {len(list(RAW.glob("*.json")))} on disk')
+    for folder, params in SETS:
+        raw = ROOT / 'data' / 'raw' / folder
+        raw.mkdir(parents=True, exist_ok=True)
+        done = 0
+        for t in towns[:limit]:
+            out = raw / f"{t['id']}.json"
+            if out.exists():
+                continue
+            url = URL.format(p=','.join(params), lon=t['lon'], lat=t['lat'])
+            data = fetch(url)
+            out.write_text(json.dumps(data, separators=(',', ':')))
+            done += 1
+            print(f"{folder} {done:4d} {t['cc']} {t['name']}", flush=True)
+            time.sleep(0.3)
+        print(f'{folder}: fetched {done} new; {len(list(raw.glob("*.json")))} on disk')
 
 if __name__ == '__main__':
     main()

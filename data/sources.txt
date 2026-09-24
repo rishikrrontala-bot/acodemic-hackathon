@@ -18,3 +18,10 @@ power-api-docs.html https://power.larc.nasa.gov/docs/services/api/temporal/clima
 wikipedia-pot-in-pot.html https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator
 rolex-bah-abba.html https://www.rolex.org/rolex-awards/applied-technology/mohammed-bah-abba
 e4c-zeer.html https://www.engineeringforchange.org/solutions/product/zeer-pot/
+kader-ch4-ufl-alt.pdf https://hos.ifas.ufl.edu/media/hosifasufledu/documents/pdf/in-service-training/ist30932/IST30932---11.pdf
+dlab-ghtc-paper.html https://d-lab.mit.edu/resources/publications/evaluation-low-cost-evaporative-cooling-technologies-improved-vegetable
+dlab-mali-report-page.html https://d-lab.mit.edu/resources/publications/evaporative-cooling-technologies-improved-vegetable-storage-mali
+worldveg-73619-files.html https://worldveg.tind.io/record/73619/files
+tracking-sdg7-2025.html https://www.worldbank.org/en/topic/energy/publication/tracking-sdg-7-the-energy-progress-report-2025
+fao-women-agrifood-2023-ch2.html https://www.fao.org/3/cc5343en/online/status-women-agrifood-systems-2023/gender-work-agrifood-systems.html
+un-sdg-indicators-list.html https://unstats.un.org/sdgs/indicators/indicators-list/
