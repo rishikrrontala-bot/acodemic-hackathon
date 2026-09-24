@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { CROPS, SUITED, UNSUITED, cropById } from '../src/domain/crops';
-import { chillingRisk, daysInPot, Q10, shelfMultiplier } from '../src/domain/shelf';
+import { chillingRisk, daysInPot, KADER_Q10, q10Range, shelfMultiplier } from '../src/domain/shelf';
 
 describe('shelfMultiplier (Kader: 2–3× per 10 °C)', () => {
   it('is 1× with no cooling', () => {
@@ -10,8 +10,8 @@ describe('shelfMultiplier (Kader: 2–3× per 10 °C)', () => {
 
   it('is 2× to 3× for exactly 10 °C of cooling', () => {
     const m = shelfMultiplier({ low: 10, mid: 10, high: 10 });
-    expect(m.low).toBeCloseTo(Q10.low, 9);
-    expect(m.high).toBeCloseTo(Q10.high, 9);
+    expect(m.low).toBeCloseTo(KADER_Q10.low, 9);
+    expect(m.high).toBeCloseTo(KADER_Q10.high, 9);
     expect(m.mid).toBeCloseTo(Math.sqrt(6), 9);
   });
 
@@ -39,17 +39,31 @@ describe('crops', () => {
     expect(SUITED.length + UNSUITED.length).toBe(CROPS.length);
   });
 
-  it('gives every suited crop a storage band and every unsuited one a reason', () => {
-    for (const c of SUITED) {
-      expect(c.optimumC?.[0]).toBeLessThanOrEqual(c.optimumC?.[1] as number);
-      expect(c.rh?.[0]).toBeLessThanOrEqual(c.rh?.[1] as number);
-    }
+  it('gives every suited crop a storage group and every unsuited one a reason', () => {
+    for (const c of SUITED) expect([1, 2, 3]).toContain(c.group);
     for (const c of UNSUITED) expect(c.reason).toBeDefined();
   });
 
-  it('keeps onions and garlic out (they need dry air)', () => {
+  it('keeps onions and dry goods out (they need dry air)', () => {
     expect(cropById('onion').suited).toBe(false);
-    expect(cropById('garlic').reason).toBe('needsDry');
+    expect(cropById('dryGoods').reason).toBe('needsDry');
+  });
+
+  it('derives each crop Q10 from USDA HB66 respiration rates', () => {
+    expect(cropById('tomato').q10).toBeCloseTo(43 / 22, 2);
+    expect(cropById('pepper').q10).toBeCloseTo(34 / 12, 2);
+    expect(cropById('eggplant').q10).toBeNull();
+  });
+
+  it('mostly agrees with Kader: HB66 Q10s for the listed crops sit near 2–3', () => {
+    const qs = SUITED.map((c) => c.q10).filter((x): x is number => typeof x === 'number');
+    const inBand = qs.filter((x) => x >= 1.9 && x <= 3.3);
+    expect(inBand.length).toBeGreaterThanOrEqual(qs.length - 1); // cucumber (1.28) is the outlier
+  });
+
+  it('uses a crop Q10 as a point and Kader’s spread otherwise', () => {
+    expect(q10Range(cropById('tomato'))).toEqual({ low: 1.95, mid: 1.95, high: 1.95 });
+    expect(q10Range(cropById('carrot')).high).toBe(3);
   });
 
   it('never offers the pot for milk or medicine', () => {
@@ -60,6 +74,7 @@ describe('crops', () => {
   it('warns about chilling for sensitive crops only', () => {
     expect(chillingRisk(cropById('mango'), 12)).toBe(true);
     expect(chillingRisk(cropById('mango'), 14)).toBe(false);
+    expect(chillingRisk(cropById('tomato'), 9)).toBe(true);
     expect(chillingRisk(cropById('cabbage'), 2)).toBe(false);
   });
 
