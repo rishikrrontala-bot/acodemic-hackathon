@@ -1,0 +1,52 @@
+{
+  "schema": "impeccable-design/1",
+  "source": "src/styles/tokens.css",
+  "world": "seasonal crop almanac",
+  "seed": "3c09331c",
+  "color": {
+    "lime": "#f3f4ee",
+    "lime-2": "#e8eadf",
+    "ink": "#12162b",
+    "ink-2": "#3c4160",
+    "rule": "rgb(18 22 43 / 0.18)",
+    "rule-strong": "#12162b",
+    "indigo": "#2a3a8f",
+    "indigo-mark": "#3b4fb8",
+    "indigo-wash": "rgb(42 58 143 / 0.1)",
+    "tomato": "#c8252c",
+    "tomato-wash": "rgb(200 37 44 / 0.1)",
+    "millet": "#e6b02e",
+    "millet-ink": "#7a5500",
+    "leaf": "#2f7d4f",
+    "sand": "#d9c9a3"
+  },
+  "type": {
+    "display": "'Anybody Variable', 'Anybody', 'Arial Narrow', sans-serif",
+    "text": "'Atkinson Hyperlegible Next Variable', 'Atkinson Hyperlegible Next', system-ui, sans-serif",
+    "scale": {
+      "fs-xs": "0.8125rem",
+      "fs-sm": "0.9375rem",
+      "fs-md": "1.0625rem",
+      "fs-lg": "1.35rem",
+      "fs-xl": "1.62rem",
+      "fs-2xl": "2.25rem"
+    }
+  },
+  "space": {
+    "s1": "4px",
+    "s2": "8px",
+    "s3": "12px",
+    "s4": "16px",
+    "s5": "24px",
+    "s6": "32px",
+    "s7": "48px",
+    "s8": "72px"
+  },
+  "motion": {
+    "ease-out": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "ease-in-out": "cubic-bezier(0.77, 0, 0.175, 1)",
+    "t-fast": "160ms",
+    "t-move": "220ms"
+  },
+  "radius": "4px"
+}

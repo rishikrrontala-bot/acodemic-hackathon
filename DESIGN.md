@@ -1,59 +1,72 @@
 # Design
 
-> First written before the build from the direction contract (impeccable `new-work`, code-led, seed `3c09331c`, a degraded roll with no challengers because the roll service is outside this VM's network allowlist). Re-documented from the built world at finish; the tokens below are the ones in `src/styles/tokens.css`.
+Documented from the built interface (impeccable `new-work` → code-led build → critique, two review rounds, verdict 34/40 → verdict fixes → detector clean). The direction contract lives in `.impeccable/surfaces/index-html.md` (seed `3c09331c`; the roll ran degraded, without challengers, because its service is outside the build VM's network allowlist). Tokens: `src/styles/tokens.css`, mirrored in `.impeccable/design.json`.
 
 ## Design read
 
-An **Operate** tool with a demonstrative first screen, for a vegetable seller on a phone in a sunny market and for three student judges on laptops. The language is **the seasonal crop almanac**: the FAO-style crop calendar (crops down the side, twelve months across, flat colour bars), the agricultural extension poster (bold flat fields, numbered drawings, plain words) and the wall calendar in a market stall. Dials: variance 6 · motion 5 · density 5.
+An **Operate** tool whose first screen also has to persuade, for a vegetable seller on a phone in a sunny market and three student judges on laptops. The language is **the seasonal crop almanac**: the FAO-style crop calendar (crops down the side, twelve months across, flat colour bars), the agricultural extension poster (flat fields, numbered drawings, plain words) and a wall calendar in a market stall. Dials: variance 6 · motion 5 · density 5.
 
 ## World
 
-- **The year is the grid.** On wide screens the page runs on 12 columns that *are* the twelve months; the month strip, the crop calendar and the build card all snap to it. Anything that isn't about time sits in the left margin (the "station": town, pot, headline).
-- **Flat fields, no chrome.** Colour arrives as whole cells and bars, the way a printed calendar does it. No cards, no shadows used as decoration, no gradients, no glass.
-- **Drawn like an extension manual.** The pot is a cross-section line drawing (inner pot, wet sand, outer pot, cloth), labelled with leader lines, drawn in SVG from the model's numbers (water level, beads of evaporation, inside thermometer).
-- **Honest by pattern as well as colour.** Months that work are solid indigo; marginal months are millet gold with a dotted texture; months that don't are open with a diagonal hatch. Colour is never the only signal (WCAG 1.4.1).
+- **The year is the grid.** On wide screens the right column is twelve month columns: the dumbbell strip and the crop calendar share them. The left column is the "station": town, the year in one sentence, today, this month, and the pot.
+- **One temperature frame on screen: the hottest hours.** The pot's tags, the year strip's dumbbells and the hero numeral all show the hottest part of the day, which is when food spoils fastest and when a seller can check her pot with a thermometer. The day average (what the calibration and shelf life use) appears once, as a secondary line that says why it matters, and in the numbers table.
+- **Honest states are designed, not defaulted.** A month that doesn't work gets a muted numeral, its reason directly under the month name, and a build card that leads with "Not worth building for August… [Plan for April]". A town where it never works says so and folds the steps away. The first line under the headline always says what *this* month is.
+- **Flat fields, no chrome.** Colour arrives as whole cells, bars and dots. No shadows (the town list uses a 2 px ink rule instead), no gradients, no glass, no side stripes.
+- **Drawn like an extension manual.** The pot is an SVG cross-section drawn from the model: sand darkens with water, the inside tints indigo as it cools, droplets rise from the outer wall at a rate set by the water estimate, and the air/inside tags retarget. Leader-line labels on wide screens become numbered callouts 1–4 with a key on phones.
+- **Colour is never the only signal (WCAG 1.4.1).** Verdicts are colour *and* texture everywhere they appear (strip bands, chip swatch, now-line swatch, map key): works = solid indigo, helps a little = millet with ink dots, too humid = diagonal hatch, mild = pale outline.
 
-## Colour (Full palette, 4 named roles + ink and ground)
+## Colour (Full palette: four roles on ground and ink)
 
-| Token | Role | Value | Why it's this colour |
-|---|---|---|---|
-| `--lime` | Ground | `#F3F4EE` | Limewashed wall, not cream paper; cool enough to stay crisp in sunlight |
-| `--ink` | Text, rules | `#12162B` | Indigo-black, the shade of Kano's dye-pit cloth |
-| `--indigo` | Cooling, "works", water, primary action | `#2A3A8F` | Water and cold; Kano/Ségou indigo |
-| `--tomato` | Heat, the outside air, alerts | `#C8252C` | The crop the seller is trying to save |
-| `--millet` | Marginal months, highlights | `#E6B02E` | Millet and dry-season grass |
-| `--leaf` | Crops that suit the cooler | `#2F7D4F` | Okra, amaranth, greens |
+| Token | Role | Value |
+|---|---|---|
+| `--lime` | Ground (limewash, not cream) | `#F3F4EE` |
+| `--lime-2` | Second layer: selection, panels, table rows | `#E8EADF` |
+| `--ink` | Text, rules (Kano indigo-black) | `#12162B` |
+| `--ink-2` | Secondary text | `#3C4160` |
+| `--indigo` | Cooling, "works", primary action, links | `#2A3A8F` |
+| `--indigo-mark` | Chart marks for "inside the pot" (validated with tomato by the dataviz palette checker) | `#3B4FB8` |
+| `--tomato` | Heat, "air", warnings | `#C8252C` |
+| `--millet` | "Helps a little" fields | `#E6B02E` |
+| `--millet-ink` | Millet-coloured text | `#7A5500` |
+| `--leaf` | Crop notes | `#2F7D4F` |
+| `--sand` | Dry sand in the drawing | `#D9C9A3` |
 
-Contrast (checked in `tests/contrast.test.ts`): ink on lime 16.9:1 · indigo on lime 9.4:1 · tomato on lime 5.3:1 · lime on indigo 9.4:1 · ink on millet 9.6:1 · leaf on lime 5.0:1.
+Measured contrast (`tests/contrast.test.ts`): ink/lime 16.2 · ink-2/lime 9.0 · indigo/lime 9.0 · tomato/lime 5.1 · millet-ink/lime 6.1 · ink/millet 9.0 · indigo-mark/lime 6.3 (marks) · leaf/lime 4.6. Chart pair indigo-mark/tomato: CVD ΔE 22.7, normal-vision ΔE 31.4 (dataviz `validate_palette.js`, all checks pass).
 
 ## Type
 
-- **Anybody** (variable width 50–150, weight 100–900; Etcetera Type, OFL) for months, numerals and headings. Months are set condensed (they must fit twelve across a phone); temperatures are set wide and heavy. Tabular figures everywhere numbers align.
-- **Atkinson Hyperlegible Next** (Braille Institute, OFL) for all reading and UI text. Chosen for legibility at small sizes, in glare and for low-vision readers, which is the actual use scene.
-- Scale (rem, fixed, ratio ≈1.2): 0.8125 · 0.9375 · 1.125 · 1.35 · 1.62 · 2.25 · display clamps only on the headline numeral.
-- No eyebrow labels, no tracked-mono costume labels, no italic serif.
+- **Anybody** (variable, width 50–150 %, weight 100–900; OFL) for the wordmark, headings, month names and numerals. Months and headings sit around 100–135 % width; numerals are heavy and wide. Degree signs are set in the text face so they don't turn into rings at heavy weights.
+- **Atkinson Hyperlegible Next** (Braille Institute; OFL) for all reading and UI text, chosen for glare and low vision. Its slashed zero is kept on purpose (0 vs O).
+- Scale: 0.8125 · 0.9375 · 1.0625 (body) · 1.35 · 1.62 · 2.25 rem; the hero numeral clamps between 2.8 and 5.75 rem.
+- No eyebrow labels, no tracked-mono costume, no italic serif.
 
 ## Space and layout
 
-- 4 px base; steps 4 · 8 · 12 · 16 · 24 · 32 · 48 · 72.
-- Wide (≥1100 px): station column (≈ 4/16) + year field (12 month columns). Medium: stacked, year field full width. Phone (≥360 px): stacked; month strip stays 12 across in condensed Anybody.
-- Hairlines 1 px ink at 20% for table rules; 2 px ink for section rules.
+- 4 px base: 4 · 8 · 12 · 16 · 24 · 32 · 48 · 72.
+- ≥ 1100 px: station (5 fr, sticky) + year field (11 fr); header in one row (wordmark · tagline · section nav · language · unit). At 1366×768 and up, the first screen holds the tagline, the headline, today, the month verdict, the hero numeral, the pot, the full year strip and the top of the crop calendar.
+- < 1100 px: one column in reading order: town → headline → today → **year strip** → month + pot → crops (so scrubbing the year updates what's on the same screen).
+- ≤ 700 px: the crop calendar becomes a one-tap list for the selected month with each crop's own multiplier.
+- Gutters 16 / 32 / 48 px.
 
 ## Components
 
-- **Town search**: a combobox (ARIA 1.2 pattern) over the bundled towns, diacritic-insensitive; "Use my location" picks the nearest bundled town.
-- **Month strip**: 12 buttons in a `radiogroup`; arrow keys, Home/End; drag to scrub.
-- **Pot**: SVG cross-section with a live thermometer; `role="img"` with a text alternative that states the numbers.
-- **Crop calendar**: a real `<table>`: crops × months, each cell the shelf-life gain range.
-- **Build card**: a printable/shareable panel with numbered steps, dimensions and daily water.
-- **Check my pot**: two number inputs → efficiency → a plain-language diagnosis.
+- **Town combobox** (ARIA 1.2, listbox popup, accent-insensitive, country names match), search glyph, "Use my location" → nearest bundled town with its distance.
+- **Now line**: today's verdict and the next good month, with "Show {month}".
+- **Month strip**: 12 radios with roving tabindex; click, arrow keys, Home/End, or drag to scrub; hover tooltip; a visible ▼ NOW marker; table view under "Month-by-month numbers".
+- **Pot**: SVG cross-section, `role="img"` with a text alternative stating the numbers.
+- **Crop calendar**: a real `<table>`; bars from 1× to the town's best; the selected month's values printed, others in accessible text; per-crop detail leads with days ("4–5 days") from the seller's own baseline; grouped "Never put these in the pot".
+- **Build card**: verdict-aware notice, capacity slider (10–100 L), six steps from MIT D-Lab's Best Practices, water estimate, "Save as image" (1080×1350 PNG for WhatsApp) and print.
+- **Check my pot**: two readings → efficiency on a 0–100 % scale with the band labelled "Pots D-Lab measured"; errors under the fields with `aria-invalid`.
+- **Map**: Equal Earth, 492 towns, verdict key, "Works well in N of 492 towns this month".
+- **Validation table** in "How Zeer knows": model vs D-Lab measurements it wasn't tuned on.
 
-## Motion
+## Motion (emil animate)
 
-- One authored moment: **scrubbing the year.** Changing month retargets the pot (inside level and colour, thermometer, evaporation beads) with CSS transitions, 220 ms, `cubic-bezier(0.23, 1, 0.32, 1)`; numbers tween over the same curve.
-- Evaporation beads rise from the outer wall at a rate proportional to the modelled evaporation; paused off-screen and static under `prefers-reduced-motion`.
-- First load: the month strip's bars grow once (30 ms stagger). Nothing else animates on load.
+- Scrubbing the year: frequent action, state purpose. CSS transitions only: sand and inside tint (opacity, 220 ms, `cubic-bezier(0.23, 1, 0.32, 1)`), crop bars (`transform: scaleX`, 220 ms). No keyframes on anything the user triggers repeatedly.
+- Evaporation droplets: the one ambient loop, rate tied to the model, paused under `prefers-reduced-motion` (static droplets instead).
+- Buttons: `scale(0.97)` on press, 120 ms. Hover effects gated to `(hover: hover) and (pointer: fine)`.
+- Reduced motion: all transitions and animations cut to 1 ms; smooth scrolling off.
 
 ## Browser surfaces
 
-Selection, caret, focus rings (3 px indigo, 2 px offset), scrollbars and underline offsets are themed from the palette.
+Selection (indigo/lime), caret (indigo), focus ring (2 px lime gap + 3 px indigo), scrollbar colours, underline offsets, number-input spinners removed, tabular numerals in data.
