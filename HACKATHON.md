@@ -6,6 +6,8 @@
 
 *Facts read from the live Devpost page on 2026-09-23. ⚠ = unconfirmed, so verify before relying on it.*
 
+> **Re-verification, Wed Sep 23 2026 ~11 PM ET (cloud session).** devpost.com is blocked by this VM's network allowlist, so the page was checked through web-search snippets of the live overview page. Confirmed: the deadline ("September 26, 2026 at 11:45 p.m. CDT"), the theme, the three criteria and their descriptions (below), the judges, and the line *"Technical complexity is optional. A simple, well-thought-out idea can outperform a highly technical one."* Not re-checkable from here: prize amounts, age eligibility and the exact submission-form fields; they stay as read on 2026-09-23. Details and sources: `research/RESEARCH-BRIEF.md`.
+
 ## Eligibility
 Ages 13+, students only, global (standard exceptions).
 
@@ -29,9 +31,11 @@ Digital solutions to the UN Sustainable Development Goals, emphasising real-worl
 
 | Criterion | Weight |
 |---|---|
-| SDG Impact & Relevance | unpublished (treat as equal unless the rules say otherwise) |
-| Creativity & Originality | unpublished (treat as equal unless the rules say otherwise) |
-| Execution & Functionality | unpublished (treat as equal unless the rules say otherwise) |
+| SDG Impact & Relevance: how clearly the project addresses a real problem tied to an SDG; the significance of the issue, the thoughtfulness of the approach, the potential for meaningful impact | unpublished (treated as ⅓) |
+| Creativity & Originality: how unique the concept is; whether it tackles its SDG in a fresh way, different from existing solutions | unpublished (treated as ⅓) |
+| Execution & Functionality: how complete and functional the build is, the quality of the user experience, how effectively the idea was brought to life | unpublished (treated as ⅓) |
+
+**Judges:** Hrudhai Lothumalla (Acodemic), Arnav Sayooj (Acodemic), Divyansha Nashine (founder, G.I.R.L.S., an SDG-5 girls-in-STEM nonprofit).
 
 ## Event-specific deliverables (on top of CLAUDE.md's Definition of done)
 - An **SDG alignment** section in README + DEVPOST.md that names the goal(s), the numbered targets (e.g. 6.4, 11.6) and the indicator the tool moves
