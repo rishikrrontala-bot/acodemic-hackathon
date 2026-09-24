@@ -50,11 +50,14 @@ Running log for the unattended cloud build. A resumed session continues from the
 
 - **Wed 11:02 PM ET**: `src/domain/sizing.ts` + `src/domain/check.ts` done (53 tests passing). **Session stopped here at Rishik's request; everything pushed.** Resume step 3 below is complete; start at step 1, then step 4.
 
+- **Thu 2:30 PM ET** (58.3 h left): resumed. Rebuilt climate with `T2M_RANGE` (typical afternoon), model sanity-checked on 16 real towns (Mopti works Nov–May, fails in the Aug rains; Lagos/Jakarta never work).
+- **Thu ~2:40 PM ET**: crops rebuilt from USDA HB66 (storage groups, lowest safe temps, per-crop Q10 from respiration table 1). Town search + nearest. EN/FR/ES copy with verified facts (565 M without power in SSA 2023; 66 %/71 % of women's employment in agrifood, SSA/S. Asia).
+- **Thu ~2:45 PM ET**: full UI built (station + pot, year dumbbell strip, crop calendar, build card with print/PNG, check-my-pot, lazy world map, about, footer), service worker (offline), manifest + icons. 69 unit tests; 29 Playwright e2e (desktop + 375 px phone, axe WCAG 2.2 AA, offline) all passing. CI (`ci.yml`) and live verification (`verify-live.yml`, run after every Pages deploy from a GitHub runner) pushed.
+
 ## ▶ RESUME HERE (next session starts at this list)
 
-1. `git pull`. Confirm `data/raw/power_range/` has 492 files (Actions "Data snapshot" run from commit 04b1d9c). Then `python3 scripts/data/build_climate.py && npx tsx scripts/data/calibrate.ts && npm test` and commit `public/data/climate.json` + `src/data/calibration.json`.
-2. Sanity-check the model on real towns (Mopti, Kano, Kassala, Jodhpur, Hermosillo, Nairobi, Lagos, Dhaka, Garissa, Niamey, Jakarta): expect dry-season "works", rainy-season "humid"/"some", Lagos/Jakarta never "works". Verify crop storage bands in `src/domain/crops.ts` against `data/raw/sources/usda-hb66.txt`.
-3. `src/domain/sizing.ts`: inner pot capacity (default 50 L, D-Lab: sufficient for most households), water/day estimate from energy balance h·A·(T−T_in)/L with h 5–10 W/m²K, "water at least once a day" (D-Lab table). `src/domain/check.ts`: measured ε = (T_out−T_in)/(T_out−T_wb) vs calibrated range → diagnosis (dry sand, glazed outer pot, sun, no airflow, reading error if ε>1). Tests.
-4. UI per `.impeccable/surfaces/index-html.md` + DESIGN.md (station column: town combobox, headline, pot SVG; 12-month strip with scrub; crop calendar table; build card; check-my-pot; world map via d3-geo + world-atlas; EN/FR/ES; °C/°F; service worker; "Built by Rishik Rontala" + meta author).
-5. Playwright e2e (demo path + 375 px + zero console errors), `.github/workflows/ci.yml` (typecheck + test + build), Pages deploy check via Actions API, a `verify-live.yml` workflow that loads the live URL from a GitHub runner (the VM can't reach github.io).
-6. Phases 6–9 of the plan (quality passes, demo video 1:30–3:00 with captions, docs + submission kit, merge to main, HANDOFF.md).
+1. Check Actions: CI green, Pages deploy green, the "verify" job (live e2e + 4G LCP) green. Fix anything red.
+2. Quality passes: impeccable critique → audit → polish (read `/tmp/skills/impeccable/.claude/skills/impeccable/reference/{critique,audit,polish}.md`), fix every material finding, rerun tests.
+3. Demo video 1:30–3:00 (`submission/video/demo.mp4`), captions burned in + `.srt`; `submission/VIDEO-SCRIPT.md`.
+4. Docs + kit: README (hero, live link, video, SDG alignment, Mermaid), docs/ARCHITECTURE.md, docs/LIMITATIONS.md, docs/EXPLAIN-IT.md, submission/DEVPOST.md, gallery ≥5 PNG 1500×1000 + thumbnail + og.png, CHECKLIST.md, LICENSE.
+5. Merge to main, confirm live verify job on main, HANDOFF.md.
