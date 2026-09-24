@@ -201,7 +201,7 @@ main { flex: 1; }
 
 /* ---------- section titles ---------- */
 .section-title { font-family: var(--display); font-weight: 800; font-stretch: 112%; font-size: var(--fs-lg); letter-spacing: -0.005em; }
-.section-help { color: var(--ink-2); font-size: var(--fs-sm); margin-top: var(--s1); max-width: 70ch; }
+.section-help { color: var(--ink-2); font-size: var(--fs-sm); margin-top: var(--s1); max-width: 62ch; }
 
 /* ---------- year strip (dumbbells) ---------- */
 .year { min-width: 0; }
@@ -277,8 +277,9 @@ main { flex: 1; }
 .cell { padding: 6px 2px; border-bottom: 1px solid var(--rule); vertical-align: middle; }
 .mcol.is-sel, .cell.is-sel { background: var(--lime-2); }
 .bar {
-  display: block; height: 10px; width: max(3px, calc(var(--w) * 100%)); background: var(--indigo-mark);
-  border-radius: 0 3px 3px 0; transition: width var(--t-move) var(--ease-out);
+  display: block; height: 10px; width: 100%; background: var(--indigo-mark);
+  border-radius: 0 3px 3px 0; transform-origin: left center;
+  transform: scaleX(max(0.06, var(--w))); transition: transform var(--t-move) var(--ease-out);
 }
 .cell-val { display: block; font-size: 11px; font-weight: 700; margin-top: 3px; white-space: nowrap; text-align: left; }
 tr.is-crop th, tr.is-crop td { background: var(--indigo-wash); }
@@ -321,7 +322,7 @@ tr.is-crop td.is-sel { background: rgb(42 58 143 / 0.18); }
   content: counter(step); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%;
   background: var(--indigo); color: var(--lime); font-family: var(--display); font-weight: 820; font-stretch: 110%;
 }
-.build-notes { font-size: var(--fs-xs); color: var(--ink-2); }
+.build-notes { font-size: var(--fs-xs); color: var(--ink-2); max-width: 70ch; }
 .build-actions { display: flex; flex-wrap: wrap; gap: var(--s3); }
 
 .check-form { margin-top: var(--s4); display: grid; gap: var(--s4); }
@@ -370,7 +371,7 @@ tr.is-crop td.is-sel { background: rgb(42 58 143 / 0.18); }
 .site-foot { background: var(--ink); color: var(--lime); }
 .foot-inner { padding-block: var(--s6); display: grid; gap: var(--s2); }
 .credit { font-family: var(--display); font-weight: 820; font-stretch: 125%; font-size: var(--fs-xl); text-transform: uppercase; }
-.credit-line { font-size: var(--fs-xs); opacity: 0.85; }
+.credit-line { font-size: var(--fs-xs); opacity: 0.85; max-width: 72ch; }
 .repo-link { color: var(--lime); font-weight: 700; }
 .site-foot :focus-visible { box-shadow: 0 0 0 2px var(--ink), 0 0 0 5px var(--millet); }
 
@@ -393,3 +394,13 @@ tr.is-crop td.is-sel { background: rgb(42 58 143 / 0.18); }
 .month-body { display: grid; gap: var(--s4); align-items: start; }
 .month-nums { display: grid; gap: var(--s3); align-content: start; }
 @media (min-width: 560px) and (max-width: 1099px) { .month-body { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); } }
+
+/* validation table in "How Zeer knows" */
+.valid { margin-top: var(--s4); padding: var(--s4); border: 1.5px solid var(--indigo); border-radius: var(--radius); display: grid; gap: var(--s2); }
+.valid-title { font-size: var(--fs-md); font-weight: 800; color: var(--indigo); }
+.valid-intro { font-size: var(--fs-xs); color: var(--ink-2); }
+.valid-table { border-collapse: collapse; font-size: var(--fs-sm); width: 100%; }
+.valid-table th, .valid-table td { padding: 6px 8px 6px 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.valid-table td { font-family: var(--display); font-weight: 800; font-stretch: 110%; white-space: nowrap; }
+.valid-table thead th { font-size: var(--fs-xs); color: var(--ink-2); }
+.valid-table tbody th { font-weight: 400; }

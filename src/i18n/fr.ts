@@ -7,7 +7,7 @@ export const fr: Dict = {
   skip: 'Aller au planificateur',
   loading: 'Chargement de 20 ans de climat pour 492 villes…',
   loadFailed: 'Les données climatiques ne se sont pas chargées. Vérifiez votre connexion et rechargez la page.',
-  tagline: 'Un frigo fait de deux jarres en terre cuite et de sable mouillé, calculé pour votre ville, votre mois et vos légumes.',
+  tagline: 'Le canari-frigo : un frigo fait de deux jarres en terre cuite et de sable mouillé, calculé pour votre ville, votre mois et vos légumes.',
   settings: 'Réglages',
   language: 'Langue',
   units: 'Unité de température',
@@ -23,11 +23,11 @@ export const fr: Dict = {
   nearest: (town: string, km: number) => `Ville la plus proche dans Zeer : ${town}, à ${km} km. Votre climat peut être différent.`,
 
   headlineWorks: (town: string, n: number, runs: string) =>
-    `À ${town}, une jarre-frigo fonctionne ${n} mois par an : ${runs}.`,
+    `À ${town}, un canari-frigo fonctionne ${n} mois par an : ${runs}.`,
   headlineSome: (town: string, runs: string) =>
-    `À ${town}, une jarre-frigo aide un peu en ${runs}, mais l’air n’est jamais assez sec pour qu’elle marche bien.`,
-  headlineNever: (town: string) => `À ${town}, l’air est trop humide pour qu’une jarre-frigo aide. Zeer ne fera pas semblant.`,
-  headlineMild: (town: string) => `À ${town}, il fait assez doux pour qu’une jarre-frigo apporte peu.`,
+    `À ${town}, un canari-frigo aide un peu en ${runs}, mais l’air n’est jamais assez sec pour qu’il marche bien.`,
+  headlineNever: (town: string) => `À ${town}, l’air est trop humide pour qu’un canari-frigo aide. Zeer ne fera pas semblant.`,
+  headlineMild: (town: string) => `À ${town}, il fait assez doux pour qu’un canari-frigo apporte peu.`,
   runJoin: ' et ',
   runTo: '–',
 
@@ -51,7 +51,7 @@ export const fr: Dict = {
 
   potTitle: (month: string) => `La jarre en ${month}`,
   potAlt: (month: string, air: string, inside: string, avgAir: string, avgIn: string) =>
-    `Coupe d’une jarre-frigo en ${month}. Heures les plus chaudes : air ${air}, dedans environ ${inside}. Moyenne de la journée : air ${avgAir}, dedans environ ${avgIn}.`,
+    `Coupe d’un canari-frigo en ${month}. Heures les plus chaudes : air ${air}, dedans environ ${inside}. Moyenne de la journée : air ${avgAir}, dedans environ ${avgIn}.`,
   potAir: 'Air, heures chaudes',
   potInside: 'Dedans, heures chaudes',
   potSand: 'Sable mouillé',
@@ -129,19 +129,19 @@ export const fr: Dict = {
   capacityHelp: 'Le MIT D-Lab a constaté que 50 litres suffisent aux légumes de la plupart des foyers.',
   steps: [
     (inner: string, outer: string) =>
-      `Trouvez deux jarres en terre cuite. L’intérieure d’environ ${inner} de large ; l’extérieure d’environ ${outer}. L’extérieure ne doit pas être vernissée, pour que l’eau la traverse.`,
-    () => 'Versez une couche de sable au fond de la jarre extérieure, posez la jarre intérieure dessus et remplissez l’espace tout autour avec du sable.',
-    () => 'Versez de l’eau sur le sable jusqu’à ce qu’il soit mouillé partout, sans le noyer.',
-    () => 'Mettez vos légumes dans la jarre intérieure et couvrez-la d’un tissu humide.',
-    () => 'Gardez-la à l’ombre, là où l’air circule : sous un arbre ou un auvent, jamais au soleil ni dans une pièce fermée.',
-    (water: string) => `Ajoutez environ ${water} d’eau dans le sable chaque jour, au moins une fois par jour.`,
+      `Prenez deux jarres en terre cuite de même forme : l’intérieure d’environ ${inner} de large, l’extérieure d’environ ${outer}, pour laisser 3 à 6 cm entre elles. Ne vernissez et ne cimentez jamais la jarre extérieure : l’eau doit la traverser.`,
+    () => 'Tamisez le sable pour enlever les cailloux et la poussière fine. Le sable grossier garde l’eau et ne durcit pas en séchant.',
+    () => 'Mettez du sable au fond de la jarre extérieure pour que le bord de la jarre intérieure dépasse d’au moins 2 cm. Centrez-la et remplissez l’espace de sable jusqu’à 3 cm sous le bord.',
+    () => 'Installez-la là où elle restera : à l’ombre, là où l’air circule. Jamais au soleil ni dans une petite pièce fermée. Un support laisse passer plus d’air.',
+    () => 'Versez de l’eau sur le sable jusqu’à ce qu’elle ne pénètre plus en quelques secondes. Mettez vos légumes dans la jarre intérieure et couvrez-la d’un couvercle ou d’un tissu mouillé plié plusieurs fois.',
+    (water: string) => `Ajoutez environ ${water} d’eau chaque jour, au moins une fois par jour, pour que le sable et le tissu ne sèchent jamais.`,
   ],
   waterRange: (a: string, b: string) => `${a} à ${b} litres`,
   waterNote: 'Estimation à partir de la chaleur que reçoit la jarre ; il en faudra plus au vent ou au soleil.',
-  sandNote: 'Suppose environ 5 cm de sable sur chaque côté.',
+  sandNote: 'Étapes tirées du guide des bonnes pratiques du MIT D-Lab (2018). Tailles calculées pour 5 cm de sable tout autour.',
   print: 'Imprimer la fiche',
   saveImage: 'Enregistrer en image',
-  cardFooter: 'zeer · une jarre-frigo calculée pour votre ville',
+  cardFooter: 'zeer · un canari-frigo calculé pour votre ville',
 
   checkTitle: 'Ma jarre marche-t-elle ?',
   checkIntro: 'Lisez deux thermomètres en même temps, aux heures les plus chaudes : l’un à l’ombre à côté de la jarre, l’autre dans la jarre intérieure.',
@@ -174,6 +174,11 @@ export const fr: Dict = {
     'Étalonnage : l’efficacité de la jarre est réglée pour que, dans les conditions relevées par le MIT D-Lab à Mopti et Bamako, le modèle retrouve leurs baisses moyennes mesurées : 6,7 °C pour la jarre dans la jarre, 4,7 à 5,1 °C pour la jarre dans un plat.',
     'Conservation : la sensibilité de chaque produit à la chaleur vient des taux de respiration du Handbook 66 de l’USDA ; la dégradation va 2 à 3 fois plus vite par 10 °C (Kader).',
   ],
+  validationTitle: 'Vérifié sur des mesures qui n’ont pas servi à l’étalonner',
+  validationIntro: 'Le MIT D-Lab a mesuré 67 jarres à Mopti et 9 à Bamako pendant la saison 2017. Le modèle n’a été étalonné que sur leur moyenne de saison sèche ; voici d’autres chiffres de leur rapport complet.',
+  validationRows: ['Jours humides (air à plus de 70 % d’humidité) : baisse moyenne', 'Jours humides : baisse à l’heure la plus chaude', 'Jours secs (moins de 40 %) : baisse à l’heure la plus chaude'],
+  validationModel: 'Zeer',
+  validationMeasured: 'Mesuré',
   limitsTitle: 'Ce que Zeer ne peut pas vous dire',
   limits: [
     'Ce sont des moyennes sur 20 ans. Une vague de chaleur, une semaine de pluie ou un vent sec changent la journée.',

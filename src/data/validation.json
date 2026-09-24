@@ -1,0 +1,40 @@
+{
+  "source": "MIT D-Lab / World Vegetable Center, Evaluation of Evaporative Cooling Technologies for Improved Vegetable Storage in Mali, full report (2018)",
+  "note": "Measured ambient was read by a sensor on the side of the pot, which D-Lab reports ran up to 0.9 °C cooler than true ambient, so true decreases may be up to ~0.9 °C larger than measured.",
+  "bins": {
+    "dry": {
+      "studyMonths": [
+        "Mopti Mar (RH 17%)",
+        "Mopti Apr (RH 20%)",
+        "Mopti May (RH 32%)",
+        "Bamako Mar (RH 19%)",
+        "Bamako Apr (RH 29%)"
+      ],
+      "predictedMeanDrop": 6.7,
+      "predictedMaxDrop": 9.1,
+      "measuredMeanDrop": 6.9,
+      "measuredMaxDrop": 8.6
+    },
+    "mid": {
+      "studyMonths": [
+        "Mopti Jun (RH 49%)",
+        "Mopti Jul (RH 64%)",
+        "Bamako May (RH 45%)",
+        "Bamako Jun (RH 62%)"
+      ],
+      "predictedMeanDrop": 3.6,
+      "predictedMaxDrop": 5.5,
+      "measuredMeanDrop": null,
+      "measuredMaxDrop": null
+    },
+    "humid": {
+      "studyMonths": [
+        "Bamako Jul (RH 77%)"
+      ],
+      "predictedMeanDrop": 1.6,
+      "predictedMaxDrop": 3,
+      "measuredMeanDrop": 1.8,
+      "measuredMaxDrop": 2.6
+    }
+  }
+}
