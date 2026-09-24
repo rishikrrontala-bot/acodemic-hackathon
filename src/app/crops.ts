@@ -24,7 +24,8 @@ export function createCrops(store: Store): HTMLElement {
   const baseLabel = h('label', { for: 'baseline', class: 'baseline-label' });
   const baseInput = h('input', { id: 'baseline', type: 'number', min: 1, max: 30, step: 1, inputmode: 'numeric', class: 'num-input' }) as HTMLInputElement;
   const baseUnit = h('span', { class: 'baseline-unit' });
-  const inPot = h('p', { class: 'in-pot', 'aria-live': 'polite' });
+  const inPot = h('p', { class: 'visually-hidden', 'aria-live': 'polite' });
+  const mobileList = h('ul', { class: 'crop-mobile' });
   const notes = h('ul', { class: 'crop-notes' });
   const detail = h('div', { class: 'crop-detail' }, detailName, detailGain,
     h('p', { class: 'baseline' }, baseLabel, h('span', { class: 'baseline-field' }, baseInput, baseUnit)), inPot, notes);
@@ -33,9 +34,13 @@ export function createCrops(store: Store): HTMLElement {
   const keepList = h('ul', { class: 'keep-list' });
 
   const section = h('section', { class: 'crops', 'aria-labelledby': 'crops-title' },
-    title, help, h('div', { class: 'table-scroll crop-scroll' }, table),
+    title, help, h('div', { class: 'table-scroll crop-scroll' }, table), mobileList,
     h('div', { class: 'crop-lower' }, detail, h('div', { class: 'keep' }, keepTitle, keepList)));
 
+  mobileList.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLElement>('button[data-crop]');
+    if (b) store.set({ crop: b.dataset.crop as never });
+  });
   body.addEventListener('click', (e) => {
     const b = (e.target as HTMLElement).closest<HTMLElement>('button[data-crop]');
     if (b) store.set({ crop: b.dataset.crop as never });
@@ -43,6 +48,12 @@ export function createCrops(store: Store): HTMLElement {
   baseInput.addEventListener('input', () => {
     const v = Number(baseInput.value);
     if (Number.isFinite(v) && v >= 1 && v <= 30) store.set({ baselineDays: Math.round(v) });
+  });
+  baseInput.addEventListener('blur', () => {
+    const v = Number(baseInput.value);
+    const clamped = Number.isFinite(v) ? Math.min(30, Math.max(1, Math.round(v))) : store.state.baselineDays;
+    baseInput.value = String(clamped);
+    if (clamped !== store.state.baselineDays) store.set({ baselineDays: clamped });
   });
 
   function render() {
@@ -72,7 +83,7 @@ export function createCrops(store: Store): HTMLElement {
           const v = d.times(mult(r.mid, st.lang));
           return h('td', { class: `cell${i === st.month ? ' is-sel' : ''}` },
             h('span', { class: 'bar', style: `--w:${w.toFixed(3)}`, 'aria-hidden': 'true' }),
-            h('span', { class: i === st.month ? 'cell-val' : 'visually-hidden' }, v));
+            h('span', { class: 'cell-val' }, v));
         }));
     }));
 
@@ -81,14 +92,16 @@ export function createCrops(store: Store): HTMLElement {
     const r = model.shelf.get(crop.id)![st.month]!;
     const m = model.year[st.month]!;
     setText(detailName, `${d.crop[crop.id]} · ${long[st.month]}`);
-    setText(detailGain, d.timesRange(mult(r.low, st.lang), mult(r.high, st.lang)));
     setText(baseLabel, d.baselineLabel(d.cropLower[crop.id] ?? d.crop[crop.id]!.toLowerCase()));
     if (document.activeElement !== baseInput) baseInput.value = String(st.baselineDays);
     setText(baseUnit, d.daysUnit);
     const days = daysInPot(st.baselineDays, r);
     const lo = Math.max(st.baselineDays, Math.round(days.low));
     const hi = Math.max(lo, Math.round(days.high));
-    setText(inPot, d.inPot(lo === hi ? num(lo, st.lang) : `${num(lo, st.lang)}–${num(hi, st.lang)}`));
+    const dayRange = lo === hi ? num(lo, st.lang) : `${num(lo, st.lang)}–${num(hi, st.lang)}`;
+    const timesRange = mult(r.low, st.lang) === mult(r.high, st.lang) ? d.times(mult(r.mid, st.lang)) : d.timesRange(mult(r.low, st.lang), mult(r.high, st.lang));
+    detailGain.replaceChildren(h('span', { class: 'gain-days' }, d.cropDays(dayRange)), h('span', { class: 'gain-times' }, d.cropTimes(timesRange)));
+    setText(inPot, d.inPot(dayRange, long[st.month]!));
     const notesArr: string[] = [];
     notesArr.push(crop.q10 ? d.q10Note(mult(crop.q10, st.lang)) : d.q10Generic);
     notesArr.push(d.cropHumidity);
@@ -96,9 +109,22 @@ export function createCrops(store: Store): HTMLElement {
     else if (crop.chillBelowC !== undefined) notesArr.push(d.chillWarn(temp(crop.chillBelowC, st.unit, st.lang)));
     notes.replaceChildren(...notesArr.map((n) => h('li', {}, n)));
 
+    // phone: the selected month as a list, one tap per crop
+    mobileList.replaceChildren(...SUITED.map((c) => {
+      const rr = model.shelf.get(c.id)![st.month]!;
+      const dd = daysInPot(st.baselineDays, rr);
+      const a = Math.max(st.baselineDays, Math.round(dd.low));
+      const b = Math.max(a, Math.round(dd.high));
+      return h('li', {}, h('button', { type: 'button', class: 'crop-row', 'data-crop': c.id, 'aria-pressed': c.id === st.crop ? 'true' : 'false' },
+        h('span', { class: 'crop-row-name' }, d.crop[c.id]!),
+        h('span', { class: 'crop-row-val' }, d.cropDays(a === b ? num(a, st.lang) : `${num(a, st.lang)}–${num(b, st.lang)}`))));
+    }));
+
     setText(keepTitle, d.keepOutTitle);
-    keepList.replaceChildren(...UNSUITED.map((c) => h('li', {},
-      h('strong', {}, d.crop[c.id]!), ' ', h('span', {}, d.reason[c.reason!]!))));
+    const byReason = new Map<string, string[]>();
+    for (const c of UNSUITED) byReason.set(c.reason!, [...(byReason.get(c.reason!) ?? []), d.crop[c.id]!]);
+    keepList.replaceChildren(...[...byReason].map(([reason, names]) => h('li', {},
+      h('strong', {}, names.join(' · ')), ' ', h('span', {}, d.reason[reason]!))));
   }
   store.subscribe(render);
   render();

@@ -53,8 +53,9 @@ export function createPot(): PotView {
   const sandWet = s('path', { d: OUTER_IN, class: 'pot-sand-wet' });
   const coolInside = s('path', { d: INNER_IN, class: 'pot-cool' });
   const beads = s('g', { class: 'pot-beads', 'aria-hidden': 'true' });
+  // Evaporation drawn as small rising droplets (a speck reads as dust in a still frame).
   BEADS.forEach(([x, y, dir], i) => {
-    beads.append(s('circle', { cx: x, cy: y, r: 2.6, class: 'pot-bead', style: `--dx:${dir * 14}px;--i:${i}` }));
+    beads.append(s('path', { d: `M${x} ${y} q3 4 0 6 q-3 -2 0 -6 z`, class: 'pot-bead', style: `--dx:${dir * 14}px;--i:${i}` }));
   });
 
   const airValue = s('text', { x: 58, y: -2, class: 'pot-tag-value pot-tag-air-value', 'text-anchor': 'middle' });
@@ -62,18 +63,23 @@ export function createPot(): PotView {
   const inValue = s('text', { x: 180, y: 104, class: 'pot-tag-value pot-tag-in-value', 'text-anchor': 'middle' });
   const inLabel = s('text', { x: 180, y: 130, class: 'pot-tag-label pot-tag-label-in', 'text-anchor': 'middle' });
 
-  const leader = (x1: number, y1: number, x2: number, y2: number, tx: number, ty: number) => {
+  // Leader lines with labels on wide screens; on phones the same points carry numbers 1–4 and a
+  // key below the drawing names them (extension-manual style).
+  const leader = (n: number, x1: number, y1: number, x2: number, y2: number, tx: number, ty: number) => {
     const t = s('text', { x: tx, y: ty, class: 'pot-leader-text' });
     const g = s('g', { class: 'pot-leader' },
       s('line', { x1, y1, x2, y2, class: 'pot-leader-line' }),
       s('circle', { cx: x1, cy: y1, r: 2.5, class: 'pot-leader-dot' }),
       t);
-    return { g, t };
+    const badge = s('g', { class: 'pot-num', 'aria-hidden': 'true' },
+      s('circle', { cx: x1, cy: y1, r: 11, class: 'pot-num-bg' }),
+      s('text', { x: x1, y: y1 + 5, 'text-anchor': 'middle', class: 'pot-num-text' }, String(n)));
+    return { g, t, badge };
   };
-  const lCloth = leader(254, 52, 340, 40, 346, 44);
-  const lInner = leader(250, 110, 340, 104, 346, 108);
-  const lSand = leader(300, 170, 340, 170, 346, 174);
-  const lOuter = leader(300, 236, 340, 236, 346, 240);
+  const lCloth = leader(1, 254, 52, 340, 40, 346, 44);
+  const lInner = leader(2, 250, 110, 340, 104, 346, 108);
+  const lSand = leader(3, 300, 170, 340, 170, 346, 174);
+  const lOuter = leader(4, 300, 236, 340, 236, 346, 240);
 
   const root = s('svg', { viewBox: '0 -34 470 334', class: 'pot', role: 'img', 'aria-labelledby': 'pot-title' },
     title,
@@ -106,15 +112,16 @@ export function createPot(): PotView {
     s('rect', { x: 140, y: 78, width: 80, height: 34, rx: 4, class: 'pot-tag pot-tag-in' }),
     inValue, inLabel,
     s('g', { class: 'pot-leaders' }, lCloth.g, lInner.g, lSand.g, lOuter.g),
+    s('g', { class: 'pot-nums' }, lCloth.badge, lInner.badge, lSand.badge, lOuter.badge),
   );
 
   return {
     root,
     update(p) {
       setText(title, p.alt);
-      setText(airValue, p.air);
+      airValue.replaceChildren(p.air.replace('°', ''), s('tspan', { class: 'pot-deg' }, '°'));
       setText(airLabel, p.airLabel);
-      setText(inValue, p.inside);
+      inValue.replaceChildren(p.inside.replace('°', ''), s('tspan', { class: 'pot-deg' }, '°'));
       setText(inLabel, p.insideLabel);
       setText(lCloth.t, p.labels.cloth);
       setText(lInner.t, p.labels.inner);

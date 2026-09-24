@@ -87,22 +87,35 @@ async function boot(): Promise<void> {
       writePref('zeer.unit', b.dataset.unit!);
     }
   });
+  const navLinks = (['year', 'build', 'check', 'why'] as const).map((k) => h('a', { href: `#${k}`, class: `nav-link nav-${k}` }));
+  const nav = h('nav', { class: 'site-nav' }, ...navLinks);
   const header = h('header', { class: 'site-head' },
     h('div', { class: 'brand' },
       h('h1', { class: 'wordmark' }, 'Zeer'),
       tagline),
-    h('div', { class: 'prefs' }, langGroup, unitGroup));
+    h('div', { class: 'prefs' }, langGroup, unitGroup),
+    nav);
+  nav.addEventListener('click', (e) => {
+    const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#"]');
+    if (!a) return;
+    e.preventDefault(); // keep the state hash in the URL; scroll instead
+    const target = document.getElementById(a.getAttribute('href')!.slice(1));
+    target?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    target?.querySelector<HTMLElement>('h2')?.focus({ preventScroll: true });
+  });
 
   const skip = document.querySelector<HTMLAnchorElement>('.skip');
   const mapHost = h('div', { class: 'map-host' });
   const mapTitle = h('h2', { class: 'section-title', id: 'map-title' });
   const mapHelp = h('p', { class: 'section-help' });
+  const mapCount = h('p', { class: 'map-count', 'aria-live': 'polite' });
+  const mapLegend = h('p', { class: 'legend map-legend' });
   const main = h('main', { id: 'main', tabindex: '-1' },
     h('div', { class: 'almanac' }, createStation(store, towns),
       h('div', { class: 'field-col' }, createYear(store), createCrops(store))),
     h('div', { class: 'workbench' }, createBuild(store), createCheck(store)),
-    h('section', { class: 'where', 'aria-labelledby': 'map-title' }, mapTitle, mapHelp, mapHost),
-    createAbout(store));
+    createAbout(store),
+    h('section', { class: 'where', 'aria-labelledby': 'map-title' }, mapTitle, mapHelp, mapCount, mapLegend, mapHost));
 
   app.replaceChildren(header, main, createFooter(store));
   app.removeAttribute('aria-busy');
@@ -112,7 +125,7 @@ async function boot(): Promise<void> {
   const loadMap = () => {
     if (mapLoaded) return;
     mapLoaded = true;
-    void import('./app/map').then(({ mountMap }) => mountMap(mapHost, store, towns));
+    void import('./app/map').then(({ mountMap }) => mountMap(mapHost, store, towns, mapCount, mapLegend));
   };
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
@@ -134,6 +147,8 @@ async function boot(): Promise<void> {
     langGroup.querySelectorAll<HTMLElement>('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === st.lang)));
     unitGroup.querySelectorAll<HTMLElement>('[data-unit]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.unit === st.unit)));
     if (skip) setText(skip, d.skip);
+    nav.setAttribute('aria-label', d.navLabel);
+    (['year', 'build', 'check', 'why'] as const).forEach((k, i) => setText(navLinks[i]!, d.nav[k]));
     const names = new Intl.DateTimeFormat(st.lang, { month: 'long', timeZone: 'UTC' }).format(new Date(Date.UTC(2021, st.month, 15)));
     setText(mapTitle, d.mapTitle(names));
     setText(mapHelp, d.mapHelp);

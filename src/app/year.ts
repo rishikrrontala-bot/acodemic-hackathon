@@ -13,7 +13,7 @@ const H = 160; // column drawing height (viewBox units)
 const PAD = 12;
 
 export function createYear(store: Store): HTMLElement {
-  const title = h('h2', { class: 'section-title', id: 'year-title' });
+  const title = h('h2', { class: 'section-title', id: 'year-title', tabindex: '-1' });
   const help = h('p', { class: 'section-help' });
   const legendOut = h('span', { class: 'legend-text' });
   const legendIn = h('span', { class: 'legend-text' });
@@ -50,7 +50,7 @@ export function createYear(store: Store): HTMLElement {
     return { btn, line, ringOut, ringIn, out, inn, band, lab, now };
   });
 
-  const section = h('section', { class: 'year', 'aria-labelledby': 'year-title' }, title, help, legend, strip, table);
+  const section = h('section', { class: 'year', id: 'year', 'aria-labelledby': 'year-title' }, title, help, legend, strip, table);
 
   // ---- interaction
   const setMonth = (m: number) => {
@@ -101,8 +101,8 @@ export function createYear(store: Store): HTMLElement {
     const names = monthNames(st.lang, 'short');
     tip.replaceChildren(
       h('strong', {}, names[i]!),
-      h('span', {}, `${d.legendOutside}: ${temp(m.outsideMean, st.unit, st.lang)}`),
-      h('span', {}, `${d.legendInside}: ${temp(m.insideMean.mid, st.unit, st.lang)}`),
+      h('span', {}, `${d.legendOutside}: ${temp(m.outsidePeak, st.unit, st.lang)}`),
+      h('span', {}, `${d.legendInside}: ${temp(m.insidePeak.mid, st.unit, st.lang)}`),
       h('span', { class: 'tip-verdict' }, d.verdict[m.verdict]));
     tip.hidden = false;
     tip.style.setProperty('--x', `${((i + 0.5) / 12) * 100}%`);
@@ -124,7 +124,7 @@ export function createYear(store: Store): HTMLElement {
     setText(summary, d.showNumbers);
 
     // one scale for the whole year, in the reader's unit
-    const vals = model.year.flatMap((m) => [m.outsideMean, m.insideMean.mid]);
+    const vals = model.year.flatMap((m) => [m.outsidePeak, m.insidePeak.mid]);
     const step = st.unit === 'C' ? 5 : 10;
     const lo = Math.floor((toUnit(Math.min(...vals), st.unit) - 1) / step) * step;
     const hi = Math.ceil((toUnit(Math.max(...vals), st.unit) + 1) / step) * step;
@@ -141,8 +141,8 @@ export function createYear(store: Store): HTMLElement {
     const today = new Date().getMonth();
     model.year.forEach((m, i) => {
       const c = cols[i]!;
-      const yo = y(m.outsideMean);
-      const yi = y(m.insideMean.mid);
+      const yo = y(m.outsidePeak);
+      const yi = y(m.insidePeak.mid);
       c.line.setAttribute('y1', String(yo));
       c.line.setAttribute('y2', String(yi));
       for (const [el, yy] of [[c.ringOut, yo], [c.out, yo], [c.ringIn, yi], [c.inn, yi]] as const) {
@@ -154,7 +154,7 @@ export function createYear(store: Store): HTMLElement {
       const sel = i === st.month;
       c.btn.setAttribute('aria-checked', String(sel));
       c.btn.tabIndex = sel ? 0 : -1;
-      c.btn.setAttribute('aria-label', d.monthButton(namesLong[i]!, d.verdict[m.verdict], temp(m.outsideMean, st.unit, st.lang), temp(m.insideMean.mid, st.unit, st.lang)));
+      c.btn.setAttribute('aria-label', d.monthButton(namesLong[i]! + (i === today ? ` (${d.thisMonth})` : ''), d.verdict[m.verdict], temp(m.outsidePeak, st.unit, st.lang), temp(m.insidePeak.mid, st.unit, st.lang)));
       c.now.toggleAttribute('data-off', i !== today);
       setText(c.now, d.now);
     });

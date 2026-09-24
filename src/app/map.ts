@@ -8,14 +8,14 @@ import type { GeometryCollection, Topology } from 'topojson-specification';
 import land110 from 'world-atlas/land-110m.json';
 import type { TownRecord } from '../domain/towns';
 import { LANGS, monthNames } from '../i18n';
-import { s, setText } from './dom';
+import { h, s, setText } from './dom';
 import { townModel } from './derive';
 import type { Store } from './store';
 
 const W = 960;
 const H = 470;
 
-export function mountMap(host: HTMLElement, store: Store, towns: TownRecord[]): void {
+export function mountMap(host: HTMLElement, store: Store, towns: TownRecord[], count: HTMLElement, legend: HTMLElement): void {
   const topo = land110 as unknown as Topology<{ land: GeometryCollection }>;
   const land = feature(topo, topo.objects.land);
   const proj = geoEqualEarth().fitExtent([[8, 8], [W - 8, H - 8]], land);
@@ -59,6 +59,9 @@ export function mountMap(host: HTMLElement, store: Store, towns: TownRecord[]): 
       setText(tip, `${t.n}, ${t.c}: ${d.verdict[v]}`);
     }
     setText(title, d.mapAlt(names[st.month]!, works, towns.length));
+    setText(count, d.mapCount(works, towns.length));
+    legend.replaceChildren(...(['works', 'some', 'humid', 'mild'] as const).map((v) =>
+      h('span', { class: 'legend-item', 'data-verdict': v }, h('span', { class: `map-key map-key-${v}`, 'aria-hidden': 'true' }), d.verdict[v])));
   }
   store.subscribe((s2, prev) => {
     if (s2.month !== prev.month || s2.town.id !== prev.town.id || s2.lang !== prev.lang) render();

@@ -66,7 +66,7 @@ test('French and °F', async ({ page }) => {
   await page.goto('./');
   await page.getByRole('button', { name: 'FR' }).click();
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  await expect(page.locator('.headline')).toContainText('À Mopti, une jarre-frigo fonctionne');
+  await expect(page.locator('.headline')).toContainText('À Mopti, un canari-frigo fonctionne');
   const before = await page.locator('.big-num').textContent();
   await page.getByRole('button', { name: '°F' }).click();
   const after = await page.locator('.big-num').textContent();
@@ -87,11 +87,49 @@ test('deep link restores town, month and language', async ({ page }) => {
 
 test('crop calendar: pick okra, set my own shelf life, see days in the pot', async ({ page }) => {
   await page.goto('./#m=3');
-  await page.getByRole('button', { name: 'Okra', exact: true }).click();
+  // desktop: a button in the calendar table; phone: a row in the month list (shows its days)
+  await page.getByRole('button', { name: /^Okra/ }).click();
   await expect(page.locator('.crop-name')).toContainText('Okra');
   await page.getByLabel(/On the table, my okra last/).fill('4');
-  await expect(page.locator('.in-pot')).toContainText(/about \d+(–\d+)? days/);
+  await expect(page.locator('.gain-days')).toHaveText(/^\d+(–\d+)? days$/);
+  await expect(page.locator('.gain-times')).toContainText('as long as on the table');
   await expect(page.locator('.keep-list')).toContainText('Medicines and vaccines');
+});
+
+test('a humid month says "not worth building" before the steps, and offers the good month', async ({ page }) => {
+  await page.goto('./#m=8'); // Mopti, August
+  await expect(page.locator('.build-advice')).toContainText('Not worth building for August');
+  await page.locator('.build-advice').getByRole('button', { name: /Plan for/ }).click();
+  await expect(page.locator('.build-advice')).toBeHidden();
+  await expect(page.locator('.month-name')).not.toHaveText('August');
+});
+
+test('a town where it never works says so and folds the steps away', async ({ page }) => {
+  await page.goto('./');
+  await page.getByRole('combobox').fill('lagos');
+  await page.getByRole('option', { name: /Lagos/ }).first().click();
+  await expect(page.locator('.build-advice')).toContainText('doesn’t recommend building one in Lagos');
+  await expect(page.locator('.steps')).toBeHidden();
+  await page.getByText('Show the steps anyway').click();
+  await expect(page.locator('.steps')).toBeVisible();
+});
+
+test('the now line names this month and can jump to it', async ({ page }) => {
+  await page.goto('./#m=3');
+  const month = new Intl.DateTimeFormat('en', { month: 'long' }).format(new Date());
+  await expect(page.locator('.now-line')).toContainText(`It’s ${month} now`);
+  const jump = page.locator('.now-btn');
+  if (new Date().getMonth() !== 2) {
+    await jump.click();
+    await expect(page.locator('.month-name')).toHaveText(month);
+  }
+});
+
+test('the hero number, the pot and the year strip agree (hottest hours)', async ({ page }) => {
+  await page.goto('./#m=4');
+  const air = (await page.locator('.pot-tag-air-value').textContent())!.replace('°', '');
+  const inside = (await page.locator('.pot-tag-in-value').textContent())!.replace('°', '');
+  await expect(page.getByRole('radio', { checked: true })).toHaveAccessibleName(new RegExp(`Air ${air}°, inside ${inside}°`));
 });
 
 test('check my pot: readings in the calibrated range read as working', async ({ page }) => {

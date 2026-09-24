@@ -3,11 +3,11 @@ import { planPot, waterPerDay, CAPACITY } from '../domain/sizing';
 import { LANGS, monthNames } from '../i18n';
 import { h, setText } from './dom';
 import { num } from './format';
-import { townModel } from './derive';
+import { runsText, townModel } from './derive';
 import type { Store } from './store';
 
 export function createBuild(store: Store): HTMLElement {
-  const title = h('h2', { class: 'section-title', id: 'build-title' });
+  const title = h('h2', { class: 'section-title', id: 'build-title', tabindex: '-1' });
   const intro = h('p', { class: 'section-help' });
   const capLabel = h('label', { for: 'capacity', class: 'cap-label' });
   const cap = h('input', { id: 'capacity', type: 'range', min: CAPACITY.min, max: CAPACITY.max, step: 5, class: 'cap-range' }) as HTMLInputElement;
@@ -15,14 +15,18 @@ export function createBuild(store: Store): HTMLElement {
   const capHelp = h('p', { class: 'cap-help' });
   const steps = h('ol', { class: 'steps' });
   const notes = h('p', { class: 'build-notes' });
-  const printBtn = h('button', { type: 'button', class: 'btn' });
-  const saveBtn = h('button', { type: 'button', class: 'btn btn-quiet' });
+  const printBtn = h('button', { type: 'button', class: 'btn-quiet' });
+  const saveBtn = h('button', { type: 'button', class: 'btn' });
+  const advice = h('div', { class: 'build-advice', role: 'note', hidden: true });
+  const stepsSummary = h('summary', {});
+  const stepsWrap = h('details', { class: 'steps-wrap', open: true }, stepsSummary,
+    h('div', { class: 'steps-inner' },
+      h('div', { class: 'cap' }, capLabel, h('div', { class: 'cap-row' }, cap, capOut), capHelp),
+      steps, notes,
+      h('div', { class: 'build-actions no-print' }, saveBtn, printBtn)));
 
-  const card = h('div', { class: 'build-card', id: 'build-card' },
-    h('div', { class: 'cap' }, capLabel, h('div', { class: 'cap-row' }, cap, capOut), capHelp),
-    steps, notes,
-    h('div', { class: 'build-actions no-print' }, printBtn, saveBtn));
-  const section = h('section', { class: 'build', 'aria-labelledby': 'build-title' }, title, intro, card);
+  const card = h('div', { class: 'build-card', id: 'build-card' }, advice, stepsWrap);
+  const section = h('section', { class: 'build', id: 'build', 'aria-labelledby': 'build-title' }, title, intro, card);
 
   cap.addEventListener('input', () => store.set({ litres: Number(cap.value) }));
   printBtn.addEventListener('click', () => {
@@ -56,11 +60,35 @@ export function createBuild(store: Store): HTMLElement {
   }
 
   function render() {
-    const { st } = numbers();
+    const { st, m } = numbers();
     const d = LANGS[st.lang];
     const names = monthNames(st.lang, 'long');
+    const model = townModel(st.town);
     setText(title, d.buildTitle);
     setText(intro, d.buildIntro(names[st.month]!, st.town.n));
+
+    // Principle 1: tell her when it won't work, before telling her how to build it.
+    const works = model.summary.worksMonths;
+    card.dataset.verdict = m.verdict;
+    if (m.verdict === 'works') {
+      advice.hidden = true;
+      stepsWrap.open = true;
+    } else if (works.length) {
+      advice.hidden = false;
+      const best = model.summary.best;
+      const plan = h('button', { type: 'button', class: 'btn-link' }, d.planFor(names[best]!));
+      plan.addEventListener('click', () => store.set({ month: best }));
+      advice.replaceChildren(
+        h('p', { class: 'advice-lead' }, d.notWorth(names[st.month]!, d.verdictWhy[m.verdict])),
+        h('p', {}, d.worksFrom(st.town.n, runsText(works, names, d.runJoin, d.runTo)), ' ', plan));
+      stepsWrap.open = true;
+    } else {
+      advice.hidden = false;
+      advice.replaceChildren(h('p', { class: 'advice-lead' }, d.neverBuild(st.town.n)));
+      stepsWrap.open = false;
+    }
+    stepsWrap.classList.toggle('collapsible', !works.length);
+    setText(stepsSummary, d.showStepsAnyway);
     setText(capLabel, d.capacityLabel);
     if (document.activeElement !== cap) cap.value = String(st.litres);
     setText(capOut, d.litres(num(st.litres, st.lang)));

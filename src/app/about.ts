@@ -17,11 +17,11 @@ export function createAbout(store: Store): HTMLElement {
   const vTable = h('table', { class: 'valid-table' }, h('thead', {}, vHead), vBody);
   const lTitle = h('h2', { class: 'section-title', id: 'limits-title' });
   const lList = h('ul', { class: 'limits-list' });
-  const sTitle = h('h2', { class: 'section-title', id: 'sdg-title' });
+  const sTitle = h('h2', { class: 'section-title', id: 'sdg-title', tabindex: '-1' });
   const sList = h('ul', { class: 'sdg-list' });
   const sTargets = h('p', { class: 'sdg-targets' });
   const el = h('div', { class: 'about' },
-    h('section', { class: 'about-col', 'aria-labelledby': 'sdg-title' }, sTitle, sList, sTargets),
+    h('section', { class: 'about-col', id: 'why', 'aria-labelledby': 'sdg-title' }, sTitle, sList, sTargets),
     h('section', { class: 'about-col', 'aria-labelledby': 'method-title' }, mTitle, mList,
       h('div', { class: 'valid' }, vTitle, vIntro, vTable)),
     h('section', { class: 'about-col', 'aria-labelledby': 'limits-title' }, lTitle, lList));

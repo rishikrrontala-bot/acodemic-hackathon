@@ -25,16 +25,21 @@ export function createStation(store: Store, towns: TownRecord[]): HTMLElement {
   const locate = h('button', { type: 'button', class: 'btn-quiet locate' });
   const nearestNote = h('p', { class: 'nearest', hidden: true });
 
-  const headline = h('p', { class: 'headline', 'aria-live': 'polite' });
+  const headline = h('h2', { class: 'headline', 'aria-live': 'polite' });
+  const nowText = h('span', { class: 'now-text' });
+  const nowBtn = h('button', { type: 'button', class: 'btn-link now-btn' });
+  const nowLine = h('p', { class: 'now-line' }, h('span', { class: 'now-dot', 'aria-hidden': 'true' }), nowText, ' ', nowBtn);
 
-  const monthName = h('h2', { class: 'month-name' });
+  const monthName = h('h3', { class: 'month-name' });
   const chip = h('span', { class: 'verdict-chip' }, h('span', { class: 'swatch', 'aria-hidden': 'true' }), h('span', { class: 'chip-text' }));
   const why = h('p', { class: 'verdict-why' });
   const bigNum = h('span', { class: 'big-num' });
   const bigLabel = h('span', { class: 'big-label' });
   const bigRange = h('span', { class: 'big-range' });
-  const heat = h('p', { class: 'heat-line' });
+  const avgLine = h('p', { class: 'avg-line' });
   const pot = createPot();
+  const potKey = h('ol', { class: 'pot-key' });
+  const potKeyTitle = h('p', { class: 'visually-hidden' });
 
   const station = h('div', { class: 'station' },
     h('div', { class: 'town-field' },
@@ -44,15 +49,17 @@ export function createStation(store: Store, towns: TownRecord[]): HTMLElement {
         locate),
       hint, nearestNote, status),
     headline,
+    nowLine,
     h('section', { class: 'month-now', 'aria-labelledby': 'month-name' },
       h('div', { class: 'month-head' }, Object.assign(monthName, { id: 'month-name' }), chip),
+      why,
       h('div', { class: 'month-body' },
+        h('figure', { class: 'pot-figure' }, pot.root, potKeyTitle, potKey),
         h('div', { class: 'month-nums' },
           h('p', { class: 'big' }, bigNum, h('span', { class: 'big-text' }, bigLabel, bigRange)),
-          heat),
-        h('figure', { class: 'pot-figure' }, pot.root)),
-      why),
+          avgLine))),
   );
+  nowBtn.addEventListener('click', () => store.set({ month: new Date().getMonth() }));
 
   // ---- combobox behaviour
   let options: TownRecord[] = [];
@@ -182,15 +189,33 @@ export function createStation(store: Store, towns: TownRecord[]): HTMLElement {
     else line = d.headlineNever(st.town.n);
     setText(headline, line);
 
+    // "now": the seller's real question is whether to build this month
+    const today = new Date().getMonth();
+    const tm = model.year[today]!;
+    let nowStr = d.nowLine(names[today]!, d.verdict[tm.verdict].toLocaleLowerCase(st.lang));
+    if (tm.verdict !== 'works' && s.worksMonths.length) {
+      const next = Array.from({ length: 12 }, (_, k) => (today + 1 + k) % 12).find((k) => model.year[k]!.verdict === 'works');
+      if (next !== undefined) nowStr += ` ${d.nowNext(names[next]!)}`;
+    }
+    setText(nowText, nowStr);
+    nowLine.dataset.verdict = tm.verdict;
+    nowBtn.hidden = st.month === today;
+    setText(nowBtn, d.nowShow(names[today]!));
+
     const monthCap = names[st.month]!.charAt(0).toLocaleUpperCase(st.lang) + names[st.month]!.slice(1);
     setText(monthName, monthCap);
+    station.querySelector('.month-now')!.setAttribute('data-verdict', m.verdict);
     chip.dataset.verdict = m.verdict;
     setText(chip.querySelector('.chip-text'), d.verdict[m.verdict]);
     setText(why, d.verdictWhy[m.verdict]);
-    setText(bigNum, delta(m.dropMean.mid, st.unit, st.lang));
-    setText(bigLabel, d.coolerAvg);
-    setText(bigRange, d.rangeNote(deltaRange(m.dropMean, st.unit, st.lang)));
-    setText(heat, d.inTheHeat(delta(m.dropPeak.mid, st.unit, st.lang)));
+    // hottest hours is the hero: it is what the pot drawing, the year strip and a thermometer show
+    const peak = delta(m.dropPeak.mid, st.unit, st.lang);
+    bigNum.replaceChildren(peak.replace('°', ''), h('span', { class: 'deg' }, '°'));
+    setText(bigLabel, d.coolerPeak);
+    setText(bigRange, d.rangeNote(deltaRange(m.dropPeak, st.unit, st.lang)));
+    setText(avgLine, d.avgLine(delta(m.dropMean.mid, st.unit, st.lang)));
+    setText(potKeyTitle, d.potKey);
+    potKey.replaceChildren(...[d.potCloth, d.potInner, d.potSand, d.potOuter].map((x) => h('li', {}, x)));
 
     pot.update({
       air: temp(m.outsidePeak, st.unit, st.lang),
