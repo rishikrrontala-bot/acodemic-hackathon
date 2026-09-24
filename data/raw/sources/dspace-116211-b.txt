@@ -1,0 +1,134 @@
+EXECUTIVE SUMMARY: Evaluation of Evaporative Cooling
+Technologies for Improved Vegetable Storage in Mali
+Mali’s horticulture sector plays a vital role in supporting the country’s human nutrition and
+health, income generation for farmers, and poverty alleviation. A lack of affordable and
+effective post-harvest vegetable storage solutions often leads to vegetable spoilage, loss of
+income, reduced access to nutritious foods, and significant amounts of time spent traveling to
+purchase vegetables, particularly in rural communities. In Mali – and many other developing
+regions – these challenges are found where farming is the predominant source of income and
+food for populations who lack access to affordable methods for cooling and storage of
+vegetables and leafy greens.
+
+The objective of this research study is to investigate the potential for non-electric evaporative
+cooling devices to address post-harvest vegetable storage challenges in rural Mali. The two
+classes of devices evaluated in this study are commonly known as “evaporative cooling
+chambers” (ECCs), which are generally used by horticulture cooperatives, and “clay pot
+coolers,” which are generally used in households. These devices rely on the evaporation of
+water to create a cooling effect, and their performance is significantly affected by the ambient
+temperature and humidity of the environment in which they operate.
+
+In this study, we used a combination of electronic sensors and structured user interviews to
+gather information about users’ needs for improved post-harvest vegetable storage, current
+methods of post-harvest vegetable storage, and the performance of evaporative cooling
+devices.
+
+                                                             B
+                             A
+
+
+
+                         C
+
+
+
+
+            D                             E                                F
+
+Above is an image of the three ECCs and three clay pot cooler devices included in this study: A) straw ECC, B) sack
+ECC, C) brick ECC, D) cylinder pot-in-dish, E) round pot-in-dish, and F) pot-in-pot.
+
+
+
+                                                                                                                 1
+Results
+The results of this study indicate that low-cost evaporative cooling devices, such as clay pot
+coolers and ECCs, have the potential to benefit both off-grid populations with limited access to
+electricity and on-grid populations with high electricity and/or equipment costs for
+refrigerators. Evaporative cooling can improve vegetable storage shelf life by providing:
+    • A stable storage environment with low temperature and high humidity, which reduces
+        water loss and spoilage in most vegetables
+    • Protection from animals and insects that contaminate and eat the vegetables
+The improved storage environment can have positive impacts including reduced post-harvest
+losses, less time spent traveling to the market, increased availability of vegetables for
+consumption and monetary savings. These devices can also have farther-reaching impacts,
+particularly for women who could benefit economically from producing and selling clay pots.
+
+Our comparison of three types of ECCs demonstrates that ECCs made of brick are superior to
+ECCs made of straw or burlap sacks. Brick ECCs provide a more stable low temperature and high
+humidity environment, are easier to refill with water, and provide protection from animals and
+insects. Due to these considerations, straw and sack ECCs are not recommended.
+
+When comparing clay pot coolers, devices with the pot-in-pot configuration provided a greater
+temperature decrease than clay pot coolers with the pot-in-dish configuration. Both types of
+devices performed similarly on other metrics such as interior humidity, ease of watering, and
+protection from animals and insects. Ninety percent of those interviewed reported that they
+were no longer using any of their previous storage methods after receiving the clay pot coolers,
+indicating that the 50 liter capacity of the clay pot coolers used in this study is sufficient to meet
+the vegetable storage needs of most households. These results indicate that there are relatively
+loose design constraints for constructing a clay pot cooler that provides a basic level of
+performance, even if not optimized, creating an opportunity for locally available materials to be
+repurposed to create an effective clay pot cooler for vegetable cooling and storage.
+
+                   Summary of key characteristics for each evaporative cooling device
+                          Average      Interior      Minimum            Protection
+    Evaporative                                                                       Storage
+                        temperature   humidity        watering        from animals                  Cost
+   cooling device                                                                     volume
+                         decrease*      range*       frequency         and insects
+     ECC (straw)           5.4 °C     30-50%      1-3 times per day       No         250-4000 L   $50 - $250
+     ECC (sack)            2.6 °C      10-30%     1-3 times per day       No         250-4000 L   $50 - $250
+     ECC (brick)           5.8 °C     80-100%     once per 1-7 days       Yes        500-5000 L   $70 - $350
+  Round pot-in-dish        5.1 °C     80-100%       once per day          Yes         10-150 L     $6 - $35
+ Cylinder pot-in-dish      4.7 °C     80-100%       once per day          Yes         10-150 L     $6 - $35
+     Pot-in-pot            6.7 °C     80-100%       once per day          Yes         10-100 L    $10 - $50
+
+*For the data provided, the ambient relative humidity was less than 40% and the average daily ambient
+temperature was between 29 °C and 37 °C.
+
+
+
+                                                                                                               2
+Recommendations
+The most important first step for prospective users, producers, or promoters of ECCs and clay
+pot coolers is to consider the suitability of evaporative cooling devices for the specific context
+of interest by answering the question: Does the technology have the potential to effectively
+meet the needs of the intended users?
+
+The following factors should be assessed to determine the suitability of evaporative cooling
+devices for a specific context:
+   • Operating conditions: Specific conditions are required for evaporative cooling devices
+       to effectively operate: low humidity, high temperature, access to water, and a shady,
+       well-ventilated location.
+   • Need: The storage conditions provided by evaporative cooling devices must meet the
+       user’s needs, and the need for improved vegetable storage must occur during times of
+       the year when evaporative cooling devices can operate effectively.
+   • Value: The cost of the ECC or clay pot cooler must be affordable and justified by the
+       benefits that will be realized due to the improved storage provided.
+
+If evaporative cooling devices are deemed suitable for a given context, the key factors for
+increasing their use are awareness, availability, quality, and affordability in the specific region. If
+the devices can meet a community or region’s vegetable cooling and storage needs, the
+following steps should be taken to increase their dissemination:
+    • Identify end users who could benefit from evaporative cooling technologies
+    • Raise awareness of the technology’s benefits among prospective end users
+    • Increase availability of appropriately designed clay pots; organized production and
+       distribution can increase availability, quality, and affordability
+
+In addition to the full Evaluation Report from this research, we have created an interactive
+“Evaporative Cooling Decision Making Tool” and an “Evaporative Cooling Best Practices Guide”
+to support the determination of ECCs and clay pot cooler suitability and the devices’ proper
+construction and use. The intended audience for these resources includes government
+agencies, nongovernmental organizations, civil society organizations, and businesses that could
+produce, distribute, and/or promote ECCs or clay pot coolers. These resources are available at:
+http://d-lab.mit.edu/resources/projects/evaporative-cooling
+
+
+Authors
+Eric Verploegen, Massachusetts Institute of Technology (MIT) D-Lab, Ousmane Sanogo, World
+Vegetable Center (WVC), and Takemore Chagomoka, World Vegetable Center (WVC)
+
+
+
+
+                                                                                                     3
+

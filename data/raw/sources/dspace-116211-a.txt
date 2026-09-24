@@ -1,0 +1,1109 @@
+EVAPORATIVE
+COOLING
+BEST PRACTICES
+
+Producing and using
+evaporative cooling
+   chambers and
+  clay pot coolers
+
+  Eric Verploegen
+   Peter Rinker
+   Kukom Edoh
+    Ognakossan
+     June 2018
+MIT D-Lab works with people around the world to develop and advance collaborative
+approaches and practical solutions to global poverty challenges. The program’s mission is
+pursued through interdisciplinary courses, research in collaboration with global partners,
+technology development, and community initiatives — all of which emphasize experiential
+learning, community-led development, and scalability. This guide was made possible through
+support from Malcom B. Strandberg.
+
+
+
+
+Movement e.V. is a German Association which works in Burkina Faso in close collaboration with
+local people for a sustainable development. We are convinced that development cooperation
+cannot be a one-sided undertaking, but involves open collaboration and intercultural exchange.
+Since 2008 Movement implements projects in the field of appropriate technologies (solar
+powered grain mill, clay pot cooler), fair trade, and ecological land use.
+
+
+
+
+The World Vegetable Center, an international nonprofit research and development institute, is
+committed to alleviating poverty and malnutrition in the developing world through the
+increased production and consumption of nutritious and health-promoting vegetables. The
+World Vegetable Center helps farmers increase vegetable harvests, raise incomes in poor rural
+and urban households, create jobs, and provide healthier, more nutritious diets for families and
+communities.
+
+
+
+                      This work is licensed under the Creative Commons Attribution-ShareAlike
+                      4.0 International License. To view a copy of this license visit:
+                      http://creativecommons.org/licenses/by-sa/4.0/
+
+                                                                                               2
+Table of Contents
+Introduction ............................................................................................................................... 4
+Suitability of Evaporative Cooling Devices ................................................................................. 7
+   Operating conditions .......................................................................................................................... 7
+   Need for improved post-harvest vegetable cooling and storage ........................................................ 8
+   Value that ECCs and clay pot coolers provide in relation to their cost ................................................ 9
+Construction of Evaporative Cooling Chambers ....................................................................... 10
+   Evaporative cooling chamber materials and construction ................................................................ 11
+Construction of Clay Pot Coolers .............................................................................................. 13
+   Manufacturing of clay pots ............................................................................................................... 14
+   Assembling a clay pot-in-pot cooler.................................................................................................. 17
+   Alternative clay pot cooler designs ................................................................................................... 19
+Best Practices for Use ............................................................................................................... 20
+Dissemination .......................................................................................................................... 23
+   Identify and Test Assumptions with Potential End Users .................................................................. 24
+   Organize Production and Distribution .............................................................................................. 25
+   Raising Awareness and Marketing .................................................................................................... 26
+Conclusions and Additional Resources ..................................................................................... 27
+   Contact ............................................................................................................................................. 27
+   Previous work that provided the basis for this Best Practice Guide .................................................. 28
+   Practical Action’s resources .............................................................................................................. 28
+   Videos for construction and usage of clay pot coolers ...................................................................... 29
+   Videos for construction and usage of evaporative cooling chambers ............................................... 29
+   Other information on evaporative cooling technology ..................................................................... 29
+   Guidance on optimal storage conditions for fruits and vegetables ................................................... 30
+
+
+
+
+                                                                                                                                                         3
+Introduction
+When affordable and effective post-harvest storage solutions are in short supply, populations
+will often experience vegetable spoilage, loss of income, lack of access to nutritious foods, and
+large amounts of time spent purchasing vegetables, particularly in rural communities. Devices
+such as evaporative cooling chambers (ECCs) and clay pot coolers are simple and inexpensive
+ways to keep vegetables fresh without the use of electricity. These devices function according
+to a basic principle called “evaporative cooling,” where the evaporation of water from a surface
+removes heat, creating a cooling effect. Evaporative cooling can improve vegetable storage
+shelf life by providing:
+    ● A stable storage environment with low temperature and high humidity, which reduces
+         the rate of respiration and water loss and spoilage in most vegetables
+    ● Protection from animals and insects that contaminate and eat the vegetables
+
+The improved storage environment can have positive impacts including reduced post-harvest
+losses, less time spent traveling to the market, monetary savings, and increased availability of
+vegetables for consumption. These devices can also have farther-reaching impacts, particularly
+on women, who often make pottery and could benefit economically from producing clay pots
+with local materials, as well as selling fruits and vegetables in more flexible markets that have
+access to evaporative cooling technology.
+
+
+
+
+Left: A clay pot cooler with a pot-in-pot configuration
+Right: An evaporative cooling chamber (ECC) constructed from bricks with a cover made from
+dry grass and wood
+
+                                                                                               4
+Several hot and dry regions throughout the world could potentially benefit from evaporative
+cooling, including North Africa, the Sahel region of Africa, the Horn of Africa, southern Africa,
+the Middle East, arid regions of South Asia, and Australia. Through this document and related
+research, we hope to increase awareness of evaporative cooling technologies to improve their
+dissemination in appropriate contexts. This guide is intended to provide practical information
+about ECCs and clay pot coolers, including:
+    ● How to determine if they are suited for a particular context
+    ● Construction using locally available materials
+    ● Increasing awareness and adoption of locally made products
+
+
+
+
+ Two vendors of vegetables with a clay pot cooler at the market in Ouahigouya, Burkina Faso.
+
+
+
+                                                                                               5
+The ECC and clay pot cooler devices in this study function on the principle of direct evaporative
+cooling, where heat is removed as water evaporates from the surface of the storage device. The
+evaporative cooling effect causes a decrease in temperature and an increase in the relative
+humidity inside the storage device, conditions that increase the shelf life of many vegetables.
+Water must be added at regular intervals to maintain the cooling effect. The watering
+frequency required can vary from several times a day to only a few times a week, depending on
+the storage device’s material and design as well as the weather conditions. In hot and dry
+climates (greater than 25 °C and less than 40% humidity) ECCs and clay pot coolers can be
+expected to provide a storage environment with humidity greater than 80% and temperature at
+least 8 °C lower than the maximum daily ambient temperature. Additional details on the
+performance of evaporative cooling devices can be found in:
+“Evaporative Cooling Technologies for Improved Vegetable Storage in Mali - Evaluation Report”.
+
+
+
+
+      Diagram of a clay pot cooler with a pot-in-pot configuration, covered by a wet cloth.1
+
+The information presented in this guide is intended for any organization or individual that may
+be interested in distributing and/or promoting these technologies to vegetable producers,
+distributors, and consumers who are looking for improved vegetable storage solutions.
+Examples include non-governmental organizations (NGOs) and government agencies that
+promote horticultural best practices, or social enterprises and local businesses that may have
+an interest in producing and marketing vegetable storage technologies.
+
+
+
+1
+ Adapted from Peter Rinker, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33444154,
+Accessed January 3, 2018
+
+                                                                                                      6
+Suitability of Evaporative Cooling Devices
+Evaporative cooling devices such as evaporative cooling chambers (ECCs) and clay pot coolers
+are not suitable for all contexts, and several factors should be assessed to determine if a device
+will meet user needs in a particular setting. Below is a list of key considerations2:
+    ● Operating conditions: Specific conditions are required for evaporative cooling devices
+       to operate effectively:
+           o Low relative humidity (less than 40 %)
+           o High temperature (daily maximum above 25 °C)
+           o Access to water, which must be added for evaporative cooling to work
+           o Availability of shady, well-ventilated locations for ECCs and clay pot coolers
+    ● Need: The storage conditions provided by evaporative cooling devices must meet users’
+       needs. Potential users should consider:
+           o Optimal storage conditions for different vegetables
+           o The scale of vegetable storage needed
+           o Variations in the need for vegetable cooling and storage throughout the year
+    ● Value: The cost of the ECC or clay pot cooler must be affordable and justified by the
+       benefits that will be realized due to its improved storage. Potential users should
+       evaluate:
+           o Local availability and affordability of materials to construct an ECC or clay pot
+           o Potential benefits of evaporative cooling devices, such as time and money saved,
+               increased vegetable availability, improved hygiene, and convenience
+
+In the following sections, we discuss these considerations along with specific insights from
+research conducted by MIT D-Lab.
+
+Operating conditions
+Several key considerations are important for determining if an evaporative cooling device will
+provide effective cooling and storage. ECCs and clay pot coolers provide the most benefits
+when they are used in low humidity climates (less than 40% relative humidity), the
+temperature is relatively hot (maximum daily temperature greater than 25 °C), water is
+available to add to the device between one and three times per day, and the device can be
+located in a shady and well-ventilated area (see the “Best Practices for Use” section). If any of
+these key criteria cannot be met at the time when improved vegetable storage is needed, then
+ECCs or clay pot coolers may not provide sufficient benefits to justify their use.
+
+2
+ Adapted from “A Review of Porous Evaporative Cooling for the Preservation of Fruits and Vegetables” (Odesola &
+Onwuka, 2009)
+
+                                                                                                              7
+Need for improved post-harvest vegetable cooling and storage
+Improved post-harvest vegetable cooling and storage technologies have the potential to
+provide benefits along several points of the post-harvest horticulture value chain, including to
+farmers, traders, and consumers. However, the specific vegetable storage needs of a particular
+user should be considered before deciding to use an evaporative cooling device such as an ECC
+or clay pot cooler. Some key considerations follow.
+
+What type of vegetables or other products are in need of improved storage?
+ECCs or clay pot coolers provide benefits if post-harvest vegetable spoilage is the result of
+exposure to high temperatures, low humidity, animals, or insects. Some examples of vegetables
+that are particularly vulnerable to these conditions include eggplants, tomatoes, leafy greens,
+peppers, and okra. See the “Conclusions and Additional Resources” section for a more
+complete list of vegetables that can benefit from storage in an evaporative cooling device. Non-
+electric evaporative cooling devices – such as ECCs and clay pot coolers – are not suitable for
+items that require sustained temperatures below 20 °C (medicine, meat, and dairy products) or
+foods that require a low humidity environment (onions, coffee, garlic, millet, and other grains).
+
+What volume of vegetables needs to be stored at any one time?
+It is necessary to estimate the volume of vegetables in need of improved storage at any given
+time to determine the appropriate size of the evaporative cooling device. If the vegetables can
+fit into a clay pot with a capacity of 150 liters or less, then a clay pot cooler is most appropriate.
+Individuals or groups that need to store larger amounts of vegetables can consider an ECC. A
+brick ECC can be designed to accommodate the storage volumes between roughly 500 and
+5,000 liters (see the “Construction of Evaporative Cooling Chambers” section).
+
+How often is improved vegetable storage needed?
+Variations in the need for improved vegetable
+storage can arise due to seasonal growing and
+harvest cycles, vegetable production surpluses
+relative to local demand, and climate variations. It is
+important to determine if proper operating
+conditions exist for evaporative cooling to
+effectively provide benefits during the time when
+vegetable storage is needed, and if the need for
+improved vegetable storage is frequent enough that
+the value an ECC or clay pot cooler can provide is
+greater than its cost.
+
+Right: Cabbages, eggplants, and peppers, and
+lettuce stored on a wet cloth.
+
+                                                                                                    8
+Value that ECCs and clay pot coolers provide in relation to their cost
+The cost of constructing a device should be estimated to determine if investing in an ECC or clay
+pot cooler is justified. Relevant materials must be locally available and affordable. A description
+of the materials needed to construct ECCs or clay pot coolers can be found in the next section.
+
+The benefits must be greater than the cost to justify the construction or purchase of an ECC or
+clay pot cooler. Among the benefits that should be considered when making this determination
+are:
+    ● Financial savings due to reduced food loss
+    ● Time and money saved travelling to the market
+    ● Increased availability of vegetables to a family
+    ● Improved hygiene of the vegetables
+    ● Convenience
+Additionally, an end user must either be able to afford the cost of the device or have access to a
+financing plan that will allow for them to pay for the device after the financial benefits of
+improved storage have accumulated.
+
+Overall, the evaporative cooling and storage technologies discussed here have the potential to
+provide effective post-harvest vegetable storage in an appropriate context. Based on the
+considerations outlined in this section, we have developed an interactive Microsoft Excel-based
+“Evaporative Cooling Decision Making Tool” to help determine if evaporative cooling devices
+are suitable for a particular context and guide the calculation of potential financial savings.
+
+
+
+
+            Farmers in need of improved vegetable storage in Bankass, Mopti, Mali
+
+                                                                                                 9
+Construction of Evaporative Cooling Chambers
+Evaporative cooling chambers (ECCs) – also known as “zero energy cool chambers (ZECCs)” –
+can be made from locally available materials including bricks, sand, wood, dry grass,
+gunny/burlap sack, and twine. The brick ECC was originally developed in India by Susanta K. Roy
+and D.S. Khuridiya in the early 1980s (Roy & Khurdiya, Keep vegetables fresh in summer, 1982;
+Roy & Khurdiya, 1985) to address fruit and vegetable post-harvest losses, especially in rural
+areas where electricity is non-existent. Roy and Khuridiya’s ECC design is composed of a double
+brick wall structure, supported by a base layer of brick, and covered with a straw mat. The
+space in between the two brick walls is filled with sand, which retains the water that is added.
+Inside the ECC, food is placed in unsealed plastic containers, which keeps the vegetables off the
+ECC’s floor and allows them to breathe and be exposed to the cool, humid air inside the device.
+ECCs can provide a temperature up to 10-15 °C cooler than the temperature outside the
+chamber and maintain a high humidity of about 95%, which can significantly extend the shelf
+life of many vegetables.
+
+Due to their relatively large size, ECCs are most suitable for farmers with large production
+quantities, farming groups, or farming cooperatives. The size of an ECC can be chosen to meet a
+range of user storage needs; however, the cost can vary significantly based on desired size and
+local cost of materials. Because ECCs can be constructed over a range of sizes, it is important to
+select an appropriate size according to the need, to avoid over-building and spending more
+money than is needed.
+
+
+
+
+                     Vegetables stored in an evaporative cooling chamber
+
+                                                                                               10
+Evaporative cooling chamber materials and construction
+An evaporative cooling chamber (ECC)3 can be built simply with local materials such as bricks,
+sand, wood, straw, dry grass, gunny/burlap sack, and twine. Follow these steps to build ECC:
+
+                                 Make a foundation of approximately 165 cm x 115 cm with bricks.
+1)
+                                 The dimensions can vary according to the storage volume needed
+
+
+                                 Mount the double wall at approximately a height of 67.5 cm
+2)
+                                 leaving a cavity of 7.5 cm wide between the walls
+
+
+
+3)                               Wet the walls of the chamber with water
+
+
+
+                                 Fill the cavity between the two walls with wet sand. It is better to
+4)
+                                 use the sand from a nearby river if possible.
+
+
+                                 Make a frame from wood the same size as the foundation (165 cm
+5)                               x 115 cm). Cover the wood frame with straw, dry grass, or burlap
+                                 sack and secure with rope or twine.
+
+
+                                 The cover goes over the evaporative cooling chamber to keep the
+6)
+                                 cool air inside the chamber
+
+
+                                 Store your products in plastic crates or baskets in the chamber.
+7)                               Plastic crates containing products must be arranged on top of
+                                 each other
+
+
+                                 Place a clear plastic sheet over the plastic baskets containing the
+8)
+                                 fruits and vegetable
+
+
+                                 ECC in operation to extend the shelf life of fruits and vegetables.
+9)                               If the evaporative cooling chamber is not build in an area that is
+                                 well shaded, a shed must be constructed to provide shade.
+
+3
+    Also commonly called: Zero Energy Cool Chamber (ZECC).
+
+                                                                                                        11
+Notes on construction:
+   • Before you start building your ECC, choose a location:
+           o Close to a water source
+           o Exposed to wind / breeze
+           o If possible a place where there is already shade (this will allow for cost to be
+              saved from making a shed).
+   • ECC needs to be reinstalled once in 3 years with new bricks and old bricks can be used
+       for other purposes
+
+Tips for improved performance:
+    • Open the cover as infrequently as possible to keep the cool air in
+    • Keep the sand between the bricks wet, an irrigation system can ease this process
+    • Sprinkle water on the cover 1-3 times per day
+
+
+
+
+An evaporative cooling chamber (ECC) under a shade cover made from wood, straw, and plastic
+
+The World Vegetable Center has experimented with constructing ECCs from straw or burlap
+sacks around the frame of a box made with wooden planks. Research conducted by MIT D-Lab
+and World Vegetable Center revealed that the performance of these straw and sack ECCs were
+significantly worse than the brick ECC design described here, and are not recommended. These
+research results can be found at: http://d-lab.mit.edu/resources/projects/evaporative-cooling.
+                                                                                                12
+Construction of Clay Pot Coolers
+Clay pot coolers4 have been used for centuries to help farmers reduce food spoilage and waste,
+increase their income, and limit the health hazards of spoiled foods. Clay pot coolers are
+typically used at the household level due to their simple construction and relatively small size.
+The pot-in-pot design, commonly known as a “Zeer pot,” was popularized in 1995 by
+Mohammed Bah in Nigeria and is composed of two clay pots with the same shape but different
+sizes. One pot is placed inside the other and the space in between the two containers is filled
+with sand, which retains the water added. Food is placed inside the interior pot, and both pots
+are covered with a lid or a damp piece of cloth. Alternative designs exist for clay pot coolers
+that can include a plastic or metal container inside a single clay pot or dish, or a single clay pot
+placed in a plastic or metal dish.
+
+Clay pot coolers are typically used at the household level due to their simple construction and
+relatively small size. The cost of a clay pot cooler can vary significantly based on desired size,
+design, and local cost of materials. It is important to select an appropriate size according to
+need to avoid spending more money than is needed.
+
+
+
+
+                  Merchants selling vegetables in clay pot coolers at a market in Nigeria
+
+This section provides practical information for constructing clay pot coolers, including:
+    ● Manufacturing of clay pots
+    ● Assembling a clay pot-in-pot cooler
+    ● Alternative clay pot cooler designs
+4
+    Also commonly called: pot-in-pot refrigerator, Zeer pot, desert fridge, canari frigo, or clay/ceramic refrigerator.
+
+                                                                                                                      13
+Manufacturing of clay pots
+The pot-in-pot configuration requires two fired clay pots of different sizes so that the smaller
+one can be placed into the larger one (see the figures below). The distance between the two
+clay pots should be around 3 to 6 cm. Because clay pots with these dimensions are often not
+found in the normal range of potters’ products, they may need to be specially made. Getting
+the right materials for quality clay pots, forming the pots, and firing them requires expertise
+and local knowledge. Therefore, it is recommended to produce the clay pots in collaboration
+with experienced potters.
+
+
+
+
+                                                      Dimensions of two ideally sized pots for
+                                                      clay pot coolers.
+
+
+
+
+                                                      Dimensions of an assembled clay pot
+                                                      cooler
+
+
+
+
+All stated dimensions in this document are approximate and optimized according to the
+authors’ experience. Nevertheless, these dimensions are only suggestions, and it is not worth
+the trouble to try to attain them exactly. The most important step is to ensure that the smaller
+clay pot fits inside the larger one.
+If clay pots are already available in the desired shape and design, skip this part of the manual
+and continue by reading: “Assembling a clay pot-in-pot cooler”.
+
+
+                                                                                                   14
+Materials:
+Clay is intermingled with broken bits of old clay pots and water into a homogeneous and
+kneadable substance. Depending on the region, some pot makers add straw or donkey dung to
+strengthen the stability of the clay pots.
+
+Forming the clay pots:
+Forming the clay pots can be simplified by various auxiliary means.
+1. Many potters use round concrete molds embedded in the ground and a pestle to beat a
+   clump of clay into a spherical pot. However, a totally spherical shape is not advantageous
+   for a clay pot cooler because the opening would be too small for an adequately sized inner
+   pot. Therefore, when reaching at the widest diameter during creation, it is better to stop
+   beating the clay and continue building up vertically by adding new bulges of clay.
+2. Alternatively, different sized
+   basins made of plastic or metal
+   can be used as molds. Take care
+   that the basins have the desired
+   dimensions.
+3. Another option is to create a
+   mold made from a mixture of
+   mud, dung, and water. The mold
+   is covered with a small amount
+   of wood chippings to prevent
+   sticking. Contrary to the molds
+   described above, clay is placed
+   regularly on the outside of an
+   upside down mold. The mold
+   should be removed as soon as
+   possible because the shrinkage
+   of drying clay can cause
+   problems.
+
+
+
+
+                                            A woman forming a clay pot in Burkina Faso
+
+
+
+
+                                                                                          15
+Drying:
+The clay pots should be completely
+dried before they are fired. The
+duration of the drying process is
+dependent      on       local     weather
+conditions, but is typically 3 to 7 days.
+
+
+
+
+                                                    Dried clay pots ready to be fired
+
+
+Firing the clay pots:
+    1. The process of firing pots varies from region to region. Because most potters in
+        developing countries do not have pottery kilns, the firing of the clay pots is performed
+        with large fires in which many clay pots are fired at the same time. (If a pottery kiln is
+        available, it should be used because it is more energy efficient and has a more
+        homogenous heat distribution than open fires.)
+    2. Various types of wood and dried cow dung can serve as fuel.
+    3. The fire should be protected
+        from wind. Therefore, it is
+        often placed in a natural or
+        artificial pit and protected by
+        sheet metal on top and pieces
+        of broken clay pots on the
+        sides.
+    4. After setting the fire, the pots
+        should remain there for
+        around 24 hours before being
+        removed, cooled, and utilized
+        to build clay pot coolers.
+
+                                             A group of potters in front of their pottery kiln
+
+
+
+                                                                                                 16
+Assembling a clay pot-in-pot cooler
+
+Layer of cement on inner clay pot
+The inner (smaller) clay pot can be
+covered with a thin layer of cement to
+prevent water diffusing through the
+pores of the inner clay pot. After
+applying the layer of cement to the pot,
+the cement should be sprinkled with
+water several times in the following 24
+hours to facilitate curing. Do not glaze
+or cover the outer (larger) pot with
+cement, as this will prevent the
+necessary evaporation of water and
+reduce the cooling effect.
+                                           Two clay pots ready for installation. The small pot has
+                                           been covered with a layer of cement.
+
+
+Sand
+The space between the two clay pots
+should be filled with sieved sand. To
+achieve optimal functionality, the sand
+must be processed through two sieves
+of different mesh sizes. Begin sieving
+with the larger mesh size to filter out
+grains and small stones. Next, sieve the
+sand with a thin cloth to remove dust
+and tiny clay particles. The remaining
+coarse sand has a high water storage
+capacity and does not harden when it
+dries out like tiny clay particles do.
+Sieving the sand is important to ensure The sand on the left contains too many tiny clay
+the long-term functionality of the clay particles.
+pot cooler.
+
+
+
+
+                                                                                               17
+Assembly / Installation
+   1. Place a layer of sand in the bottom of the outer clay pot for the inner pot to sit on. The
+      thickness of this first layer of sand should be adjusted such that the upper rim of the
+      inner pot is at least 2 cm higher than that of the outer pot. This prevents water from
+      entering the inner pot during the daily watering of the sand.
+   2. Place the inner (smaller) pot inside the outer (larger) pot
+   3. Fill the space between the two clay pots with sand. During this procedure, ensure that
+      the inner pot stays positioned exactly in the middle of the outer pot so that the distance
+      between the two pots is identical in all directions.
+   4. Fill the space between the pots with sand to 3 cm below the edge of the outer clay pot.
+   5. Due to the considerable weight of a completed clay pot cooler, it should be assembled
+      at the desired place of use. This location should be shady, to avoid solar heating, and
+      well ventilated to provide ideal conditions for the evaporation process.
+
+
+
+
+Left: The bottom of the outer pot is filled with sand
+Top right: The inner clay pot being placed in the outer pot
+Bottom right: The space between the pots filled with sand
+
+
+
+                                                                                             18
+Alternative clay pot cooler designs
+One adaptation on the common pot-in-pot design is the Janata cooler, developed by the Food
+& Nutrition Board of India5. A plastic or metal storage pot is placed in an earthenware bowl
+containing sand and water (see the below image in the center). The pot is then covered with a
+damp cloth that is dipped into the reservoir of water. As water drawn up the cloth evaporates
+keeping the storage pot cool. The bowl is also placed on wet sand, to isolate the pot from the
+hot ground.
+
+Another design consists of an earthenware pot in a plastic dish containing sand and water (see
+the below image on the right). MIT D-Lab and World Vegetable Center researchers observed
+the usage of clay pot coolers with this configuration in Mali, and included this design in a
+research study focused on clay pot coolers and evaporative cooling chambers6.
+
+
+
+
+Left: Diagram of an alternative clay pot cooler design7
+Center: A clay pot cooler with an earthenware bowl and a plastic storage pot
+Right: A clay pot cooler with a plastic bowl and an earthenware storage pot
+
+While the arrangement of the components of the clay pot cooler will impact the performance,
+the alternative designs described can still provide the key benefits of the most commonly
+known pot-in-pot configuration (i.e. reduced temperature, increased humidity, protection from
+animals and insects).
+
+The basic principles of providing a surface and material for water to evaporate to create a
+cooling effect and the best practices for use (described in the next section) are both applicable
+for evaporative cooling devices of any configuration.
+
+5
+  Roy, S.K. and Khardi, D.S. (1985). “Zero Energy Cool Chamber”. India Agricultural Research Institute: New Delhi,
+India. Research Bulletin No.43: 23-30.
+6
+  Verploegen, E.; Sanogo, O.; & Chagomoka, T. (2018) “Evaporative Cooling Technologies for Improved Vegetable
+Storage in Mali” http://d-lab.mit.edu/resources/projects/evaporative-cooling
+7
+  Adapted from Neil Noble, CC BY 4.0, http://answers.practicalaction.org/our-resources/item/evaporative-cooling,
+Accessed June 1, 2018
+
+                                                                                                                19
+Best Practices for Use
+It is important that evaporative cooling technologies are correctly used to ensure maximum
+cooling performance benefit for the user. Improper use decreases the potential benefits and
+results in a lower cost-benefit ratio. The tips for appropriate use in the following areas should
+be considered and followed as much as possible:
+     • Location
+     • Watering frequency
+     • Covering
+     • Vegetable compatibility
+     • Hygiene
+
+Location: ECCs and clay pot coolers must be placed in a shady, and well ventilated location. Do
+not place them in direct sunlight, as the heat from the sunlight absorbed will cancel out the
+cooling from the increased evaporation rate of water. ECCs may require the construction of a
+shade cover. Exposure to wind and good ventilation increase the evaporation of water from the
+surface of the ECC or clay pot cooler. If used in a small room, increased humidity in that room
+will reduce the cooling effect. Clay pot coolers can be placed on a stand to increase the exposed
+surface area for evaporation.
+
+
+
+
+Left: A clay pot cooler ready for use
+Right: An evaporative cooling chamber (ECC) ready for use
+
+
+                                                                                              20
+Watering frequency
+The watering frequency for clay pot coolers and ECCs depends on the evaporation rate and the
+device’s water storage capacity, which is typically at least once per day. In general, the sand
+should be kept wet at all times to enable a continuous cooling process. The quantity of water is
+sufficient when the water does not seep into the sand within a few seconds, which
+demonstrates that the small spaces between the grains of sand have been filled with water.
+
+
+
+
+Watering a clay pot-in-pot cooler
+
+
+
+
+Left: Watering an evaporative cooling chamber (ECC) by hand
+Right: An evaporative cooling chamber (ECC) with an irrigation system for watering
+
+                                                                                             21
+Covering
+The opening on top of the ECC or clay pot cooler should be covered with a lid, a plate, or a wet
+cloth folded several times. Like the sand, the cloth should also be kept wet through the regular
+addition of water.
+
+
+
+
+Left: Covering a clay pot cooler
+Right: Covering an evaporative cooling chamber (ECC)
+
+Vegetable compatibility
+Not all produce that can be stored together because some release ethylene, which can
+accelerate ripening or reduce postharvest quality by promoting senescence, loss of green color,
+yellowing, change in texture and ﬂavor, formation of necrotic areas on plant tissues, etc. of
+produce that are sensitive to it. Ethylene is a natural plant hormone produced by some fruits as
+they ripen, and it is released in the form of a gas.
+
+Fruits or vegetables sensitive to ethylene should not be stored together with produce that are
+ethylene producers. A full list of produce that are sensitive to ethylene and producers of
+ethylene are indicated in the section “Guidance on optimal storage conditions for fruits and
+vegetables”. This section should be consulted for best combination of produce to store.
+Resources for information on vegetable storage compatibility:
+    • http://postharvest.ucdavis.edu/Commodity_Resources/Storage_Recommendations/Co
+        mpatibility_Chart_for_Short-term_Transport_or_Storage/
+    • https://energypedia.info/wiki/Cold_Storage_of_Agricultural_Products#Storage_mix
+
+Hygiene
+Like any device for storing food, the ECC or clay pot cooler should be kept clean. The surface of
+the interior cooling space should be sponged off regularly.
+
+
+                                                                                              22
+Dissemination
+Millions of people in hot, dry regions around the world can benefit from the use of evaporative
+cooling devices. The following steps are recommended to increase the dissemination of these
+beneficial technologies:
+    ● Identify and test assumptions with potential end users
+    ● Organize production and distribution
+    ● Raise awareness and increase marketing
+
+If evaporative cooling devices can meet the vegetable cooling and storage needs in a
+community or region, demand for the production, distribution, and promotion of suitable
+devices will follow. First, however, the producers and end users of evaporative cooling devices
+need to be well-trained to understand the usefulness of these technologies for improving
+vegetable storage along the food supply chain and internalize best practices for their
+construction and use. Such training will increase the awareness and availability of this
+technology. These dissemination activities can be carried out by a local business, possibly with
+the support of a market facilitator, such as a government agency, NGO, or civil society
+organization.
+
+
+
+
+                                               A woman in Burkina Faso with a clay pot-in-pot
+                                               cooler for sale
+
+
+
+
+                                                                                             23
+Identify and Test Assumptions with Potential End Users
+Conducting a horticulture supply chain analysis at various stages (ranging from the field to the
+plate) can help to identify specific end-user profiles that could benefit from evaporative cooling
+technologies in a specific region or community. The goal of such an analysis is to determine the
+potential need for improved storage among vegetable producers, wholesalers, retailers, end
+consumers, or other stakeholders.
+
+Once potential end users of ECCs or clay pot coolers have been identified, it is important to
+consider the suitability of evaporative cooling devices for the specific context of interest (see
+the “Suitability of Evaporative Cooling Devices” section and the “Evaporative Cooling Decision
+Making Tool”).
+
+Underlying assumptions should be checked with potential end users before commencing
+production and dissemination. Personal exchange is helpful when examining assumed benefits
+from the perspective of a potential end user, and can uncover hidden cultural or social
+considerations that may affect the project. An understanding of this context can prevent failure
+and contribute to the success of dissemination efforts. Some of the key steps for identifying the
+benefits that evaporative cooling technology can provide to specific user groups include:
+   ● Contact potential end users to interview them about their specific storage needs and
+       how improved vegetable storage could benefit them.
+   ● Test ECCs or clay pot coolers with a small number of potential end users to gain deeper
+       insights into the user experience.
+   ● After interviews and tests are completed, readjust the “need” and “value” factors in the
+       suitability assessment (see the “Suitability of Evaporative Cooling Devices” section).
+
+
+
+
+Left: Interview with Mrs. Setou Mariko, the President of women’s group in Bledougou, Sikasso;
+Right: Group interview with members of a farming cooperative in Bledougou, Sikasso
+                                                                                               24
+Organize Production and Distribution
+The availability of affordable, high-quality clay pot coolers or ECCs is essential to increasing the
+adoption of evaporative cooling technology.
+
+Since the production of clay-based earthenware is already common in many regions that could
+benefit from evaporative cooling devices, the production of clay pots or bricks can be linked
+with the existing production of clay-based products.
+
+For clay pot coolers, it is important to train potters to produce clay pots with the special
+characteristics needed for clay pot coolers (see the “Manufacturing of clay pots” section). It is
+helpful to train potters at their usual workplace, where they have all the raw materials and
+tools they need, instead of bringing potters together at a “neutral” place and supplying the
+materials and tools specially.
+
+While the production of the bricks for an ECC does not require specific conditions or skills, it is
+important to ensure someone familiar with its construction is available at the location where an
+ECC or clay pot cooler will be installed. Depending on the familiarity of potential end users with
+evaporative cooling devices, various distribution strategies can be used to obtain and deliver
+the materials needed for constructing an evaporative cooling device to the end user’s location.
+Some examples of potential approaches include:
+
+   ● In regions where evaporative cooling devices are already used and well known it may be
+     sufficient to increase the availability of the key starting products and raw materials.
+   ● In regions where evaporative cooling devices are not yet common, it may be helpful to
+     develop new business models that facilitate some or all of the creation and distribution
+     process. Alternatively, the connection between producers, potential distributors, and
+     end users can be strengthened.
+   ● Another approach is end user training: these users can be trained to make evaporative
+     cooling devices with locally available materials, so they can assemble an ECC or clay pot
+     cooler themselves.
+   ● Any distribution in a region where users are unfamiliar with evaporative cooling
+     technology should be accompanied by information on the proper use of the devices (see
+     the “Best Practices for Use” section).
+
+Production and distribution represent the supply side and are important for the wider
+dissemination of evaporative cooling devices, but they need to be accompanied by measures
+for increasing demand, such as raising awareness and marketing.
+
+
+
+
+                                                                                                 25
+Raising Awareness and Marketing
+The final step in increasing the adoption of evaporative cooling devices is to raise awareness of
+the technology’s benefits, suitability, and use among prospective end users. Some approaches
+for increasing adoption include:
+     ● Make the product visible: Demonstrate a clay pot cooler in locations frequented by the
+        target group. Vegetable markets can be good places to draw the attention of potential
+        users. Due to its size, an ECC would be harder to demonstrate in multiple locations.
+        However, an ECC demonstration device may still be successful when placed at a location
+        with a large number of potential users.
+     ● Show the benefits and tell a story: The device’s benefits to the target group should be
+        easily understandable. Give examples of how a person has benefited from the use of an
+        evaporative cooling device. For example, describe what changed in a user’s life since
+        obtaining the device or how much money the person has saved.
+     ● Convince through ambassadors: Identify certain individuals in the target group as
+        ambassadors with a multiplier function. Provide them with evaporative cooling devices.
+        In return, they can act as product ambassadors showcasing its benefits to other
+        potential users.
+     ● Ensure correct use: Make sure potential users know how to use a device correctly and
+        ensure they profit from its full range of benefits (see the “Best Practices for Use”
+        section). Incorrect use will decrease the benefits and lower expectations.
+
+Of course, the potential for the proposed approach’s success is highly dependent on the local
+context and specific target group. See the “Suitability of Evaporative Cooling Devices” section to
+for guidance in determining if evaporative cooling devices and the “Evaporative Cooling
+Decision Making Tool”.
+
+
+
+
+                                                              Demonstrating a clay pot cooler
+                                                              to a group of potential users in
+                                                              Tanoussagou, Mali
+
+
+
+
+                                                                                                 26
+Conclusions and Additional Resources
+This guide presents the most important best practices for clay based evaporative cooling
+technologies. People in many hot and dry regions of the world could benefit from the use of
+evaporative cooling devices. Hence, the goal of this document is to provide potential users and
+disseminators with practical information needed for a wider dissemination of these
+technologies.
+
+Before starting the production or dissemination, it is advisable to assess the suitability of
+evaporative cooling devices in a certain context considering the points discussed in the
+suitability section of this document. If the suitability assessment reveals a promising potential
+for a specific location, the sections on construction, usage, and dissemination provide practical
+knowledge from the authors of this guide. The intention of this guide is to bundle the available
+best practice information on clay pot coolers and evaporative cooling chambers (ECCs) in a way
+which helps practitioners to contribute to a wider use of evaporative cooling devices.
+Nevertheless, there are various other sources of knowledge providing knowledge on
+evaporative cooling devices.
+
+Contact
+For further information and exchange please contact:
+Eric Verploegen (MIT D-Lab), ericv@mit.edu
+Peter Rinker (Movement e.V.), peter.rinker@posteo.de
+Kukom Edoh Ognakossan (World Vegetable Center), kukom.edoh@worldveg.org
+
+The information provided in this guide comes mainly from MIT D-Lab’s research study in Mali,
+the clay pot cooler project of Movement e.V. in northern Burkina Faso, and various projects of
+the World Vegetable Center. For more details, suggestions and ideas for improvements, or
+possible collaborations contact us via email.
+
+Please let us know if you are starting activities with evaporative cooling devices. This allows us
+to get an idea about the impact of our efforts for knowledge transfer.
+
+
+                      This work is licensed under the Creative Commons Attribution-ShareAlike
+                      4.0 International License. To view a copy of this license visit:
+                      http://creativecommons.org/licenses/by-sa/4.0/
+
+
+
+
+                                                                                               27
+Previous work that provided the basis for this Best Practice Guide
+MIT D-Lab’s research report on “Evaporative Cooling Technologies for Improved Vegetable
+Storage in Mali” examined users’ needs for improved post-harvest vegetable storage, current
+methods of post-harvest vegetable storage, and the performance of the evaporative cooling
+devices. Additionally, D-Lab developed an interactive Microsoft Excel-based “Evaporative
+Cooling Decision Making Tool” to help determine if evaporative cooling devices are suitable for
+a specific context, and to guide the calculation of potential financial savings. These resources
+are available at: http://d-lab.mit.edu/resources/projects/evaporative-cooling
+
+Movement e.V.’s work with constructing and disseminating clay pot coolers in Burkina Faso:
+https://movement-verein.org/projekte/tonkrugkuehler/, including information on construction
+and usage of clay pot coolers in several languages:
+   •   English: Clay pot cooler - Information on construction and usage (PDF)
+   •   French: Canari Frigo - Information on construction and utilization (PDF)
+   •   German: Tonkrugkühler - Construction and use manual (PDF)
+
+
+
+The World Vegetable Center’s work with constructing and disseminating evaporative cooling
+chambers in Kenya, Tanzania, and Mali: http://avrdc.org/?s=zecc
+
+
+
+Practical Action’s resources
+   •   Evaporative cooling overview:
+       https://answers.practicalaction.org/our-resources/item/evaporative-cooling
+   •   Gambia Case study:
+       https://answers.practicalaction.org/our-resources/item/evaporative-cooling-in-gambia
+   •   India Case study:
+       https://answers.practicalaction.org/our-resources/item/evaporative-cooling-in-india
+   •   Research on the performance of clay pot coolers:
+       https://answers.practicalaction.org/our-resources/item/clay-evaporative-coolers-
+       performance-research
+
+
+
+
+                                                                                              28
+Videos for construction and usage of clay pot coolers
+   •   Description of clay pot cooler is and its benefits (Practical Action):
+       https://practicalaction.org/video-zeer-pot-fridge
+   •   Mohamed Bah Abba and the pot-in-pot cooling device in Nigeria (Rolex Awards):
+       http://www.rolexawards.com/profiles/laureates/mohammed_bah_abba
+   •   Desert fridge project (Humanity First and University of The Gambia):
+       http://youtu.be/92fpnUfRt1A
+   •   How to make a Zeer pot for off-grid refrigeration:
+       https://www.youtube.com/watch?v=80aFKtaF_5c
+   •   Clay pot cooler Do-It-Yourself guide (Low-tech lab):
+       https://www.youtube.com/watch?v=7saOOyc5opE
+
+Videos for construction and usage of evaporative cooling chambers
+   •   Build your own Zero Energy Cooling Chamber (ZECC) (World Vegetable Center):
+       https://www.youtube.com/watch?v=enOjVc-kN7Q
+   •   Zero Energy Cooling Chamber (Indian Society of Agribusiness Professionals):
+       https://www.youtube.com/watch?v=C8_D5TI-NoI
+   •   Storage Structure For Fruits Vegetables (Ministry of Food Processing Industries,
+       Government of India): https://www.youtube.com/watch?v=95RRdoySdjA&t=245s
+
+Other information on evaporative cooling technology
+   •   Kader, A. A. (2005). Increasing Food Availability by Reducing Postharvest Losses of Fresh
+       Produce. Proceedings 5th International Postharvest Symposium.
+       http://ucce.ucdavis.edu/files/datastore/234-528.pdf
+   •   Odesola, I. F., & Onwuka, O. (2009). A Review of Porous Evaporative Cooling for the
+       Preservation of Fruits and Vegetables. (Vol. 10). The Pacific Journal of Science and
+       Technology. https://www.researchgate.net/publication/228406788
+   •   Oluwasola, O. (2011). Pot-in-pot Enterprise: Fridge for the Poor. UNDP: Growing
+       Inclusive Markets.
+       http://growinginclusivemarkets.org/media/cases/Nigeria_PotInPot_2011.pdf
+   •   Roy, S. K. (1989). On-farm storage technology can save energy and raise farm income.
+       Amity Science, Technology & Innovation Foundation.
+       http://ucce.ucdavis.edu/files/datastore/234-2143.pdf
+   •   Appropedia: http://www.appropedia.org/Zeer_pot_refrigeration_%28design%29
+   •   Wikipedia: http://en.wikipedia.org/wiki/Pot-in-pot_refrigerator
+   •   Howtopedia: http://en.howtopedia.org/wiki/How_to_Make_a_Desert_Fridge
+
+
+                                                                                              29
+                Guidance on optimal storage conditions for fruits and vegetables (page 1)
+                                    Proper storage conditions are required to maximize storage life and maintain quality of harvested fruits and vegetables.
+                                Fresh fruits need low temperature and high relative humidity to reduce the respiration and slow down the metabolic processes.
+                                       The table below indicates optimal temperatures and moisture conditions for some common fruits and vegetables.
+                      Optimal Storage         Optimal       Top Ice      Water Sprinkle     Ethylene        Sensitive to    Approximate
+        Product                                                                                                                             Comments
+                      Temperature (oC) Humidity (%) Accepted 1)            Accepted 2)     Production       Ethylene 3)      Storage Life
+         Apples            -1 to 4             90-95           No              No              High             Yes          1-12 months Chill sensitive stored at 2 to 4 oC
+        Apricots           -1 to 0             90-95           No              No              High             Yes           1-3 weeks
+      Artichokes           0 to 2              90-95          Yes              Yes              No              No
+Artichokes, Jerusalem      -1 to 0             90-95           No              No               No              No           4-5 months
+       Asparagus           0 to 2             95-100           No              Yes              No              Yes           2-3 weeks
+    Avocados, ripe         3 to 7              85-95           No              No              High             Yes
+  Avocados, unripe        7 to 10              85-95           No              No              Low           Yes, Very                      Keep away from ethylene producing fruits
+   Bananas, green         17 to 21             85-95           No              No              Low              Yes
+    Bananas, ripe         13 to 16             85-95           No              No            Medium             No
+          Basil           11 to 15             90-95           No              Yes              No              Yes
+      Beans, dry          4 to 10              40-50                                                                         6-10 months
+Beans, green or snap       4 to 7               95                                                                            7-10 days
+    Beans, sprouts            0               95-100                                                                           7-9 days
+     Beans. Lima           3 to 5               95                                                                             5-7 days
+          Beets            0 to 2              90-95          Yes              Yes              No              Yes
+   Beets, bunched             0               98-100                                                                          10-14 days
+    Beets, topped             0               98-100                                                                         4-6 months
+     Blackberries          0 to 1              90-95           No              No           Very Low            No             2-3 days
+      Blueberries          0 to 2              90-95           No              No           Very Low            No
+       Bok Choy            0 to 2              90-95           No              Yes              No              Yes
+        Broccoli              0               95-100          Yes              Yes              No              Yes           10-14 days
+   Brussels Sprouts           0                90-95          Yes              Yes              No              Yes           3-5 weeks
+   Bunched Greens             0                90-95          Yes              Yes              No              Yes                         Beets, Chard, Green Onions, Parsley, Radish, Spinach
+  Cabbage, Chinese            0               95-100           No              No               No              Yes          2-3 months
+    Cabbage, early            0               98-100          Yes              Yes              No              Yes           3-6 weeks
+    Cabbage, late             0               98-100                                                                         5-6 months
+      Cantaloupe           2 to 3              90-95           No              No            Medium             Yes
+  Carrots, bunched            0               95-100          Yes              Yes              No              Yes            2 weeks      Ethylene may cause a bitter flavor
+ Carrots, immature            0               98-100                                                                          4-6 weeks
+   Carrots, mature            0               98-100                                                                         7-9 months
+      Cauliflower             0                95-98                                                                          3-4 weeks
+      Cauliflower          0 to 2              90-95           No              No               No              Yes
+         Celery               0               98-100          Yes              Yes              No              Yes          2-3 months
+        Celeriac              0                97-99                                                                         6-8 months
+         Chard                0               95-100                                                                          10-14 days
+        Cherries           0 to 2              90-95           No              No           Very Low            No
+    Cherries, sour            0                90-95                                                                           3-7 days
+   Cherries, sweet        -1 to -1             90-95                                                                          2-3 weeks
+        Chicory            0 to 2              90-95          Yes              Yes              No              No
+   Chicory, witloof           0               95-100                                                                          2-4 weeks
+  Chinese Pea Pods         0 to 2              90-95           No              No               No              No
+       Coconuts           13 to 16             80-85           No              No               No              No                          Extended storage 0 to 2 oC
+        Collards              0               95-100                                                                          10-14 days
+     Corn, sweet              0                95-98          Yes              Yes              No              No             5-8 days
+      Cranberries          3 to 6              90-95          Yes              No               No              No
+      Cucumbers           10 to 13              95             No              No           Very Low            Yes           10-14 days
+        Currants           -1 to 0             90-95                                                                          1-4 weeks
+        Eggplant          8 to 12              90-95           No              No               No              Yes             1 week
+     Elderberries          -1 to 0             90-95                                                                          1-2 weeks
+         Endive               0               95-100          Yes              Yes              No              No            2-3 weeks
+        Escarole           0 to 2              90-95          Yes              Yes              No              No
+        Escarole              0               95-100                                                                          2-3 weeks
+           Figs            0 to 2              90-95           No              No              Low              No
+         Garlic               0                65-70           No              No               No              No           6-7 months May be stored at 13 to 21 oC for shorter periods
+     Ginger Root          16 to 18             65-70           No              No               No              No
+     Gooseberries          -1 to 0             90-95                                                                          3-4 weeks
+       Grapefruit         13 to 16             90-95           No              No           Very Low            No
+         Grapes            -1 to 0              85             No              No           Very Low            Yes           2-8 weeks
+     Green Beans           4 to 7              90-95           No              No               No              Yes
+      Green Peas           0 to 2              90-95           No              No               No              Yes
+     Greens, leafy            0               95-100                                                                          10-14 days
+         Guavas           7 to 10              90-95           No              No            Medium             Yes
+1) Top icing the products may be very effective keeping the temperature low and the product surface close to 100% humidity.
+2) Spraying with water may be effective by keeping the temperature low (evaporative cooling) and the surface 100% humidity.
+3) Products sensitive to ethylene should not be stored together with products producing ethylene. Exposure to ethylene may soften the flesh, add bitter taste to the product or/and accelerate ripening.
+Data adapted from: https://www.engineeringtoolbox.com/fruits-vegetables-storage-conditions-d_710.html (Accessed May 6th, 2018)
+
+
+
+
+                                                                                                                                                                                            30
+                Guidance on optimal storage conditions for fruits and vegetables (page 2)
+                                       Proper storage conditions are required to maximize storage life and maintain quality of harvested fruits and vegetables.
+                                   Fresh fruits need low temperature and high relative humidity to reduce the respiration and slow down the metabolic processes.
+                                          The table below indicates optimal temperatures and moisture conditions for some common fruits and vegetables.
+                         Optimal Storage         Optimal       Top Ice      Water Sprinkle     Ethylene        Sensitive to    Approximate
+       Product                                                                                                                                 Comments
+                         Temperature (oC) Humidity (%) Accepted 1)            Accepted 2)     Production       Ethylene 3)      Storage Life
+          Herbs               0 to 2              90-95           No              Yes              No              Yes
+     Horseradish              -1 to 0            98-100                                                                        10-12 months
+         Jicama              13 to 18             65-70                                                                         1-2 months
+           Kale                  0               95-100                                                                          2-3 weeks
+       Kiwi, ripe             0 to 2              90-95           No              No              High             Yes
+     Kiwi, unripe             0 to 2              90-95           Ne              No              Low           Yes, Very
+        Kohlrabi                 0               98-100          Yes              Yes              No              No           2-3 months
+          Leeks                  0               95-100          Yes              Yes              No              Yes          2-3 months
+        Lemons               11 to 13             90-95           No              No           Very Low            No
+        Lettuce                  0               98-100           No              Yes              No              Yes           2-3 weeks
+          Limes              9 to 13              90-95           No              No           Very Low            No
+        Lychees               4 to 7              90-95           No              No           Very Low            No
+        Mangos               10 to 13             85-95           No              No            Medium             Yes
+        Melons,
+                               10 to 13           85-95              No                No            Very Low             Yes                          Riper melons may be stored at 7 to 10 oC
+   Casaba/Persian
+ Melons, Crenshaw              10 to 13           85-95              No                No              Low                Yes                          Riper melons may be stored at 7 to 10 oC
+ Melons, Honey Dew             10 to 13           85-95              No                No            Medium               Yes                          Riper melons may be stored at 7 to 10 oC
+     Mushrooms                     0                95               No                Yes              No                Yes             3-4 days
+          Napa                  0 to 2            90-95              No                No               No                Yes
+      Nectarines                -1 to 0           90-95              No                No              High               No             2-4 weeks
+          Okra                 7 to 10            90-95              No                No            Very Low             Yes            7-10 days
+         Onions                 0 to 2            65-75              No                No               No                No                           May be stored at 13 to 21 oC for shorter periods
+        Oranges                 4 to 7            90-95              No                No            Very Low             No
+        Papayas                10 to 13           85-95              No                No            Medium               Yes
+         Parsley                   0              95-100                                                                                2-3 months
+        Parsnips                   0              98-100             Yes               Yes               No               Yes           4-6 months
+        Peaches                 -1 to 0           90-95              No                No               High              Yes            2-4 weeks
+          Pears                -2 to -1           90-95              No                No               High              Yes           2-7 months
+      Peas, green                  0              95-98                                                                                  1-2 weeks
+   Peas, southern               4 to 5              95                                                                                    6-8 days
+  Peppers, hot chili           0 to 10            60-70              No                No               No                Yes            6 months
+   Peppers, sweet              7 to 13            90-95              No                No               No                No             2-3 weeks
+     Persimmons                 0 to 2            90-95              No                No               No             Yes, Very
+      Pineapples               10 to 13           85-95              No                No            Very Low             No                           Odor may influence avacados
+         Plums                  -1 to 0           90-95              No                No              High               Yes            2-5 weeks
+    Pomegranates               5 to 10            90-95              No                No               No                No
+       Potatoes                7 to 10            90-95              No                No               No                Yes
+     Precut Fruit               0 to 2            90-95              No                No              Low                No
+ Precut Vegetables              0 to 2            90-95              No                No               No                Yes
+         Prunes                 -1 to 0           90-95              No                No              High               Yes            2-5 weeks
+       Pumpkins                10 to 13           65-70              No                No               No                Yes           2-3 months
+        Quinces                 -1 to 0             90                                                                                  2-3 months
+        Quinces                 0 to 2            90-95              No                No               High              Yes
+  Radishes, spring                 0              95-100             Yes               Yes               No               Yes            3-4 weeks
+  Radishes, winter                 0              95-100                                                                                2-4 months
+     Raspberries                -1 to 0           90-95              No                No            Very Low             No              2-3 days
+        Rhubarb                    0              95-100             No                Yes              No                No             2-4 weeks
+      Rutabagas                    0              98-100             Yes               Yes              No                Yes           4-6 months
+     Salad Mixes                0 to 2            90-95              No                Yes              No                Yes
+         Salsify                   0              95-98                                                                                 2-4 months
+        Spinach                    0              95-100                                                                                10-14 days
+        Sprouts                 0 to 2            90-95              No                No               No                Yes
+ Squashes, summer              5 to 10              95               No                No               No                Yes            1-2 weeks
+  Squashes, winter                10              50-70              No                No               No                Yes           1-6 months
+     Strawberries                  0              90-95              No                No            Very Low             No              3-7 days
+   Sweet Potatoes              13 to 16           85-90              No                No               No                Yes           4-7 months
+      Tangerines                4 to 7            90-95              No                No            Very Low             No
+ Tomatoes, mature
+                               13 to 21           90-95              No                No               Low               Yes            1-3 weeks     Riping can be delayed by storing at 13 to 16 oC
+          green
+   Tomatoes, ripe              13 to 21           90-95              No                No             Medium               No             4-7 days
+    Turnip greens                 0               95-100                                                                                10-14 days
+        Turnips                   0                 95               Yes               Yes               No               Yes           4-5 months
+      Watercress                  0               95-100                                                                                 2-3 weeks
+     Watermelon                13 to 21           85-95              No                No                No            Yes, Very                       Keep away from ethylene producing fruits
+1) Top icing the products may be very effective keeping the temperature low and the product surface close to 100% humidity.
+2) Spraying with water may be effective by keeping the temperature low (evaporative cooling) and the surface 100% humidity.
+3) Products sensitive to ethylene should not be stored together with products producing ethylene. Exposure to ethylene may soften the flesh, add bitter taste to the product or/and accelerate ripening.
+Data adapted from: https://www.engineeringtoolbox.com/fruits-vegetables-storage-conditions-d_710.html (Accessed May 6th, 2018)
+
+
+                                                                                                                                                                                            31
+

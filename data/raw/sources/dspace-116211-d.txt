@@ -1,0 +1,1989 @@
+EVALUATION   EVAPORATIVE COOLING
+             TECHNOLOGIES FOR IMPROVED
+             VEGETABLE STORAGE IN MALI
+             Eric Verploegen Ousmane Sanogo & Takemore Chagomoka
+             MIT D-Lab       World Vegetable Center - Mali
+
+                                                 Full Report
+                                                   June 2018
+MIT D-Lab works with people around the world        The World Vegetable Center, an international
+to develop and advance collaborative                nonprofit research and development institute,
+approaches and practical solutions to global        is committed to alleviating poverty and
+poverty challenges. The program’s mission is        malnutrition in the developing world through
+pursued through interdisciplinary courses,          the increased production and consumption of
+research in collaboration with global partners,     nutritious and health-promoting vegetables.
+technology development, and community               The World Vegetable Center helps farmers
+initiatives — all of which emphasize experiential   increase vegetable harvests, raise incomes in
+learning, community-led development, and            poor rural and urban households, create jobs,
+scalability. This research was made possible in     and provide healthier, more nutritious diets for
+part through support from Malcom B.                 families and communities.
+Strandberg.
+                                                    The World Vegetable Center led the fieldwork,
+D-Lab led the research design, development of       including the procurement and assembly of the
+the sensors and the survey instruments, data        evaporative cooling devices, selection of study
+analysis, and preparation of the report and         participants, and data collection. The World
+other outputs.                                      Vegetable Center also contributed to the
+                                                    research design, data analysis, and preparation
+                                                    of the report.
+
+
+
+
+The Comprehensive Initiative on Technology          This report was made possible in part through
+Evaluation (CITE) at MIT is a program dedicated     financial support from the United States Agency
+to developing methods for technology                for International Development. The opinions
+evaluation in global development. CITE is led by    expressed herein are those of the authors and
+an interdisciplinary team, and draws upon           do not necessarily reflect the views of the
+diverse expertise to evaluate technologies and      United States Agency for International
+develop an understanding of what makes them         Development or the US Government.
+successful in emerging markets. The
+methodologies developed by CITE were used as
+a foundation for the research design of this
+project.
+
+
+
+
+                                                                                                   2
+Table of Contents
+Executive Summary .................................................................................................................... 4
+Introduction ............................................................................................................................... 7
+   The Challenge ..................................................................................................................................... 7
+   Audience for this Report ..................................................................................................................... 9
+   Overview of the Technologies Evaluated .......................................................................................... 11
+Study Design............................................................................................................................. 15
+   Methodology and Data Collection .................................................................................................... 15
+   Evaporative cooling devices evaluated in this study ......................................................................... 16
+   Sampling ........................................................................................................................................... 17
+   Electronic Sensors ............................................................................................................................. 18
+   User Interviews ................................................................................................................................. 19
+Sensor Results .......................................................................................................................... 20
+   Evaporative Cooling Chamber (ECC) Sensor Data.............................................................................. 20
+   Clay Pot Cooler Sensor Data ............................................................................................................. 29
+Interview Results ...................................................................................................................... 33
+   Evaporative Cooling Chamber (ECC) User Interview Data ................................................................. 33
+   Clay Pot Cooler User Interview Data ................................................................................................. 36
+Construction and Cost .............................................................................................................. 41
+   Evaporative Cooling Chamber (ECC) Construction and Cost .............................................................. 41
+   Clay Pot Cooler Construction and Cost.............................................................................................. 43
+Conclusions and Recommendations......................................................................................... 45
+   Summary of Findings ........................................................................................................................ 45
+   Suitability of Evaporative Cooling Devices ........................................................................................ 48
+   Recommendations ............................................................................................................................ 51
+   Additional Resources ........................................................................................................................ 52
+Authors & Acknowledgements ................................................................................................. 53
+   About the Authors ............................................................................................................................ 53
+   Acknowledgments ............................................................................................................................ 54
+   Suggested Citation ............................................................................................................................ 54
+References................................................................................................................................ 55
+
+
+
+
+                                                                                                                                                        3
+Executive Summary
+Mali’s horticulture sector plays a vital role in supporting the country’s human nutrition and
+health, income generation for farmers, and poverty alleviation. A lack of affordable and
+effective post-harvest vegetable storage solutions often leads to vegetable spoilage, loss of
+income, reduced access to nutritious foods, and significant amounts of time spent traveling to
+purchase vegetables, particularly in rural communities. In Mali – and many other developing
+regions – these challenges are found where farming is the predominant source of income and
+food for populations who lack access to affordable methods for cooling and storage of
+vegetables and leafy greens.
+
+The objective of this research study is to investigate the potential for non-electric evaporative
+cooling devices to address post-harvest vegetable storage challenges in rural Mali. The two
+classes of devices evaluated in this study are commonly known as “evaporative cooling
+chambers” (ECCs), which are generally used by horticulture cooperatives, and “clay pot
+coolers,” which are generally used in households. These devices rely on the evaporation of
+water to create a cooling effect, and their performance is significantly affected by the ambient
+temperature and humidity of the environment in which they operate.
+
+In this study, we used a combination of electronic sensors and structured user interviews to
+gather information about users’ needs for improved post-harvest vegetable storage, current
+methods of post-harvest vegetable storage, and the performance of the evaporative cooling
+devices.
+
+                                                             B
+                             A
+
+
+
+                         C
+
+
+
+
+            D                             E                                F
+
+Above is an image of the three ECCs and three clay pot cooler devices included in this study: A) straw ECC, B) sack
+ECC, C) brick ECC, D) cylinder pot-in-dish, E) round pot-in-dish, and F) pot-in-pot.
+
+
+
+                                                                                                                 4
+Results
+The results of this study indicate that low-cost evaporative cooling devices, such as clay pot
+coolers and ECCs, have the potential to benefit both off-grid populations with limited access to
+electricity and on-grid populations with high electricity and/or equipment costs for
+refrigerators. Evaporative cooling can improve vegetable storage shelf life by providing:
+    • A stable storage environment with low temperature and high humidity, which reduces
+        water loss and spoilage in most vegetables
+    • Protection from animals and insects that contaminate and eat the vegetables
+The improved storage environment can have positive impacts including reduced post-harvest
+losses, less time spent traveling to the market, increased availability of vegetables for
+consumption and monetary savings. These devices can also have farther-reaching impacts,
+particularly for women who could benefit economically from producing and selling clay pots.
+
+Our comparison of three types of ECCs demonstrates that ECCs made of brick are superior to
+ECCs made of straw or burlap sacks. Brick ECCs provide a more stable low temperature and high
+humidity environment, are easier to refill with water, and provide protection from animals and
+insects. Due to these considerations, straw and sack ECCs are not recommended.
+
+When comparing clay pot coolers, devices with the pot-in-pot configuration provided a greater
+temperature decrease than clay pot coolers with the pot-in-dish configuration. Both types of
+devices performed similarly on other metrics such as interior humidity, ease of watering, and
+protection from animals and insects. Ninety percent of those interviewed reported that they
+were no longer using any of their previous storage methods after receiving the clay pot coolers,
+indicating that the 50 liter capacity of the clay pot coolers used in this study is sufficient to meet
+the vegetable storage needs of most households. These results indicate that there are relatively
+loose design constraints for constructing a clay pot cooler that provides a basic level of
+performance, even if not optimized, creating an opportunity for locally available materials to be
+repurposed to create an effective clay pot cooler for vegetable cooling and storage.
+
+                   Summary of key characteristics for each evaporative cooling device
+                          Average      Interior      Minimum            Protection
+    Evaporative                                                                       Storage
+                        temperature   humidity        watering        from animals                  Cost
+   cooling device                                                                     volume
+                         decrease*      range*       frequency         and insects
+     ECC (straw)           5.4 °C     30-50%      1-3 times per day       No         250-4000 L   $50 - $250
+     ECC (sack)            2.6 °C      10-30%     1-3 times per day       No         250-4000 L   $50 - $250
+     ECC (brick)           5.8 °C     80-100%     once per 1-7 days       Yes        500-5000 L   $70 - $350
+  Round pot-in-dish        5.1 °C     80-100%       once per day          Yes         10-150 L     $6 - $35
+ Cylinder pot-in-dish      4.7 °C     80-100%       once per day          Yes         10-150 L     $6 - $35
+     Pot-in-pot            6.7 °C     80-100%       once per day          Yes         10-100 L    $10 - $50
+
+*For the data provided, the ambient relative humidity was less than 40% and the average daily ambient
+temperature was between 29 °C and 37 °C.
+
+
+
+                                                                                                               5
+Recommendations
+The most important first step for prospective users, producers, or promoters of ECCs and clay
+pot coolers is to consider the suitability of evaporative cooling devices for the specific context
+of interest by answering the question: Does the technology have the potential to effectively
+meet the needs of the intended users?
+
+The following factors should be assessed to determine the suitability of evaporative cooling
+devices for a specific context:
+   • Operating conditions: Specific conditions are required for evaporative cooling devices
+       to effectively operate: low humidity, high temperature, access to water, and a shady,
+       well-ventilated location.
+   • Need: The storage conditions provided by evaporative cooling devices must meet the
+       user’s needs, and the need for improved vegetable storage must occur during times of
+       the year when evaporative cooling devices can operate effectively.
+   • Value: The cost of the ECC or clay pot cooler must be affordable and justified by the
+       benefits that will be realized due to the improved storage provided.
+
+If evaporative cooling devices are deemed suitable for a given context, the key factors for
+increasing their use are awareness, availability, quality, and affordability in the specific region. If
+the devices can meet a community or region’s vegetable cooling and storage needs, the
+following steps should be taken to increase their dissemination:
+    • Identify end users who could benefit from evaporative cooling technologies
+    • Raise awareness of the technology’s benefits among prospective end users
+    • Increase availability of appropriately designed clay pots; organized production and
+       distribution can increase availability, quality, and affordability
+
+We have created an interactive “Evaporative Cooling Decision Making Tool” and an
+“Evaporative Cooling Best Practices Guide” to support the determination of ECCs and clay pot
+cooler suitability and the devices’ proper construction and use. The intended audience for these
+resources includes government agencies, nongovernmental organizations, civil society
+organizations, and businesses that could produce, distribute, and/or promote ECCs or clay pot
+coolers.
+
+These resources are available at: http://d-lab.mit.edu/resources/projects/evaporative-cooling
+
+
+
+
+                                                                                                     6
+Introduction
+In 2017, the MIT D-Lab Off-Grid Energy group, in partnership with the World Vegetable Center
+and the Comprehensive Initiative on Technology Evaluation (CITE), conducted an evaluation of
+low-cost technologies designed to improve the storage of vegetables through evaporative
+cooling. Most techniques for cooling and storing vegetables rely on electricity – which is lacking
+or unaffordable in most rural areas in Mali – limiting access to effective and affordable post-
+harvest storage options. Effective, affordable cooling and storage technologies have the
+potential to prevent food loss, increase access to fresh vegetables, and create opportunities for
+additional income generation in off-grid areas and where electricity is intermittent or
+prohibitively expensive. Because the evaporative cooling devices that are the subject of this
+study function without the use of electricity, they are well suited for regions without electricity
+access, or where electricity dependent cooling and storage technologies are not affordable.
+
+The objective of this study is to evaluate a set of non-electric cooling and storage technologies –
+evaporative cooling chambers (ECCs) and clay pot coolers – for their suitability to meet the
+post-harvest storage needs of vegetable producers and consumers in rural Mali. The challenges
+faced by the horticulture sector in Mali are prevalent in many other developing regions where
+farming is the predominant source of income and food for populations who lack access to
+affordable electricity for proper cooling and storage of vegetables and leafy greens.
+
+The Challenge
+In Mali, the role horticulture sector is playing an increasingly critical role in human nutrition and
+income generation for farmers (Matsumoto-Izadifar, 2008). As malnutrition and poverty are
+prevalent in rural Mali (World Health Organization, 2018), minimizing vegetable spoilage
+following harvest is critical for improving health and livelihoods.
+
+Vegetables are living, breathing parts of plants and contain 65% to 95% water (Gorny, 2001).
+Once vegetables are harvested, their nutrients and water reserves begin to decline,
+contributing to deterioration and rot. Deterioration of a vegetable starts from the moment it is
+harvested and lasts until it reaches the table of the consumer. Post-harvest losses – including
+mechanical damage, physiological, and biological deterioration – are affected by the handling,
+transportation, storage, and processing of the vegetables (Kumar, Basavaraja, & Mahajanshetti,
+2006; Kader, 2005; Emana, et al., 2017). Storage conditions throughout the supply chain play an
+important role in preventing post-harvest losses for vegetables and leafy greens. While the
+optimal storage conditions vary for different vegetables and food products, many vegetables
+are best stored in a cool and humid environment (McGregor, 1989).
+
+
+
+
+                                                                                                   7
+Deteriorating vegetables in need of improved storage: eggplants and tomatoes stored in a
+hanging metal dish (left), cabbages, eggplants, and peppers, and lettuce stored on a wet cloth
+(right).
+
+While evaporative cooling post-harvest storage technologies have the potential to address
+these challenges, there are no systematic studies that look at product performance under real
+world usage conditions along with user behavior and feedback. This lack of information is a
+hindrance for increasing the dissemination of evaporative cooling technologies in regions
+where they may be able to provide improved post-harvest vegetable storage. This study looks
+to address this gap by providing:
+    • Quantitative information about the performance of evaporative cooling and storage
+       devices, namely the temperature and humidity inside the devices as a function of
+       ambient temperature and humidity, and the frequency of watering.
+    • Information on user behavior and perception of evaporative cooling devices for post-
+       harvest vegetable storage
+    • Guidance on determining the suitability of evaporative cooling technology for a given
+       context
+    • Recommendations for increasing the dissemination of evaporative cooling technologies
+       in appropriate contexts
+
+
+
+
+                                                                                            8
+Audience for this Report
+Increased availability of suitable cooling and storage technologies would allow vegetable
+producers, distributors, and consumers to improve vegetable shelf life, leading to reduced food
+loss, increased access to nutritious foods, and financial savings. The results of this evaluation
+will allow various stakeholders to determine if evaporative cooling technologies are a viable
+option for improving post-harvest vegetable shelf life based on a set of key considerations.
+These considerations include; availability and cost of materials to construct an evaporative
+cooling device; seasonal weather variations (temperature and humidity), access to water, the
+need for improved post-harvest storage, and vegetable post-harvest storage requirements.
+
+The information presented in this report is of value to any organization or individual that may
+be interested in distributing and/or promoting these technologies to vegetable producers,
+distributors, and consumers who are looking for improved vegetable storage solutions.
+Examples include non-governmental organizations (NGOs) and government agencies that
+promote horticultural best practices or social enterprises and local businesses that may have an
+interest in producing and marketing vegetable storage technologies.
+
+
+
+
+Left: Farmers in need of improved vegetable storage in Bankass, Mopti, Mali; Top right: World
+Vegetable Center staff discussing best practices with farmers in Finkolo, Sikasso, Mali; Bottom
+right: clay pots for sale on the roadside in Sikasso, Mali.
+
+
+
+
+                                                                                               9
+The results and discussion of this report are structured in the following way:
+   • The Sensor Results section of this report provides information on the interior storage
+       conditions (temperature and humidity) that were achieved during field-testing of
+       various types of ECCs and clay pot coolers as a function of ambient weather conditions
+       and watering frequency.
+   • The Interview Results section provides insights into the user perception of the
+       vegetable storage devices and the impact of the ECCs and clay pot coolers on the shelf
+       life of common vegetables.
+   • The Construction and Cost section gives an overview of how to construct ECCs and clay
+       pot coolers and associated costs.
+   • The Conclusions and Recommendations section provides an overview of the findings,
+       the comparative advantages of each type of evaporative cooling device, their suitability
+       based on various contextual factors, and a set of recommendations for disseminating
+       these technologies in regions where they can provide benefits.
+
+When using this report, it is important to consider the specific context, as each of the
+evaporative cooling technologies evaluated are not suitable for all contexts. Furthermore, local
+weather, access to water, and vegetable storage needs can have seasonal fluctuations, and
+evaporative cooling and storage technologies only provide significant benefits to users during
+times of the year when there is hot and dry weather; access to water; and need for improved
+post-harvest vegetable storage.
+
+To support the dissemination of these technologies, we created the following resources for
+prospective users, producers, and promoters of evaporative cooling devices:
+
+   •   Evaporative Cooling Decision Making Tool: An interactive Microsoft Excel-based
+       decision making tool to help determine if evaporative cooling devices are suitable for a
+       specific context, and to guide the calculation of potential financial savings:
+       http://d-lab.mit.edu/resources/projects/Evaporative-Cooling-Decision-Making-Tool
+
+   •   Evaporative Cooling Best Practices Guide: Key considerations for suitability and best
+       practices for construction and usage of evaporative cooling devices:
+       http://d-lab.mit.edu/resources/projects/Evaporative-Cooling-Best-Practices-Guide
+
+
+
+
+                                                                                             10
+Overview of the Technologies Evaluated
+Two classes of non-electric cooling and storage technologies were evaluated in this study:
+   • Evaporative cooling chambers (ECCs) – also known as “zero energy cool chambers
+       (ZECCs)”
+   • Clay pot coolers – also known as “Zeer pots”
+Both of these technologies are currently being used in Mali, but have not gained widespread
+adoption, due in part to a lack of understanding of the contexts when they are suitable.
+
+How evaporative cooling works
+The ECC and clay pot cooler devices in this study function on the principle of direct evaporative
+cooling, where heat is removed as water evaporates from the surface of the storage device. The
+evaporative cooling effect causes a decrease in temperature and an increase in the relative
+humidity1 inside the storage device, conditions that increase the shelf life of many vegetables
+(Kader, 2005). Water must be added at regular intervals to maintain the cooling effect. The
+watering frequency required can vary from several times a day to only a few times a week,
+depending on the storage device’s material and design as well as the weather conditions.
+
+
+
+
+Above: Diagram of a clay pot cooler with a pot-in-pot configuration, covered by a wet cloth.2
+
+
+
+1
+ All references to humidity in this report are referring to the relative humidity, not the absolute humidity
+2
+ Adapted from Peter Rinker, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33444154,
+Accessed January 3, 2018
+
+
+                                                                                                               11
+Background on ECCs
+Evaporative cooling chambers (ECCs) can be
+made from locally available materials
+including bricks, sand, wood, straw, gunny or
+burlap sack, and twine. Due to their
+relatively large size, ECCs are typically used
+by larger producers or community groups
+with up to 50 members. The World
+Vegetable Center’s process for constructing
+a straw ECC begins with the frame of a box
+made of wooden planks. The bottom is
+covered with wooden planks, the four sides
+are then covered with locally available straw,
+and a straw mat is used to cover the top of
+the structure. Similarly, the sack ECC begins
+with the frame of a box made of wooden
+planks. The top, bottom, and three of the
+sides are partially covered with wooden
+planks, leaving one side opened to allow
+access to the interior. The box is then
+covered with gunny or burlap sacks. The
+brick ECC was originally developed in India
+by Susanta K. Roy and D.S. Khuridiya in the
+early 1980s (Roy & Khurdiya, 1982; Roy &
+Khurdiya, 1985) to address fruit and
+vegetable post-harvest losses, especially in
+rural areas without electricity. Roy and
+Khuridiya’s ECC design is composed of a
+double brick wall structure, supported by a
+base layer of brick, and covered with a straw
+mat. The space in between the two brick
+walls is filled with sand, which retains the
+water that is added. Inside the ECC, food is
+placed in unsealed plastic containers, which
+keep the vegetables off the ECC’s floor and
+allows them to breathe and be exposed to
+the cool, humid air inside the device.
+Additional images of ECCs are available in Figure 3 of the Appendix.
+
+
+
+                                                                       12
+Background on Clay Pot Coolers
+Clay pot coolers have been used for centuries to help farmers reduce food spoilage and waste,
+increase their income, and limit the health hazards of spoiled foods. Clay pot coolers are
+typically used at the household level due to their simple construction and relatively small size.
+The pot-in-pot design, commonly known as a “Zeer pot,” was popularized in 1995 by
+Mohammed Bah Abba in Nigeria and is composed of two clay pots with the same shape but
+different sizes. One pot is placed inside the other (Longmone, 2003; Oluwasola, 2011) and the
+space between the two containers is filled with sand, which retains the water added. Food is
+placed inside the interior pot, and both pots are covered with a lid or a damp piece of cloth.
+
+The pot-in-dish design is a variant of the clay pot cooler: a clay pot is placed on top of a plastic
+or metal dish filled with sand. Vendors of clay pots and community members in Mali reported
+use of the pot-in-dish configuration for vegetable storage during interviews conducted as part
+of background research for this research project. Because the pot-in-dish configuration is used
+in the study locations, it was included in the study to determine their performance relative to
+the more widely studied pot-in-pot configuration. To our knowledge, this is the first systematic
+study of the pot-in-dish configuration for a clay pot cooler. Additional images of clay pot coolers
+are available in Figure 4 of the Appendix.
+
+
+
+                                        Clay pot coolers
+
+
+
+
+                                                                                                 13
+Previous Research Results
+Several studies present findings indicating that the improved storage conditions provided by
+evaporative cooling devise led to improved vegetable quality – such as weight, color, firmness,
+and deterioration – resulting in extended shelf life. (Basediya, Samuel, & Beera, 2011; Ambuko,
+Wanjiru, Chemining’wa, Owino, & Eliakim, 2017). However, the rate of evaporation of water is
+highly dependent on the ambient humidity, resulting in a less significant reduction of the
+interior temperature when the ambient humidity is higher.
+
+Because evaporative cooling devices do not require electricity to function, they have the
+potential to be particularly beneficial for users in areas with limited electricity access, as well as
+for those on-grid but for whom electricity costs are prohibitively high. Regardless of need and
+context, due to their low energy consumption and use of simple materials, devices such as ECCs
+and clay pot coolers are more environmentally friendly than refrigeration systems that use
+electricity that contributes to global warming.
+
+Reports from multiple studies in India indicate that brick ECCs can provide temperature
+reductions of 10-15 °C when the ambient temperature is greater than 35 °C and the ambient
+relative humidity is less than 40% (Basediya, Samuel, & Beera, 2011; Kumar, Mathur, &
+Chaurasia, 2014). In a separate study, clay pot coolers demonstrated temperature reductions of
+5-10 °C when the ambient temperature is greater than 40 °C and the ambient relative humidity
+is less than 30% (Morgan, 2009). Across all of the studies referenced, regardless of the ambient
+conditions, the brick ECCs and clay pot coolers were shown to maintain a relative humidity
+above 80% in the interior of the device where the vegetables are stored. The same principle of
+evaporative cooling has been used with other designs and materials such as with charcoal
+coolers (Rathi & Sharma, 1991; Noble, 2003) and devices that use synthetic materials to hold
+and allow for the evaporation of water (Kitinoja, 2016). Another design – commonly referred to
+as a janata cooler – consists of a metal or plastic container placed inside of a clay pot or dish,
+with a wet cloth covering any exposed surface of the inner container (Odesola & Onwuka, 2009;
+Roy & Khurdiya, 1985).
+
+Improved vegetable storage is needed when the ambient temperature is greater and the
+humidity is lower than the ideal storage conditions for a specific vegetable. When assessing the
+potential benefits of a cooling and storage device for a given context, it is essential to consider
+how the storage conditions that can be achieved within the device compare to the conditions
+without the device. For example, the ideal storage conditions for tomatoes are between 18 °C
+and 22 °C with a humidity between 90% and 95%; if the ambient conditions present an average
+temperature of 35 °C and relative humidity of 20%, a storage device that provides conditions
+with an average temperature of 30 °C and greater than 80% humidity can provide a significant
+increase in shelf life for tomatoes (McGregor, 1989).
+
+
+
+
+                                                                                                   14
+Study Design
+The objective of this study is to evaluate a set of non-electric cooling and storage technologies
+for their suitability to improve the post-harvest storage of vegetables in rural Mali, to answer
+the question: Does this technology effectively meet the needs of the intended users?
+
+Methodology and Data Collection
+This study used a combination of electronic sensors and structured user interviews (with
+individuals and groups) to gather information about users’ needs for improved post-harvest
+vegetable storage, current methods of post-harvest vegetable storage, and the performance of
+the evaporative cooling devices. The research was conducted over a period of 5 months, during
+February to July of 2017, in three regions of Mali: Mopti, Bamako, and Sikasso (see map below).
+
+
+
+
+A satellite image of Mali (outlined in yellow). The locations where the study was conducted are
+labeled with white circles and white text3.
+
+
+3
+    Image of map adapted from: http://johan.lemarchand.free.fr/cartes/cartes-mali.html, Accessed March 3, 2018
+
+
+                                                                                                                 15
+Evaporative cooling devices evaluated in this study
+The evaporative cooling devices included in this study were selected to include a range of
+designs constructed from locally available materials, and a variety of sizes chosen to meet a
+wide range of user needs. The ECCs included in the study were located at horticulture Best
+Practice Hubs4 in Sikasso and Mopti, as well as research facilities in Bamako. The ECCs at the
+Best Practice Hubs were all installed prior to the beginning of this research study. The clay pot
+coolers were distributed to households in the Mopti region as well as to research facilities in
+Bamako. A list of vegetable cooling and storage devices included in the study can be found in
+Table 1 below.
+
+
+
+Table 1: Evaporative cooling and storage devices evaluated in this study. The table below
+indicates the number of each cooling and storage device type and where it is located.
+
+                                                                 Region
+    Evaporative cooling device                                                                         Total
+                                              Sikasso            Bamako               Mopti
+             Straw ECC                           4a                2b                  2a                 8
+              Sack ECC                           4a                2b                  2a                 8
+             Brick ECC                           1a                2b                  2a                 5
+         Round pot-in-dish                        -                3b                  17c               20
+        Cylinder pot-in-dish                      -                3b                  21c               24
+             Pot-in-pot                           -                3b                  29c               32
+               Totals                            9                 15                  73                97
+a
+  Located at World Vegetable Center horticulture Best Practice Hubs (13 ECCs).
+b
+  Located at World Vegetable Center research facilities (6 ECCs and 9 clay pot coolers).
+c
+  Located at participant households (67 clay pot coolers).
+
+
+
+
+4
+  The World Vegetable Center operates Best Practice Hubs in Mali as a platform to bring research findings closer to
+farmers, help farmers express their opinions during validation of technologies, and facilitate dialogue between
+farmers, researchers, extension service providers, vegetable traders, and inputs suppliers.
+
+
+                                                                                                                16
+Sampling
+For both the ECC and clay pot cooler portions of the study, regions were selected that have
+limited or no electricity access and a need for improved vegetable storage. The evaporative
+cooling devices were used by study participants to either store vegetables that they produce
+themselves or for vegetables that were purchased for consumption. The study began in March
+2017 during the dry season and continued through the beginning of the rainy season in July in
+order to monitor the performance of the ECCs throughout seasonal variations in temperate and
+humidity in each region (see Figure 2 the Appendix).
+
+The ECC portion of the study took place across three regions of Mali (Sikasso, Bamako, and
+Mopti), which each have different climates. As you move north in the country, the temperature
+increases while relative humidity decreases. The specific sites within these regions (see Table 1
+in the Appendix) were selected due to the presence of ECCs in operation at Best Practice Hubs
+or research facilities managed by the World Vegetable Center prior to this study. At the launch
+of the study, groups of 20-30 members of horticulture cooperatives associated with the Best
+Practice Hubs were convened for the researchers to provide overview of the ECCs and the goals
+of the study, as well as to gather background information on the community’s vegetable
+storage needs. Based on recommendations from the World Vegetable Center staff, individuals
+from the horticulture cooperative who are well informed about vegetable production and post-
+harvest storage techniques were selected to be in charge of the operation and maintenance of
+the ECCs. At the end of the study period, a total of 21 horticulture cooperative members
+participated in the in-depth interviews.
+
+The clay pot cooler portion of the study took place with households in the Mopti region and at
+research facilities in Bamako. Mopti was selected for the household portion of the study
+because it has the driest climate among the regions where World Vegetable Center has staff
+members and due to the proximity to artisans who manufacture clay pots that were used in the
+study. In order to sample a range of household profiles, we selected participants from three
+communities in the Bankass and Koro Cercles in the Mopti region:
+    • Tanoussagou, a rural farming village with no access to the electricity grid
+    • Ogotene, a peri-urban farming community with limited (< 30%) electricity grid access
+    • Bankass, a densely populated small city with high rates (> 85%) of grid electricity access
+
+Within these communities, the 67 participants were selected using a random sampling
+approach.
+
+
+
+
+                                                                                              17
+Electronic Sensors
+Electronic sensors installed on the ECCs and clay pot coolers monitored the following
+parameters:
+    • Exterior (ambient) temperature
+    • Exterior (ambient) relative humidity
+    • Interior temperature
+    • Interior relative humidity
+    • Sand moisture (only brick ECCs and clay pot coolers)
+
+Data for each of the five parameters were recorded every five minutes for the 3 to 5 months of
+the study period. Technicians from the World Vegetable Center were trained on the installation
+and data retrieval for the electronic sensors designed for this study (see Figure 6 in the
+Appendix). Additional information on the sensors used for data collection can be found in
+Figure 7 of the Appendix.
+
+
+
+
+A) A full sensor unit on top of a brick ECC; B) Interior of sensor control box with battery, Secure
+Digital (SD) card, and circuit board; C) Temperature and humidity sensor D) Moisture sensor.
+
+
+
+
+                                                                                                18
+User Interviews
+Structured individual interviews were conducted with members of the 67 households that
+received clay pot coolers and group interviews with 21 members of the six community groups
+that had access to ECCs. The interviews were conducted after the participants had been using
+the evaporative cooling devices for a minimum of three months and explored:
+    • Need for cooling and storage technology
+    • Existing methods for vegetable cooling and storage
+    • Suitability of the cooling and storage technologies being evaluated for various
+        vegetables (fruits and leaf vegetables)
+    • Usage of the evaporative cooling devices provided
+
+The interview questionnaires and other data collection tools used for this study can be found in
+the Appendix.
+
+
+
+
+Left: Interview with Mrs. Setou Mariko, the President of women’s group in Bledougou, Sikasso;
+Right: Group interview with members of a farming cooperative in Bledougou, Sikasso
+
+
+
+
+                                                                                             19
+Sensor Results
+The data collected from the sensors were used to determine the temperature and relative
+humidity changes in the interior of the ECCs and clay pot coolers as a function of ambient
+temperature and humidity, and the frequency of watering. Through the course of the study,
+32% of the sensors stopped collecting data due to leakage of water into the control box.
+Despite these challenges, data was collected on the 21 ECCs for an average of 114 days and on
+the 76 clay pot coolers for an average of 65 days.
+
+Evaporative Cooling Chamber (ECC) Sensor Data
+The sensors measured the performance of the ECCs over the study period during which time
+the weather conditions varied in each region due to seasonal changes. In Bamako and Sikasso
+data collection on the ECCs took place from February to July and in Mopti data collection on the
+ECCs and clay pot coolers took place from April until July. See Figure 2 in the Appendix for
+average ambient weather conditions during these months in each region. One sensor
+measuring the exterior (ambient) temperature and humidity was affixed to the outside of the
+control box, which was mounted on the exterior of the ECC. A second sensor measuring the
+interior temperature and humidity was located inside the ECC. This interior sensor was
+connected to the control box by a 50 cm aluminum rod and wiring, which passed through a
+small hole in the straw, sack, or brick wall of the ECCs. In the case of the brick ECC, a moisture
+sensor was placed in the sand layer between the two brick walls.
+
+
+
+
+Images on the right:
+A) straw ECC interior sensor
+B) straw ECC exterior sensor
+C) sack ECC interior sensor
+D) sack ECC exterior sensor
+E) brick ECC interior sensor
+F) brick ECC moisture sensor
+G) brick ECC exterior sensor
+
+
+
+
+                                                                                               20
+Additionally, at the Bamako (Sotuba and Samanko) research stations an additional sensor was
+placed at a separate location about five meters from any of the ECCs. This independent sensor
+was used to determine if the exterior temperature and humidity sensor on the ECC was
+impacted by the close proximity to the ECC. These results indicate that when the ECC was
+watered at least once per day, the exterior temperature recorded near the outside to the ECC
+was reduced by 0.5 to 2 °C. In the ECC performance results discussed in the following sections,
+the data for the ambient temperature was recorded from the independent sensors nearby to
+the ECCs.
+
+ECC watering frequency
+The ECCs in this study were located either at research facilities in Bamako or Best Practice Hubs
+in Mopti or Sikasso. One of the objectives of the study was to monitor the user behavior related
+to the frequency of adding water to the ECCs and clay pot coolers. We were able to identify
+instances when the user added water to the ECCs by observing sharp increases in relative
+humidity in the straw and sack ECCs, and through increases in the moisture of the sand for the
+brick ECCs. In this section, we describe the observed frequency of watering by the users, which
+has a significant impact on the interior temperature and humidity (discussed in the following
+sections).
+
+The process of adding water to the brick ECCs is the least time consuming, taking less than five
+minutes. This process includes pouring water from a bucket in the area containing sand
+between the two brick walls, and sprinkling water onto the straw cover of the brick ECCs.
+Relatively little water is spilled during the process of watering the brick ECC. The watering of
+the straw and sack ECCs is more time consuming, as water needs to be splashed or sprayed into
+the sides and top of these ECCs. It can take between 10 and 20 minutes to fully wet the sides of
+the straw and sack ECCs and a significant amount of water is wasted, running off of the sides of
+these ECCs and spilling onto the floor. The sack ECC is particularly challenging, as the sack
+material does not easily absorb water when dry: the fibrous nature of the sack surface creates a
+hydrophobic surface and beading of water droplets is observed. Additionally, the height of the
+sack ECCs in this study require the user to stand on a stool or chair to reach the top of the sack
+ECC.
+
+In Mopti and Sikasso, World Vegetable Center staff members frequently visit the Best Practice
+Hubs where the ECCs are located to work with community members on improving their
+horticulture practices. For this study, 1 to 3 individuals from the community were recruited to
+be responsible for watering and monitoring the ECCs. Participants were instructed to add water
+three times each day to the ECCs until the straw, sack, or sand between the bricks was
+completely wet. This allowed the evaporation of water to cool the ECCs throughout the day,
+
+
+
+
+                                                                                               21
+even if no vegetables were being stored in the ECCs. Solar water pumps located nearby the
+ECCs provided reliable access to water throughout the year.
+
+While the amount of water added to each ECC was not systematically measured, the following
+observations and user feedback were recorded. Out of the six Best Practice Hubs where ECCs
+are located, four regularly added water to the ECCs (at least once a day for a majority of study
+period), and two of the participating locations watered the ECCs less frequently. In Bamako,
+researchers consistently watered the ECCs 1 to 3 times per day throughout the study, with the
+exception of one three-week period during which the ECCs were intentionally not watered to
+investigate how the performance would change over time without watering. The impacts of
+variations in watering frequency are discussed in a later section.
+
+ECC performance as a function of relative humidity with regular watering
+The three types of ECCs (straw, sack, and brick) displayed notably different performance,
+particularly in relation to the performance immediately after watering. Figures 1 and 2 show
+the typical daily profile of the sensor data collected.
+
+
+
+
+Figure 1: Typical internal daily temperature with watering for all three types of ECCs, and the
+ambient temperature measured by the independent sensor nearby to the ECCs is represented by
+the black line. A decrease in the temperature can be observed at the time of watering for each
+of the ECCs, indicated by the vertical blue lines.
+
+
+
+
+                                                                                             22
+Figure 2: Typical daily relative humidity with watering for all three types of ECCs, and the
+ambient humidity measured from the independent sensor nearby to the ECCs is represented by
+the black line. An increase in the humidity can be observed at the time of watering for each of
+the ECCs, indicated by the vertical blue lines.
+
+A decrease in the temperature can be clearly observed when water is added to the storage
+device for all three types of ECCs (see Figure 1). The effect is more pronounced for the straw
+and sack ECCs than for the brick ECC. For all of the ECCs, the cooling effect is more pronounced
+during the daytime when the temperature is the highest, the relative humidity is the lowest,
+and the watering is occurring. This has the effect of decreasing maximum temperature, when
+the vegetables are most susceptible to spoilage. When watered three times a day, all of the
+ECCs maintain an interior temperature that is lower than the ambient temperature throughout
+the day. Due to the large thermal mass of the thick brick and sand walls, the brick ECC shows
+the greatest stability in temperature, which is favorable for vegetable storage. Additionally,
+when watered regularly the relative humidity inside the brick ECC remains consistently above
+70% throughout the day (see Figure 2). In contrast, the relative humidity inside the sack and
+straw ECCs decreases within a few hours, and sharply increases after each watering event.
+
+The ambient relative humidity has a significant effect on the performance of the ECCs. At higher
+relative humidity the evaporation rate of water is decreased, which reduces the cooling effect.
+Figure 3 shows: 1) the decrease in the maximum daily temperature at the interior of the
+storage device compared to the ambient temperature and 2) the decrease in the average daily
+temperature at the interior of the storage device compared to the ambient temperature, as a
+function of the ambient relative humidity for each of the ECCs and clay pot coolers, both of
+which are important for increasing the shelf life of vegetables.
+
+
+
+                                                                                             23
+Figure 3: The decrease in the maximum daily temperature and the average daily temperature
+for each of the ECCs and clay pot coolers as a function of relative humidity, with regular
+watering. A larger decrease in the average and maximum daily temperatures indicates that the
+device is more effective at cooling the vegetables. See Figures 8 and 9 in the Appendix for
+additional details and plots with individual daily data points.
+
+Across all relative humidity ranges, the brick ECC showed the largest decrease in the maximum
+daily temperature, ranging from a decrease of 10.4 °C when the ambient humidity is less than
+40%, to 4.2 °C when the ambient humidity is greater than 70%. The straw ECC showed the
+second largest decrease in the maximum daily temperature, with a decrease of 6.9 °C and 4.0
+°C when the ambient humidity is less than 40% and greater than 70%, respectively. The straw
+and brick ECCs show a similar decreases in the average daily temperature, ranging from 5.8 °C
+when the ambient humidity is less than 40%, to 1.5 °C when the ambient humidity is greater
+than 70%. This observed decrease in the maximum and average daily temperatures across the
+brick and straw ECCs with increasing ambient humidity is due to the reduced evaporation of
+water with higher humidity.
+
+
+
+
+                                                                                          24
+The sack ECC showed the poorest cooling performance, with temperature decreases ranging
+from 4.3 °C to 2.9 °C for the maximum daily temperature, and 3 °C to 1.8 °C for the average
+daily temperature. Interestingly, the sack ECC showed a smaller temperature decrease when
+the humidity was less than 40% than when the humidity was between 40% and 70%, which
+does not agree with the expectation that the lower humidity leads to increased evaporation
+and a greater temperature decrease. The explanation for this unexpected result is related to
+difficulties observed in adding water to the sack surface, which are most pronounced when the
+ambient humidity is low. The challenges faced by the technicians and participants resulted in
+less water being added to the sack when the ambient humidity was less than 40%, reducing the
+water available for evaporative cooling. However, once the humidity reaches a certain
+threshold, the sack fibers become more absorbent, allowing for complete watering to be
+achieved with less effort, resulting in the greater temperature decreases observed for the sack
+ECC in the humidity range of 40% to 70% than the humidity range below 40%.
+
+The humidity inside the ECCs is another factor that significantly impacts the shelf life of
+vegetables. A list of vegetables that store well in the high humidity environment provided by
+EECs can be found in the “Evaporative Cooling Best Practices Guide”. Figure 4 shows the relative
+humidity inside each of the ECCs as a function of the ambient relative humidity for each of the
+ECCs. The brick ECC shows an average daily humidity above 80% – even with an ambient
+humidity below 20% – and maintains an interior humidity near 100% throughout the day when
+the ambient humidity is above 50%. The straw ECC shows an increased average interior
+humidity, but less pronounced than the brick ECC, particularly when the ambient humidity is
+less than 40%. The humidity inside the sack ECC increased significantly compared to the
+ambient humidity only in the hours immediately following the addition of water (see Figure 2),
+resulting in an average daily humidity that is only slightly greater than the ambient humidity. In
+some cases, the average daily humidity inside the sack ECC is actually lower than the ambient
+humidity.
+
+
+
+
+                                                                                               25
+Figure 4: The relative humidity inside each of the ECCs as a function of the ambient relative
+humidity. Each data point on the plot indicates the average interior and ambient humidity for a
+single day. Data was only included when the ECC was watered at least once during previous day,
+and the day in question.
+
+ECC performance as a function of watering frequency
+While a simple storage vessel alone can reduce temperature fluctuations, the evaporation of
+water is required to achieve a decrease in the average temperature and to maintain a high
+humidity environment. To investigate the performance of the ECCs without regular daily
+watering, the researchers were instructed to not add water to one set of ECCs in Bamako (one
+of each type) for a period of 15 days.
+
+Figures 5 and 6 show the average daily temperature reduction and relative humidity of each
+type of ECC for the 15 days following the last addition of water. This data shows that the straw
+and sack ECCs have significant reduction in the cooling effect in the first day after watering is
+stopped, compared to the brick ECC. Similarly, while the average daily humidity inside the brick
+ECC remains greater than the ambient for over 15 days, the humidity inside the straw and sack
+ECCs is equilibrated with the ambient humidity within 13 hours and five hours, respectively (see
+Figure 10 in the Appendix).
+
+
+
+                                                                                              26
+Figure 5: The average daily temperature as a function with and without regular watering
+(watering only occurs prior to the 5th day, indicated by the blue shaded area). An hourly plot of
+the temperature and humidity throughout the 20 days is available in Figure 10 in the Appendix.
+
+
+
+
+Figure 6: The average daily humidity as a function with and without regular watering (watering
+only occurs prior to the 5th day, indicated by the blue shaded area). An hourly plot of the
+temperature and humidity throughout the 20 days is available in Figure 10 in the Appendix.
+
+
+
+
+                                                                                              27
+Even after watering has stopped, the brick ECC is able to maintain an average temperature that
+is at least 2 °C less than the ambient daily average temperature, and an average daily interior
+humidity between 75 and 95%. Furthermore, the brick ECC maintains an interior humidity
+between 50% and 90% throughout the day, even when the ambient humidity is between 0%
+and 15% and it has been more than 10 days after the last watering.
+
+These results corroborate the observations in Figure 1, where a sharp decrease in temperature
+is observed in the straw and sack ECCs when water is added in the middle of the day (when the
+temperature is the highest and the relative humidity is the lowest), but the temperature begins
+to rise within 1 to 2 hours, indicating that a majority of the water has evaporated.
+
+The brick ECC has a thick (~10 cm) and absorbent layer of sand that can retain water, as
+opposed to the thinner sack and straw layers. Because the straw and sack ECCs are not able to
+hold as much water as the brick ECC, they need to be watered more frequently. This has a
+significant impact on the amount of time and effort that is required upon the part of the user to
+maintain cool and humid environment inside the ECC.
+
+
+
+
+                                                                                              28
+Clay Pot Cooler Sensor Data
+Over the three to five month study period, sensors were also used to measure the performance
+of 67 clay pot coolers at users’ households in Mopti and 9 clay pot coolers at research facilities
+in Bamako. During this time, the weather conditions varied due to seasonal changes: data
+collection began in March during the dry season and continued through the beginning of the
+rainy season in July. Throughout this time, the ambient humidity – in both Bamako and Mopti –
+steadily increased allowing for the performance to be measured across a wide ambient
+humidity range.
+
+
+
+
+Images on the right:
+A) Pot-in-pot cooler
+B) Pot-in-pot moisture
+and interior sensors
+C) Pot-in-pot exterior
+sensor
+D) Pot-in-dish cooler
+E) Pot-in-dish interior
+sensor
+F) Pot-in-dish moisture
+and exterior sensors
+
+
+
+
+Clay pot cooler watering frequency
+One of the objectives of the study was to monitor the user behavior related to the frequency of
+adding water to the clay pot coolers, which could be identified by sharp increases in the
+moisture of the sand between the inner pot and the outer pot or dish. Using the moisture
+sensor, we were able to observe the frequency with which the users watered their clay pot
+coolers, which has a significant impact on the interior temperature and humidity (discussed in
+the following sections). Participants were instructed to water the clay pot coolers 1 to 3 times
+per day to keep the sand wet and allow for the evaporation of water from the clay pot coolers
+throughout the day.
+
+At the beginning of the study, over 75% of the participants added water to the clay pot cooler
+at least once per day. As the study progressed, the number of participants that watered the clay
+pot coolers decreased, with just over 50% of the participants adding water regularly (at least
+
+
+
+                                                                                               29
+once per day) to the clay pot coolers throughout the entire study time period. The reasons
+users decreased the frequency of watering later in the study period could include changes in
+the need for vegetable cooling, decreased performance of the clay pot coolers as the ambient
+humidity increased steadily in the later months of the study, or simply because they forgot or
+became tired of adding water to the clay pot coolers. None of the study participants mentioned
+having difficulties accessing water for keeping the sand in the clay pot coolers wet.
+
+Clay pot cooler performance as a function of humidity with regular watering
+The three types of the clay pot cooler cooling and storage devices displayed the same primary
+trends in performance, with some differences in relation to the magnitude of the average daily
+temperature decrease. Figure 7 shows the typical daily profile of the sensor data collected.
+
+
+
+
+Figure 7: Typical daily temperature and relative humidity with watering for a clay pot cooler
+(pot-in-pot configuration). The vertical blue lines indicate when water was added.
+
+The data in Figure 7 shows that the average interior temperature of the clay pot cooler is
+reduced, with the cooling effect being most pronounced during the day when the temperature
+is the highest and the relative humidity is the lowest. This has the effect of decreasing
+maximum temperature, when the vegetables are most susceptible to spoilage/damage.
+
+Similar to the ECCs, the placement of the exterior temperature sensor on the side of the clay
+pot coolers had an impact on the temperature recorded compared to the ambient temperature
+in the location where the clay pot coolers was located. In order to estimate this effect, an
+additional sensor was placed at a separate location about five meters from any of the clay pot
+coolers at the Sotuba and Samanko research stations in Bamako. The results indicate that when
+
+
+
+                                                                                           30
+the clay pot cooler was regularly watered the average exterior temperature recorded near the
+outside to the clay pot cooler was reduced by 0.5 to 0.9 °C compared to the ambient
+temperature measure from an independent sensor nearby to the clay pot coolers. Because we
+did not have the resources to place an independent sensor near the ECCs in the participants’
+households, the clay pot cooler performance results discussed in the following sections use the
+exterior temperature sensor located on the side of the pot; thus, the actual ambient
+temperature was most likely up to 0.9 °C hotter than reported.
+
+When watered frequently enough to keep the sand from becoming dry, all of the clay pot
+coolers showed a significant decrease in temperature and an increase in interior relative
+humidity (see Figures 3 and 7). The pot-in-pot devices showed the greatest decrease in the
+average daily temperature across all humidity ranges, ranging from 6.9 °C when the ambient
+humidity is less than 40%, to 1.8 °C when the ambient humidity is greater than 70%. The pot-in-
+dish devices showed a slightly lower decrease in the average daily temperature, ranging from
+5.1 °C when the ambient humidity is less than 40%, to 0.8 °C when the ambient humidity is
+greater than 70%. The three types of clay pot coolers showed a similar decrease in the
+maximum daily temperature ranging from 8.6 °C when the ambient humidity is less than 40%,
+to 2.6 °C when the ambient humidity is greater than 70%. This data shows that, similar to the
+ECCs, the ambient relative humidity has a significant effect on the performance of the clay pot
+coolers devices – at higher relative humidity the evaporation rate of water is decreased, which
+reduces the cooling effect.
+
+Similar to the brick ECCs, when the clay pot coolers are regularly watered and then covered
+with a wet cloth the average daily interior humidity is above 80%, even when the ambient
+humidity is less than 20%, and the interior humidity is maintained near 100% throughout the
+day when the ambient humidity is greater than 50% (see Figure 11 of the Appendix).
+
+It is important to note that participants received only ~ 1 hour of training on how to operate the
+clay pot coolers. Photographs of the clay pot cooler placement within the household show that
+many of the clay pot coolers were in sub-optimal locations, either partially exposed to direct
+sunlight or placed close to a wall or corner where they were not exposed to air flow or wind.
+Thus, it would be expected that the clay pot coolers should provide an even greater
+temperature decrease if placed in a more optimal position.
+
+Clay pot cooler performance as a function of watering frequency
+In order to achieve a decrease in the average temperature and to maintain a high humidity
+environment, water must be added to the clay pot coolers. To investigate the performance of
+the ECCs without regular daily watering, we looked at time periods where the participants did
+not add water to the clay pot coolers. Figure 8 shows the average daily temperature decrease
+and humidity, as a function of when water was added to the clay pot cooler.
+
+
+                                                                                               31
+Figure 8: The average daily temperature and humidity as a function with and without regular
+watering (watering occurs prior to the 4th day and resumes on the 9th day, indicated by the blue
+shaded area). A detailed plot of the temperature and humidity throughout the 10 days is
+available in Figure 12 of the Appendix. The average daily ambient temperature was between 29
+– 35 °C and the humidity was less than 40% for both of the clay pot coolers throughout the time
+shown in this figure.
+
+This data shows that after five days without watering there is no impact on the interior
+humidity, which remains above 95% throughout the day. In the five days after watering was
+stopped, the average daily temperature decrease followed a downward trend (although not
+monotonic). By the fifth day without watering, each of the clay pot coolers showed over a 2 °C
+reduction in the temperature decrease achieved. Once watering was resumed the temperature
+decrease returned to the magnitude (over 5 °C) prior to period when watering did not occur.
+
+Overall, the performance of the clay pot coolers were similar to that of the brick ECC in terms of
+the temperature decrease achieved, temperature and humidity stability, and the ability to
+maintain a high humidity environment with infrequent watering. There was no evidence
+watering more than once per day had a significant impact on the performance of the clay pot
+coolers.
+
+
+
+
+                                                                                               32
+Interview Results
+Evaporative Cooling Chamber (ECC) User Interview Data
+The 21 respondents for the ECC portion of the study were all between 35 to 70 years old; a
+majority (60%) were women; and horticulture or other agriculture activities were a source of
+income for all respondents. All respondents were affiliated with the World Vegetable Center
+Best Practice Hubs and report benefiting from trainings ranging from best practices for
+composting and fertilization to operating vegetable nurseries and integrated pest management
+techniques.
+
+Corn, sorghum, and millet are the most important staple crops for the participants; and
+eggplant, tomatoes, hot pepper, and okra are the most common vegetables produced and were
+reported to be stored in the ECCs (see Table 2), which are primarily grown in the World
+Vegetable Center Best Practice Hubs.
+
+Table 2: List of the most common items stored by participants in ECCs and clay pot coolers.
+                                        ECCs       Clay pot coolers
+Vegetables and fruits (overall)        100%                   100%
+    Eggplant                            90%                   100%
+    Tomato                              86%                   100%
+    Hot pepper                          48%                    96%
+    Cucumber                            10%                    85%
+    Sweet pepper                         0%                    33%
+    Melon                                0%                    30%
+    Okra                                43%                    28%
+    Mango                               10%                    19%
+
+Leafy greens (overall)                   48%                   92%
+    Cabbage                               0%                   85%
+    Sweet potato leaves                  19%                   61%
+    Amaranth leaves                      48%                   18%
+    Moringa leaves                        0%                   10%
+    Parsley                               0%                    9%
+
+Beverages (overall)                      33%                   43%
+    Juice                                19%                   27%
+    Drinking water                       29%                   24%
+    Milk                                  0%                   15%
+
+
+
+
+                                                                                              33
+All of the respondents reported growing vegetables for both personal consumption and for
+sale. Vegetables produced for sale are transported to the village or to market either by foot,
+bicycle, tricycle, or animal trucks depending on the volume of the production and access to the
+various modes of transportation. Less than 20% of the respondents purchase vegetables from
+the market, with the rest relying on their own production as their only source of vegetables.
+
+Prior to having access to the ECCs located at the World Vegetable Center Best Practice Hubs,
+members of the horticulture cooperatives stored vegetables with several methods, such as
+spreading them on a wet sack or sand, or in metal, plastic, or wood containers. Due to reasons
+ranging from concerns about the security of their vegetables in the ECCs and distance from
+their homes to the Best Practice Hub, many participants continue to use their previous methods
+of vegetable storage. Additionally, many farmers dried their hot peppers and okra and
+processed them into powder, in order to allow for relatively long conservation (1-6 months)
+before being consumed or sold in the market.
+
+Participants in Sikasso reported that there were periods of time where the ECCs were not
+frequently used because there were not many crops being harvested that required post-harvest
+storage. In Sikasso the months of February and March are some of the driest months of the
+year – and when the ECCs are best suited to provide effective cooling – but because there is not
+a large need for vegetable storage during this time the ECCs cannot provide a significant benefit
+to the community during this time. The primary harvest season is in July and August, when the
+relative humidity is the highest and the ECCs will perform the worst. This illustrates the
+importance of evaluating the overlap of the seasonal weather conditions (and subsequently
+ECC performance) with the seasonality of the post-harvest vegetable storage needs.
+
+Shelf life of vegetables in ECCs
+Based on the respondent interviews, the shelf life of eggplants and tomatoes are significantly
+longer in Sikasso than Mopti for all vegetables (see Table 2 in the Appendix). This difference is
+likely due to the significant variations in weather conditions between the two regions, which
+impacts the storage conditions experienced by the vegetables in the ECCs. The average ambient
+conditions throughout the study 5 month period were more favorable for vegetable storage in
+Sikasso than in Mopti, as Sikasso is situated in the Sudan-Savanna zone while Mopti is part of
+the hotter sand dryer Sahel-Saharan zone in Mali. Similarly, the eggplants and tomatoes in the
+straw and sack ECCs in Sikasso experienced ambient conditions that were an average of over 2
+°C lower and 20% higher humidity than the vegetables in the straw and sack ECCs in Mopti.
+Because of the favorable ambient conditions for vegetable storage (higher humidity and lower
+temperature) the ECCs provide less value in Sikasso, as the need for improved storage is not as
+great and the higher humidity reduces the temperature decrease inside the ECCs.
+
+
+
+
+                                                                                              34
+The reported shelf life of the vegetables most commonly stored in the ECCs in Mopti is
+compared in Table 3 for each of the ECC types. The reported shelf life for each vegetable is
+similar in each type of ECC, and no statistically significant differences could be determined.
+
+Table 3: Comparison of the shelf life of eggplants, tomatoes, hot pepper, and okra
+in each of the three ECC types in Mopti.
+
+                       Reported shelf life (days)a                      Optimal storage conditions
+Vegetable
+                  Straw ECC    Sack ECC Brick ECC                 Temperature     Humidity     Shelf lifeb
+ Eggplant            8±3          9±2          10 ± 3                 12 °C        90-95%       1 week
+ Tomato              6±1          7±1           8±2                 18-22 °C       90-95%      1-3 weeks
+Hot pepper          14 ± 9       12 ± 5        10 ± 5                0-10 °C       60-70%      6 months
+   Okra              5±1          7±1           7±1                  7-10 °C       90-95%      7-10 days
+a
+  The first number in the shelf life is the mean, followed by the standard deviation. See Table 3 in the Appendix for
+additional details, including the maximum, minimum and sample size.
+b
+  The shelf life listed is under the optimal storage conditions listed (McGregor, 1989).
+
+
+User feedback on ECCs
+In response to a multiple-choice question about their overall impression of the ECCs, the
+participants rated the brick ECC as the highest, followed by the sack ECC, and the straw ECC
+rated the lowest (see Table 4 in the Appendix). Table 4 lists the most common attributes of the
+ECCs mentioned by respondents in open-ended questions about the advantages,
+disadvantages, convenience, and considerations for adoption for each ECC. For respondents
+who would consider adopting the straw ECC, the primary reason was the availability and
+affordability of straw. For respondents who would consider adopting the sack ECC and brick
+ECC, the primary reason was the cooling effectiveness and improved shelf life of the vegetables
+that the participants observed during the study, compared to their previous storage methods.
+The brick ECC was also rated the highest on the categories of ease of watering and protection
+from animals and insects. However, the brick ECC was the lowest rated on access and
+affordability of the materials (bricks) needed to construction.
+
+Table 4: Most commonly mentioned attributes of the ECCs and user perceptionsa
+
+                 Attribute                         Straw ECC            Sack ECC         Brick ECC
+           Cooling effectiveness                      Low               Medium             High
+    Protection from animals and insects               Low                 Low              High
+             Ease of watering                       Medium                Low              High
+     Materials access and affordability               High              Medium              Low
+               Overall rating                         Low               Medium             High
+a
+ The attributes listed were mentioned by respondents in response to a series of open-ended questions for each
+type of ECC about the advantages, disadvantages, convenience, and considerations for adoption for personal use.
+
+
+
+
+                                                                                                                  35
+Clay Pot Cooler User Interview Data
+The 67 participants for the clay pot cooler portion of the study were all between 25 to 65 years
+old; a majority (83%) were women; and 76% are active in horticulture. The most common
+source of income for the households selected for this study includes farming, trading, and civil
+service work (see Table 1 for the distribution of the study participants). Sixty seven percent
+(67%) of the participants reported benefiting from training in areas such as best practices for
+composting and crop fertilization, operating vegetable nurseries, and agriculture post-harvest
+agricultural processing. Millet, groundnut, and cowpea are the most important staple crops
+grown by the participants; and eggplant, tomatoes, hot pepper, onion, and okra are the most
+common vegetables produced. The vegetables grown by the participants are produced both for
+personal consumption and sale. Most of the participants that received clay pot coolers also
+purchase vegetables from the market (87%), which is in contrast to the less than 20% of the ECC
+users who purchase vegetables from the market. These households have an opportunity to
+benefit from improved storage on both ends of supply chain, as both growers and purchasers.
+
+Previous storage methods
+The most common methods of vegetable storage used by the participants prior to receiving the
+clay pot coolers were baskets woven from dried grass or straw, or metal, plastic, and wood
+containers (see Table 5). Woven baskets are often suspended hanging above the ground to
+prevent insects or animals from eating the vegetables. Other methods of storage included
+placing the vegetables near the family water jar, and on top of wet sand or sack, which achieves
+a cooling effect through the evaporation of water. Users reported the primary benefit of
+storage methods such as the woven baskets and other containers were that they do not require
+electricity, but the disadvantages were that they do not provide a long storage life for the
+vegetables, they require frequent monitoring to avoid infestation by insects or animals.
+
+Table 5: Previous methods used by participants before the clay pot coolers
+         Type of storage                                                % of users
+         Woven baskets                                                       49%
+         Metal, plastic, and wood containers                                 41%
+         Near the family water pot                                           10%
+         On top of wet sand or sack                                           6%
+         Refrigerator                                                         3%
+
+Over half of participants had a connection to grid electricity in their home (52%), and most of
+those (76%) had a refrigerator, (which makes 40% of the total participant group with a
+refrigerator). However, only two participants (3%) used a refrigerator for vegetable storage.
+Participants using refrigerators for vegetable storage reported good performance for storing
+vegetables without spoilage, but noted the high electricity costs. Additionally, some
+
+
+                                                                                             36
+participants who had refrigerators reported not using them for vegetable storage either
+because of limited space or that vegetables result in undesirable odors that affect the juice
+being stored in refrigerators for sale. This data indicates that refrigerators are not a viable
+solution for vegetable storage for populations with the profile of the participants of this study.
+Furthermore, this illustrates that evaporative cooling devices such as ECCs and clay pot coolers
+have the potential to benefit both on-grid and off-grid populations.
+
+Clay pot cooler usage and shelf life of vegetables
+The participants used the clay pot coolers to store a wide range of products (see Table 2 for
+details). The vegetables most commonly stored in the clay pot coolers were eggplant, tomato,
+hot pepper and cucumber – with 100%, 100%, 96% and 85% of the respondent storing these
+vegetables, respectively. Ninety-two percent of the participants stored at least one type of leafy
+green, such as cabbage, sweet potato leaves, amaranth leaves, moringa leaves, or parsley in the
+clay pot cooler. Other commonly stored vegetables include sweet pepper, okra, melon, and
+mango. In addition to vegetables and leafy greens, nearly half (46%) of the participants also
+used the pots for storing beverages such as milk, juice, and water. A few (8%) of the
+participants used the clay pot coolers to store eggs or meat.
+
+Participants were asked about the shelf life of the five most commonly stored vegetables
+(eggplant, tomatoes, hot pepper, cucumber, and cabbage) in their previously storage method
+and the clay pot cooler that they received as a part of this study. Because the ambient weather
+conditions vary across seasons, the participants were asked to report the shelf life of each
+vegetable in each storage method in both the dry season and rainy season. A summary of these
+responses is shown in Table 6. For all of the vegetables the average reported shelf life was
+slightly longer in the rainy season compared to the dry season, for both the previously used
+storage method and the clay pot coolers. This result is expected, as the more humid and cooler
+ambient conditions in the rainy season are more favorable for the storage of the vegetables in
+question.
+
+Despite large variance in the shelf life data collected from the participant interviews, it can be
+determined that the clay pot coolers provide improved shelf life compared to the previous
+methods of storage used by the participants. The average reported shelf life of the vegetables
+was 87% longer in the clay pot coolers than in the previous methods of storage, for all of the
+vegetables in both the rainy and dry season. This result is expected based on the sensor data,
+which show an average decrease in temperature and an increase in humidity inside the clay pot
+coolers as compared to the ambient temperature outside the clay pot coolers – which are the
+conditions that the vegetables are exposed to in the most common storage methods such as a
+woven basket or metal and plastic containers.
+
+
+
+
+                                                                                               37
+Table 6: Shelf life of common vegetables stored in clay pot coolers in Mopti
+                               Reported shelf life (days)a                Optimal storage conditions
+    Vegetable     Season                        Clay pot
+                                Previousb                         Temperature Humidity                Shelf lifec
+                                                 cooler
+                    Dry           5±3            10 ± 5
+     Eggplant                                                          12 °C           90-95%           1 week
+                   Rainy          6±3            12 ± 6
+                    Dry           4±2             9±4
+     Tomato                                                          18-22 °C          90-95%         1-3 weeks
+                   Rainy          6±2            10 ± 5
+                    Dry           5±2             9±5
+    Hot pepper                                                        0-10 °C          60-70%         6 months
+                   Rainy          6±3            11 ± 6
+                    Dry           5±3             9±4
+    Cucumber                                                         10-13 °C            95%         10-14 days
+                   Rainy          6±4            13 ± 7
+                    Dry           4±2             8±6
+     Cabbage                                                            0 °C          98-100%        3-6 months
+                   Rainy          5±3             9±6
+a
+  The first number in the shelf life is the mean, followed by the standard deviation. See Table 3 in the Appendix for
+additional details, including the maximum, minimum and sample size.
+b
+  The shelf life reported for the previous method of storage used by the participant, including woven baskets,
+metal and plastic containers, near the family water jar, on top of wet sand or sack.
+c
+  The shelf life listed is under the optimal storage conditions listed (McGregor, 1989).
+
+
+In addition to the average shelf life reported for vegetable storage in clay pot coolers compared
+to the previous methods of storage, it is useful to look at the over 500 direct comparisons of
+the shelf life for vegetables from individual participants (see Table 3 in the Appendix for the full
+data set of reported shelf life by the participants). For the dry season, 87% of the participants
+indicated a longer shelf life for specific vegetables in the clay pot cooler, compared to their
+previous method of storage. Six percent (6%) of respondents indicated the same shelf life with
+the clay pot cooler as their previous method of storage, and 7% of respondents indicated a
+longer shelf life with their previous method. Similarly, in the rainy season, 63%, 21%, and 16%
+of the participants indicated the shelf life for specific vegetables in the clay pot cooler, was
+longer, the same, and shorter, respectively, in comparison to their previous method of storage.
+The differences in shelf life between the three types of clay pot coolers was not statistically
+significant, due to the large variance and lack of direct comparison between the three clay pot
+cooler types by individual participants (see Table 6 in the Appendix for details).
+
+
+
+
+                                                                                                                 38
+User feedback on clay pot coolers
+Overall, the participants perceived all of the clay pot coolers favorably. In response to a
+multiple-choice question about their overall impression of the clay pot coolers over 95% of the
+participants rated the clay pot coolers either “good” or “very good”, with only two participants
+giving the clay pot coolers a rating of “fairly good”, and none giving the rating of “not good”
+(see Table 5 in the Appendix for details).
+
+The most common attributes of the clay pot coolers mentioned by respondents in open-ended
+questions about advantages and disadvantages are listed in Table 7. Nearly all of the
+participants listed increased shelf life (increased freshness and reduced spoilage) of the
+vegetables as a key advantage of the clay pot coolers. A majority of the participants also
+indicated their vegetables benefited from improved protection from animals and insects when
+stored in the clay pot cooler, which is a common problem for the previous storage methods
+such as woven baskets, plastic and metal containers, and vegetables spread on a wet sack or
+sand or near the family water pot. Other advantages the participants cited as a consequence of
+the improved storage include increased monetary savings, an increased availability of
+vegetables for their family, improved hygiene of the vegetables, convenience, and less time
+spent travelling to the market.
+
+Table 7: Most commonly mentioned advantages and disadvantages of the clay pot coolersa
+
+                                               All clay pot      Round           Cylinder
+               Advantages                                                                       Pot-in-pot
+                                                 coolers       pot-in-dish      pot-in-dish
+             Increased shelf life                  97%            94%             100%              97%
+    Protection from animals and insects            69%            82%              67%              62%
+                Saves money                        31%            24%              33%              34%
+    Increased availability of vegetables           37%            35%              24%              48%
+       Hygienic storage of vegetables              13%            18%              14%              10%
+                 Convenient                        10%             0%               5%              21%
+      Less time spent going to market               7%             6%              14%               3%
+
+                                               All clay pot      Round           Cylinder
+              Disadvantages                                                                     Pot-in-pot
+                                                 coolers       pot-in-dish      pot-in-dish
+     Water seepage into the inner pot              13%            29%              19%              0%
+        Difficulties adding water                   3%             0%               5%              3%
+a
+ The attributes listed were mentioned by respondents in response to open-ended questions about the advantages
+and disadvantages of the clay pot coolers. The total number of respondents was 67, with 21, 17, and 29
+respondents for the cylinder pot-in-dish, round pot-in-dish, and pot-in-pot, respectively.
+
+
+
+
+                                                                                                          39
+The most commonly cited disadvantage of the clay pot coolers was the seepage of water into
+the inner pot, and several participants noted that the water inside the storage area caused
+cabbage to spoil. It is interesting to note that participants with the pot-in-pot storage devices
+did not report water seepage. It is likely that the water seepage was only observed in the clay
+pot coolers with a pot-in-dish configuration due to the plastic dish, which is impermeable to
+water. In the case of the pot-in-pot configuration the outer pot is permeable to water, allowing
+for excess water to leave through the bottom of the pot, instead of seeping into the inner pot.
+For the pot-in-dish configuration, the seepage of water into the interior pot could potentially be
+avoided by drilling a series of small holes into the plastic dish – allowing for excess water to
+drain from the bottom once the sand is saturated. However, this could reduce the dish’s utility
+to function for other tasks such as washing clothes or preparing food. A few participants also
+reported having difficulty adding water to their clay pot coolers.
+
+Additionally, 90% of participants reported that they were no longer using any of their previous
+storage methods after receiving the clay pot coolers, indicating that the 50 liter capacity of the
+clay pot coolers used in this study is sufficient to meet the vegetable storage needs of most
+households.
+
+When asked if they would consider purchasing a clay pot cooler, a majority of the respondents
+(63%) indicated “yes” they would, with 29% and 8% replying “maybe” and “no”, respectively.
+However, because the researchers conducting the interviews could not provide details on the
+price and availability of the clay pot coolers in the regions, most participants indicated that
+their purchasing decision would be based on the affordability and availability of clay pot
+coolers. Further research directly testing the market for clay pot coolers will be needed to
+determine the willingness to pay for different customers profiles.
+
+
+
+
+                                                                                               40
+Construction and Cost
+In order for evaporative cooling chambers (ECCs) or clay pot coolers to be widely disseminated
+in a particular region, it is critical that they can be constructed using locally available and
+affordable materials. While there is no single “right way”, to construct an ECC or clay pot
+cooler, there are general principles and certain best practices that should be considered to
+maximize the performance of the devices.
+
+In this section, we will describe the key elements and associated costs of constructing
+evaporative cooling devices to evaluate their potential cost-effectiveness.
+
+Much of the basic construction protocol for evaporative cooling devices can be communicated
+pictorially, and many of the design considerations do not have rigid constraints, allowing for the
+possibility of disseminating the principles for constructing an ECC or clay pot cooler to
+prospective end users or producers. As the scope of this research study was not to develop
+detailed instructions for constructing ECCs and clay pot coolers – and previous work has been
+done by others in this area – we provide references to practical resources for constructing of
+evaporative cooling devices in the “Evaporative Cooling Best Practices Guide” accompanying
+this report.
+
+Evaporative Cooling Chamber (ECC) Construction and Cost
+Regardless of the type of ECC, the cost can vary significantly based on desired size and local cost
+of materials. Because ECCs can be constructed over a range of sizes, it is important to select an
+appropriate size according to need, to avoid over-building and spending more money than is
+needed. Below is a list of the key materials needed for constructing each type of ECC:
+    • Straw ECC: wood and nails or screws for a frame, straw to cover the surfaces of the ECC,
+       and rope or twine to secure the straw
+    • Sack ECC: wood and nails or screws for a frame, sack to cover the surfaces of the ECC,
+       and rope or twine to secure the sack
+    • Brick ECC: enough for two layers of brick around the sides and bottom of the ECC
+       (typically 400-800 bricks), sand to fill the space between the two brick walls, and a cover
+       for the top of the ECC made of wood and straw or cloth
+
+If the user does not have a shady place where the ECC can be placed, then a shade cover will
+need to be made. This typically consists of a wood or metal frame and a combination of straw
+and plastic. An expanded list of materials required for each type of ECC can be found in Table 7
+of the Appendix.
+
+
+
+
+                                                                                                41
+When constructing and using an ECC, the placement is critical. The ECC must be located in a
+shaded area and exposed to air flow or wind to remove water vapor. Brick ECCs in particular are
+time consuming to move and the selection of an appropriate location is particularly important
+when planning the construction of an ECC. Any structures that are required to accommodate
+these requirements should be considered as a part of the cost of the ECC.
+
+The three ECC types in this study (straw, sack, and brick) were made large enough (1000 – 2500
+liters) to serve the needs of the cooperatives that the World Vegetable Center works with. The
+total cost to construct each ECC and their size is shown in Table 8.
+
+At a cost of roughly $100, the straw ECC was the least expensive to construct, but also the
+smallest design. The larger sack and brick ECCs cost $215, and $260, respectively. When
+considering these costs, the size of the ECCs should be considered; the sack and brick ECCs used
+in this study had over twice the storage volume as the straw ECCs. Additionally, while the straw
+and sack ECCs located under the covered area of the World Vegetable Center Best Practice Hub,
+the brick ECC required a shade cover to be constructed (at a cost of about $45), due to its large
+footprint and inability for it to be easily moved. The largest cost for the straw and sack ECCs is
+the wood frame, and the bricks comprise the majority of the cost for constructing the brick ECC.
+The availability of straw can vary seasonally, with the price typically increasing during the rainy
+season. The bricks were purchased from a women’s cooperative in Mopti where special clay soil
+to manufacture burnt bricks is available. Transportation costs of the components were not
+included in the costs listed here, but should be taken into account when calculating the cost to
+build each type of ECC in a specific context.
+
+Table 8: Cost and size of evaporative cooling chambers (ECCs) and clay pot coolers
+
+   Evaporative cooling               Storage volume                       Cost (USD)
+          device                Range           This study          Range         This study
+       ECC (straw)            250 - 4000 L       1000 L           $50 - $250         $100
+        ECC (sack)            250 - 4000 L       2500 L           $50 - $250         $215
+        ECC (brick)           500 - 5000 L       2500 L           $70 - $350         $260
+    Round pot-in-dish          10 - 150 L          50 L            $6 - $35          $23
+   Cylinder pot-in-dish        10 - 150 L          50 L            $6 - $35          $23
+        Pot-in-pot             10 - 100 L          50 L           $10 - $50          $40
+
+
+
+
+                                                                                                42
+Clay Pot Cooler Construction and Cost
+The cost of a clay pot cooler can vary significantly based on desired size and local cost of
+materials. It is important to select an appropriate size according to need to avoid spending
+more money than is needed. A list of materials required for each type of clay pot cooler can be
+found in Table 8 of the Appendix.
+
+Clay pot coolers must also be placed where they are in the shade and exposed to air flow or
+wind to remove water vapor. Larger clay pot coolers with a pot-in-pot configuration can be
+heavy and difficult to move when assembled, so the location should be considered prior to
+assembling the clay pot cooler. Any structures that are required to accommodate these
+requirements should be considered as a part of the cost of the clay pot cooler.
+
+Clay-pots are made with special type of clay soil, and wherever the clay soil is present, local
+manufacturers often exist or could be trained in clay-pot manufacturing. Clay pot coolers will
+likely be most accessible and affordable in areas where clay pots are already being made and
+sold. In Mali, clay is most readily available along the Niger River, and there are several
+businesses that manufacture a wide range of earthenware products at these locations. A
+women’s cooperative near in Mopti produced the pots used in this study.
+
+Earthenware products – typically made using locally available clay – are present in most
+households in Mali. Clay pots are commonly used to store water for drinking and it is well
+known that water stored inside the pot is cooled, which is desirable for drinking water. This
+occurs through the same evaporative cooling mechanism as the clay pot coolers for vegetable
+storage. This creates a situation where the general concept of using clay pots and water to
+create a cooling effect is widely understood in both rural and urban areas throughout Mali.
+
+The clay pot coolers in this study were relatively large (50 liters), as the vegetable storage need
+of the participants were unknown at the beginning of the study. In all but one case the
+participants reported that the size of the clay pot coolers they received was large enough to
+meet their vegetable storage needs. The total cost to construct each clay pot cooler is shown in
+Table 8.
+
+For this study, the pot-in-dish configuration cost $23 and the pot-in-pot configuration $40, not
+including transportation costs. Even for pots of comparable size, this cost could likely be
+lowered because the pots for this study were custom ordered to specifications to ensure
+uniformity for this research study. For this study, the transportation cost was an additional $5
+per unit (not included in the costs listed above), and should be taken into account when
+calculating the total cost of a clay pot cooler in a specific context. It could be possible to lower
+the total cost of the clay pot cooler by using clay pots being manufactured at a larger scale,
+using existing supply chains for transportation, and relying on the end user to transport the
+pots from the point of purchase to their home.
+
+
+                                                                                                 43
+Based on a survey of typical market prices for clay pots and plastic dishes, we expect that the
+components to construct clay pot coolers, ranging from 10 liters to 150 liters in capacity, could
+cost between $6 and $50. Clay pot coolers with the pot-in-pot configuration will typically cost
+more than a comparably sized pot-in-dish configuration, as the outer clay pot is more expensive
+than a plastic dish that could hold a similar sized inner pot.
+
+Given the wide availability of both clay pots and plastic dishes, local business could assemble
+the necessary components for constructing clay pot coolers and market them specifically for
+vegetable storage to customers with vegetable storage needs. This could be done by either
+custom designing combinations of the appropriate containers or selecting components among
+those already locally available. Furthermore, households with a need for improved vegetable
+storage could potentially assemble a clay pot cooler from materials that they either already
+have in their home or are available at a local market. This latter scenario also presents the
+possibility where a household may not even need to make a new purchase to create a clay pot
+cooler, as existing materials could be repurposed. This could be particularly attractive for users
+that may only have intermittent vegetable storage needs.
+
+Additionally, there are other designs that can adapt the clay pot cooler concept to achieve the
+same goals. For example, the janata cooler consists of a metal or plastic container placed inside
+of a clay pot, with a wet cloth covering any exposed surface of the inner container (Odesola &
+Onwuka, 2009; Roy & Khurdiya, 1985). This design prevents water from seeping into the area
+where vegetables are stored and can also be used to control the interior humidity if desired.
+Each alternative design will have its own advantages and disadvantages, including cost,
+performance, and usability.
+
+In all cases, the potential to use locally available materials for ECCs, clay pot coolers, or other
+evaporative cooling designs, reduces the distribution challenges for disseminating the
+technology compared to importing and distributing a new device in a market.
+
+
+
+
+                                                                                                44
+Conclusions and Recommendations
+The main objective of this work is to evaluate if evaporative cooling technologies show promise
+for improving vegetable cooling and storage in Mali. In this study, we investigated two classes
+of evaporative cooling devices: evaporative cooling chambers (ECCs) and clay pot coolers. In the
+previous sections we presented the results from:
+    • Sensors to measure the changes in temperature and humidity inside the devices as a
+       function of ambient conditions and the frequency of watering.
+    • Interviews with study participants about their vegetable production and consumption,
+       their usage and perception of the evaporative cooling devices, and the impact of the
+       ECCs and clay pot coolers in the shelf life of vegetables compared to their previous
+       methods of vegetable storage.
+    • Analysis of the cost to construct each type of evaporative cooling device.
+
+Summary of Findings
+The results of this study indicate that evaporative cooling devices such as ECCs and clay pot
+coolers have the potential to benefit off-grid populations who have limited electricity access, as
+well as on-grid populations in Mali who face high electricity and/or equipment costs for
+refrigerators, by offering a low-cost option for improved vegetable cooling and storage.
+Evaporative cooling can improve vegetable storage shelf life by providing:
+    • A stable storage environment with low temperature and high humidity, which reduces
+        water loss and spoilage in most vegetables
+    • Protection from animals and insects that contaminate and eat the vegetables
+
+Interviews with study participants indicated that reduced vegetable degradation – achieved
+through the improved storage environment – can lead to impacts such as:
+    • Financial savings due to reduced food loss
+    • Less time and money spent travelling to the market
+    • Increased availability of vegetables for a family
+    • Improved hygiene of the vegetables
+    • Convenience
+In the following sections we will review the key results for each class of evaporative cooling
+device (ECCs and clay pot coolers). The key characteristics for each device studied are shown in
+Table 9, and the major conclusions from the comparison of the devices in each class are:
+    • The brick ECC showed better performance than the straw and sack ECCs
+    • The different configurations of type of clay pot coolers (pot-in-pot and pot-in-dish)
+        showed similar performance
+
+
+
+                                                                                               45
+Table 9: Summary of key characteristics for each evaporative cooling device
+
+                      Average                       Minimum           Protection
+Evaporative cooling                  Humidity                                       Storage
+                    temperature                      watering       from animals                   Cost
+      device                          range*                                        volume
+                     decrease*                      frequency        and insects
+     ECC (straw)         5.4 °C       30-50%    1-3 times per day       No         250-4000 L   $50 - $250
+      ECC (sack)         2.6 °C       10-30%    1-3 times per day       No         250-4000 L   $50 - $250
+     ECC (brick)         5.8 °C      80-100%    once per 1-7 days       Yes        500-5000 L   $70 - $350
+  Round pot-in-dish      5.1 °C      80-100%       once per day         Yes         10-150 L     $6 - $35
+ Cylinder pot-in-dish    4.7 °C      80-100%       once per day         Yes         10-150 L     $6 - $35
+      Pot-in-pot         6.7 °C      80-100%       once per day         Yes         10-100 L     $10 - $50
+
+*For the data provided, the ambient relative humidity was less than 40% and the average daily temperature was
+between 29 °C and 37 °C. See Figures 8 and 9 in the Appendix for additional details.
+
+
+Evaporative cooling chambers (ECCs)
+Due to the typical size of ECCs, they are most suitable for farming groups, farming cooperatives,
+or larger producers. This situation typically requires the organization of a single point person or
+team to be responsible for watering the ECCs and ensuring the security of the vegetables stored
+at the ECC location. These considerations are not as critical for the clay pot coolers – typically
+used by individual households – which does not require considerations beyond the typical
+determination of household responsibilities and securing household items.
+
+The data from the sensors and user interviews indicate that brick ECCs are superior to the straw
+and sack ECCs across a range of factors including:
+   • Stable low temperature and high humidity storage environment
+   • Protection from insects and animals
+   • Easy and frequency of watering, as well as the quantity of watering required
+   • Storage life and overall preference reported from users
+
+The data from the sensors show that when the ambient humidity is low (< 40%), brick ECCs can
+be expected to provide a decrease in the average temperature and maximum daily
+temperature between 5 – 7 °C and 9 – 12 °C, respectively; while maintaining an average interior
+humidity above 80% (see Figure 3 and Table 9). As expected, the evaporative cooling effect is
+reduced for all of the ECCs with increasing ambient humidity.
+
+For a given volume the cost for construction for this study was comparable for each type of
+ECC; however, this could vary significantly depending on the local availability and cost of the
+relevant materials. Participants reported that they would have the most difficulty accessing
+materials to construct a brick ECC.
+
+
+
+
+                                                                                                          46
+Among the three types of ECCs, the brick ECC was the most promising technology based on
+insight from beneficiaries, and the performance measured by the sensors (temperature
+decrease and humidity increase). Compared to a brick ECC, the straw and sack ECCs do not
+provide as stable a low temperature and high humidity storage environment, require a greater
+frequency and amounts of watering, and do not protect as well against insects and animals.
+Due to these considerations, straw and sack ECCs are not recommended, but could provide
+some benefits if bricks are not locally available and there are no other vegetable storage
+options.
+
+Clay pot coolers
+The three different types of clay pot coolers that were distributed to households as a part of
+this study received similar user feedback and showed similar performance. All clay pot coolers
+provide a stable low temperature and high humidity storage environment for vegetables, and
+good protection from animals and insects.
+
+Nearly all of the participants (97%) listed increased shelf life of the vegetables as a key
+advantage of the clay pot coolers compared to their previous methods of storage. Individual
+comparisons against previous storage methods showed that the clay pot coolers provided an
+average increased shelf life of 87% for the most common vegetables (eggplant, tomatoes, hot
+peppers, cucumbers, and cabbage), in both the rainy and dry seasons. However, the differences
+in shelf life between the three types of clay pot coolers could not be determined to be
+statistically significant, due to the large variance and lack of direct comparison by individual
+participants.
+
+In low humidity (< 40%) environments with maximum daily temperature between 29 °C and 37
+°C, a decrease in the average temperature between 4 – 6 °C and 5 – 8 °C can be expected for
+the pot-in-dish and pot-in-pot configurations, respectively. Similar to the ECCs – and in
+alignment with the theoretical expectations – the cooling effect decreases as the ambient
+humidity increases (see Figure 3 and Table 9). Regardless of the ambient humidity, the sensor
+results indicate that clay pot coolers consistently maintain an average interior humidity above
+80%, which prevents dehydration and spoilage for many vegetables.
+
+Clay pot coolers with a pot-in-dish configuration provide comparable performance to the pot-
+in-pot configuration, across a majority of the metrics measured. While the pot-in-dish
+configuration has less surface area exposed for the evaporation of water (due to the inability of
+water to permeate the plastic and evaporate), and subsequently a smaller cooling effect than
+the pot-in-pot configuration; both configurations performed very similarly on other metrics
+such as interior humidity, ease of watering, and protection from animals and insects.
+
+
+
+
+                                                                                              47
+Ninety percent of participants reported that after receiving the clay pot coolers they no longer
+used any of their previously used storage methods, and indicated that the 50 liter capacity of
+the clay pot coolers used in this study is sufficient to meet the vegetable storage needs of most
+households. When asked if they would consider purchasing a clay pot cooler, a majority of the
+respondents indicated they were interested, but their purchasing decision would be based on
+the affordability and availability of clay pot coolers. The pot-in-dish configuration could provide
+a more accessible and affordable option, as the components are common in most households
+(as opposed to the pot-in-pot that may have to be custom designed to fit in each other), and
+could be set-up for intermittent use, for households that have sporadic needs for improved
+vegetable storage.
+
+Suitability of Evaporative Cooling Devices
+Evaporative cooling devices such as evaporative cooling chambers (ECCs) and clay pot coolers
+are not suitable for all contexts, and several factors should be assessed to determine if a device
+will meet user needs in a particular setting. Below is a list of key considerations, adapted from
+“A Review of Porous Evaporative Cooling for the Preservation of Fruits and Vegetables”
+(Odesola & Onwuka, 2009):
+
+   •   Operating conditions: Specific conditions are required for evaporative cooling devices
+       to operate effectively:
+           o Low relative humidity (less than 40 %)
+           o High temperature (daily maximum above 25 °C)
+           o Access to water, which must be added for evaporative cooling to work
+           o Availability of shady, well-ventilated locations for ECCs and clay pot coolers
+   •   Need: The storage conditions provided by evaporative cooling devices must meet users’
+       needs. Potential users should consider:
+           o Optimal storage conditions for different vegetables
+           o The scale of vegetable storage needed
+           o Variations in the need for vegetable cooling and storage throughout the year
+   •   Value: The cost of the ECC or clay pot cooler must be affordable and justified by the
+       benefits that will be realized due to its improved storage. Potential users should
+       evaluate:
+           o Local availability and affordability of materials to construct an ECC or clay pot
+           o Potential benefits of evaporative cooling devices, such as time and money saved,
+              increased vegetable availability, improved hygiene, and convenience
+
+In the following sections, we discuss these considerations along with specific insights from
+research conducted by MIT D-Lab.
+
+
+
+
+                                                                                                48
+Operating conditions
+
+Several key considerations are important for determining if an evaporative cooling device will
+provide effective cooling and storage. ECCs and clay pot coolers provide the most benefits
+when they are used in low humidity climates (less than 40% relative humidity), the
+temperature is relatively hot (maximum daily temperature greater than 25 °C), water is
+available to add to the device between one and three times per day, and the device can be
+located in a shady and well-ventilated area.
+
+If any of these key criteria cannot be met at the time when improved vegetable storage is
+needed, then ECCs or clay pot coolers may not provide sufficient benefits to justify their use. In
+general, evaporative cooling devices are best suited to provide these benefits in dry and hot
+climates. A Koppen climate classification map can be found in Figure 1 of the Appendix,
+showing the regions of the world where these climate conditions are present.
+
+Need for improved post-harvest vegetable cooling and storage
+These technologies have the potential to provide benefits for people along several points of the
+vegetable post-harvest value chain, including farmers, traders, and consumers. However, the
+specific vegetable storage needs of a particular user should be considered before deciding to
+use an evaporative cooling device such as an ECC or clay pot cooler. Some key considerations
+include:
+
+What type of vegetables or other products are in need of improved storage?
+ECCs or clay pot coolers provide benefits if post-harvest vegetable spoilage is the result of
+exposure to high temperatures, low humidity, animals, or insects. Vegetables particularly
+vulnerable to these conditions include eggplants, tomatoes, leafy greens, peppers, and okra.
+Non-electric evaporative cooling devices – such as ECCs and clay pot coolers – are not suitable
+for items that require sustained temperatures below 20 °C (medicine, meat, and dairy products)
+or foods that require a low humidity environment (onions, coffee, garlic, millet, and other
+grains).
+
+What volume of vegetables needs to be stored at any one time?
+It is necessary to estimate the volume of vegetables in need of improved storage at any given
+time to determine the appropriate size of the evaporative cooling device. If the vegetables can
+fit into a clay pot with a capacity of 150 liters or less, then a clay pot cooler is most appropriate.
+Individuals or groups that need to store larger amounts of vegetables can consider an ECC (see
+Table 9).
+
+
+
+
+                                                                                                   49
+How often is improved vegetable storage needed?
+Variations in the need for improved vegetable storage can arise due to seasonal growing and
+harvest cycles, vegetable production surpluses relative to local demand, and climate variations.
+It is important to determine if proper operating conditions exist for evaporative cooling to
+effectively provide benefits during the time when vegetable storage is needed, and if the need
+for improved vegetable storage is frequent enough that the value an ECC or clay pot cooler can
+provide is greater than its cost.
+
+Value that ECCs and clay pot coolers provide in relation to their cost
+To determine if there is enough benefit to justify investing in an ECC or clay pot cooler, the cost
+of constructing an appropriate evaporative cooling device must be determined. The
+construction of an ECC or clay pot cooler requires that the relevant materials are locally
+available and affordable. A description of the materials needed to construct ECCs and clay pot
+coolers can be found in the “Construction and Cost” section of this report and further details
+are available in the “Evaporative Cooling Best Practices Guide” accompanying this report.
+
+The benefits must be greater than the cost to justify the construction or purchase of an ECC or
+clay pot cooler. Among the benefits that should be considered when making this determination
+are:
+    • Financial savings due to reduced food loss
+    • Time and money saved traveling to the market
+    • Increased availability of vegetables for a family
+    • Improved hygiene of the vegetables
+    • Convenience
+Additionally, an end user must either be able to afford the cost of the device or have access to a
+financing plan that will allow for them to pay for the device after the financial benefits of
+improved storage have accumulated.
+
+Overall, the evaporative cooling and storage technologies discussed here have the potential to
+provide effective post-harvest vegetable storage in an appropriate context. Based on this
+research and the considerations outlined in this section, we have developed an interactive
+Microsoft Excel-based “Evaporative Cooling Decision Making Tool” to help determine if
+evaporative cooling devices are suitable for a particular context and guide the calculation of
+potential financial savings.
+
+
+
+
+                                                                                                 50
+Recommendations
+The most important first step is for prospective users, producers, or promoters of ECCs and/or
+clay pot coolers to carefully consider the suitability of evaporative cooling devices for the
+specific context of interest (see the previous section). The key elements for increasing the usage
+of evaporative cooling devices are awareness, availability, quality, and affordability in the
+appropriate regions. Prospective users can explore purchasing or constructing an appropriate
+device using locally available materials (see the “Evaporative Cooling Best Practices Guide”
+accompanying this report).
+
+If evaporative cooling devices have the potential to meet the vegetable cooling and storage
+needs for a large number of prospective users in a community or region, a business or market
+facilitator could produce, distribute, and/or promote suitable devices. In order to increase the
+dissemination of these beneficial technologies the following steps should be taken:
+    • Identify specific end user profiles who could benefit from evaporative cooling
+         technologies
+    • Raise awareness of the benefits and suitability of the technology among prospective end
+         users
+    • Increase availability of appropriately designed clay pots – organized production and
+         distribution can increase availability, quality, and affordability
+
+Government agencies, NGOs, and civil society organizations acting as market facilitators could
+promote this technology through awareness and training campaigns targeted at both
+businesses (that could be prospective ECC or clay pot cooler producers) and end users. Both the
+producers and end users of evaporative cooling devices need to be well-trained in order to
+understand the usefulness of evaporative cooling technologies for improving vegetable shelf
+life, and best practices for construction and use of the devices.
+
+
+
+
+Training of a woman on pot watering and           Training of a group of study participants to
+monitoring in Bankass, Mopti                      use clay pot coolers in Tanoussagou, Mopti
+
+
+
+                                                                                               51
+Additional research is needed to determine what the most effective strategies for increasing
+the availability and usage of evaporative cooling devices, including investigation of:
+    • Locations where evaporative cooling devices provide the most value
+    • Factors that lead producers or entrepreneurs to construct and sell evaporative cooling
+       devices
+    • Distribution strategies that are most effective in generating sales
+    • Factors that lead users to adopt evaporative cooling devices
+    • How evaporative cooling devices are used and quantification of the benefits they
+       provide to users
+
+Additional Resources
+The following additional resources are available at:
+http://d-lab.mit.edu/resources/projects/evaporative-cooling
+
+   •   Evaluation Appendix: Additional details on the study methodology and data referenced
+       in the report.
+   •   Evaporative Cooling Decision Making Tool: An interactive Microsoft Excel-based
+       decision making tool to help determine if evaporative cooling devices are suitable for a
+       specific context, and to guide the calculation of potential financial savings.
+   •   Evaporative Cooling Best Practices Guide: Provides guidance on best practices for
+       determining the suitability of evaporative cooling technologies for a specific context,
+       construction and usage of clay pot coolers and evaporative cooling chambers, and
+       dissemination approaches.
+
+
+
+
+                                                                                            52
+Authors & Acknowledgements
+About the Authors
+Eric Verploegen, MIT D-Lab, Massachusetts Institute of Technology
+Dr. Verploegen received a PhD from the Massachusetts Institute of Technology in Polymer
+Science in Technology. Eric joined D-Lab in 2014 to expand D-Lab's research efforts in the area
+of off-grid energy. He has over 10 years of experience developing technologies for the energy
+sector, including waste remediation systems for the oil and gas industry and solar cells. He is
+passionate about helping organizations based in off-grid regions identify technologies,
+products, and distribution strategies to increase energy access in their communities.
+
+Ousmane Sanogo, World Vegetable Center
+Dr. Sanogo received a BSc in Agriculture at Polytechnic Rural Institute of Education and Applied
+Research (IPR/IFRA) of Katibougou, Mali, a MSc in Crop Protection at Gembloux Agro-Biotech,
+Belgium, and PhD in Plant Breeding at West Africa Centre for Crop Improvement (WACCI),
+University of Ghana, Ghana. Dr. Sanogo has over 15 years of experience working with national
+and international agricultural research and development organizations such as International
+Crops Research Institute for the Semi-Arid Tropics (ICRISAT) and the World Vegetable Center.
+He worked in a range of crops including sorghum, rice, cotton, groundnut, Jatropha and
+vegetable crops.
+
+Takemore Chagomoka, World Vegetable Center
+Dr. Chagomoka holds a PhD from Albert Ludwigs University of Freiburg in Germany. His PhD
+research focused on food and nutrition insecurity risk mapping in West African cities (Tamale,
+Ghana and Ouagadougou, Burkina Faso). Dr Chagomoka’s previous work assignments have sent
+him for extended periods to Southern Africa (Zimbabwe and Mozambique), East Africa
+(Tanzania), Central Africa (Cameroon) and West Africa (Ghana, Burkina Faso and Mali). His
+research interests include the contribution of agriculture to household food and nutrition
+security especially in urban and periurban areas, socio-spatial dynamics of food and nutrition
+security along the urban-rural continuum, Geographic Information Systems (GIS), and post-
+harvest.
+
+
+
+
+                                                                                             53
+Acknowledgments
+Study design and report preparation:
+Dan Frey (MIT), Kendra Leith (MIT), and Fatimata Diallo Cisse (Institut d'Economie Rurale).
+
+Sensor preparation and data analysis (MIT, unless specified otherwise):
+Amit Ghandi, Julia Heyman, Claire Nobuhara, Cali Gallardo, and Prithvi Sundar (Sensen).
+
+Data collection (World Vegetable Center, unless specified otherwise):
+Mamadou Togo, Safiatou Sanogo, Fatogoma Tanou, Alpha Diallo, Gaoussou Diallo, Yaya Togola,
+Siaka Traore, Issaka Togo, Amassagou Guindo, Nouhoum Guindo, Emmanuel Dougnon, Oumar
+Coulibaly, Babagalle Diallo, Karim Berthe, Wubetu Bihon Legesse, and Aliou Coulibaly
+(University of Bamako).
+
+Feedback on research outputs:
+Joanne Mathias (MIT), Lauren McKown (MIT), Nancy, Adams (MIT), Anish Paul Antony (MIT),
+Megha Hegde (MIT), Wubetu Bihon Legesse (World Vegetable Center), Shanti Kleiman (Mercy
+Corps), Sandrine Chetail (Mercy Corps), Sory Mariko (Aga Khan Development Network), Quang
+Truong (Evaptainers), and Peter Rinker (Movement e.V.).
+
+
+Suggested Citation
+Verploegen, E.; Sanogo, O.; Chagomoka, T. (2018). Evaluation of Low-Cost Vegetable Cooling
+and Storage Technologies in Mali. Copyright © Massachusetts Institute of Technology
+(Accessed on [insert date]).
+
+
+
+
+                                                                                              54
+References
+Ambuko, J., Wanjiru, F., Chemining’wa, G. N., Owino, W. O., & Eliakim, M. (2017). Preservation
+of Postharvest Quality of Leafy Amaranth (Amaranthus spp.) Vegetables Using Evaporative
+Cooling. Journal of Food Quality.
+
+Basediya, A. l., Samuel, D. K., & Beera, V. (2011). Evaporative cooling system for storage of fruits
+and vegetables - a review (Vol. 50). Journal of Food Science and Technology.
+
+Emana, B., Afari-Sefa, V., Nenguwo, N., Ayana, A., Kebede, D., & Mohammed, H. (2017).
+Characterization of pre- and postharvest losses of tomato supply chain in Ethiopia (Vol. 6).
+Agriculture & Food Security.
+
+Gorny, J. R. (2001). A summary of CA and MA requirements and recommendations for fresh-cut
+(minimally processed) fruits and vegetables. Postharvest Horticulture Series, University of
+California, Davis.
+
+Kader, A. A. (2005). Increasing Food Availability by Reducing Postharvest Losses of Fresh
+Produce. Proceedings 5th International Postharvest Symposium.
+
+Kitinoja, L. (2016). Innovative Approaches to Food Loss and Waste Issues. Frontier Issues Brief
+for the Brookings Institution’s Ending Rural Hunger project.
+
+Kumar, A., Mathur, P. N., & Chaurasia, P. B. (2014). A Study on the Zero Energy Cool Chamber
+for the Storage of Food Materials (Vol. 5). International Research Journal of Management
+Science & Technology.
+
+Kumar, D. K., Basavaraja, H., & Mahajanshetti, S. B. (2006). An Economic Analysis of Post-
+Harvest Losses in Vegetables in Karnataka (Vol. 61). Indian Journal of Agricultural Economics.
+
+Longmone, A. (2003). Evaporative Cooling of Good Products by Vacuum (Vol. 47). Food Trade
+Review.
+
+Matsumoto-Izadifar, Y. (2008). Mali – Beyond Cotton, Searching for “Green Gold”. OCED
+Development Center.
+
+McGregor, B. (1989). Tropical Products Transport Handbook. USDA Office of Transportation,
+Agricultural Handbook.
+
+Morgan, L. (2009). Clay Evaporative Coolers Performance Research. Practical Action.
+
+Noble, N. (2003). Evaporative Cooling. Practical Action.
+
+
+
+
+                                                                                                  55
+Odesola, I. F., & Onwuka, O. (2009). A Review of Porous Evaporative Cooling for the
+Preservation of Fruits and Vegetables. (Vol. 10). The Pacific Journal of Science and Technology.
+
+Oluwasola, O. (2011). Pot-in-pot Enterprise: Fridge for the Poor. UNDP: Growing Inclusive
+Markets.
+
+Rathi, R., & Sharma. (1991). Few More Steps Toward Understanding Evaporating Cooling and
+Promoting Its use in Rural Areas. A Technical Report. Delhi, India.
+
+Roy, K. S., & Khurdiya, D. S. (1982). Keep vegetables fresh in summer (Vol. 27). Indian
+Horticulture.
+
+Roy, S. K., & Khurdiya, D. S. (1985). Zero Energy Cool Chamber (Vol. 43). India Agricultural
+Research Institute: New Delhi, India. Research Bulletin.
+
+World Health Organization. (2018). Nutrition Landscape Information System (NLiS).
+http://apps.who.int/nutrition/landscape/report.aspx?iso=mli (accessed April 10, 2018).
+
+
+
+
+                                                                                               56
+
