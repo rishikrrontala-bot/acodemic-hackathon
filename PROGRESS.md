@@ -48,6 +48,8 @@ Running log for the unattended cloud build. A resumed session continues from the
   - Calibration: `scripts/data/calibrate.ts` → `src/data/calibration.json`: ε = 0.319 / 0.455 / 0.543, reproducing D-Lab's measured 4.7 / 6.7 / 8 °C average decreases (Mopti + Bamako study months).
   - Domain: `src/domain/{psychro,cooler,crops,shelf}.ts`, 42 Vitest tests passing. Verdicts on day-average drop: works ≥ 5 °C, some ≥ 2.5 °C, mild if typical max < 25 °C.
 
+- **Wed 11:02 PM ET**: `src/domain/sizing.ts` + `src/domain/check.ts` done (53 tests passing). **Session stopped here at Rishik's request; everything pushed.** Resume step 3 below is complete; start at step 1, then step 4.
+
 ## ▶ RESUME HERE (next session starts at this list)
 
 1. `git pull`. Confirm `data/raw/power_range/` has 492 files (Actions "Data snapshot" run from commit 04b1d9c). Then `python3 scripts/data/build_climate.py && npx tsx scripts/data/calibrate.ts && npm test` and commit `public/data/climate.json` + `src/data/calibration.json`.
