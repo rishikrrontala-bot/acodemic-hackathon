@@ -1,0 +1,44 @@
+name: Verify live site
+
+# Runs the full end-to-end suite against the deployed GitHub Pages URL, in a fresh browser,
+# after every successful deploy. This is how the build VM (which can't reach github.io)
+# confirms that the live site a judge opens actually works.
+on:
+  workflow_run:
+    workflows: ['Deploy to GitHub Pages']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      BASE_URL: https://rishikrrontala-bot.github.io/acodemic-hackathon/
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Wait for the new deploy to be served
+        run: |
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$BASE_URL")
+            [ "$code" = "200" ] && break
+            sleep 10
+          done
+          curl -sI "$BASE_URL" | head -5
+          curl -s "$BASE_URL" | grep -o '<title>[^<]*</title>'
+      - name: End-to-end suite against the live URL
+        run: npx playwright test
+      - name: Lighthouse-style load timing (4G-like throttling)
+        run: node scripts/live-perf.mjs "$BASE_URL"
