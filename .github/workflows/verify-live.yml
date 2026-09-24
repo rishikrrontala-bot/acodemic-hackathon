@@ -3,10 +3,10 @@ name: Verify live site
 # Runs the full end-to-end suite against the deployed GitHub Pages URL, in a fresh browser,
 # after every successful deploy. This is how the build VM (which can't reach github.io)
 # confirms that the live site a judge opens actually works.
+# Called by pages.yml after each deploy (workflow_run only fires for the default branch, and the
+# build runs on feature branches too), and runnable by hand.
 on:
-  workflow_run:
-    workflows: ['Deploy to GitHub Pages']
-    types: [completed]
+  workflow_call:
   workflow_dispatch:
 
 permissions:
@@ -14,15 +14,12 @@ permissions:
 
 jobs:
   live:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
       BASE_URL: https://rishikrrontala-bot.github.io/acodemic-hackathon/
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22

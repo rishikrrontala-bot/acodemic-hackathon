@@ -66,3 +66,7 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  verify:
+    needs: deploy
+    uses: ./.github/workflows/verify-live.yml
