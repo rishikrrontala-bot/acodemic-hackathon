@@ -16,3 +16,5 @@ __pycache__/
 *.pyc
 .venv/
 /tmp/
+.impeccable/review/
+.impeccable/config.local.json

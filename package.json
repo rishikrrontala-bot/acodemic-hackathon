@@ -1,0 +1,37 @@
+{
+  "name": "zeer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Zeer: plan a clay-pot evaporative cooler for your town, month and crop.",
+  "author": "Rishik Rontala",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "data:climate": "python3 scripts/data/build_climate.py",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56",
+    "@types/d3-geo": "^3.1.1",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^22.20.4",
+    "@types/topojson-client": "^3.1.5",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.7"
+  },
+  "dependencies": {
+    "@fontsource-variable/anybody": "^5.3.0",
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
+    "d3-geo": "^3.1.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}
