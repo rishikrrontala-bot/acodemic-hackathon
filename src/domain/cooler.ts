@@ -11,6 +11,7 @@
  * it as a range (see EFFICIENCY and docs/ARCHITECTURE.md for how it was calibrated) and every
  * number derived from it is a range too.
  */
+import calibration from '../data/calibration.json';
 import { humidityRatioFromSpecificHumidity, relativeHumidity, wetBulb } from './psychro';
 
 /** Long-term monthly means for one town and month (NASA POWER climatology). */
@@ -47,23 +48,24 @@ export interface Efficiency {
 }
 
 /**
- * Evaporative efficiency of a working clay-pot cooler.
- * Calibrated in scripts/data/calibrate.py against field measurements (see EFFICIENCY_SOURCE).
- * These defaults are overwritten by src/data/calibration.json when it exists.
+ * Evaporative efficiency of a working clay-pot cooler, calibrated by scripts/data/calibrate.ts so
+ * the model reproduces MIT D-Lab's measured average temperature decreases in Mali (pot-in-dish
+ * 4.7 °C → low, pot-in-pot 6.7 °C → mid, "greater than 8 °C" → high).
  */
-export const EFFICIENCY: Efficiency = { low: 0.45, mid: 0.6, high: 0.75 };
+export const EFFICIENCY: Efficiency = calibration.efficiency;
 
 export type Verdict = 'works' | 'some' | 'humid' | 'mild';
 
-/** Thresholds, in °C, for the month verdicts. MIT D-Lab's field guidance is the anchor:
- * clay pot coolers help most when the daily maximum is above 25 °C and the air is dry, and in
- * those conditions deliver at least 8 °C below the daily maximum. */
+/** Thresholds for the month verdicts, on the day-average drop at mid efficiency (the quantity
+ * D-Lab measured). D-Lab found clay pot coolers "5 °C to 7 °C lower than the ambient" on average
+ * in suitable (dry, hot) conditions and advises they help most when the daily maximum is above
+ * 25 °C. */
 export const THRESHOLDS = {
-  /** Afternoon drop (°C, at mid efficiency) for "works well". */
-  works: 8,
-  /** Afternoon drop (°C) for "helps some". */
-  some: 4,
-  /** Daily maximum (°C) below which the month is mild and cooling matters less. */
+  /** Day-average drop (°C) for "works well": the bottom of D-Lab's 5-7 °C field range. */
+  works: 5,
+  /** Day-average drop (°C) for "helps a little": half of that. */
+  some: 2.5,
+  /** Typical daily maximum (°C) below which the month is mild and cooling matters less. */
   mild: 25,
 } as const;
 
@@ -98,10 +100,10 @@ function range(f: (e: number) => number, eff: Efficiency, invert = false): Range
   return invert ? { low: c, mid: b, high: a } : { low: a, mid: b, high: c };
 }
 
-export function verdictFor(outsidePeak: number, dropPeakMid: number): Verdict {
+export function verdictFor(outsidePeak: number, dropMeanMid: number): Verdict {
   if (outsidePeak < THRESHOLDS.mild) return 'mild';
-  if (dropPeakMid >= THRESHOLDS.works) return 'works';
-  if (dropPeakMid >= THRESHOLDS.some) return 'some';
+  if (dropMeanMid >= THRESHOLDS.works) return 'works';
+  if (dropMeanMid >= THRESHOLDS.some) return 'some';
   return 'humid';
 }
 
@@ -129,7 +131,7 @@ export function modelMonth(c: MonthClimate, month: number, eff: Efficiency = EFF
     insidePeak,
     dropPeak,
     dropMean,
-    verdict: verdictFor(c.Tx, dropPeak.mid),
+    verdict: verdictFor(c.Tx, dropMean.mid),
   };
 }
 
@@ -161,17 +163,17 @@ export function monthRuns(flags: boolean[]): Array<[number, number]> {
 export interface YearSummary {
   worksMonths: number[];
   someMonths: number[];
-  /** Best month by afternoon drop. */
+  /** Best month by day-average drop. */
   best: number;
-  /** Typical afternoon drop in the months that work (median of mid values), °C. */
+  /** Typical day-average drop in the months that work (median of mid values), °C. */
   typicalDrop: number | null;
 }
 
 export function summarise(year: MonthResult[]): YearSummary {
   const worksMonths = year.filter((m) => m.verdict === 'works').map((m) => m.month);
   const someMonths = year.filter((m) => m.verdict === 'some').map((m) => m.month);
-  const best = year.reduce((b, m) => (m.dropPeak.mid > (year[b]?.dropPeak.mid ?? -1) ? m.month : b), 0);
-  const drops = year.filter((m) => m.verdict === 'works').map((m) => m.dropPeak.mid).sort((a, b) => a - b);
+  const best = year.reduce((b, m) => (m.dropMean.mid > (year[b]?.dropMean.mid ?? -1) ? m.month : b), 0);
+  const drops = year.filter((m) => m.verdict === 'works').map((m) => m.dropMean.mid).sort((a, b) => a - b);
   const typicalDrop = drops.length ? median(drops) : null;
   return { worksMonths, someMonths, best, typicalDrop };
 }

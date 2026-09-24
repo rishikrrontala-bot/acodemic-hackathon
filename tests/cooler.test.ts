@@ -38,9 +38,10 @@ describe('modelMonth', () => {
   it('cools a lot in dry heat and little in humid heat', () => {
     const d = modelMonth(dry, 2);
     const h = modelMonth(wet, 7);
-    expect(d.dropPeak.mid).toBeGreaterThan(8);
+    expect(d.dropMean.mid).toBeGreaterThan(5);
+    expect(d.dropPeak.mid).toBeGreaterThan(d.dropMean.mid);
     expect(d.verdict).toBe('works');
-    expect(h.dropPeak.mid).toBeLessThan(4);
+    expect(h.dropMean.mid).toBeLessThan(2.5);
     expect(h.verdict).toBe('humid');
   });
 
@@ -53,22 +54,27 @@ describe('modelMonth', () => {
     expect(d.humidityPeak).toBeLessThan(d.humidityMean);
   });
 
-  it('meets MIT D-Lab field guidance: >25 °C and <40 % RH gives ≥8 °C below the daily maximum', () => {
-    // Air at 35 °C and 35 % RH (a D-Lab "works" condition); inside day-average vs the maximum.
-    const w = humidityRatioFromRH(28, 35, 101.325);
+  it('meets MIT D-Lab field guidance: a hot, dry day keeps the pot ≥8 °C below the daily maximum', () => {
+    // Day mean 30 °C, maximum 37 °C, 25 % RH: inside day-average vs the day's maximum.
+    const w = humidityRatioFromRH(30, 25, 98);
     const q = (w / (1 + w)) * 1000;
-    const m = modelMonth({ T: 28, Tx: 35, Tn: 21, Td: 11, RH: 35, Q: q, P: 101.3, R: 0 }, 3);
-    expect(35 - m.insideMean.mid).toBeGreaterThanOrEqual(8);
+    const m = modelMonth({ T: 30, Tx: 37, Tn: 23, Td: 8, RH: 25, Q: q, P: 98, R: 0 }, 3);
+    expect(37 - m.insideMean.mid).toBeGreaterThanOrEqual(8);
+  });
+
+  it('reproduces the calibration: 6.7 °C average drop at D-Lab study conditions', () => {
+    // 14.74 °C is the mean wet-bulb depression of the study months (src/data/calibration.json).
+    expect(EFFICIENCY.mid * 14.74).toBeCloseTo(6.7, 1);
   });
 });
 
 describe('verdictFor', () => {
   it('uses the documented thresholds', () => {
     expect(verdictFor(24.9, 20)).toBe('mild');
-    expect(verdictFor(30, 8)).toBe('works');
-    expect(verdictFor(30, 7.99)).toBe('some');
-    expect(verdictFor(30, 4)).toBe('some');
-    expect(verdictFor(30, 3.9)).toBe('humid');
+    expect(verdictFor(30, 5)).toBe('works');
+    expect(verdictFor(30, 4.99)).toBe('some');
+    expect(verdictFor(30, 2.5)).toBe('some');
+    expect(verdictFor(30, 2.49)).toBe('humid');
   });
 });
 

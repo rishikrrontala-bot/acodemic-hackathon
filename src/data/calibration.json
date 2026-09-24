@@ -1,0 +1,55 @@
+{
+  "efficiency": {
+    "low": 0.319,
+    "mid": 0.455,
+    "high": 0.543
+  },
+  "measuredDecreaseC": {
+    "low": 4.7,
+    "mid": 6.7,
+    "high": 8
+  },
+  "meanWetBulbDepressionC": 14.74,
+  "studyConditions": [
+    {
+      "town": "Mopti",
+      "month": 2,
+      "T": 30,
+      "RH": 16.6,
+      "depression": 15.49
+    },
+    {
+      "town": "Mopti",
+      "month": 3,
+      "T": 33.1,
+      "RH": 20.4,
+      "depression": 15.68
+    },
+    {
+      "town": "Mopti",
+      "month": 4,
+      "T": 34.7,
+      "RH": 32,
+      "depression": 13.56
+    },
+    {
+      "town": "Bamako",
+      "month": 2,
+      "T": 30.4,
+      "RH": 18.6,
+      "depression": 15.16
+    },
+    {
+      "town": "Bamako",
+      "month": 3,
+      "T": 32.7,
+      "RH": 28.6,
+      "depression": 13.8
+    }
+  ],
+  "sources": [
+    "MIT D-Lab/CITE, Evaporative Cooling Technologies for Improved Vegetable Storage in Mali, Executive Summary (2018)",
+    "MIT D-Lab, Clay Pot Coolers research page: \"a drop in temperature of greater than 8 degrees Celsius\"",
+    "NASA POWER climatology 2001-2020 (Mopti, Bamako)"
+  ]
+}
